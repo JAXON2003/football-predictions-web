@@ -40,13 +40,14 @@ function render() {
   if (!feed) return;
   const now = Date.now();
   $('#data-time').textContent = timestamp(feed.data_observed_at_utc);
+  $('#refresh-mode').textContent = feed.refresh_mode === 'automatic' ? 'Automatic · twice daily' : 'Manual updates';
   $('#model-date').textContent = new Intl.DateTimeFormat('en-GB', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' }).format(new Date(feed.model.fitted_as_of + 'T12:00:00Z'));
   $('#snapshot-count').textContent = `${feed.forecasts.length} saved forecasts`;
   const old = stale(feed, now);
   const notice = $('#feed-notice');
   notice.hidden = false;
   notice.className = 'notice';
-  notice.textContent = old ? 'Forecasts paused: this feed needs refreshing or the model needs an update. Saved forecasts remain available with their original timestamps.' : 'Manual updates are currently enabled. Forecasts are saved snapshots; opening this page does not fetch live match data.';
+  notice.textContent = old ? 'Forecasts paused: this feed needs refreshing or the model needs an update. Saved forecasts remain available with their original timestamps.' : feed.refresh_mode === 'automatic' ? 'Automatic updates are scheduled twice daily. Forecasts are saved snapshots; opening this page does not fetch live match data. Scheduled runs may be delayed.' : 'Manual updates are currently enabled. Forecasts are saved snapshots; opening this page does not fetch live match data.';
   const rows = filterForecasts(feed, { view, competition: $('#competition').value, date: $('#match-date').value, search: $('#search').value, timezone: zone() }, now);
   const opened = new Set([...document.querySelectorAll('.match-card')].filter(el => el.querySelector('details')?.open).map(el => el.dataset.fixture));
   $('#forecast-grid').innerHTML = rows.map(card).join('');
