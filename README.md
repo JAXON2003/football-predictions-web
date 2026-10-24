@@ -12,7 +12,7 @@ The forecast board offers upcoming/saved views, team search, competition/date fi
 
 The private engine's **Automatic football collection and website updates** workflow collects, validates, saves and publishes forecasts daily at 06:17, 14:17 and 22:17 Tanzania time. CSV checks are combined with the Monday/Thursday 06:17 run, respecting saved download cooldowns. GitHub schedules may be delayed. The browser displays actual observation times and pauses expired feeds. All nine approved upcoming league feeds are enabled.
 
-The publisher exports only approved display fields and updates public JSON through a website-only deploy key. It verifies deployed files before saving a conservative first-publication receipt privately. Repeated identical feeds keep their preparation time. A separate manual publication workflow remains available for retrying a saved batch. Collection and prediction do not retrain the fitted model. A separate monthly workflow evaluates a genuine refit and activates it only after quality, serving and recovery checks. The first candidate was rejected, so the originally published model remains active with its original expiry.
+The publisher exports only approved display fields and updates public JSON through a website-only deploy key. It verifies deployed files before saving a conservative first-publication receipt privately. Repeated identical feeds keep their preparation time. A separate manual publication workflow remains available for retrying a saved batch. Collection and prediction do not retrain the fitted model. A separate monthly workflow evaluates a genuine refit and activates it only after quality, serving and recovery checks. The first six-month candidate was rejected; a subsequent full-year evaluation qualified the genuinely fitted 24 October replacement, valid until 24 November 2026.
 
 Run the browser-independent checks with `node tests/domain.test.mjs`. The site uses Google Fonts with system fallbacks; it uses no analytics, third-party scripts or bookmaker feeds. `method.html` explains the model, two-day result delay and double chances. Source attribution is shown in the footer.
 
@@ -39,3 +39,5 @@ All probabilities and personal picks are in View analysis. Technical metadata
 and advanced performance metrics open only when requested. Custom dropdowns keep
 native-select fallbacks and support keyboard navigation and type-ahead. The
 result record loads 20 matches at a time, with Show more for the rest.
+
+The sun/moon button switches all pages between the original light palette and a dark palette. Light is the default. A separate browser preference remembers the selected theme; it also synchronizes between open tabs. The saved choice is applied before the stylesheet loads, and the switch works when browser storage is blocked.
