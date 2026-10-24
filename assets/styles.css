@@ -1042,3 +1042,6 @@ select:not(.enhanced-select){appearance:none;min-height:44px;border:1.5px solid 
 [data-theme="dark"] .score-table .miss { color:#ffad95; }
 [data-theme="dark"] .steps p { color:var(--ink); }
 @media(prefers-reduced-motion:reduce) { .theme-toggle { transition:none; } .theme-toggle:hover { transform:none; } }
+[data-theme="dark"] .score-metrics>div:nth-child(1) { background:#35301d; color:#fff0b8; border-color:#655b32; }
+[data-theme="dark"] .score-metrics>div:nth-child(2),
+[data-theme="dark"] .method-card:nth-child(3n+1) { background:#1d3343; color:#cdeaff; border-color:#365d76; }
