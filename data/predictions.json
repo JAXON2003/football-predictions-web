@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "refresh_mode": "automatic",
-  "data_observed_at_utc": "2026-10-24T12:46:37.782466+00:00",
-  "valid_until_utc": "2026-10-26T00:46:37.782466+00:00",
+  "data_observed_at_utc": "2026-10-24T12:51:11.090294+00:00",
+  "valid_until_utc": "2026-10-26T00:51:11.090294+00:00",
   "model": {
     "version": "277aaf50c593a945-initial",
     "fitted_as_of": "2026-10-21",
@@ -12,7 +12,7 @@
   },
   "forecasts": [
     {
-      "forecast_id": "dea8dfd971d7ad4a496bf3c6",
+      "forecast_id": "73262affeed3786714cb5761",
       "fixture_id": "football-data.org:560616",
       "country": "England",
       "competition": "Premier League",
@@ -21,8 +21,8 @@
       "kickoff_utc": "2026-10-24T14:00:00+00:00",
       "home_team": "Arsenal",
       "away_team": "Everton",
-      "generated_at_utc": "2026-10-24T12:47:04.602954+00:00",
-      "data_observed_at_utc": "2026-10-24T12:46:37.782466+00:00",
+      "generated_at_utc": "2026-10-24T12:51:43.078009+00:00",
+      "data_observed_at_utc": "2026-10-24T12:51:11.090294+00:00",
       "probabilities": {
         "home": 0.658150839008048,
         "draw": 0.20555943286002057,
@@ -38,7 +38,7 @@
       "away_history_matches": 615
     },
     {
-      "forecast_id": "90238db04ef9f73c628e52c8",
+      "forecast_id": "ee295333b075ca04fb0b15dc",
       "fixture_id": "football-data.org:560618",
       "country": "England",
       "competition": "Premier League",
@@ -47,8 +47,8 @@
       "kickoff_utc": "2026-10-24T14:00:00+00:00",
       "home_team": "Coventry",
       "away_team": "Fulham",
-      "generated_at_utc": "2026-10-24T12:47:04.629498+00:00",
-      "data_observed_at_utc": "2026-10-24T12:46:37.782466+00:00",
+      "generated_at_utc": "2026-10-24T12:51:43.102286+00:00",
+      "data_observed_at_utc": "2026-10-24T12:51:11.090294+00:00",
       "probabilities": {
         "home": 0.3982780552481676,
         "draw": 0.265241710500279,
@@ -64,7 +64,7 @@
       "away_history_matches": 663
     },
     {
-      "forecast_id": "dc05ae8af1b6d755348354b8",
+      "forecast_id": "4d15e45edc68235a83a1d85b",
       "fixture_id": "football-data.org:560617",
       "country": "England",
       "competition": "Premier League",
@@ -73,8 +73,8 @@
       "kickoff_utc": "2026-10-24T16:30:00+00:00",
       "home_team": "Chelsea",
       "away_team": "Tottenham",
-      "generated_at_utc": "2026-10-24T12:47:04.654706+00:00",
-      "data_observed_at_utc": "2026-10-24T12:46:37.782466+00:00",
+      "generated_at_utc": "2026-10-24T12:51:43.127018+00:00",
+      "data_observed_at_utc": "2026-10-24T12:51:11.090294+00:00",
       "probabilities": {
         "home": 0.5442345089618467,
         "draw": 0.22462645024469446,
@@ -90,7 +90,7 @@
       "away_history_matches": 615
     },
     {
-      "forecast_id": "1e6c3cc25ed4163570eea21b",
+      "forecast_id": "ee8e0fa0212a036c4d776de3",
       "fixture_id": "football-data.org:560612",
       "country": "England",
       "competition": "Premier League",
@@ -99,15 +99,15 @@
       "kickoff_utc": "2026-10-25T14:00:00+00:00",
       "home_team": "Liverpool",
       "away_team": "Brighton",
-      "generated_at_utc": "2026-10-24T12:47:04.679971+00:00",
-      "data_observed_at_utc": "2026-10-24T12:46:37.782466+00:00",
+      "generated_at_utc": "2026-10-24T12:51:43.151383+00:00",
+      "data_observed_at_utc": "2026-10-24T12:51:11.090294+00:00",
       "probabilities": {
         "home": 0.398244217298659,
         "draw": 0.26053867974019745,
-        "away": 0.3412171029611435,
+        "away": 0.34121710296114355,
         "home_or_draw": 0.6587828970388565,
-        "home_or_away": 0.7394613202598025,
-        "draw_or_away": 0.6017557827013409
+        "home_or_away": 0.7394613202598026,
+        "draw_or_away": 0.601755782701341
       },
       "predicted_result": "H",
       "highest_probability_double_chance": "12",
@@ -116,7 +116,7 @@
       "away_history_matches": 671
     },
     {
-      "forecast_id": "b7b9aea9cb1ce64ba108a1ef",
+      "forecast_id": "98295c33aa00d43482b4c235",
       "fixture_id": "football-data.org:560613",
       "country": "England",
       "competition": "Premier League",
@@ -125,8 +125,8 @@
       "kickoff_utc": "2026-10-25T14:00:00+00:00",
       "home_team": "Crystal Palace",
       "away_team": "Newcastle",
-      "generated_at_utc": "2026-10-24T12:47:04.704672+00:00",
-      "data_observed_at_utc": "2026-10-24T12:46:37.782466+00:00",
+      "generated_at_utc": "2026-10-24T12:51:43.176827+00:00",
+      "data_observed_at_utc": "2026-10-24T12:51:11.090294+00:00",
       "probabilities": {
         "home": 0.3724731782229003,
         "draw": 0.2614675456758691,
@@ -142,7 +142,7 @@
       "away_history_matches": 623
     },
     {
-      "forecast_id": "85f98b6c11813591287f06c7",
+      "forecast_id": "28cdc14352e64144220434ad",
       "fixture_id": "football-data.org:560615",
       "country": "England",
       "competition": "Premier League",
@@ -151,8 +151,8 @@
       "kickoff_utc": "2026-10-25T14:00:00+00:00",
       "home_team": "Man United",
       "away_team": "Bournemouth",
-      "generated_at_utc": "2026-10-24T12:47:04.729627+00:00",
-      "data_observed_at_utc": "2026-10-24T12:46:37.782466+00:00",
+      "generated_at_utc": "2026-10-24T12:51:43.208940+00:00",
+      "data_observed_at_utc": "2026-10-24T12:51:11.090294+00:00",
       "probabilities": {
         "home": 0.5056178843662235,
         "draw": 0.23613716062692125,
@@ -168,7 +168,7 @@
       "away_history_matches": 671
     },
     {
-      "forecast_id": "31d437786d0d66a334c45707",
+      "forecast_id": "f11f06bc87d422e986ae3051",
       "fixture_id": "football-data.org:560619",
       "country": "England",
       "competition": "Premier League",
@@ -177,8 +177,8 @@
       "kickoff_utc": "2026-10-25T14:00:00+00:00",
       "home_team": "Hull",
       "away_team": "Brentford",
-      "generated_at_utc": "2026-10-24T12:47:04.754704+00:00",
-      "data_observed_at_utc": "2026-10-24T12:46:37.782466+00:00",
+      "generated_at_utc": "2026-10-24T12:51:43.236385+00:00",
+      "data_observed_at_utc": "2026-10-24T12:51:11.090294+00:00",
       "probabilities": {
         "home": 0.26992022672678784,
         "draw": 0.2507352545913071,
@@ -194,7 +194,7 @@
       "away_history_matches": 703
     },
     {
-      "forecast_id": "c5f6b2e56650001eece7f100",
+      "forecast_id": "7f1e8cabc847f923bff874e0",
       "fixture_id": "football-data.org:560621",
       "country": "England",
       "competition": "Premier League",
@@ -203,8 +203,8 @@
       "kickoff_utc": "2026-10-25T16:30:00+00:00",
       "home_team": "Sunderland",
       "away_team": "Leeds",
-      "generated_at_utc": "2026-10-24T12:47:04.779798+00:00",
-      "data_observed_at_utc": "2026-10-24T12:46:37.782466+00:00",
+      "generated_at_utc": "2026-10-24T12:51:43.260516+00:00",
+      "data_observed_at_utc": "2026-10-24T12:51:11.090294+00:00",
       "probabilities": {
         "home": 0.28589622190050773,
         "draw": 0.2526278939653092,
@@ -220,7 +220,7 @@
       "away_history_matches": 711
     },
     {
-      "forecast_id": "a0f22af2ae03068c13505d77",
+      "forecast_id": "3f1869350f94a6ca6c0ec35a",
       "fixture_id": "football-data.org:560626",
       "country": "England",
       "competition": "Premier League",
@@ -229,8 +229,8 @@
       "kickoff_utc": "2026-10-31T12:30:00+00:00",
       "home_team": "Chelsea",
       "away_team": "Man United",
-      "generated_at_utc": "2026-10-24T12:47:04.804610+00:00",
-      "data_observed_at_utc": "2026-10-24T12:46:37.782466+00:00",
+      "generated_at_utc": "2026-10-24T12:51:43.284543+00:00",
+      "data_observed_at_utc": "2026-10-24T12:51:11.090294+00:00",
       "probabilities": {
         "home": 0.40401893371896097,
         "draw": 0.24509471670961103,
@@ -251,6 +251,6 @@
     "scored_matches": 0,
     "metrics": null
   },
-  "publication_id": "4cc54af37f938916777e084b",
-  "prepared_at_utc": "2026-10-24T12:47:11.919586+00:00"
+  "publication_id": "f20e80fafca60f57d94f1b39",
+  "prepared_at_utc": "2026-10-24T12:51:52.316937+00:00"
 }
