@@ -116,7 +116,7 @@
 <div class="notice" id="score-notice" role="status">Loading verified results…</div>
 <div id="score-report" hidden>
 <section class="performance-empty">
-<span class="tiny-label">VERIFIED COMPLETED MATCHES</span>
+<span class="tiny-label">GRADED COMPLETED MATCHES</span>
 <strong id="performance-count">—</strong>
 <h2 id="performance-title">
 </h2>
@@ -147,13 +147,23 @@
 <div id="score-trend">
 </div>
 </section>
-<section class="record-section">
-<h2>Match-by-match results</h2>
-<p class="local-note" id="record-count">
-</p>
-<div id="score-matches">
+<section class="record-section match-history" aria-labelledby="record-title">
+<div class="record-heading"><div><p class="eyebrow">THE SAVED PREDICTIONS</p><h2 id="record-title">Match-by-match results</h2></div></div>
+<p class="local-note">Open any match to see the saved picks, their probabilities and the final result when verified.</p>
+<div class="record-tools">
+<label class="search record-search"><span aria-hidden="true">⌕</span><input id="record-search" type="search" placeholder="Find a team…" aria-label="Search tracked teams" autocomplete="off"></label>
+<label class="record-status-field"><span class="sr-only">Result status</span><select id="record-status" aria-label="Result status"><option value="all">All match statuses</option><option value="awaiting_result">Awaiting result</option><option value="scored">Verified &amp; graded</option><option value="result_review">Under review</option><option value="unscored_timing">Completed · not graded</option><option value="not_played">Not played</option></select></label>
+<details class="record-filters disclosure"><summary>Filters <span id="record-filter-count" hidden></span><span aria-hidden="true">⌄</span></summary><div class="record-filter-body">
+<label>Competition<select id="record-competition"><option value="all">All competitions</option></select></label>
+<label>Match date<select id="record-date"><option value="all">All dates</option></select></label>
+<label>Pick outcome<select id="record-outcome"><option value="all">All pick outcomes</option><option value="full_won">Full-time · won</option><option value="full_lost">Full-time · lost</option><option value="double_won">Double chance · won</option><option value="double_lost">Double chance · lost</option></select></label>
+<label>Sort by<select id="record-sort"><option value="results">Verified results first</option><option value="latest">Latest match first</option><option value="earliest">Earliest match first</option><option value="prediction">Latest prediction first</option></select></label>
+<button id="record-reset" class="text-button" type="button">Reset filters</button>
+</div></details>
 </div>
-<button id="score-more" class="text-button score-more" hidden>Show more matches</button>
+<div class="record-list-meta"><p id="record-count" role="status" aria-live="polite"></p><span>Overall success rates stay unchanged by these filters.</span></div>
+<div id="score-matches"></div>
+<button id="score-more" class="text-button score-more" type="button" hidden>Show more matches</button>
 </section>
 <details class="disclosure performance-details">
 <summary>Detailed performance &amp; scoring rules <span aria-hidden="true">+</span>

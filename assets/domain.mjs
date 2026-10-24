@@ -87,3 +87,30 @@ export function validateLogoIndex(index) {
   }
   return logos;
 }
+
+
+export function filterPerformanceMatches(matches, {search = '', status = 'all', competition = 'all', date = 'all', outcome = 'all', sort = 'results', timezone = 'UTC'} = {}) {
+  const needle = search.trim().normalize('NFKD').replace(/[\u0300-\u036f]/g, '').toLocaleLowerCase();
+  const rows = matches.filter(row => {
+    const names = `${row.home_team} ${row.away_team}`.normalize('NFKD').replace(/[\u0300-\u036f]/g, '').toLocaleLowerCase();
+    if (needle && !names.includes(needle) || status !== 'all' && row.status !== status || competition !== 'all' && `${row.country}|${row.competition_code}` !== competition || date !== 'all' && dateKey(row.kickoff_utc, timezone) !== date) return false;
+    if (outcome !== 'all') {
+      if (row.status !== 'scored') return false;
+      const grades = {full_won: row.outcome_correct === 1, full_lost: row.outcome_correct === 0, double_won: row.double_chance_correct === 1, double_lost: row.double_chance_correct === 0};
+      if (!grades[outcome]) return false;
+    }
+    return true;
+  });
+  const kickoff = row => Date.parse(row.kickoff_utc);
+  return rows.sort((a,b) => {
+    let delta;
+    if (sort === 'latest') delta = kickoff(b) - kickoff(a);
+    else if (sort === 'earliest') delta = kickoff(a) - kickoff(b);
+    else if (sort === 'prediction') delta = (Date.parse(b.generated_at_utc) || 0) - (Date.parse(a.generated_at_utc) || 0);
+    else {
+      const rank = row => row.status === 'scored' ? 0 : row.status === 'awaiting_result' ? 1 : 2;
+      delta = rank(a) - rank(b) || (a.status === 'awaiting_result' ? kickoff(a)-kickoff(b) : kickoff(b)-kickoff(a));
+    }
+    return delta || a.fixture_id.localeCompare(b.fixture_id);
+  });
+}

@@ -1061,3 +1061,92 @@ select:not(.enhanced-select){appearance:none;min-height:44px;border:1.5px solid 
 .crest.has-logo { background:transparent!important; border:0; border-radius:0; padding:0; margin:0; overflow:visible; }
 .crest.has-logo .crest-initials { visibility:hidden; }
 .crest img { position:absolute; inset:0; width:100%; height:100%; object-fit:contain; padding:0; border-radius:0; }
+
+/* Saved match history: scan the two calls, then open their original snapshot. */
+:root { --record-ft:#fff8d9; --record-dc:#eaf5fb; --record-won-bg:#e5f4e9; --record-won-text:#185e35; --record-lost-bg:#fce9e4; --record-lost-text:#92311c; }
+[data-theme="dark"] { --record-ft:#35301d; --record-dc:#1d3343; --record-won-bg:#173b2c; --record-won-text:#a1e7bb; --record-lost-bg:#43271f; --record-lost-text:#ffc3b0; }
+.match-history { margin-top:28px; }
+.record-heading .eyebrow { color:var(--muted); font-size:10px; margin-bottom:8px; }
+.record-heading h2 { margin:0 0 10px; }
+.record-tools { display:grid; grid-template-columns:minmax(180px,1fr) minmax(190px,230px) auto; gap:10px; position:relative; margin-top:20px; align-items:center; }
+.record-tools .search { width:auto; max-width:none; min-width:0; height:46px; border:1.5px solid var(--line); border-radius:10px; box-shadow:none; padding:0 13px; }
+.record-search input { width:100%; min-width:0; }
+.record-status-field { min-width:0; }
+.record-filters { border:0; background:transparent; }
+.record-filters>summary { border:1.5px solid var(--line); border-radius:10px; background:var(--white); min-height:46px; padding:10px 13px; gap:10px; }
+.record-filters[open]>summary { border-bottom:1.5px solid var(--line); }
+#record-filter-count { font:11px var(--mono); padding:2px 5px; border:1px solid var(--line); border-radius:4px; }
+.record-filter-body { position:absolute; right:0; top:calc(100% + 8px); z-index:20; width:min(520px,100%); padding:18px; display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:16px; border:1.5px solid var(--line); border-radius:12px; background:var(--white); box-shadow:0 12px 28px #080b1230; }
+.record-filter-body label { display:flex; flex-direction:column; gap:7px; font-size:12px; font-weight:700; min-width:0; }
+.record-filter-body .text-button { justify-self:start; }
+.record-list-meta { display:flex; align-items:baseline; justify-content:space-between; flex-wrap:wrap; gap:6px 16px; margin:16px 0; font-size:11px; color:var(--muted); }
+.record-list-meta p { font-weight:700; }
+#score-matches { display:grid; gap:14px; }
+.record-match { border:1px solid var(--line); border-radius:12px; background:var(--white); overflow:hidden; }
+.record-match>summary { list-style:none; padding:18px; cursor:pointer; transition:background-color .2s; }
+.record-match>summary:hover { background:color-mix(in srgb,var(--paper) 45%,transparent); }
+.record-match>summary:focus-visible { outline-offset:-4px; }
+.record-match-top { display:flex; align-items:center; justify-content:space-between; gap:16px; }
+.record-fixture { min-width:0; }
+.record-competition { display:block; color:var(--muted); font-size:11px; margin-bottom:12px; }
+.record-fixture>strong { display:flex; align-items:center; gap:10px; margin-top:8px; font-size:15px; line-height:1.3; }
+.record-fixture>strong>span:last-child { overflow-wrap:anywhere; }
+.record-badge { width:30px; height:30px; flex:none; font-size:10px; }
+.record-fixture time { display:block; color:var(--muted); font-size:11px; margin-top:12px; }
+.record-result { display:flex; align-items:flex-end; flex-direction:column; gap:5px; flex:none; max-width:45%; text-align:right; }
+.record-final-score { font:700 30px/1.2 var(--mono); letter-spacing:-1.5px; }
+.record-final-score span { margin:0 5px; color:var(--muted); }
+.record-waiting-score { font:400 28px var(--serif); color:var(--muted); }
+.record-result>small { font-size:10px; color:var(--muted); }
+.record-state { display:inline-block; margin-top:5px; border:1px solid var(--line); border-radius:6px; padding:5px 7px; color:var(--muted); font-size:10px; line-height:1.3; }
+.record-state-scored { color:var(--record-won-text); background:var(--record-won-bg); border-color:transparent; }
+.record-picks { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:10px; margin-top:18px; }
+.record-pick { background:var(--record-ft); padding:12px; border-radius:8px; min-width:0; display:flex; flex-direction:column; gap:8px; }
+.record-pick+.record-pick { background:var(--record-dc); }
+.record-pick-label { display:flex; justify-content:space-between; align-items:center; gap:6px; font-size:10px; }
+.record-pick-label b { font:700 10px var(--mono); }
+.record-pick>strong { font-size:13px; line-height:1.5; overflow-wrap:anywhere; }
+.record-pick-bottom { display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px; margin-top:auto; }
+.record-pick-bottom>span:first-child:not(.record-grade) { font:700 16px var(--mono); }
+.record-grade { font:600 10px/1.4 'DM Sans',sans-serif; padding:4px 7px; border-radius:5px; }
+.record-won { background:var(--record-won-bg); color:var(--record-won-text); }
+.record-lost { background:var(--record-lost-bg); color:var(--record-lost-text); }
+.record-pending { color:var(--muted); padding:0; }
+.record-open { display:flex; align-items:center; justify-content:space-between; font-size:11px; color:var(--muted); padding-top:12px; margin-top:14px; border-top:1px solid var(--line); }
+.record-open>span:last-child { font-size:16px; }
+.record-close-label { display:none; }
+.record-match[open] .record-open-label { display:none; }
+.record-match[open] .record-close-label { display:inline; }
+.record-match[open] .record-open>span:last-child { transform:rotate(180deg); }
+.record-match-details { border-top:1px solid var(--line); padding:18px; font-size:13px; }
+.record-explanation { margin:0 0 16px; color:var(--muted); }
+.record-timeline { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:14px; }
+.record-timeline dt { color:var(--muted); font-size:11px; margin-bottom:5px; }
+.record-timeline dd { font-size:12px; line-height:1.5; }
+.record-probabilities { margin-top:22px; }
+.record-probabilities h3 { font:700 12px 'DM Sans',sans-serif; margin-bottom:12px; }
+.record-probabilities>div { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:8px; }
+.record-probabilities>div>div { border:1px solid var(--line); border-radius:7px; padding:10px; display:flex; flex-direction:column; gap:7px; }
+.record-probabilities span { color:var(--muted); font-size:10px; line-height:1.5; }
+.record-probabilities strong { font:700 14px var(--mono); }
+.record-reference { margin-top:20px; font-size:11px; color:var(--muted); }
+.record-reference summary { padding:6px 0; cursor:pointer; }
+.record-reference dl { display:grid; grid-template-columns:auto minmax(0,1fr); gap:8px 16px; margin-top:10px; }
+.record-reference dd { overflow-wrap:anywhere; }
+.record-empty { padding:36px 20px; border:1px dashed var(--line); border-radius:12px; text-align:center; }
+.record-empty p { color:var(--muted); font-size:13px; margin:10px 0; }
+@media(max-width:560px) {
+  .record-tools { grid-template-columns:minmax(0,1fr) auto; }
+  .record-tools .search { grid-column:1/-1; }
+  .record-filter-body { gap:12px; padding:14px; }
+  .record-match>summary,.record-match-details { padding:14px; }
+  .record-result { max-width:42%; }
+  .record-fixture>strong { gap:7px; font-size:13px; }
+  .record-badge { width:26px; height:26px; }
+  .record-fixture time { font-size:10px; }
+  .record-pick { padding:10px; }
+  .record-pick>strong { font-size:12px; }
+  .record-timeline { grid-template-columns:1fr; }
+  .record-probabilities>div { grid-template-columns:repeat(2,minmax(0,1fr)); }
+}
+.record-section.match-history { padding:0; border:0; box-shadow:none; }

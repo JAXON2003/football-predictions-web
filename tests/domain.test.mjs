@@ -64,3 +64,31 @@ test('team badges require exact identities and local content-addressed PNGs', ()
   for (const path of ['https://example.com/logo.png','../logo.png','assets/teams/58-aaaaaaaaaaaaaaaa.png']) assert.throws(() => validateLogoIndex({schema_version:1,teams:[{...badge,path}]}));
   assert.throws(() => validateLogoIndex({schema_version:1,teams:[badge,badge]}));
 });
+
+
+const { filterPerformanceMatches } = await import('../assets/domain.mjs');
+test('track record combines team, status, competition and local match date filters', () => {
+  const matches = [
+    {fixture_id:'pending',home_team:'São Paulo',away_team:'Santos',country:'Brazil',competition_code:'Serie A',kickoff_utc:'2026-10-24T22:30:00Z',status:'awaiting_result'},
+    {fixture_id:'graded',home_team:'Chelsea',away_team:'Tottenham',country:'England',competition_code:'E0',kickoff_utc:'2026-10-24T13:00:00Z',status:'scored',outcome_correct:0,double_chance_correct:1},
+    {fixture_id:'late',home_team:'Chelsea',away_team:'Arsenal',country:'England',competition_code:'E0',kickoff_utc:'2026-10-23T13:00:00Z',status:'unscored_timing',outcome_correct:1}
+  ];
+  assert.deepEqual(filterPerformanceMatches(matches,{search:'SAO',date:'2026-10-25',timezone:'Africa/Dar_es_Salaam'}).map(r=>r.fixture_id),['pending']);
+  assert.equal(filterPerformanceMatches(matches,{search:'sao',date:'2026-10-25',timezone:'UTC'}).length,0);
+  assert.deepEqual(filterPerformanceMatches(matches,{search:'Tottenham',status:'scored',competition:'England|E0',outcome:'full_lost'}).map(r=>r.fixture_id),['graded']);
+  assert.deepEqual(filterPerformanceMatches(matches,{outcome:'double_won'}).map(r=>r.fixture_id),['graded']);
+  assert.equal(filterPerformanceMatches(matches,{outcome:'full_won'}).length,0);
+  assert.equal(filterPerformanceMatches(matches,{search:'no such team'}).length,0);
+});
+test('track record sorting is deterministic and never changes saved rows', () => {
+  const matches = [
+    {fixture_id:'a',status:'awaiting_result',home_team:'A',away_team:'B',kickoff_utc:'2026-10-26T12:00:00Z',generated_at_utc:'2026-10-24T09:00:00Z'},
+    {fixture_id:'b',status:'scored',home_team:'C',away_team:'D',kickoff_utc:'2026-10-24T12:00:00Z',generated_at_utc:'2026-10-23T09:00:00Z'},
+    {fixture_id:'c',status:'awaiting_result',home_team:'E',away_team:'F',kickoff_utc:'2026-10-25T12:00:00Z',generated_at_utc:'2026-10-24T10:00:00Z'}
+  ];
+  const before=JSON.stringify(matches);
+  assert.deepEqual(filterPerformanceMatches(matches).map(r=>r.fixture_id),['b','c','a']);
+  assert.deepEqual(filterPerformanceMatches(matches,{sort:'latest'}).map(r=>r.fixture_id),['a','c','b']);
+  assert.deepEqual(filterPerformanceMatches(matches,{sort:'prediction'}).map(r=>r.fixture_id),['c','a','b']);
+  assert.equal(JSON.stringify(matches),before);
+});
