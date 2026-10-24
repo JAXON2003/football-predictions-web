@@ -66,6 +66,9 @@
 </b>
 </a>
 </nav>
+<details class="sidebar-insights">
+<summary>Model information <span aria-hidden="true">+</span>
+</summary>
 <section class="pulse">
 <span class="eyebrow">Model pulse</span>
 <div class="pulse-num">
@@ -82,6 +85,7 @@
 <span class="eyebrow">Two calls. One match.</span>
 <p>A full-time result and a double-chance pick. Each measured separately after the final whistle.</p>
 </div>
+</details>
 <p class="side-foot">Nine approved league feeds.<br>
 <a href="./method.html">Historical results. No bookmaker odds.</a>
 <br>
@@ -94,99 +98,74 @@
 <strong>matchday<i>.</i>
 </strong>
 </a>
-<header class="topbar">
+<header class="topbar match-page-header">
 <div class="title-block">
-<p class="eyebrow">THE GAME, THROUGH THE NUMBERS</p>
+<p class="eyebrow">MATCHDAY FORECASTS</p>
 <h1 id="board-title">Upcoming matches</h1>
-<p class="sub" id="board-subtitle">Your next match. Two clear model picks. Every probability on the table.</p>
+<p class="sub" id="board-subtitle">See the match. See the model’s picks.</p>
 </div>
-<div class="top-actions">
-<button id="refresh" class="text-button" type="button">↻ Refresh feed</button>
-<a class="text-button" href="./performance.html">View track record ↗</a>
-</div>
+<button id="refresh" class="refresh-icon" type="button" aria-label="Refresh predictions" title="Refresh predictions">↻</button>
 </header>
-<div class="snapshot-inner" aria-label="Snapshot information">
-<div>
-<span class="tiny-label">IN THIS SNAPSHOT</span>
-<strong id="snapshot-count">Loading…</strong>
-</div>
-<div>
-<span class="tiny-label">DATA LAST OBSERVED</span>
-<strong id="data-time">—</strong>
-</div>
-<div>
-<span class="tiny-label">MODEL FITTED</span>
-<strong id="model-date">—</strong>
-</div>
-<div>
-<span class="tiny-label">REFRESH MODE</span>
-<strong id="refresh-mode">Loading…</strong>
-</div>
-</div>
 <div id="feed-notice" class="notice" role="status" hidden>
 </div>
-<section id="spotlight" class="banker" aria-label="Highest full-time probability among upcoming matches" hidden>
-</section>
 <section id="board" aria-label="Forecast board">
-<div class="controls">
-<div class="view-tabs" role="group" aria-label="Forecast view">
-<button type="button" data-view="upcoming" class="active" aria-pressed="true">Upcoming</button>
-<button type="button" data-view="bookmarks" aria-pressed="false">Saved matches</button>
-<button type="button" data-view="picks" aria-pressed="false">My picks</button>
-<button type="button" data-view="saved" aria-pressed="false">Feed snapshot</button>
-</div>
-<p class="local-note" id="local-note" hidden>Saved matches and personal picks live in this browser. They do not change the model or its verified public track record.</p>
-<div class="chips" id="league-chips" role="group" aria-label="Quick competition filters">
-</div>
-<div class="filter-row">
-<label>Competition<select id="competition">
+<div class="match-tools">
+<label class="search">
+<span aria-hidden="true">⌕</span>
+<input id="search" type="search" placeholder="Find a team…" aria-label="Find a team" autocomplete="off">
+<kbd>/</kbd>
+</label>
+<label class="league-field">
+<span class="sr-only">Competition</span>
+<select id="competition" aria-label="Competition">
 <option value="all">All competitions</option>
 </select>
 </label>
+<details id="filters-panel" class="filter-disclosure">
+<summary>Filters <span id="filter-count" hidden>
+</span>
+<span aria-hidden="true">⌄</span>
+</summary>
+<div class="filter-panel">
+<div class="filter-title">
+<strong>Find your match</strong>
+<button id="reset" type="button" class="text-button">Reset filters</button>
+</div>
+<div class="filter-row">
 <label>Match date<select id="match-date">
 <option value="all">All dates</option>
 </select>
 </label>
-<label>Times in<select id="timezone">
-<option value="local">Your timezone</option>
-<option value="Africa/Dar_es_Salaam">Tanzania (EAT)</option>
-<option value="UTC">UTC</option>
-</select>
-</label>
-<label class="search">
-<span aria-hidden="true">⌕</span>
-<input id="search" type="search" placeholder="Find a team" aria-label="Find a team" autocomplete="off">
-<kbd>/</kbd>
-</label>
-</div>
-<div class="control-row">
-<label class="toggle">
-<input type="checkbox" id="strong-only">
-<span class="switch">
-</span>Top full-time probability <small>55%+</small>
-</label>
-<label class="sort">Sort<select id="sort">
+<label>Sort by<select id="sort">
 <option value="time">Kick-off time</option>
 <option value="confidence">Highest probability</option>
 <option value="close">Closest matches</option>
 </select>
 </label>
-<button id="reset" type="button" class="reset-button">Reset</button>
-<span class="count" id="result-count" aria-live="polite">Loading saved forecasts…</span>
+<label>Show times in<select id="timezone">
+<option value="local">Your timezone</option>
+<option value="Africa/Dar_es_Salaam">Tanzania (EAT)</option>
+<option value="UTC">UTC</option>
+</select>
+</label>
+</div>
+<label class="toggle">
+<input type="checkbox" id="strong-only">
+<span class="switch">
+</span>Full-time probability of 55% or above</label>
+<p class="filter-hint">This is a filter, not a guarantee of success.</p>
+<div class="view-tabs" role="group" aria-label="Forecast view">
+<button type="button" data-view="upcoming" class="active" aria-pressed="true">Upcoming matches</button>
+<button type="button" data-view="saved" aria-pressed="false">Saved feed archive</button>
 </div>
 </div>
-<div class="legend-row">
-<span>
-<i class="h">
-</i>Home</span>
-<span>
-<i class="d">
-</i>Draw</span>
-<span>
-<i class="a">
-</i>Away</span>
-<span class="hint">Open a match for the full breakdown</span>
+</details>
 </div>
+<div class="board-meta">
+<p id="result-count" aria-live="polite">Loading matches…</p>
+<span id="short-update">Checking predictions…</span>
+</div>
+<p class="local-note" id="local-note" hidden>These choices are saved only in your browser.</p>
 <div id="forecast-grid" class="grid forecast-grid">
 </div>
 <div id="empty-state" class="empty" hidden>
@@ -194,6 +173,36 @@
 <p id="empty-message">Try another date or team.</p>
 <button type="button" id="empty-reset" class="cta">Reset filters</button>
 </div>
+<details id="feed-details" class="disclosure feed-info">
+<summary>About these predictions <span aria-hidden="true">+</span>
+</summary>
+<div class="disclosure-content">
+<p>Each match has a full-time pick and a double-chance pick. The percentages are model estimates, not guarantees. Open a match to explore every probability.</p>
+<div class="snapshot-inner">
+<div>
+<span class="tiny-label">SAVED FORECASTS</span>
+<strong id="snapshot-count">—</strong>
+</div>
+<div>
+<span class="tiny-label">DATA OBSERVED</span>
+<strong id="data-time">—</strong>
+</div>
+<div>
+<span class="tiny-label">MODEL FITTED</span>
+<strong id="model-date">—</strong>
+</div>
+<div>
+<span class="tiny-label">UPDATE MODE</span>
+<strong id="refresh-mode">—</strong>
+</div>
+</div>
+<p id="update-description">
+</p>
+<p>
+<a class="text-button" href="./method.html">How the predictions work ↗</a>
+</p>
+</div>
+</details>
 <noscript>
 <p class="notice">Enable JavaScript to explore forecasts, or <a href="./data/predictions.json">read the saved data</a>.</p>
 </noscript>

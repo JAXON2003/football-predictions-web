@@ -31,3 +31,11 @@ See [design and behavior notes](DESIGN_NOTES.md). Cards give distinct full-time
 and double-chance model picks. The track record grades both and plots real
 cumulative success as eligible results arrive. Bookmarks and personal full-time
 picks use local browser storage; they never enter the model's public scores.
+
+
+The home screen now puts matches first: teams, kickoff and two model choices.
+Search and league selection stay visible; additional filters open under Filters.
+All probabilities and personal picks are in View analysis. Technical metadata
+and advanced performance metrics open only when requested. Custom dropdowns keep
+native-select fallbacks and support keyboard navigation and type-ahead. The
+result record loads 20 matches at a time, with Show more for the rest.

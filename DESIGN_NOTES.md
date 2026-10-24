@@ -54,3 +54,27 @@ nine league filters, local persistence, analysis/keyboard behavior, mobile
 widths, expiry, failed data loading and invalid reports. Synthetic completed
 results used to exercise chart rendering stay in isolated browser test routes;
 none are written to the published feed.
+
+## Match-first refinement
+
+The first screen now prioritizes matches, kickoff and two readable model choices,
+using team names instead of requiring visitors to decode H/D/A. Technical feed
+metadata and sidebar metrics open only on request. Full probability breakdowns,
+personal picks and model provenance are in the analysis drawer. Search and league
+selection remain immediately available; date, timezone, sorting, the optional
+probability threshold and the saved feed archive live under Filters.
+
+Dropdowns are progressively enhanced native selects: custom popover listboxes
+use the site's palette, keyboard arrows, Home/End, type-ahead, Escape and selected
+states. The original selects remain a fallback when JavaScript or Popover support
+is unavailable. Menus stay inside the viewport and follow their trigger when
+scrolling. Provider labels are inserted as text, not executable HTML.
+
+The performance page starts with the two hit rates, the progress graph and a
+paginated result record. Publication evidence, coverage, log loss, Brier score,
+calibration and correction rules remain available under clearly labelled details.
+
+The approach follows [NN/G's progressive disclosure guidance](https://www.nngroup.com/articles/progressive-disclosure/).
+A [football dashboard portfolio reference](https://www.behance.net/gallery/63889815/Online-football-platform-UXUI-Design-Dashboard)
+was consulted during research; the supplied Figma design remains the visual basis.
+No portfolio imagery, statistics or code was imported.

@@ -66,6 +66,9 @@
 </b>
 </a>
 </nav>
+<details class="sidebar-insights">
+<summary>Model information <span aria-hidden="true">+</span>
+</summary>
 <section class="pulse">
 <span class="eyebrow">Model pulse</span>
 <div class="pulse-num">
@@ -82,6 +85,7 @@
 <span class="eyebrow">Two calls. One match.</span>
 <p>A full-time result and a double-chance pick. Each measured separately after the final whistle.</p>
 </div>
+</details>
 <p class="side-foot">Nine approved league feeds.<br>
 <a href="./method.html">Historical results. No bookmaker odds.</a>
 <br>
@@ -94,35 +98,31 @@
 <strong>matchday<i>.</i>
 </strong>
 </a>
-<p class="eyebrow">KEEPING SCORE, HONESTLY</p>
-<header class="topbar">
+<header class="topbar match-page-header">
 <div class="title-block">
-<h1>Results need<br>
-<em>a track record.</em>
-</h1>
+<p class="eyebrow">THE PUBLIC TRACK RECORD</p>
+<h1>How did we do?</h1>
+<p class="sub">Our full-time and double-chance picks, checked against final results.</p>
 </div>
+<button class="refresh-icon" id="score-refresh" type="button" aria-label="Refresh results" title="Refresh results">↻</button>
 </header>
-<p class="intro">A prediction is useful only if we measure it fairly. This page will report results from forecasts saved and published before the matches start.</p>
-<button class="text-button" id="score-refresh" type="button">Refresh results ↻</button>
-<div class="notice" id="score-notice" role="status">Loading the verified performance report…</div>
+<div class="notice" id="score-notice" role="status">Loading verified results…</div>
 <div id="score-report" hidden>
 <section class="performance-empty">
-<span class="tiny-label">VERIFIED, SCORED MATCHES</span>
+<span class="tiny-label">VERIFIED COMPLETED MATCHES</span>
 <strong id="performance-count">—</strong>
 <h2 id="performance-title">
 </h2>
 <p id="performance-description">
 </p>
 </section>
-<p id="score-updated">
-</p>
-<div class="metric-list score-metrics" id="score-metrics">
+<div class="score-metrics" id="score-metrics">
 </div>
 <section class="panel record-section" aria-labelledby="trend-title">
-<h2 id="trend-title">Two picks. A growing track record.</h2>
-<p>Cumulative hit rates from eligible completed matches, grouped by kickoff day in UTC. Each dot includes every scored match up to that day. This is not betting profit.</p>
+<h2 id="trend-title">Progress over time</h2>
+<p class="local-note">Each line shows how often that pick was correct. Double chance covers two outcomes, so its hit rate is naturally higher.</p>
 <div class="trend-controls">
-<label>Competition <select id="score-competition">
+<label>Competition<select id="score-competition">
 <option value="all">All competitions</option>
 </select>
 </label>
@@ -140,11 +140,24 @@
 <div id="score-trend">
 </div>
 </section>
+<section class="record-section">
+<h2>Match-by-match results</h2>
+<p class="local-note" id="record-count">
+</p>
+<div id="score-matches">
+</div>
+<button id="score-more" class="text-button score-more" hidden>Show more matches</button>
+</section>
+<details class="disclosure performance-details">
+<summary>Detailed performance &amp; scoring rules <span aria-hidden="true">+</span>
+</summary>
+<div class="disclosure-content">
+<p id="score-updated">
+</p>
+<div id="score-technical-metrics" class="score-technical-metrics">
+</div>
 <h2>Coverage, including the gaps</h2>
 <div id="score-coverage">
-</div>
-<h2>Match-by-match record</h2>
-<div id="score-matches">
 </div>
 <h2>Results by competition</h2>
 <div id="score-leagues">
@@ -152,14 +165,12 @@
 <h2>Results by model version</h2>
 <div id="score-models">
 </div>
-<h2>Do draw probabilities match reality?</h2>
-<p>For example, forecasts near 30% draw probability should produce draws about 30% of the time over a large sample. Small groups fluctuate.</p>
+<h2>Draw probability calibration</h2>
 <div id="score-calibration">
 </div>
 <h2>Each double-chance market</h2>
-<p>Outcome frequency describes how often each combination occurred across all scored matches; it is not the selected-pick success rate. Binary Brier measures that combination’s probability quality. Double chances cover two outcomes, so their success rate is naturally higher.</p>
+<p>These frequencies cover all scored matches; they are not the selected-pick success rate.</p>
 <div id="score-markets">
-</div>
 </div>
 <h2>The timing and correction rules</h2>
 <p>For each fixture, we use the latest generated forecast verified publicly available at least two hours before the provider’s final recorded kickoff. Private forecasts do not count. The API records scheduled kickoff; it does not independently confirm the exact moment play began. Observed rescheduling requires a fresh forecast for the revised kickoff.</p>
@@ -167,10 +178,12 @@
 <p>Training evaluation and this public track record are separate. These figures do not measure betting profit and do not guarantee future results. Result checks follow the twice-daily update schedule, so completed matches can remain pending until the next successful collection.</p>
 <p class="score-fingerprint" id="score-policy">
 </p>
+</div>
+</details>
+</div>
 <noscript>
-<p>Enable JavaScript to load verified results. No static success rate is claimed.</p>
+<p>Enable JavaScript to load verified results.</p>
 </noscript>
-<a class="primary-button" href="./">Back to the forecast board →</a>
 <footer class="site-footer">
 <p>A football prediction &amp; learning project.<br>Model estimates do not guarantee outcomes.</p>
 <p>Data provided by <a href="https://www.football-data.org/" rel="noopener">football-data.org</a>
