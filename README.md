@@ -10,7 +10,7 @@ Static HTML, CSS and JavaScript run on GitHub Pages. Open `index.html` through a
 
 The forecast board offers upcoming/saved views, team search, competition/date filters and local, UTC or Tanzania time. It shows all six probabilities, generation/data/model timestamps and limited-history flags. The client stops presenting upcoming forecasts when the feed expires, hides started matches, and reports load failures. The performance page shows verified scores, timing coverage, match records, draw calibration and league/model groups from the private engine. Empty reports show no invented success rate. It explains the two-hour publication rule, provider-recorded kickoff limitation, corrections and the distinction between double-chance hit rate and betting profit.
 
-The private engine's **Automatic football collection and website updates** workflow collects, validates, saves and publishes forecasts daily at 06:17 and 18:17 Tanzania time. CSV checks run Monday/Thursday at 05:17, respecting saved download cooldowns. GitHub schedules may be delayed. The browser displays actual observation times and pauses expired feeds. Only the Premier League upcoming feed is enabled initially.
+The private engine's **Automatic football collection and website updates** workflow collects, validates, saves and publishes forecasts daily at 06:17, 14:17 and 22:17 Tanzania time. CSV checks are combined with the Monday/Thursday 06:17 run, respecting saved download cooldowns. GitHub schedules may be delayed. The browser displays actual observation times and pauses expired feeds. All nine approved upcoming league feeds are enabled.
 
 The publisher exports only approved display fields and updates public JSON through a website-only deploy key. It verifies deployed files before saving a conservative first-publication receipt privately. Repeated identical feeds keep their preparation time. A separate manual publication workflow remains available for retrying a saved batch. Collection and prediction do not retrain the fitted model. A separate monthly workflow evaluates a genuine refit and activates it only after quality, serving and recovery checks. The first candidate was rejected, so the originally published model remains active with its original expiry.
 
@@ -23,7 +23,7 @@ Bundesliga, Ligue 1, Serie A (Italy), La Liga, Primeira Liga, Eredivisie and
 Série A (Brazil). The filters use the leagues actually present in the saved
 forecast batch. Public scoring starts independently at each league’s first
 verified publication. A pending always-on worker is not advertised as active:
-the feed’s private configuration determines whether the site displays twice-daily
+the feed’s private configuration determines whether the site displays scheduled
 updates or an activated continuous host. Current production remains scheduled.
 
 The supplied Figma redesign is implemented without its demonstration statistics.

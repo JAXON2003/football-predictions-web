@@ -39,11 +39,11 @@ function rebuildDates() {
 function render() {
   if (!feed) return;
   $('#data-time').textContent = timestamp(feed.data_observed_at_utc);
-  $('#refresh-mode').textContent = feed.refresh_mode === 'continuous' ? 'Automatic · repeated collection' : feed.refresh_mode === 'automatic' ? 'Automatic · twice daily' : 'Manual updates';
+  $('#refresh-mode').textContent = feed.refresh_mode === 'continuous' ? 'Automatic · repeated collection' : feed.refresh_mode === 'automatic' ? 'Automatic · three daily updates' : 'Manual updates';
   $('#model-date').textContent = feed.model.fitted_as_of;
   $('#snapshot-count').textContent = `${feed.forecasts.length} saved forecasts`;
   const old = stale(feed), notice = $('#feed-notice'); notice.hidden = !old; notice.className = 'notice';
-  notice.textContent = old ? 'Forecasts paused: the feed or model needs updating. Saved forecasts retain their original timestamps; use Feed snapshot to inspect them.' : feed.refresh_mode === 'continuous' ? 'The cloud worker repeats rate-limited collection across nine leagues. These are saved forecasts; source results and collection can be delayed.' : feed.refresh_mode === 'automatic' ? 'Automatic updates are scheduled twice daily. These are saved forecasts, not live scores. The continuous cloud worker is not active.' : 'These are saved forecasts. Updates are currently manual.';
+  notice.textContent = old ? 'Forecasts paused: the feed or model needs updating. Saved forecasts retain their original timestamps; use Feed snapshot to inspect them.' : feed.refresh_mode === 'continuous' ? 'The cloud worker repeats rate-limited collection across nine leagues. These are saved forecasts; source results and collection can be delayed.' : feed.refresh_mode === 'automatic' ? 'Automatic updates are scheduled at 06:17, 14:17 and 22:17 Tanzania time. These are saved forecasts, not live scores. The continuous cloud worker is not active.' : 'These are saved forecasts. Updates are currently manual.';
   $('#update-description').textContent = notice.textContent;
   $('#short-update').textContent = `Updated ${timestamp(feed.data_observed_at_utc)}`;
   let rows = filterForecasts(feed, { view: view === 'upcoming' ? 'upcoming' : 'saved', competition: $('#competition').value, date: $('#match-date').value, search: $('#search').value, timezone: zone() });
