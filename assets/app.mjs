@@ -1,8 +1,10 @@
-import { percent, validateFeed, stale, filterForecasts, dateKey, escapeHTML as esc, modelDecisions } from './domain.mjs';
+import { percent, validateFeed, stale, filterForecasts, dateKey, escapeHTML as esc, modelDecisions, validateLogoIndex } from './domain.mjs';
 import { preferences, savePreferences, updateShell } from './shell.mjs';
 
 const $ = selector => document.querySelector(selector);
 let feed = null;
+let teamLogos = new Map();
+const failedLogos = new Set();
 const allowedViews = ['upcoming', 'bookmarks', 'picks', 'saved'];
 let view = new URLSearchParams(location.search).get('view') || 'upcoming';
 if (!allowedViews.includes(view)) view = 'upcoming';
@@ -13,7 +15,23 @@ const localZone = Intl.DateTimeFormat().resolvedOptions().timeZone || 'UTC';
 const zone = () => $('#timezone').value === 'local' ? localZone : $('#timezone').value;
 const timestamp = value => new Intl.DateTimeFormat('en-GB', { timeZone: zone(), day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit', timeZoneName: 'short' }).format(new Date(value));
 const initials = name => name.split(/[ -]/).filter(Boolean).map(word => word[0]).slice(0, 2).join('').toUpperCase();
-const crest = name => `<span class="crest" aria-hidden="true" style="width:44px;height:44px;background:${['#ffdd57', '#6cbfe6', '#ff5b35'][[...name].reduce((n, c) => n + c.charCodeAt(0), 0) % 3]}">${esc(initials(name))}</span>`;
+function crest(name, country) {
+  const path = teamLogos.get(JSON.stringify([country, name]));
+  const image = path && !failedLogos.has(path) ? `<img src="./${esc(path)}" alt="" width="44" height="44" loading="lazy" decoding="async" referrerpolicy="no-referrer">` : '';
+  return `<span class="crest${image ? ' has-logo' : ''}" aria-hidden="true" style="width:44px;height:44px;background:${['#ffdd57', '#6cbfe6', '#ff5b35'][[...name].reduce((n, c) => n + c.charCodeAt(0), 0) % 3]}"><span class="crest-initials">${esc(initials(name))}</span>${image}</span>`;
+}
+// Capture image errors, including dynamically rendered cards and the drawer.
+document.addEventListener('error', event => {
+  const img = event.target;
+  if (!(img instanceof HTMLImageElement) || !img.closest('.crest')) return;
+  const path = img.getAttribute('src').replace(/^\.\//, '');
+  failedLogos.add(path);
+  document.querySelectorAll('.crest img').forEach(other => {
+    if (other.getAttribute('src') === img.getAttribute('src')) {
+      other.parentElement.classList.remove('has-logo'); other.remove();
+    }
+  });
+}, true);
 const bar = p => `<div class="prob-bar" role="img" aria-label="Home ${percent(p.home)}, draw ${percent(p.draw)}, away ${percent(p.away)}">${[['h', p.home], ['d', p.draw], ['a', p.away]].map(([c, v]) => `<span class="${c}" style="width:${v * 100}%">${v >= .14 ? percent(v) : ''}</span>`).join('')}</div>`;
 const starIcon = '<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="m12 3 2.7 5.8 6.3.7-4.7 4.3 1.3 6.2L12 17l-5.6 3 1.3-6.2L3 9.5l6.3-.7z"/></svg>';
 const actualChoice = (code, r) => ({ H: r.home_team, D: 'Draw', A: r.away_team, '1X': `${r.home_team} or draw`, '12': 'Either team wins', X2: `Draw or ${r.away_team}` })[code];
@@ -28,7 +46,7 @@ function personalChoice(row) {
 }
 function card(row, i) {
   const saved = user.saved.includes(row.fixture_id), started = Date.parse(row.kickoff_utc) <= Date.now();
-  return `<article class="card match-card" data-fixture="${esc(row.fixture_id)}" style="--i:${Math.min(i,7)}" aria-label="${esc(row.home_team)} versus ${esc(row.away_team)}"><header class="card-head"><span class="league">${esc(row.competition)}<small>${esc(row.country)}</small></span><time class="when" datetime="${esc(row.kickoff_utc)}">${esc(timestamp(row.kickoff_utc))}</time><button class="star ${saved ? 'on' : ''}" data-save="${esc(row.fixture_id)}" aria-pressed="${saved}" aria-label="${saved ? 'Remove from saved' : 'Save match'}">${starIcon}</button></header><button class="card-body" data-open="${esc(row.fixture_id)}" aria-label="Open analysis for ${esc(row.home_team)} versus ${esc(row.away_team)}"><div class="teams"><div class="team">${crest(row.home_team)}<strong>${esc(row.home_team)}</strong><small>HOME</small></div><span class="match-versus">vs</span><div class="team right">${crest(row.away_team)}<strong>${esc(row.away_team)}</strong><small>AWAY</small></div></div>${decisions(row)}<span class="card-more"><span>${row.limited_history ? 'Limited team history' : started ? 'Saved pre-match forecast' : 'Model estimates'}</span><b>View analysis <span aria-hidden="true">↗</span></b></span></button></article>`;
+  return `<article class="card match-card" data-fixture="${esc(row.fixture_id)}" style="--i:${Math.min(i,7)}" aria-label="${esc(row.home_team)} versus ${esc(row.away_team)}"><header class="card-head"><span class="league">${esc(row.competition)}<small>${esc(row.country)}</small></span><time class="when" datetime="${esc(row.kickoff_utc)}">${esc(timestamp(row.kickoff_utc))}</time><button class="star ${saved ? 'on' : ''}" data-save="${esc(row.fixture_id)}" aria-pressed="${saved}" aria-label="${saved ? 'Remove from saved' : 'Save match'}">${starIcon}</button></header><button class="card-body" data-open="${esc(row.fixture_id)}" aria-label="Open analysis for ${esc(row.home_team)} versus ${esc(row.away_team)}"><div class="teams"><div class="team">${crest(row.home_team, row.country)}<strong>${esc(row.home_team)}</strong><small>HOME</small></div><span class="match-versus">vs</span><div class="team right">${crest(row.away_team, row.country)}<strong>${esc(row.away_team)}</strong><small>AWAY</small></div></div>${decisions(row)}<span class="card-more"><span>${row.limited_history ? 'Limited team history' : started ? 'Saved pre-match forecast' : 'Model estimates'}</span><b>View analysis <span aria-hidden="true">↗</span></b></span></button></article>`;
 }
 function rebuildDates() {
   const selected = $('#match-date').value;
@@ -77,7 +95,7 @@ function showAnalysis(id, trigger) {
   openFixture = id; returnFocus = trigger;
   const d = modelDecisions(row), p = row.probabilities;
   $('#analysis-title').textContent = `${row.home_team} versus ${row.away_team}`;
-  $('#analysis-content').innerHTML = `<div class="d-teams"><div>${crest(row.home_team)}<strong>${esc(row.home_team)}</strong></div><span class="d-score" style="font-size:28px;letter-spacing:0">VS</span><div>${crest(row.away_team)}<strong>${esc(row.away_team)}</strong></div></div><p class="d-caption">${esc(row.country)} · ${esc(row.competition)} · ${esc(timestamp(row.kickoff_utc))}</p><section><h3>Two model decisions</h3>${decisions(row)}<p>Full time: ${esc(actualChoice(d.result.code, row))}. Double chance: ${esc(actualChoice(d.double.code, row))}. These are the highest-probability choices in each market.</p></section><section><h3>Full-time probabilities</h3>${bar(p)}<div class="outcomes"><span>Home<b>${percent(p.home)}</b></span><span>Draw<b>${percent(p.draw)}</b></span><span>Away<b>${percent(p.away)}</b></span></div></section><section><h3>Every double chance</h3><div class="markets">${[['1X','Home or draw',p.home_or_draw],['12','Either team wins',p.home_or_away],['X2','Draw or away',p.draw_or_away]].map(([code,label,v]) => `<div><b>${percent(v)}</b><span>${code} · ${label}</span></div>`).join('')}</div><p>Each combines two full-time outcomes. A higher hit rate is expected because two results are covered; it does not establish betting value.</p></section><details class="disclosure"><summary>Data &amp; model details <span aria-hidden="true">+</span></summary><div class="disclosure-content"><dl><dt>Generated</dt><dd>${esc(timestamp(row.generated_at_utc))}</dd><dt>Data observed</dt><dd>${esc(timestamp(row.data_observed_at_utc))}</dd><dt>Model fitted</dt><dd>${esc(feed.model.fitted_as_of)}</dd><dt>Historical matches</dt><dd>${esc(row.home_history_matches)} home team / ${esc(row.away_history_matches)} away team</dd><dt>Forecast ID</dt><dd>${esc(row.forecast_id)}</dd><dt>Model version</dt><dd>${esc(feed.model.version)}</dd></dl><p>Historical results create 56 inputs. No shots or bookmaker odds. Results enter features after a two-calendar-day delay.${row.limited_history ? ' This match has limited team history.' : ''}</p></div></details><details class="disclosure"><summary>How results are checked <span aria-hidden="true">+</span></summary><div class="disclosure-content"><p>The track record checks the saved full-time and double-chance picks separately against the verified regulation result. Only forecasts publicly verified at least two hours before kickoff qualify. Private notes do not enter those totals.</p><a class="text-button" href="./performance.html">Explore track record →</a></div></details>${personalChoice(row)}`;
+  $('#analysis-content').innerHTML = `<div class="d-teams"><div>${crest(row.home_team, row.country)}<strong>${esc(row.home_team)}</strong></div><span class="d-score" style="font-size:28px;letter-spacing:0">VS</span><div>${crest(row.away_team, row.country)}<strong>${esc(row.away_team)}</strong></div></div><p class="d-caption">${esc(row.country)} · ${esc(row.competition)} · ${esc(timestamp(row.kickoff_utc))}</p><section><h3>Two model decisions</h3>${decisions(row)}<p>Full time: ${esc(actualChoice(d.result.code, row))}. Double chance: ${esc(actualChoice(d.double.code, row))}. These are the highest-probability choices in each market.</p></section><section><h3>Full-time probabilities</h3>${bar(p)}<div class="outcomes"><span>Home<b>${percent(p.home)}</b></span><span>Draw<b>${percent(p.draw)}</b></span><span>Away<b>${percent(p.away)}</b></span></div></section><section><h3>Every double chance</h3><div class="markets">${[['1X','Home or draw',p.home_or_draw],['12','Either team wins',p.home_or_away],['X2','Draw or away',p.draw_or_away]].map(([code,label,v]) => `<div><b>${percent(v)}</b><span>${code} · ${label}</span></div>`).join('')}</div><p>Each combines two full-time outcomes. A higher hit rate is expected because two results are covered; it does not establish betting value.</p></section><details class="disclosure"><summary>Data &amp; model details <span aria-hidden="true">+</span></summary><div class="disclosure-content"><dl><dt>Generated</dt><dd>${esc(timestamp(row.generated_at_utc))}</dd><dt>Data observed</dt><dd>${esc(timestamp(row.data_observed_at_utc))}</dd><dt>Model fitted</dt><dd>${esc(feed.model.fitted_as_of)}</dd><dt>Historical matches</dt><dd>${esc(row.home_history_matches)} home team / ${esc(row.away_history_matches)} away team</dd><dt>Forecast ID</dt><dd>${esc(row.forecast_id)}</dd><dt>Model version</dt><dd>${esc(feed.model.version)}</dd></dl><p>Historical results create 56 inputs. No shots or bookmaker odds. Results enter features after a two-calendar-day delay.${row.limited_history ? ' This match has limited team history.' : ''}</p></div></details><details class="disclosure"><summary>How results are checked <span aria-hidden="true">+</span></summary><div class="disclosure-content"><p>The track record checks the saved full-time and double-chance picks separately against the verified regulation result. Only forecasts publicly verified at least two hours before kickoff qualify. Private notes do not enter those totals.</p><a class="text-button" href="./performance.html">Explore track record →</a></div></details>${personalChoice(row)}`;
   if (!$('#analysis-dialog').open) { $('#analysis-dialog').showModal(); document.body.style.overflow = 'hidden'; }
 }
 function closeAnalysis() { $('#analysis-dialog').close(); }
@@ -108,7 +126,10 @@ async function load() {
   if ($('#refresh').disabled) return;
   $('#refresh').disabled = true;
   try {
-    const response = await fetch('./data/predictions.json', { cache: 'no-store' });
+    const [response] = await Promise.all([
+      fetch('./data/predictions.json', { cache: 'no-store' }),
+      fetch('./data/team-logos.json', { cache: 'no-cache' }).then(r => { if (!r.ok) throw new Error('Badges unavailable'); return r.json(); }).then(index => { teamLogos = validateLogoIndex(index); }).catch(() => { /* Keep initials and continue showing verified predictions. */ })
+    ]);
     if (!response.ok) throw new Error(`The saved feed is unavailable (${response.status}).`);
     feed = validateFeed(await response.json());
     const chosen = $('#competition').value;

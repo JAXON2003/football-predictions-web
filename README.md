@@ -41,3 +41,5 @@ native-select fallbacks and support keyboard navigation and type-ahead. The
 result record loads 20 matches at a time, with Show more for the rest.
 
 The sun/moon button switches all pages between the original light palette and a dark palette. Light is the default. A separate browser preference remembers the selected theme; it also synchronizes between open tabs. The saved choice is applied before the stylesheet loads, and the switch works when browser storage is blocked.
+
+Team badges are cached locally under `assets/teams/` and indexed by exact country/team identity in `data/team-logos.json`. The engine refreshes this index from its approved provider mappings during automatic publication, downloading missing PNGs from football-data.org's crest host without an API token. Content-addressed filenames preserve browser caches. Both cards and analysis use the same badges; unavailable images or indexes fall back to initials. Badge updates do not change forecast IDs, probabilities or historical performance records.

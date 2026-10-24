@@ -1056,3 +1056,9 @@ select:not(.enhanced-select){appearance:none;min-height:44px;border:1.5px solid 
 @media (max-width:560px) {
   .main .header-actions { right:16px; }
 }
+
+.crest { position:relative; }
+.crest.has-logo { background:#fff!important; border-color:#c9c4b8; }
+.crest.has-logo .crest-initials { visibility:hidden; }
+.crest img { position:absolute; inset:0; width:100%; height:100%; object-fit:contain; padding:4px; border-radius:inherit; }
+[data-theme="dark"] .crest.has-logo { border-color:#657087; }

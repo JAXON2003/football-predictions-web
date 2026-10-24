@@ -53,3 +53,14 @@ test('cumulative graph groups UTC days, sorts matches and filters competitions',
 test('summary success rates must agree with the underlying scored matches', () => {
   const p = reportWith([scoredRow('test','24')]);p.metrics.accuracy=.3;assert.throws(()=>validatePerformance(p));
 });
+
+
+const { validateLogoIndex } = await import('../assets/domain.mjs');
+test('team badges require exact identities and local content-addressed PNGs', () => {
+  const badge = { country: 'England', team: 'Arsenal', provider_team_id: 57, sha256: 'a'.repeat(64), path: `assets/teams/57-${'a'.repeat(16)}.png` };
+  const index = validateLogoIndex({schema_version:1, teams:[badge]});
+  assert.equal(index.get(JSON.stringify(['England','Arsenal'])), badge.path);
+  assert.equal(index.get(JSON.stringify(['Brazil','Arsenal'])), undefined);
+  for (const path of ['https://example.com/logo.png','../logo.png','assets/teams/58-aaaaaaaaaaaaaaaa.png']) assert.throws(() => validateLogoIndex({schema_version:1,teams:[{...badge,path}]}));
+  assert.throws(() => validateLogoIndex({schema_version:1,teams:[badge,badge]}));
+});

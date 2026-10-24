@@ -25,3 +25,17 @@ jobs:
           validatePerformance(feed.performance);
           console.log(`Verified ${feed.forecasts.length} saved forecasts and ${feed.performance.scored_matches} scored matches.`);
           JS
+      - name: Verify cached team badges
+        run: |
+          node --input-type=module <<'JS'
+          import fs from 'node:fs';
+          import { createHash } from 'node:crypto';
+          import { validateLogoIndex } from './assets/domain.mjs';
+          const index = JSON.parse(fs.readFileSync('data/team-logos.json', 'utf8'));
+          validateLogoIndex(index);
+          for (const row of index.teams) {
+            const raw = fs.readFileSync(row.path);
+            if (raw.subarray(0,8).toString('hex') !== '89504e470d0a1a0a' || createHash('sha256').update(raw).digest('hex') !== row.sha256) throw new Error('Team badge integrity failed');
+          }
+          console.log(`Verified ${index.teams.length} cached team badges.`);
+          JS

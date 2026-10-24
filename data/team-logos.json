@@ -1,0 +1,1414 @@
+{
+  "schema_version": 1,
+  "provider": "football-data.org",
+  "teams": [
+    {
+      "country": "Brazil",
+      "team": "Athletico-PR",
+      "provider_team_id": 1768,
+      "path": "assets/teams/1768-7300b332d4e42eab.png",
+      "sha256": "7300b332d4e42eab9f64cd94d7fdd310850211d12ebce32f7e0d225e9216fb13",
+      "source": "https://crests.football-data.org/1768.png"
+    },
+    {
+      "country": "Brazil",
+      "team": "Atletico-MG",
+      "provider_team_id": 1766,
+      "path": "assets/teams/1766-b9c392eb35aebf60.png",
+      "sha256": "b9c392eb35aebf60881a7fb9b4a4490f006e9ea8b1a18200d07175bc490a3fe1",
+      "source": "https://crests.football-data.org/1766.png"
+    },
+    {
+      "country": "Brazil",
+      "team": "Bahia",
+      "provider_team_id": 1777,
+      "path": "assets/teams/1777-26b55d2e04ab49dd.png",
+      "sha256": "26b55d2e04ab49dd134e4fa7e5d4f86fcf2140a0f12edd8969ce5c3b5db058d9",
+      "source": "https://crests.football-data.org/1777.png"
+    },
+    {
+      "country": "Brazil",
+      "team": "Botafogo RJ",
+      "provider_team_id": 1770,
+      "path": "assets/teams/1770-36c7bb8dd10382b8.png",
+      "sha256": "36c7bb8dd10382b83dbe3f572d87142c1ec1f9fa5b29829cf4377bc2769ea0af",
+      "source": "https://crests.football-data.org/1770.png"
+    },
+    {
+      "country": "Brazil",
+      "team": "Bragantino",
+      "provider_team_id": 4286,
+      "path": "assets/teams/4286-99a966b1fddde5e2.png",
+      "sha256": "99a966b1fddde5e24bfcb311c30c5258d0cbfaae2488ff528891c685d59aa777",
+      "source": "https://crests.football-data.org/4286.png"
+    },
+    {
+      "country": "Brazil",
+      "team": "Chapecoense-SC",
+      "provider_team_id": 1772,
+      "path": "assets/teams/1772-5cf5e7957b8b36c3.png",
+      "sha256": "5cf5e7957b8b36c34baf80b3520927e3b099c21e707bc07a724fa2b5ec6e1638",
+      "source": "https://crests.football-data.org/1772.png"
+    },
+    {
+      "country": "Brazil",
+      "team": "Corinthians",
+      "provider_team_id": 1779,
+      "path": "assets/teams/1779-81b61c6feaa7d4c9.png",
+      "sha256": "81b61c6feaa7d4c93af4220a8477d27a742383222b562a3507152cd3d52958e5",
+      "source": "https://crests.football-data.org/1779.png"
+    },
+    {
+      "country": "Brazil",
+      "team": "Coritiba",
+      "provider_team_id": 4241,
+      "path": "assets/teams/4241-81112aec0c2b3562.png",
+      "sha256": "81112aec0c2b35625cbb83730b1e4cc377cd028414a835d8519a88753bd77f0f",
+      "source": "https://crests.football-data.org/4241.png"
+    },
+    {
+      "country": "Brazil",
+      "team": "Cruzeiro",
+      "provider_team_id": 1771,
+      "path": "assets/teams/1771-fe761bf1f5eb733a.png",
+      "sha256": "fe761bf1f5eb733aad0daf7f515a3a9e313ad8dfde75d070af907fe6459c97ce",
+      "source": "https://crests.football-data.org/1771.png"
+    },
+    {
+      "country": "Brazil",
+      "team": "Flamengo RJ",
+      "provider_team_id": 1783,
+      "path": "assets/teams/1783-2b144d5431bc7345.png",
+      "sha256": "2b144d5431bc73456db303ffdc838cd6c2465e02518a5c32b7e491f24a9a4b52",
+      "source": "https://crests.football-data.org/1783.png"
+    },
+    {
+      "country": "Brazil",
+      "team": "Fluminense",
+      "provider_team_id": 1765,
+      "path": "assets/teams/1765-bceb21ebdad638c3.png",
+      "sha256": "bceb21ebdad638c3712b5ae48b45ff01eb7b5b335d8075c6ec8b8292a5af8e73",
+      "source": "https://crests.football-data.org/1765.png"
+    },
+    {
+      "country": "Brazil",
+      "team": "Gremio",
+      "provider_team_id": 1767,
+      "path": "assets/teams/1767-0edcc66498276ffe.png",
+      "sha256": "0edcc66498276ffeb331b8de825a587db829bbea1249392555628774f9783f23",
+      "source": "https://crests.football-data.org/1767.png"
+    },
+    {
+      "country": "Brazil",
+      "team": "Internacional",
+      "provider_team_id": 6684,
+      "path": "assets/teams/6684-1566a23e2cfac84b.png",
+      "sha256": "1566a23e2cfac84b8e5d9c5c11fca7a09bd0282bbc3e518ec20e3aaac182d214",
+      "source": "https://crests.football-data.org/6684.png"
+    },
+    {
+      "country": "Brazil",
+      "team": "Mirassol",
+      "provider_team_id": 4364,
+      "path": "assets/teams/4364-88d2bc9820eabe71.png",
+      "sha256": "88d2bc9820eabe711cb23b629ab6f54106738ae8cd48ef6d40d5f207e0d12de2",
+      "source": "https://crests.football-data.org/4364.png"
+    },
+    {
+      "country": "Brazil",
+      "team": "Palmeiras",
+      "provider_team_id": 1769,
+      "path": "assets/teams/1769-ba535bdc2718197c.png",
+      "sha256": "ba535bdc2718197cef9592ca29ea98d52edc76fd40d9a3a87f8a4a3465248862",
+      "source": "https://crests.football-data.org/1769.png"
+    },
+    {
+      "country": "Brazil",
+      "team": "Remo",
+      "provider_team_id": 4287,
+      "path": "assets/teams/4287-8f01ccd4ff290d0f.png",
+      "sha256": "8f01ccd4ff290d0f900d6f9a6d5013ae0e63eb253332a5056488fd60f0dcc1e3",
+      "source": "https://crests.football-data.org/4287.png"
+    },
+    {
+      "country": "Brazil",
+      "team": "Santos",
+      "provider_team_id": 6685,
+      "path": "assets/teams/6685-1714d157d38674a7.png",
+      "sha256": "1714d157d38674a7c71b187f31e6b684d14e64a4fb5b870b850bccc27d039b99",
+      "source": "https://crests.football-data.org/6685.png"
+    },
+    {
+      "country": "Brazil",
+      "team": "Sao Paulo",
+      "provider_team_id": 1776,
+      "path": "assets/teams/1776-f5d9efe2f1948e46.png",
+      "sha256": "f5d9efe2f1948e46948db917de1cf3c126425591ca66d952242ccb1495bdc5ed",
+      "source": "https://crests.football-data.org/1776.png"
+    },
+    {
+      "country": "Brazil",
+      "team": "Vasco",
+      "provider_team_id": 1780,
+      "path": "assets/teams/1780-6522177e82f79715.png",
+      "sha256": "6522177e82f797157649ed080ee1559752462e318da099ed373af7acacdda819",
+      "source": "https://crests.football-data.org/1780.png"
+    },
+    {
+      "country": "Brazil",
+      "team": "Vitoria",
+      "provider_team_id": 1782,
+      "path": "assets/teams/1782-9ba4ee76ca3eec59.png",
+      "sha256": "9ba4ee76ca3eec59ec977eb603ea2377ad1dcea57510db90423aca78cfe1ca75",
+      "source": "https://crests.football-data.org/1782.png"
+    },
+    {
+      "country": "England",
+      "team": "Arsenal",
+      "provider_team_id": 57,
+      "path": "assets/teams/57-36e761b46213d8fa.png",
+      "sha256": "36e761b46213d8fa6deb1ddd94add8b61060a74fab48ca77a1f28827ff37d209",
+      "source": "https://crests.football-data.org/57.png"
+    },
+    {
+      "country": "England",
+      "team": "Aston Villa",
+      "provider_team_id": 58,
+      "path": "assets/teams/58-cd9d0e04bb7d781b.png",
+      "sha256": "cd9d0e04bb7d781bca31fb8575de5ede409e4775db07a2cf64da7cbc3ee93202",
+      "source": "https://crests.football-data.org/58.png"
+    },
+    {
+      "country": "England",
+      "team": "Birmingham",
+      "provider_team_id": 332,
+      "path": "assets/teams/332-47a6197b2e510c94.png",
+      "sha256": "47a6197b2e510c9496db1e9f31e1e9e366e988b5f1655456922824d6803dbd63",
+      "source": "https://crests.football-data.org/332.png"
+    },
+    {
+      "country": "England",
+      "team": "Blackburn",
+      "provider_team_id": 59,
+      "path": "assets/teams/59-93ce0ce94d62a7c5.png",
+      "sha256": "93ce0ce94d62a7c5ef7723cd596883ac44818a6789eaedc6e21e0932ff2c9c5e",
+      "source": "https://crests.football-data.org/59.png"
+    },
+    {
+      "country": "England",
+      "team": "Bolton",
+      "provider_team_id": 60,
+      "path": "assets/teams/60-b16274c2887ca517.png",
+      "sha256": "b16274c2887ca517c5cea67c8b4e2eb070180c2ef4fbc0d33ae18c3661758ae9",
+      "source": "https://crests.football-data.org/60.png"
+    },
+    {
+      "country": "England",
+      "team": "Bournemouth",
+      "provider_team_id": 1044,
+      "path": "assets/teams/1044-2703d4d22a050434.png",
+      "sha256": "2703d4d22a050434985764fd8512bdc83dc967b022f854668811b03aa05f2155",
+      "source": "https://crests.football-data.org/1044.png"
+    },
+    {
+      "country": "England",
+      "team": "Brentford",
+      "provider_team_id": 402,
+      "path": "assets/teams/402-165adcf2e24288dc.png",
+      "sha256": "165adcf2e24288dcabd3e5d5e5de3b83e58e7c549aaa2c6101a37159a12c1753",
+      "source": "https://crests.football-data.org/402.png"
+    },
+    {
+      "country": "England",
+      "team": "Brighton",
+      "provider_team_id": 397,
+      "path": "assets/teams/397-b2a60525561839e8.png",
+      "sha256": "b2a60525561839e8a113d95ec80598f8398a28b568124e3d9b15c69c651f5d07",
+      "source": "https://crests.football-data.org/397.png"
+    },
+    {
+      "country": "England",
+      "team": "Bristol City",
+      "provider_team_id": 387,
+      "path": "assets/teams/387-e8e6ef485bf5a0e1.png",
+      "sha256": "e8e6ef485bf5a0e14e05f500674ca3a43a63cadfdd82604b6238faf43abd8264",
+      "source": "https://crests.football-data.org/387.png"
+    },
+    {
+      "country": "England",
+      "team": "Burnley",
+      "provider_team_id": 328,
+      "path": "assets/teams/328-a418607981308fd9.png",
+      "sha256": "a418607981308fd980be2246d4885b2f6794ebad33e0980315dd90e392b707e5",
+      "source": "https://crests.football-data.org/328.png"
+    },
+    {
+      "country": "England",
+      "team": "Cardiff",
+      "provider_team_id": 715,
+      "path": "assets/teams/715-27355589f1774aed.png",
+      "sha256": "27355589f1774aed6e64b9b0a5622e0a22e65af8e40cbdfcbe3b95f38dda983d",
+      "source": "https://crests.football-data.org/715.png"
+    },
+    {
+      "country": "England",
+      "team": "Charlton",
+      "provider_team_id": 348,
+      "path": "assets/teams/348-0a2bda6632665943.png",
+      "sha256": "0a2bda6632665943f9a146868c83639c19b2c0ded295fe775922441e3ff9f91d",
+      "source": "https://crests.football-data.org/348.png"
+    },
+    {
+      "country": "England",
+      "team": "Chelsea",
+      "provider_team_id": 61,
+      "path": "assets/teams/61-bb79d3ccd973afb7.png",
+      "sha256": "bb79d3ccd973afb7802d4d48fb9b58de8940e9ac2183b66df28d83b61c1bfc6a",
+      "source": "https://crests.football-data.org/61.png"
+    },
+    {
+      "country": "England",
+      "team": "Coventry",
+      "provider_team_id": 1076,
+      "path": "assets/teams/1076-1e200eb5b9d3d5d6.png",
+      "sha256": "1e200eb5b9d3d5d6c9cbf2a41ffdc20cfc83408a8cbf94e8178cfe2512614946",
+      "source": "https://crests.football-data.org/1076.png"
+    },
+    {
+      "country": "England",
+      "team": "Crystal Palace",
+      "provider_team_id": 354,
+      "path": "assets/teams/354-8cd5323ea26846f9.png",
+      "sha256": "8cd5323ea26846f9991bd5604ae63e124f81e5e3feda7716a3f038ab5151458c",
+      "source": "https://crests.football-data.org/354.png"
+    },
+    {
+      "country": "England",
+      "team": "Derby",
+      "provider_team_id": 342,
+      "path": "assets/teams/342-eac0e11b7bbcef5e.png",
+      "sha256": "eac0e11b7bbcef5e0884ae8804f58f84bba624db69a722bcd5e606348fad7ae6",
+      "source": "https://crests.football-data.org/342.png"
+    },
+    {
+      "country": "England",
+      "team": "Everton",
+      "provider_team_id": 62,
+      "path": "assets/teams/62-9d8062665589e808.png",
+      "sha256": "9d8062665589e8089e67175fe479efb2a647b6bd0ec7883a9602fc9557a788d7",
+      "source": "https://crests.football-data.org/62.png"
+    },
+    {
+      "country": "England",
+      "team": "Fulham",
+      "provider_team_id": 63,
+      "path": "assets/teams/63-c84fb63fdd0a20e9.png",
+      "sha256": "c84fb63fdd0a20e9268e2e5d967fd459b15c1e4194f8d4197a84a071b68187e2",
+      "source": "https://crests.football-data.org/63.png"
+    },
+    {
+      "country": "England",
+      "team": "Hull",
+      "provider_team_id": 322,
+      "path": "assets/teams/322-977e0816b25d7123.png",
+      "sha256": "977e0816b25d712357acc92ff2c732d59536bf0b4e34194dbe26795fa460ed20",
+      "source": "https://crests.football-data.org/322.png"
+    },
+    {
+      "country": "England",
+      "team": "Ipswich",
+      "provider_team_id": 349,
+      "path": "assets/teams/349-84bd91e8f3aea41c.png",
+      "sha256": "84bd91e8f3aea41cb23c7e01333e41e7409d1a15c5a334d91747675273771b74",
+      "source": "https://crests.football-data.org/349.png"
+    },
+    {
+      "country": "England",
+      "team": "Leeds",
+      "provider_team_id": 341,
+      "path": "assets/teams/341-16e5872c0127c093.png",
+      "sha256": "16e5872c0127c093f14e8338b2ba1d79bc307cc24dcc690ca820c85c3af056f0",
+      "source": "https://crests.football-data.org/341.png"
+    },
+    {
+      "country": "England",
+      "team": "Lincoln",
+      "provider_team_id": 1126,
+      "path": "assets/teams/1126-75ae50e55b7cd097.png",
+      "sha256": "75ae50e55b7cd0974866bcb3e8bc77dc540eda5e3fdeac2c298f75d5d1c58e88",
+      "source": "https://crests.football-data.org/1126.png"
+    },
+    {
+      "country": "England",
+      "team": "Liverpool",
+      "provider_team_id": 64,
+      "path": "assets/teams/64-e98ce271542dfc14.png",
+      "sha256": "e98ce271542dfc14ecaee2b5b6b228841a8ca19751f537eacec2fe66820fbcce",
+      "source": "https://crests.football-data.org/64.png"
+    },
+    {
+      "country": "England",
+      "team": "Man City",
+      "provider_team_id": 65,
+      "path": "assets/teams/65-d3602d5a8ecc240c.png",
+      "sha256": "d3602d5a8ecc240c6685d935a502fe56167d127ee53810e3ff618d2bba9db432",
+      "source": "https://crests.football-data.org/65.png"
+    },
+    {
+      "country": "England",
+      "team": "Man United",
+      "provider_team_id": 66,
+      "path": "assets/teams/66-5bd8bd07d24ac133.png",
+      "sha256": "5bd8bd07d24ac133a75c2c7d93886b5d586cb84a41281378a98b0ef827850846",
+      "source": "https://crests.football-data.org/66.png"
+    },
+    {
+      "country": "England",
+      "team": "Middlesbrough",
+      "provider_team_id": 343,
+      "path": "assets/teams/343-aecd1ae936d2fbf2.png",
+      "sha256": "aecd1ae936d2fbf2f076cd4ad23dcc55cc07745edf406d3c019ee50f36cfb958",
+      "source": "https://crests.football-data.org/343.png"
+    },
+    {
+      "country": "England",
+      "team": "Millwall",
+      "provider_team_id": 384,
+      "path": "assets/teams/384-973aea8873a599f8.png",
+      "sha256": "973aea8873a599f85ba0beb718bc179780bfbb46c3603ad1f5550481d3dd46b6",
+      "source": "https://crests.football-data.org/384.png"
+    },
+    {
+      "country": "England",
+      "team": "Newcastle",
+      "provider_team_id": 67,
+      "path": "assets/teams/67-93ac1da648d20a87.png",
+      "sha256": "93ac1da648d20a87e9661564752e32f7d7be2e3d835917807207713149f2b571",
+      "source": "https://crests.football-data.org/67.png"
+    },
+    {
+      "country": "England",
+      "team": "Norwich",
+      "provider_team_id": 68,
+      "path": "assets/teams/68-a93d02a0ee58e425.png",
+      "sha256": "a93d02a0ee58e4259503769e3eb769103f5f3218af6f99a4c404a553c3e94d74",
+      "source": "https://crests.football-data.org/68.png"
+    },
+    {
+      "country": "England",
+      "team": "Nott'm Forest",
+      "provider_team_id": 351,
+      "path": "assets/teams/351-d4098e62317e19e6.png",
+      "sha256": "d4098e62317e19e6dc92d806ded0e77ba7714b22728998466a441aef0c8e9025",
+      "source": "https://crests.football-data.org/351.png"
+    },
+    {
+      "country": "England",
+      "team": "Portsmouth",
+      "provider_team_id": 325,
+      "path": "assets/teams/325-2753cb5e2be68d5d.png",
+      "sha256": "2753cb5e2be68d5d98706a0019aae680e4da1621252c310535c802caf0474412",
+      "source": "https://crests.football-data.org/325.png"
+    },
+    {
+      "country": "England",
+      "team": "Preston",
+      "provider_team_id": 1081,
+      "path": "assets/teams/1081-f85c5c7c7e284650.png",
+      "sha256": "f85c5c7c7e28465008380db8a46766cfa10f6823166db01556ad36dfad9aae6d",
+      "source": "https://crests.football-data.org/1081.png"
+    },
+    {
+      "country": "England",
+      "team": "QPR",
+      "provider_team_id": 69,
+      "path": "assets/teams/69-3a8b9b9d21fc31b2.png",
+      "sha256": "3a8b9b9d21fc31b288e13966cbcd8bdff03e3a8e1f36a9afbf1a2631bc8444e9",
+      "source": "https://crests.football-data.org/69.png"
+    },
+    {
+      "country": "England",
+      "team": "Sheffield United",
+      "provider_team_id": 356,
+      "path": "assets/teams/356-1618a03c95f3252d.png",
+      "sha256": "1618a03c95f3252dae3f6a316e1969baaf98c6c1a4d8e59acdd4453004ad0bf4",
+      "source": "https://crests.football-data.org/356.png"
+    },
+    {
+      "country": "England",
+      "team": "Southampton",
+      "provider_team_id": 340,
+      "path": "assets/teams/340-599189eb8fa34d1f.png",
+      "sha256": "599189eb8fa34d1f1e34582fa2d8fdfb7e26bcf066e9448be5c21ab9f6f4604b",
+      "source": "https://crests.football-data.org/340.png"
+    },
+    {
+      "country": "England",
+      "team": "Stoke",
+      "provider_team_id": 70,
+      "path": "assets/teams/70-97757b6097795e77.png",
+      "sha256": "97757b6097795e7713797cc3d9ea492c36c72c4d59e7b390ebcc4710ce21fd14",
+      "source": "https://crests.football-data.org/70.png"
+    },
+    {
+      "country": "England",
+      "team": "Sunderland",
+      "provider_team_id": 71,
+      "path": "assets/teams/71-7690bab9be9d1712.png",
+      "sha256": "7690bab9be9d1712314b3982efcca442649f9ea75ad9ca3c4cce54c3621a35aa",
+      "source": "https://crests.football-data.org/71.png"
+    },
+    {
+      "country": "England",
+      "team": "Swansea",
+      "provider_team_id": 72,
+      "path": "assets/teams/72-0e65e4726a2d6b51.png",
+      "sha256": "0e65e4726a2d6b513bdace88346fec0cd4f3611d28e0f4d8c16c3899cd1055f5",
+      "source": "https://crests.football-data.org/72.png"
+    },
+    {
+      "country": "England",
+      "team": "Tottenham",
+      "provider_team_id": 73,
+      "path": "assets/teams/73-2cfcd7ca5dd94737.png",
+      "sha256": "2cfcd7ca5dd94737e52e965f5a44de45da5d08181410737722cd7d9929c5b1a4",
+      "source": "https://crests.football-data.org/73.png"
+    },
+    {
+      "country": "England",
+      "team": "Watford",
+      "provider_team_id": 346,
+      "path": "assets/teams/346-6ad89bf4d9ed996c.png",
+      "sha256": "6ad89bf4d9ed996c37ea21d11001ecb0e14ae0d041f4e04e95d3e1e0f7cc1403",
+      "source": "https://crests.football-data.org/346.png"
+    },
+    {
+      "country": "England",
+      "team": "West Brom",
+      "provider_team_id": 74,
+      "path": "assets/teams/74-4d18c231c736fa40.png",
+      "sha256": "4d18c231c736fa401c2f57e308604da0b8247e61523cb24274714d4fc184b152",
+      "source": "https://crests.football-data.org/74.png"
+    },
+    {
+      "country": "England",
+      "team": "West Ham",
+      "provider_team_id": 563,
+      "path": "assets/teams/563-11e0ae907552888e.png",
+      "sha256": "11e0ae907552888ef9190265cdef5f9b0f3e23052575870dc9fcf47ddca71898",
+      "source": "https://crests.football-data.org/563.png"
+    },
+    {
+      "country": "England",
+      "team": "Wolves",
+      "provider_team_id": 76,
+      "path": "assets/teams/76-ab19a729b2387718.png",
+      "sha256": "ab19a729b23877189ac54b7ff7c5b8c10d46adcea98d04b782beff0d4380e950",
+      "source": "https://crests.football-data.org/76.png"
+    },
+    {
+      "country": "England",
+      "team": "Wrexham",
+      "provider_team_id": 404,
+      "path": "assets/teams/404-5acf4797e364b999.png",
+      "sha256": "5acf4797e364b999ac162f7ac145fdd6bdd603f519e1fa68fce4277e332ee072",
+      "source": "https://crests.football-data.org/404.png"
+    },
+    {
+      "country": "France",
+      "team": "Angers",
+      "provider_team_id": 532,
+      "path": "assets/teams/532-9798dfb1b74c64e7.png",
+      "sha256": "9798dfb1b74c64e78ce58b9113c05db115b83efa8f4971884dc96a6385b36a32",
+      "source": "https://crests.football-data.org/532.png"
+    },
+    {
+      "country": "France",
+      "team": "Auxerre",
+      "provider_team_id": 519,
+      "path": "assets/teams/519-d05f99ece834d0ab.png",
+      "sha256": "d05f99ece834d0abd36c2c0f6d78be4907a84ae8c87b1fa1eb515f8063678f35",
+      "source": "https://crests.football-data.org/519.png"
+    },
+    {
+      "country": "France",
+      "team": "Brest",
+      "provider_team_id": 512,
+      "path": "assets/teams/512-26c5294393c4715a.png",
+      "sha256": "26c5294393c4715a24211aed2325bd09f956e30f7252f39c539ba2f90f7b4d0d",
+      "source": "https://crests.football-data.org/512.png"
+    },
+    {
+      "country": "France",
+      "team": "Le Havre",
+      "provider_team_id": 533,
+      "path": "assets/teams/533-7c3b06867ab29f2c.png",
+      "sha256": "7c3b06867ab29f2c366ea7fa7184afc1a8b1c977a58d72ff6bcc7807e9fc2493",
+      "source": "https://crests.football-data.org/533.png"
+    },
+    {
+      "country": "France",
+      "team": "Le Mans",
+      "provider_team_id": 535,
+      "path": "assets/teams/535-37bc6bffaa21b51e.png",
+      "sha256": "37bc6bffaa21b51e69ed8249445cb65c9eef8d51a40bb2c46859e7a4b3e3fbf3",
+      "source": "https://crests.football-data.org/535.png"
+    },
+    {
+      "country": "France",
+      "team": "Lens",
+      "provider_team_id": 546,
+      "path": "assets/teams/546-ba2e96f6adba5b35.png",
+      "sha256": "ba2e96f6adba5b35bfda37ae2ba75af3e0ec17ccc85663558ce75439e7d73a37",
+      "source": "https://crests.football-data.org/546.png"
+    },
+    {
+      "country": "France",
+      "team": "Lille",
+      "provider_team_id": 521,
+      "path": "assets/teams/521-2608698c4801cbc5.png",
+      "sha256": "2608698c4801cbc5f7bf1e4b97260bd966eb428e6ea2a956c3a736bc529ed6db",
+      "source": "https://crests.football-data.org/521.png"
+    },
+    {
+      "country": "France",
+      "team": "Lorient",
+      "provider_team_id": 525,
+      "path": "assets/teams/525-70c7fab8a5ba81a7.png",
+      "sha256": "70c7fab8a5ba81a7a443fa7478d77a0918d7930adb3c3fb15eb37396ce4d3925",
+      "source": "https://crests.football-data.org/525.png"
+    },
+    {
+      "country": "France",
+      "team": "Lyon",
+      "provider_team_id": 523,
+      "path": "assets/teams/523-59dc3b56730e2ab7.png",
+      "sha256": "59dc3b56730e2ab7736c65435f15a2bccb0519fb8756e0f0fdc2eb8e9b192c08",
+      "source": "https://crests.football-data.org/523.png"
+    },
+    {
+      "country": "France",
+      "team": "Marseille",
+      "provider_team_id": 516,
+      "path": "assets/teams/516-6b71dd61b9ea985d.png",
+      "sha256": "6b71dd61b9ea985d6798099583a4b1a7ef08b3ad61f978010781e04e101aae60",
+      "source": "https://crests.football-data.org/516.png"
+    },
+    {
+      "country": "France",
+      "team": "Monaco",
+      "provider_team_id": 548,
+      "path": "assets/teams/548-fd9cca2ca2448eb8.png",
+      "sha256": "fd9cca2ca2448eb8fe57c38e19b37e74b8648d4c45a1b0e496bb60ac5b035c2d",
+      "source": "https://crests.football-data.org/548.png"
+    },
+    {
+      "country": "France",
+      "team": "Nice",
+      "provider_team_id": 522,
+      "path": "assets/teams/522-25b7116597c4af16.png",
+      "sha256": "25b7116597c4af164e637a98c28a2e651219c9f37c3f2aaf7f2017bae41cf234",
+      "source": "https://crests.football-data.org/522.png"
+    },
+    {
+      "country": "France",
+      "team": "Paris FC",
+      "provider_team_id": 1045,
+      "path": "assets/teams/1045-c0b927b158990b08.png",
+      "sha256": "c0b927b158990b08b54902995bdc003d3d11d64db72794a65d304810c38193f7",
+      "source": "https://crests.football-data.org/1045.png"
+    },
+    {
+      "country": "France",
+      "team": "Paris SG",
+      "provider_team_id": 524,
+      "path": "assets/teams/524-e159c7ee90d2a7b8.png",
+      "sha256": "e159c7ee90d2a7b8c97f4b0b621f3f0a909cfd7cea459490acb1309c2964c117",
+      "source": "https://crests.football-data.org/524.png"
+    },
+    {
+      "country": "France",
+      "team": "Rennes",
+      "provider_team_id": 529,
+      "path": "assets/teams/529-f1fe54b8f9b8abc9.png",
+      "sha256": "f1fe54b8f9b8abc99a030c0f98525873f0faf3adb1b517e6fb9b960077ea3826",
+      "source": "https://crests.football-data.org/529.png"
+    },
+    {
+      "country": "France",
+      "team": "Strasbourg",
+      "provider_team_id": 576,
+      "path": "assets/teams/576-c3618e1e7b04c77a.png",
+      "sha256": "c3618e1e7b04c77a73f8b603c1c495e99583ef73a0606f645915a883aba2c4f4",
+      "source": "https://crests.football-data.org/576.png"
+    },
+    {
+      "country": "France",
+      "team": "Toulouse",
+      "provider_team_id": 511,
+      "path": "assets/teams/511-1fe56619bdfe0f04.png",
+      "sha256": "1fe56619bdfe0f043311394d4184ad27a56e77f799d923db3aa9b904fbe35110",
+      "source": "https://crests.football-data.org/511.png"
+    },
+    {
+      "country": "France",
+      "team": "Troyes",
+      "provider_team_id": 531,
+      "path": "assets/teams/531-7eaa99c84534b7ab.png",
+      "sha256": "7eaa99c84534b7abf6424bba9aec468cbfc3a5f489ab5e2db5f64af5d7638cb2",
+      "source": "https://crests.football-data.org/531.png"
+    },
+    {
+      "country": "Germany",
+      "team": "Augsburg",
+      "provider_team_id": 16,
+      "path": "assets/teams/16-4dfffaca693b6535.png",
+      "sha256": "4dfffaca693b6535ae0bb833b5ab6fc8cb54282fe44b249c80fe3df58493c80c",
+      "source": "https://crests.football-data.org/16.png"
+    },
+    {
+      "country": "Germany",
+      "team": "Bayern Munich",
+      "provider_team_id": 5,
+      "path": "assets/teams/5-43d63f1fa95cd302.png",
+      "sha256": "43d63f1fa95cd302176bf34f2e3fdc49f3e5a95859dd693811c566e7a53edd20",
+      "source": "https://crests.football-data.org/5.png"
+    },
+    {
+      "country": "Germany",
+      "team": "Dortmund",
+      "provider_team_id": 4,
+      "path": "assets/teams/4-0a37e29099823872.png",
+      "sha256": "0a37e290998238721be128b625785a5f4143428782578c0495d0e465cc0ccb40",
+      "source": "https://crests.football-data.org/4.png"
+    },
+    {
+      "country": "Germany",
+      "team": "Ein Frankfurt",
+      "provider_team_id": 19,
+      "path": "assets/teams/19-acb4bb58ec7996ba.png",
+      "sha256": "acb4bb58ec7996bac241d21392254c4aa78a4ab8c827f3374ed5eae34b76f9bd",
+      "source": "https://crests.football-data.org/19.png"
+    },
+    {
+      "country": "Germany",
+      "team": "Elversberg",
+      "provider_team_id": 719,
+      "path": "assets/teams/719-65e6525b1ba90a6a.png",
+      "sha256": "65e6525b1ba90a6ad2735bae1d0ead11dda88eed23c2267f02c63e4cef3621b6",
+      "source": "https://crests.football-data.org/719.png"
+    },
+    {
+      "country": "Germany",
+      "team": "FC Koln",
+      "provider_team_id": 1,
+      "path": "assets/teams/1-6e98debef3c84751.png",
+      "sha256": "6e98debef3c847516956702c3f33a89330bb23997c4329a5664477b004e70499",
+      "source": "https://crests.football-data.org/1.png"
+    },
+    {
+      "country": "Germany",
+      "team": "Freiburg",
+      "provider_team_id": 17,
+      "path": "assets/teams/17-6833e520bbddcaa3.png",
+      "sha256": "6833e520bbddcaa3897dbacd7a61eb07709077092dace937cb18464af3f608cf",
+      "source": "https://crests.football-data.org/17.png"
+    },
+    {
+      "country": "Germany",
+      "team": "Hamburg",
+      "provider_team_id": 7,
+      "path": "assets/teams/7-e1a9a88d45f388d2.png",
+      "sha256": "e1a9a88d45f388d2b30394152ba8dd652e92b4a391ee7742e9d93bd1b54b496f",
+      "source": "https://crests.football-data.org/7.png"
+    },
+    {
+      "country": "Germany",
+      "team": "Hoffenheim",
+      "provider_team_id": 2,
+      "path": "assets/teams/2-c8542fe7cf8c825f.png",
+      "sha256": "c8542fe7cf8c825ffd90a62e3c34c97ed1f620c266c9c4b460dc769a4145935b",
+      "source": "https://crests.football-data.org/2.png"
+    },
+    {
+      "country": "Germany",
+      "team": "Leverkusen",
+      "provider_team_id": 3,
+      "path": "assets/teams/3-75a724b7097622ed.png",
+      "sha256": "75a724b7097622ed5d86465e77de58a652b5ee119b5fd740565a31f34b192109",
+      "source": "https://crests.football-data.org/3.png"
+    },
+    {
+      "country": "Germany",
+      "team": "M'gladbach",
+      "provider_team_id": 18,
+      "path": "assets/teams/18-fda40723b4876d39.png",
+      "sha256": "fda40723b4876d39d2c081c0656667223ca143c0c11b552305f55674472ecf74",
+      "source": "https://crests.football-data.org/18.png"
+    },
+    {
+      "country": "Germany",
+      "team": "Mainz",
+      "provider_team_id": 15,
+      "path": "assets/teams/15-dba8481207fcf81f.png",
+      "sha256": "dba8481207fcf81f0fc81e4dde8b29358cbd47fa127b5f2ab32402510b3d531e",
+      "source": "https://crests.football-data.org/15.png"
+    },
+    {
+      "country": "Germany",
+      "team": "Paderborn",
+      "provider_team_id": 29,
+      "path": "assets/teams/29-83a0025fc25bdda3.png",
+      "sha256": "83a0025fc25bdda33f7b70be2850243e0f1d7f8a628221fc0a58da210e16923a",
+      "source": "https://crests.football-data.org/29.png"
+    },
+    {
+      "country": "Germany",
+      "team": "RB Leipzig",
+      "provider_team_id": 721,
+      "path": "assets/teams/721-ee7de2bf5f033813.png",
+      "sha256": "ee7de2bf5f033813e90fdaf7bee5ebbe86a2d8941223011c66a776326a31ac75",
+      "source": "https://crests.football-data.org/721.png"
+    },
+    {
+      "country": "Germany",
+      "team": "Schalke 04",
+      "provider_team_id": 6,
+      "path": "assets/teams/6-baa0360ac486a86c.png",
+      "sha256": "baa0360ac486a86c8c19cce47e09be29c316026a7712f67a336f7775ed9944fc",
+      "source": "https://crests.football-data.org/6.png"
+    },
+    {
+      "country": "Germany",
+      "team": "Stuttgart",
+      "provider_team_id": 10,
+      "path": "assets/teams/10-d138a2a3f452fc75.png",
+      "sha256": "d138a2a3f452fc752c4799f5eec56fc8bb2bbc98c0855df24123132578cfa0d2",
+      "source": "https://crests.football-data.org/10.png"
+    },
+    {
+      "country": "Germany",
+      "team": "Union Berlin",
+      "provider_team_id": 28,
+      "path": "assets/teams/28-a692f3cfc490873f.png",
+      "sha256": "a692f3cfc490873fd15145b403b44449b94bb570ca49458cfd67605d7fce9c48",
+      "source": "https://crests.football-data.org/28.png"
+    },
+    {
+      "country": "Germany",
+      "team": "Werder Bremen",
+      "provider_team_id": 12,
+      "path": "assets/teams/12-5409fddce618a160.png",
+      "sha256": "5409fddce618a1608097775e5d8393b01def78c53255072116fcde9d69a95921",
+      "source": "https://crests.football-data.org/12.png"
+    },
+    {
+      "country": "Italy",
+      "team": "Atalanta",
+      "provider_team_id": 102,
+      "path": "assets/teams/102-7245c755485a1cde.png",
+      "sha256": "7245c755485a1cdec8335c019d81d3be9af26684af3bd725b82378b1f27f38f2",
+      "source": "https://crests.football-data.org/102.png"
+    },
+    {
+      "country": "Italy",
+      "team": "Bologna",
+      "provider_team_id": 103,
+      "path": "assets/teams/103-8c09517058df0c7c.png",
+      "sha256": "8c09517058df0c7cb4955c399caf8a0014edb84cd21a8ab1f3a4b325bf7ed99e",
+      "source": "https://crests.football-data.org/103.png"
+    },
+    {
+      "country": "Italy",
+      "team": "Cagliari",
+      "provider_team_id": 104,
+      "path": "assets/teams/104-cbb4bf8d3c3a3bed.png",
+      "sha256": "cbb4bf8d3c3a3bedfab4702f6895398c809ed93132e93d647cca4b5181dd3531",
+      "source": "https://crests.football-data.org/104.png"
+    },
+    {
+      "country": "Italy",
+      "team": "Como",
+      "provider_team_id": 7397,
+      "path": "assets/teams/7397-d5bb95c0fdefef61.png",
+      "sha256": "d5bb95c0fdefef61ccb781f33930502df961ccbd4e7fc6105478aae3a4ca6e16",
+      "source": "https://crests.football-data.org/7397.png"
+    },
+    {
+      "country": "Italy",
+      "team": "Fiorentina",
+      "provider_team_id": 99,
+      "path": "assets/teams/99-df98422c77e735a6.png",
+      "sha256": "df98422c77e735a69639ce190bc3b935a821e507a30f4508791ff4240b0d8967",
+      "source": "https://crests.football-data.org/99.png"
+    },
+    {
+      "country": "Italy",
+      "team": "Frosinone",
+      "provider_team_id": 470,
+      "path": "assets/teams/470-b1c247ecff36fd54.png",
+      "sha256": "b1c247ecff36fd543c7256062a503e67d44672cd769cc4f4dbbd99a55829ca76",
+      "source": "https://crests.football-data.org/470.png"
+    },
+    {
+      "country": "Italy",
+      "team": "Genoa",
+      "provider_team_id": 107,
+      "path": "assets/teams/107-5967681e37e71af4.png",
+      "sha256": "5967681e37e71af4462084c97415690552d285bfba4c59799c9b7ae7e57a0ce1",
+      "source": "https://crests.football-data.org/107.png"
+    },
+    {
+      "country": "Italy",
+      "team": "Inter",
+      "provider_team_id": 108,
+      "path": "assets/teams/108-9cedadc7ea485794.png",
+      "sha256": "9cedadc7ea48579487a1c1047e94ab1289b1a08b328a3617be20f93d56ec3c26",
+      "source": "https://crests.football-data.org/108.png"
+    },
+    {
+      "country": "Italy",
+      "team": "Juventus",
+      "provider_team_id": 109,
+      "path": "assets/teams/109-4f6c758119fc3954.png",
+      "sha256": "4f6c758119fc3954ad5c9716f8df999389c02b79b3ad4a748e652b979e264140",
+      "source": "https://crests.football-data.org/109.png"
+    },
+    {
+      "country": "Italy",
+      "team": "Lazio",
+      "provider_team_id": 110,
+      "path": "assets/teams/110-001681e2e8932702.png",
+      "sha256": "001681e2e89327028dc7238466a96d4115cf8949182b3301ca9af66c9e63bacf",
+      "source": "https://crests.football-data.org/110.png"
+    },
+    {
+      "country": "Italy",
+      "team": "Lecce",
+      "provider_team_id": 5890,
+      "path": "assets/teams/5890-eda0498157cf4e9c.png",
+      "sha256": "eda0498157cf4e9c5f0f112e98632c09877e2b7b6bdefd8702ea7df136283d20",
+      "source": "https://crests.football-data.org/5890.png"
+    },
+    {
+      "country": "Italy",
+      "team": "Milan",
+      "provider_team_id": 98,
+      "path": "assets/teams/98-0501af298c54befd.png",
+      "sha256": "0501af298c54befd712505660fa70fdba8d29b29f66c4affce3f8bb0e6b0ecdf",
+      "source": "https://crests.football-data.org/98.png"
+    },
+    {
+      "country": "Italy",
+      "team": "Monza",
+      "provider_team_id": 5911,
+      "path": "assets/teams/5911-e1f9b859f0b07044.png",
+      "sha256": "e1f9b859f0b07044f832ec61723690e0666cebfeb4c39179f8d88378389e7391",
+      "source": "https://crests.football-data.org/5911.png"
+    },
+    {
+      "country": "Italy",
+      "team": "Napoli",
+      "provider_team_id": 113,
+      "path": "assets/teams/113-7382d0fa4e186d45.png",
+      "sha256": "7382d0fa4e186d4592c8ad9ac6fdc0973ea2f93c431fa65d5c5dbf2f1ab5eec7",
+      "source": "https://crests.football-data.org/113.png"
+    },
+    {
+      "country": "Italy",
+      "team": "Parma",
+      "provider_team_id": 112,
+      "path": "assets/teams/112-67208dddec54f7c4.png",
+      "sha256": "67208dddec54f7c400de4d26d28a685e9547302a09ad49b956da2047ae89d808",
+      "source": "https://crests.football-data.org/112.png"
+    },
+    {
+      "country": "Italy",
+      "team": "Roma",
+      "provider_team_id": 100,
+      "path": "assets/teams/100-f76cce16ebe99a6c.png",
+      "sha256": "f76cce16ebe99a6cab9a2c756328aa8ceff8756a1e8108011e84085938ba964e",
+      "source": "https://crests.football-data.org/100.png"
+    },
+    {
+      "country": "Italy",
+      "team": "Sassuolo",
+      "provider_team_id": 471,
+      "path": "assets/teams/471-8fa7f83bec035c29.png",
+      "sha256": "8fa7f83bec035c291cb1bf10afc8679bee149fa31b89ca36b9288aeb81619ed3",
+      "source": "https://crests.football-data.org/471.png"
+    },
+    {
+      "country": "Italy",
+      "team": "Torino",
+      "provider_team_id": 586,
+      "path": "assets/teams/586-564f5bd8a1414df6.png",
+      "sha256": "564f5bd8a1414df60ba189147fecb154f451bfce35e5feae987224a00af9cd40",
+      "source": "https://crests.football-data.org/586.png"
+    },
+    {
+      "country": "Italy",
+      "team": "Udinese",
+      "provider_team_id": 115,
+      "path": "assets/teams/115-ee5ee1ac535d8bff.png",
+      "sha256": "ee5ee1ac535d8bff3b65ff60301939b7da59803dafc3193a19bf90760e006c48",
+      "source": "https://crests.football-data.org/115.png"
+    },
+    {
+      "country": "Italy",
+      "team": "Venezia",
+      "provider_team_id": 454,
+      "path": "assets/teams/454-8765da66bb3e77c3.png",
+      "sha256": "8765da66bb3e77c310aaa5f3edeb65a0ee7143f9a24c5f31a5db41599fd3f951",
+      "source": "https://crests.football-data.org/454.png"
+    },
+    {
+      "country": "Netherlands",
+      "team": "AZ Alkmaar",
+      "provider_team_id": 682,
+      "path": "assets/teams/682-8d8777d0f6639f9d.png",
+      "sha256": "8d8777d0f6639f9de4756a810322dd18191c000cd2e2ac7d3569f036a3fe14c2",
+      "source": "https://crests.football-data.org/682.png"
+    },
+    {
+      "country": "Netherlands",
+      "team": "Ajax",
+      "provider_team_id": 678,
+      "path": "assets/teams/678-6f9c0b23116297f6.png",
+      "sha256": "6f9c0b23116297f6a36f97a873b667857e9361ab781e5c4b7a892775b153d156",
+      "source": "https://crests.football-data.org/678.png"
+    },
+    {
+      "country": "Netherlands",
+      "team": "Cambuur",
+      "provider_team_id": 1909,
+      "path": "assets/teams/1909-63156ad3c44962ce.png",
+      "sha256": "63156ad3c44962cecd216f29d9b280a12bb69d823bfc6477b36e118d41db33f1",
+      "source": "https://crests.football-data.org/1909.png"
+    },
+    {
+      "country": "Netherlands",
+      "team": "Den Haag",
+      "provider_team_id": 680,
+      "path": "assets/teams/680-5500210d42c74ef7.png",
+      "sha256": "5500210d42c74ef7f3bb1073d4f166b816fd135f1bd964a586e6c4227689ae3d",
+      "source": "https://crests.football-data.org/680.png"
+    },
+    {
+      "country": "Netherlands",
+      "team": "Excelsior",
+      "provider_team_id": 670,
+      "path": "assets/teams/670-54198ff15740ca41.png",
+      "sha256": "54198ff15740ca41dfd1c2af8451fd9896a1bc61f2b3a67dfe6cfa1b80c85a19",
+      "source": "https://crests.football-data.org/670.png"
+    },
+    {
+      "country": "Netherlands",
+      "team": "Feyenoord",
+      "provider_team_id": 675,
+      "path": "assets/teams/675-9808aa70cb8cc7ab.png",
+      "sha256": "9808aa70cb8cc7ab834b0d653e929a1244240f6831df9be4667c23a694147bdd",
+      "source": "https://crests.football-data.org/675.png"
+    },
+    {
+      "country": "Netherlands",
+      "team": "For Sittard",
+      "provider_team_id": 1920,
+      "path": "assets/teams/1920-6ecc063403a7c2d2.png",
+      "sha256": "6ecc063403a7c2d273536f1ed8136f0b09184c9f36a9fa0b2e3bca6d92968a50",
+      "source": "https://crests.football-data.org/1920.png"
+    },
+    {
+      "country": "Netherlands",
+      "team": "Go Ahead Eagles",
+      "provider_team_id": 718,
+      "path": "assets/teams/718-30c982dd606301a6.png",
+      "sha256": "30c982dd606301a6b4e060d23698ba5cc6c803dcb061e36a9c704eb2e5a129fd",
+      "source": "https://crests.football-data.org/718.png"
+    },
+    {
+      "country": "Netherlands",
+      "team": "Groningen",
+      "provider_team_id": 677,
+      "path": "assets/teams/677-41bd346900b22712.png",
+      "sha256": "41bd346900b22712b7cec04fefd9c9011a13c2e50f9c945d3f52695dadafbdd6",
+      "source": "https://crests.football-data.org/677.png"
+    },
+    {
+      "country": "Netherlands",
+      "team": "Heerenveen",
+      "provider_team_id": 673,
+      "path": "assets/teams/673-a61a043839de7441.png",
+      "sha256": "a61a043839de744112b82b821b00696858a5048b6330f1678e2c819d0eb13d93",
+      "source": "https://crests.football-data.org/673.png"
+    },
+    {
+      "country": "Netherlands",
+      "team": "Nijmegen",
+      "provider_team_id": 1915,
+      "path": "assets/teams/1915-47ed062798b3fa52.png",
+      "sha256": "47ed062798b3fa5286e66740491f536df2f2399d8f122e8ff20915dfde240a76",
+      "source": "https://crests.football-data.org/1915.png"
+    },
+    {
+      "country": "Netherlands",
+      "team": "PSV Eindhoven",
+      "provider_team_id": 674,
+      "path": "assets/teams/674-a267e2135e8b2430.png",
+      "sha256": "a267e2135e8b24306760401d533fd76686ca63659827c561dd6e5dba6c218bfc",
+      "source": "https://crests.football-data.org/674.png"
+    },
+    {
+      "country": "Netherlands",
+      "team": "Sparta Rotterdam",
+      "provider_team_id": 6806,
+      "path": "assets/teams/6806-329b9defbcd64991.png",
+      "sha256": "329b9defbcd64991efbef4aeb2a14eb52499bab95d56b35a003b214c8c701c30",
+      "source": "https://crests.football-data.org/6806.png"
+    },
+    {
+      "country": "Netherlands",
+      "team": "Telstar",
+      "provider_team_id": 1912,
+      "path": "assets/teams/1912-acc15221fddbe8d6.png",
+      "sha256": "acc15221fddbe8d66bd36b55e7dbd12239f7c36e46bf197db524f6a846347c62",
+      "source": "https://crests.football-data.org/1912.png"
+    },
+    {
+      "country": "Netherlands",
+      "team": "Twente",
+      "provider_team_id": 666,
+      "path": "assets/teams/666-e0d1d62747caed89.png",
+      "sha256": "e0d1d62747caed8916acbd668cf9a02110fb8e43a712d40d7cfcd878e7a0d477",
+      "source": "https://crests.football-data.org/666.png"
+    },
+    {
+      "country": "Netherlands",
+      "team": "Utrecht",
+      "provider_team_id": 676,
+      "path": "assets/teams/676-80e0dd1287f9c1a1.png",
+      "sha256": "80e0dd1287f9c1a1386aa41c8f6e060debe56eae04b50b38108764cce1e31fac",
+      "source": "https://crests.football-data.org/676.png"
+    },
+    {
+      "country": "Netherlands",
+      "team": "Willem II",
+      "provider_team_id": 672,
+      "path": "assets/teams/672-5ae5351e2270741f.png",
+      "sha256": "5ae5351e2270741f551935db785aa1ec7c8362822d29c26e3dc78e8061048896",
+      "source": "https://crests.football-data.org/672.png"
+    },
+    {
+      "country": "Netherlands",
+      "team": "Zwolle",
+      "provider_team_id": 684,
+      "path": "assets/teams/684-97cf719d7d8af90e.png",
+      "sha256": "97cf719d7d8af90e7268cdacd605ac3d2fc0889a627328dabd079000f84ddd79",
+      "source": "https://crests.football-data.org/684.png"
+    },
+    {
+      "country": "Portugal",
+      "team": "Academico Viseu",
+      "provider_team_id": 5527,
+      "path": "assets/teams/5527-012e192e9e80cb55.png",
+      "sha256": "012e192e9e80cb55dd86876dc29c47b55a5988033a43e73842f164d9af6a065c",
+      "source": "https://crests.football-data.org/5527.png"
+    },
+    {
+      "country": "Portugal",
+      "team": "Alverca",
+      "provider_team_id": 7822,
+      "path": "assets/teams/7822-e45ab54632b7c366.png",
+      "sha256": "e45ab54632b7c3665a9a675c1788b659d91a03d249c9c4aff0ef0a317fbf57b1",
+      "source": "https://crests.football-data.org/7822.png"
+    },
+    {
+      "country": "Portugal",
+      "team": "Arouca",
+      "provider_team_id": 712,
+      "path": "assets/teams/712-32924154a40be041.png",
+      "sha256": "32924154a40be04149b7094061a019b5bff80c85a347b909328fc3b116acd8e8",
+      "source": "https://crests.football-data.org/712.png"
+    },
+    {
+      "country": "Portugal",
+      "team": "Benfica",
+      "provider_team_id": 1903,
+      "path": "assets/teams/1903-fa50882639f9a346.png",
+      "sha256": "fa50882639f9a346bb839427721b5a85a709fa17bcd00de0911b663d35124b51",
+      "source": "https://crests.football-data.org/1903.png"
+    },
+    {
+      "country": "Portugal",
+      "team": "Casa Pia",
+      "provider_team_id": 6618,
+      "path": "assets/teams/6618-97e2a936732b6980.png",
+      "sha256": "97e2a936732b69805bd0434e8010c8586cd0c2ad02d023a24de533fe5da10029",
+      "source": "https://crests.football-data.org/6618.png"
+    },
+    {
+      "country": "Portugal",
+      "team": "Estoril",
+      "provider_team_id": 582,
+      "path": "assets/teams/582-d58ca3f3bcb9aac1.png",
+      "sha256": "d58ca3f3bcb9aac12efdc5f5b5fcd88c729feac3de5222a2e4050e4af9d1813c",
+      "source": "https://crests.football-data.org/582.png"
+    },
+    {
+      "country": "Portugal",
+      "team": "Estrela",
+      "provider_team_id": 9136,
+      "path": "assets/teams/9136-7892ce2171401ad7.png",
+      "sha256": "7892ce2171401ad707c73f11f090885ea9de836b08474d0750f6947d07096078",
+      "source": "https://crests.football-data.org/9136.png"
+    },
+    {
+      "country": "Portugal",
+      "team": "Famalicao",
+      "provider_team_id": 5531,
+      "path": "assets/teams/5531-67e3e1b6c6358fdd.png",
+      "sha256": "67e3e1b6c6358fdd77cb48e3ad979054ebc95a3f30f1d3e66d4becade31fc974",
+      "source": "https://crests.football-data.org/5531.png"
+    },
+    {
+      "country": "Portugal",
+      "team": "Gil Vicente",
+      "provider_team_id": 5533,
+      "path": "assets/teams/5533-08c2914f100f28c4.png",
+      "sha256": "08c2914f100f28c41a2af4b8b61fd7314449ddbb978bddfbc9a729503bd69a6e",
+      "source": "https://crests.football-data.org/5533.png"
+    },
+    {
+      "country": "Portugal",
+      "team": "Guimaraes",
+      "provider_team_id": 5543,
+      "path": "assets/teams/5543-82980fcd4d7c0016.png",
+      "sha256": "82980fcd4d7c0016e9ffbde5fd46fc6be4dc9aaba4652f1be9d9900c0147fe58",
+      "source": "https://crests.football-data.org/5543.png"
+    },
+    {
+      "country": "Portugal",
+      "team": "Maritimo",
+      "provider_team_id": 5575,
+      "path": "assets/teams/5575-79029d6a43be3be3.png",
+      "sha256": "79029d6a43be3be359d07dc8e08640da8d514ae421e7848da8b2fd8bc98fc5dd",
+      "source": "https://crests.football-data.org/5575.png"
+    },
+    {
+      "country": "Portugal",
+      "team": "Moreirense",
+      "provider_team_id": 583,
+      "path": "assets/teams/583-134ac085f84f08f7.png",
+      "sha256": "134ac085f84f08f789f3a8f7e7b117d94ef06b1e486edc84537a8f7b0b684732",
+      "source": "https://crests.football-data.org/583.png"
+    },
+    {
+      "country": "Portugal",
+      "team": "Nacional",
+      "provider_team_id": 5529,
+      "path": "assets/teams/5529-46ceb02dd628745c.png",
+      "sha256": "46ceb02dd628745c20c98ea7307b1b5a925745d39f0508f0769ce667b7158d7f",
+      "source": "https://crests.football-data.org/5529.png"
+    },
+    {
+      "country": "Portugal",
+      "team": "Porto",
+      "provider_team_id": 503,
+      "path": "assets/teams/503-66c10044c09a633d.png",
+      "sha256": "66c10044c09a633dcfd90db776432c87bdbe6cf09e644e35dd4c7236a7498bff",
+      "source": "https://crests.football-data.org/503.png"
+    },
+    {
+      "country": "Portugal",
+      "team": "Rio Ave",
+      "provider_team_id": 496,
+      "path": "assets/teams/496-ba27952a6d74f5fa.png",
+      "sha256": "ba27952a6d74f5fa0c7b459421451a7019affc59a65328d0d01ac93d0a157ef7",
+      "source": "https://crests.football-data.org/496.png"
+    },
+    {
+      "country": "Portugal",
+      "team": "Santa Clara",
+      "provider_team_id": 5530,
+      "path": "assets/teams/5530-903a94080675e57c.png",
+      "sha256": "903a94080675e57c417debb945ecb83be4f93324041909dcb8448b5afae9ba29",
+      "source": "https://crests.football-data.org/5530.png"
+    },
+    {
+      "country": "Portugal",
+      "team": "Sp Braga",
+      "provider_team_id": 5613,
+      "path": "assets/teams/5613-434b5aa7b8cd98ce.png",
+      "sha256": "434b5aa7b8cd98ce241889d6b2e9af3044e081935eecfd389dedc5f1cc277674",
+      "source": "https://crests.football-data.org/5613.png"
+    },
+    {
+      "country": "Portugal",
+      "team": "Sp Lisbon",
+      "provider_team_id": 498,
+      "path": "assets/teams/498-e3df39349d455464.png",
+      "sha256": "e3df39349d455464319c11268352a95cec3dc80e565bcd482c6df08efd1cc474",
+      "source": "https://crests.football-data.org/498.png"
+    },
+    {
+      "country": "Spain",
+      "team": "Alaves",
+      "provider_team_id": 263,
+      "path": "assets/teams/263-3b0d75bfaa34ec10.png",
+      "sha256": "3b0d75bfaa34ec1005ac69a5a9932e38bb93efadda749747cc8840a99a5aa590",
+      "source": "https://crests.football-data.org/263.png"
+    },
+    {
+      "country": "Spain",
+      "team": "Ath Bilbao",
+      "provider_team_id": 77,
+      "path": "assets/teams/77-3d82fe14e9dab74a.png",
+      "sha256": "3d82fe14e9dab74af3a70b321b03cafdb0ad5f8158ddefaf0dcd98126af00c0d",
+      "source": "https://crests.football-data.org/77.png"
+    },
+    {
+      "country": "Spain",
+      "team": "Ath Madrid",
+      "provider_team_id": 78,
+      "path": "assets/teams/78-54da8c510b395b14.png",
+      "sha256": "54da8c510b395b145f51de5b8006bf395bb886354c3f94ad61d947dbb4de8c4b",
+      "source": "https://crests.football-data.org/78.png"
+    },
+    {
+      "country": "Spain",
+      "team": "Barcelona",
+      "provider_team_id": 81,
+      "path": "assets/teams/81-be1a01d5a769180e.png",
+      "sha256": "be1a01d5a769180e4c418c69d715b746180c3ce29eb55b0b294e510e3bbac760",
+      "source": "https://crests.football-data.org/81.png"
+    },
+    {
+      "country": "Spain",
+      "team": "Betis",
+      "provider_team_id": 90,
+      "path": "assets/teams/90-ce6aa10198fcf756.png",
+      "sha256": "ce6aa10198fcf756612964bc01a0dc5256440e644b452d03463650991a4cebf0",
+      "source": "https://crests.football-data.org/90.png"
+    },
+    {
+      "country": "Spain",
+      "team": "Celta",
+      "provider_team_id": 558,
+      "path": "assets/teams/558-4e5a5b436a6bcf46.png",
+      "sha256": "4e5a5b436a6bcf46a0517ec77ec99756f2fd2e7ef26194193d89338008e394c9",
+      "source": "https://crests.football-data.org/558.png"
+    },
+    {
+      "country": "Spain",
+      "team": "Elche",
+      "provider_team_id": 285,
+      "path": "assets/teams/285-f5b001a879a7282f.png",
+      "sha256": "f5b001a879a7282f265e0b6d2a44163716078251c07eb0e606c243c88ef243f9",
+      "source": "https://crests.football-data.org/285.png"
+    },
+    {
+      "country": "Spain",
+      "team": "Espanol",
+      "provider_team_id": 80,
+      "path": "assets/teams/80-5d3b69f6a52f28e4.png",
+      "sha256": "5d3b69f6a52f28e4f8211b8e005803dc6b0161122c2506885930e2985e345420",
+      "source": "https://crests.football-data.org/80.png"
+    },
+    {
+      "country": "Spain",
+      "team": "Getafe",
+      "provider_team_id": 82,
+      "path": "assets/teams/82-83b752b803959ab2.png",
+      "sha256": "83b752b803959ab2cac79d4830e182ab69093cd083fe1d4dfa3d76efd0b0004b",
+      "source": "https://crests.football-data.org/82.png"
+    },
+    {
+      "country": "Spain",
+      "team": "La Coruna",
+      "provider_team_id": 560,
+      "path": "assets/teams/560-79e3ab188454681d.png",
+      "sha256": "79e3ab188454681d688b17fbd6eba8639ab97a861e8b46f03839dcd2c89b2fca",
+      "source": "https://crests.football-data.org/560.png"
+    },
+    {
+      "country": "Spain",
+      "team": "Levante",
+      "provider_team_id": 88,
+      "path": "assets/teams/88-d627aeef947bf9eb.png",
+      "sha256": "d627aeef947bf9eb204b1e36fefbcce3ac41081caaa08aa51f059bee828f3912",
+      "source": "https://crests.football-data.org/88.png"
+    },
+    {
+      "country": "Spain",
+      "team": "Malaga",
+      "provider_team_id": 84,
+      "path": "assets/teams/84-5c3afb35e9590742.png",
+      "sha256": "5c3afb35e9590742a6a6b3b96a2c26164b57bf69edf281a76b638e45de0e95d6",
+      "source": "https://crests.football-data.org/84.png"
+    },
+    {
+      "country": "Spain",
+      "team": "Osasuna",
+      "provider_team_id": 79,
+      "path": "assets/teams/79-13cc3f4621bb4d1a.png",
+      "sha256": "13cc3f4621bb4d1a5958a771a5271d74642570f4e312c5e9835d29ca5d8101a9",
+      "source": "https://crests.football-data.org/79.png"
+    },
+    {
+      "country": "Spain",
+      "team": "Real Madrid",
+      "provider_team_id": 86,
+      "path": "assets/teams/86-f1067470f3b59ac5.png",
+      "sha256": "f1067470f3b59ac5c7398b88bcfcc6f608c86ee46693fa40ee0600cbfe3977e4",
+      "source": "https://crests.football-data.org/86.png"
+    },
+    {
+      "country": "Spain",
+      "team": "Santander",
+      "provider_team_id": 5335,
+      "path": "assets/teams/5335-4ff2efea1576cf33.png",
+      "sha256": "4ff2efea1576cf3350b6cfbcc3c8dccb1369ae3a809294eea9b2e19f34c0b346",
+      "source": "https://crests.football-data.org/5335.png"
+    },
+    {
+      "country": "Spain",
+      "team": "Sevilla",
+      "provider_team_id": 559,
+      "path": "assets/teams/559-7e2025724de15fb9.png",
+      "sha256": "7e2025724de15fb9dcf66367c1fffd4a9910b236a754c6e1914e28ba4a88e3d5",
+      "source": "https://crests.football-data.org/559.png"
+    },
+    {
+      "country": "Spain",
+      "team": "Sociedad",
+      "provider_team_id": 92,
+      "path": "assets/teams/92-fddd6cb7ff210224.png",
+      "sha256": "fddd6cb7ff210224243f72e17a67c70a13bd3b92b3f9d9f7f4e37fb6ba06086e",
+      "source": "https://crests.football-data.org/92.png"
+    },
+    {
+      "country": "Spain",
+      "team": "Valencia",
+      "provider_team_id": 95,
+      "path": "assets/teams/95-aab85de7af2997e6.png",
+      "sha256": "aab85de7af2997e61697c2768c86cc44891a42601b12199942f4bd969430cbb3",
+      "source": "https://crests.football-data.org/95.png"
+    },
+    {
+      "country": "Spain",
+      "team": "Vallecano",
+      "provider_team_id": 87,
+      "path": "assets/teams/87-79693fc26fd3fe62.png",
+      "sha256": "79693fc26fd3fe622759f42bc3bd1e9d2741cf935deeab9dc20c17a9c6f873fa",
+      "source": "https://crests.football-data.org/87.png"
+    },
+    {
+      "country": "Spain",
+      "team": "Villarreal",
+      "provider_team_id": 94,
+      "path": "assets/teams/94-57c4dc512a2da076.png",
+      "sha256": "57c4dc512a2da0760a651fab856b175f33eea3d3d361085113011f8816bc7b55",
+      "source": "https://crests.football-data.org/94.png"
+    }
+  ]
+}

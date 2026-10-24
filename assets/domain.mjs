@@ -75,3 +75,15 @@ export function performanceTrend(matches, competition = 'all') {
   }
   return points;
 }
+
+// Only local, content-addressed badges from the reviewed team registry may render.
+export function validateLogoIndex(index) {
+  if (index?.schema_version !== 1 || !Array.isArray(index.teams)) throw new Error('Invalid team badge index');
+  const logos = new Map();
+  for (const row of index.teams) {
+    const key = JSON.stringify([row.country, row.team]);
+    if (typeof row.country !== 'string' || !row.country || typeof row.team !== 'string' || !row.team || logos.has(key) || !Number.isSafeInteger(row.provider_team_id) || row.provider_team_id < 1 || !/^[a-f0-9]{64}$/.test(row.sha256) || row.path !== `assets/teams/${row.provider_team_id}-${row.sha256.slice(0,16)}.png`) throw new Error('Invalid or conflicting team badge');
+    logos.set(key, row.path);
+  }
+  return logos;
+}
