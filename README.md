@@ -2,13 +2,13 @@
 
 Public display repository for a personal football prediction and learning project.
 
-The private engine publishes generated prediction files here. Performance scoring is not enabled yet. No API credentials, training data or model artifacts belong in this repository.
+The private engine publishes generated prediction files here. Prospective performance scoring is active; metrics remain blank until eligible completed matches are verified. No API credentials, training data or model artifacts belong in this repository.
 
 Website: https://jaxon2003.github.io/football-predictions-web/
 
 Static HTML, CSS and JavaScript run on GitHub Pages. Open `index.html` through a static HTTP server; the browser fetches the saved `data/predictions.json`, not a football API. Relative paths support the repository subdirectory URL.
 
-The forecast board offers upcoming/saved views, team search, competition/date filters and local, UTC or Tanzania time. It shows all six probabilities, generation/data/model timestamps and limited-history flags. The client stops presenting upcoming forecasts when the feed expires, hides started matches, and reports load failures. The performance page explicitly reports that scoring is not enabled; no success rate is invented.
+The forecast board offers upcoming/saved views, team search, competition/date filters and local, UTC or Tanzania time. It shows all six probabilities, generation/data/model timestamps and limited-history flags. The client stops presenting upcoming forecasts when the feed expires, hides started matches, and reports load failures. The performance page shows verified scores, timing coverage, match records, draw calibration and league/model groups from the private engine. Empty reports show no invented success rate. It explains the two-hour publication rule, provider-recorded kickoff limitation, corrections and the distinction between double-chance hit rate and betting profit.
 
 The private engine's **Automatic football collection and website updates** workflow collects, validates, saves and publishes forecasts daily at 06:17 and 18:17 Tanzania time. CSV checks run Monday/Thursday at 05:17, respecting saved download cooldowns. GitHub schedules may be delayed. The browser displays actual observation times and pauses expired feeds. Only the Premier League upcoming feed is enabled initially.
 

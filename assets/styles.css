@@ -6,3 +6,5 @@
 
 @media(max-width:650px){.brand-mark{display:none}.header-inner{gap:12px}}
 @media(max-width:380px){.header-inner{padding:0 16px;gap:8px}.brand{font-size:20px}.site-header nav{gap:10px}.site-header nav a{font-size:9px}}
+
+.score-metrics{grid-template-columns:repeat(2,minmax(0,1fr))}.score-value{display:block;font-size:29px;line-height:1.5;color:var(--green)}.score-table-wrap{overflow:auto;max-width:100%;border:1px solid var(--line);border-radius:6px;background:white;margin:18px 0}.score-table{border-collapse:collapse;width:100%;font-size:12px}.score-table th,.score-table td{text-align:left;padding:13px;vertical-align:top;border-bottom:1px solid var(--line);min-width:110px}.score-table th{background:#eef3e7;font-size:11px}.score-table small{display:block;font-size:10px;color:var(--muted);margin-top:5px;overflow-wrap:anywhere;max-width:235px}.score-fingerprint{overflow-wrap:anywhere;font-size:10px}.score-table-wrap:focus-visible{outline:3px solid #82a13f}@media(max-width:650px){.score-metrics{grid-template-columns:1fr}.score-table-wrap{width:100%}}

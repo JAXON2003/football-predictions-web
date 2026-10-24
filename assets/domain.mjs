@@ -1,4 +1,21 @@
 export const percent = value => `${(value * 100).toFixed(1)}%`;
+export function validatePerformance(performance) {
+  if (!performance || performance.status !== 'active' || !Array.isArray(performance.matches) || !performance.coverage || performance.minimum_public_lead_hours !== 2) throw new Error('The performance report is unavailable or invalid.');
+  const ids = new Set();
+  for (const row of performance.matches) {
+    if (!row.fixture_id || ids.has(row.fixture_id) || !row.home_team || !row.away_team || !Number.isFinite(Date.parse(row.kickoff_utc))) throw new Error('The performance report has invalid or duplicate matches.');
+    ids.add(row.fixture_id);
+    if (row.status === 'scored' && (!row.timing_eligible || !['H', 'D', 'A'].includes(row.actual_result) || !Number.isFinite(row.log_loss) || row.log_loss < 0 || !Number.isFinite(row.brier_score) || row.brier_score < 0 || row.brier_score > 2 || !(Date.parse(row.generated_at_utc) <= Date.parse(row.first_verified_public_at_utc)) || !(Date.parse(row.first_verified_public_at_utc) <= Date.parse(row.kickoff_utc) - 7200000))) throw new Error('A scored forecast fails its timing or result checks.');
+  }
+  const count = performance.matches.filter(r => r.status === 'scored').length;
+  if (count !== performance.scored_matches || performance.coverage.monitored_matches !== performance.matches.length) throw new Error('Performance counts disagree.');
+  if (!count && performance.metrics !== null) throw new Error('Empty performance must not claim a success rate.');
+  if (count) {
+    const m = performance.metrics;
+    if (!m || m.matches !== count || ![m.log_loss, m.brier_score, m.accuracy, m.selected_double_chance_success].every(Number.isFinite) || m.log_loss < 0 || m.brier_score < 0 || m.brier_score > 2 || m.accuracy < 0 || m.accuracy > 1 || m.selected_double_chance_success < 0 || m.selected_double_chance_success > 1) throw new Error('The performance metrics are invalid.');
+  }
+  return performance;
+}
 export function validateFeed(feed) {
   if (feed.schema_version !== 1 || !Array.isArray(feed.forecasts) || !Number.isFinite(Date.parse(feed.valid_until_utc)) || !feed.publication_id) throw new Error('The prediction feed format is invalid.');
   const ids = new Set();

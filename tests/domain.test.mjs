@@ -11,3 +11,9 @@ test('team, competition and date filters combine', () => { const feed = example(
 test('dates follow the selected timezone at midnight', () => { assert.equal(dateKey('2026-10-24T23:30:00Z', 'Africa/Dar_es_Salaam'), '2026-10-25'); });
 test('provider strings cannot inject HTML', () => { assert.equal(escapeHTML('<script>"x"</script>'), '&lt;script&gt;&quot;x&quot;&lt;/script&gt;'); });
 test('duplicates and post-kickoff generation fail verification', () => { const feed = example(); feed.forecasts.push({ ...feed.forecasts[0] }); assert.throws(() => validateFeed(feed)); const late = example(); late.forecasts[0].generated_at_utc = late.forecasts[0].kickoff_utc; assert.throws(() => validateFeed(late)); });
+
+import { validatePerformance } from '../assets/domain.mjs';
+const emptyPerformance = () => ({ status: 'active', matches: [], minimum_public_lead_hours: 2, scored_matches: 0, metrics: null, coverage: { monitored_matches: 0 } });
+test('zero completed matches shows no invented accuracy', () => { assert.equal(validatePerformance(emptyPerformance()).metrics, null); const bad = emptyPerformance(); bad.metrics = { accuracy: 1 }; assert.throws(() => validatePerformance(bad)); });
+test('performance counts must agree with the match record', () => { const bad = emptyPerformance(); bad.scored_matches = 1; assert.throws(() => validatePerformance(bad)); });
+test('a late publication cannot be labelled scored', () => { const bad = emptyPerformance(); bad.matches = [{ fixture_id: 'test', home_team: 'A', away_team: 'B', kickoff_utc: '2026-10-24T14:00:00Z', generated_at_utc: '2026-10-24T11:00:00Z', first_verified_public_at_utc: '2026-10-24T12:01:00Z', status: 'scored', timing_eligible: true, actual_result: 'H', log_loss: 1, brier_score: .5 }]; assert.throws(() => validatePerformance(bad)); });
