@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "refresh_mode": "automatic",
-  "data_observed_at_utc": "2026-10-24T16:49:36.952034+00:00",
-  "valid_until_utc": "2026-10-26T04:49:36.952034+00:00",
+  "data_observed_at_utc": "2026-10-24T22:14:43.412225+00:00",
+  "valid_until_utc": "2026-10-26T10:14:43.412225+00:00",
   "model": {
     "version": "277aaf50c593a945-initial",
     "fitted_as_of": "2026-10-21",
@@ -12,267 +12,7 @@
   },
   "forecasts": [
     {
-      "forecast_id": "129f744308633753bde13855",
-      "fixture_id": "football-data.org:558565",
-      "country": "Italy",
-      "competition": "Serie A",
-      "competition_code": "I1",
-      "date": "2026-10-24",
-      "kickoff_utc": "2026-10-24T18:45:00+00:00",
-      "home_team": "Lazio",
-      "away_team": "Parma",
-      "generated_at_utc": "2026-10-24T16:50:10.709240+00:00",
-      "data_observed_at_utc": "2026-10-24T16:49:36.952034+00:00",
-      "probabilities": {
-        "home": 0.6595652108013356,
-        "draw": 0.19887396016588757,
-        "away": 0.14156082903277695,
-        "home_or_draw": 0.8584391709672231,
-        "home_or_away": 0.8011260398341125,
-        "draw_or_away": 0.34043478919866454
-      },
-      "predicted_result": "H",
-      "highest_probability_double_chance": "1X",
-      "limited_history": false,
-      "home_history_matches": 615,
-      "away_history_matches": 543
-    },
-    {
-      "forecast_id": "e10c56f5fa35ab9f6779839f",
-      "fixture_id": "football-data.org:559652",
-      "country": "France",
-      "competition": "Ligue 1",
-      "competition_code": "F1",
-      "date": "2026-10-24",
-      "kickoff_utc": "2026-10-24T18:45:00+00:00",
-      "home_team": "Lens",
-      "away_team": "Paris FC",
-      "generated_at_utc": "2026-10-24T16:50:10.738797+00:00",
-      "data_observed_at_utc": "2026-10-24T16:49:36.952034+00:00",
-      "probabilities": {
-        "home": 0.5204073723866657,
-        "draw": 0.2437654157890001,
-        "away": 0.23582721182433425,
-        "home_or_draw": 0.7641727881756658,
-        "home_or_away": 0.7562345842109999,
-        "draw_or_away": 0.4795926276133343
-      },
-      "predicted_result": "H",
-      "highest_probability_double_chance": "1X",
-      "limited_history": false,
-      "home_history_matches": 593,
-      "away_history_matches": 369
-    },
-    {
-      "forecast_id": "1f841275fcd6ec677cbef04b",
-      "fixture_id": "football-data.org:558860",
-      "country": "Netherlands",
-      "competition": "Eredivisie",
-      "competition_code": "N1",
-      "date": "2026-10-24",
-      "kickoff_utc": "2026-10-24T19:00:00+00:00",
-      "home_team": "Den Haag",
-      "away_team": "Heerenveen",
-      "generated_at_utc": "2026-10-24T16:50:10.768063+00:00",
-      "data_observed_at_utc": "2026-10-24T16:49:36.952034+00:00",
-      "probabilities": {
-        "home": 0.20535735796444468,
-        "draw": 0.2090169653197282,
-        "away": 0.5856256767158271,
-        "home_or_draw": 0.4143743232841729,
-        "home_or_away": 0.7909830346802718,
-        "draw_or_away": 0.7946426420355552
-      },
-      "predicted_result": "A",
-      "highest_probability_double_chance": "X2",
-      "limited_history": false,
-      "home_history_matches": 375,
-      "away_history_matches": 545
-    },
-    {
-      "forecast_id": "cd1bb63cdc1c2240935e1abd",
-      "fixture_id": "football-data.org:564724",
-      "country": "Spain",
-      "competition": "La Liga",
-      "competition_code": "SP1",
-      "date": "2026-10-24",
-      "kickoff_utc": "2026-10-24T19:00:00+00:00",
-      "home_team": "Ath Madrid",
-      "away_team": "La Coruna",
-      "generated_at_utc": "2026-10-24T16:50:10.797431+00:00",
-      "data_observed_at_utc": "2026-10-24T16:49:36.952034+00:00",
-      "probabilities": {
-        "home": 0.6898418846448314,
-        "draw": 0.1890512988897442,
-        "away": 0.12110681646542436,
-        "home_or_draw": 0.8788931835345757,
-        "home_or_away": 0.8109487011102557,
-        "draw_or_away": 0.3101581153551686
-      },
-      "predicted_result": "H",
-      "highest_probability_double_chance": "1X",
-      "limited_history": false,
-      "home_history_matches": 617,
-      "away_history_matches": 489
-    },
-    {
-      "forecast_id": "30cf3c6906cc642e8033d59a",
-      "fixture_id": "football-data.org:555054",
-      "country": "Brazil",
-      "competition": "S\u00e9rie A",
-      "competition_code": "Serie A",
-      "date": "2026-10-24",
-      "kickoff_utc": "2026-10-24T19:30:00+00:00",
-      "home_team": "Internacional",
-      "away_team": "Botafogo RJ",
-      "generated_at_utc": "2026-10-24T16:50:10.827312+00:00",
-      "data_observed_at_utc": "2026-10-24T16:49:36.952034+00:00",
-      "probabilities": {
-        "home": 0.4111252075954208,
-        "draw": 0.2786391941341003,
-        "away": 0.3102355982704788,
-        "home_or_draw": 0.6897644017295211,
-        "home_or_away": 0.7213608058658996,
-        "draw_or_away": 0.5888747924045792
-      },
-      "predicted_result": "H",
-      "highest_probability_double_chance": "12",
-      "limited_history": false,
-      "home_history_matches": 525,
-      "away_history_matches": 487
-    },
-    {
-      "forecast_id": "230039678a4947c5819f46d3",
-      "fixture_id": "football-data.org:555055",
-      "country": "Brazil",
-      "competition": "S\u00e9rie A",
-      "competition_code": "Serie A",
-      "date": "2026-10-24",
-      "kickoff_utc": "2026-10-24T19:30:00+00:00",
-      "home_team": "Mirassol",
-      "away_team": "Sao Paulo",
-      "generated_at_utc": "2026-10-24T16:50:10.859056+00:00",
-      "data_observed_at_utc": "2026-10-24T16:49:36.952034+00:00",
-      "probabilities": {
-        "home": 0.45428562685131574,
-        "draw": 0.27359683983951383,
-        "away": 0.2721175333091705,
-        "home_or_draw": 0.7278824666908296,
-        "home_or_away": 0.7264031601604862,
-        "draw_or_away": 0.5457143731486843
-      },
-      "predicted_result": "H",
-      "highest_probability_double_chance": "1X",
-      "limited_history": false,
-      "home_history_matches": 69,
-      "away_history_matches": 563
-    },
-    {
-      "forecast_id": "db00ef0af5860952b3418d3f",
-      "fixture_id": "football-data.org:555059",
-      "country": "Brazil",
-      "competition": "S\u00e9rie A",
-      "competition_code": "Serie A",
-      "date": "2026-10-24",
-      "kickoff_utc": "2026-10-24T19:30:00+00:00",
-      "home_team": "Vitoria",
-      "away_team": "Athletico-PR",
-      "generated_at_utc": "2026-10-24T16:50:10.888070+00:00",
-      "data_observed_at_utc": "2026-10-24T16:49:36.952034+00:00",
-      "probabilities": {
-        "home": 0.3963764256103987,
-        "draw": 0.26653363012028797,
-        "away": 0.3370899442693133,
-        "home_or_draw": 0.6629100557306866,
-        "home_or_away": 0.733466369879712,
-        "draw_or_away": 0.6036235743896012
-      },
-      "predicted_result": "H",
-      "highest_probability_double_chance": "12",
-      "limited_history": false,
-      "home_history_matches": 297,
-      "away_history_matches": 487
-    },
-    {
-      "forecast_id": "b5c24b35347567a9a19d7d2b",
-      "fixture_id": "football-data.org:567335",
-      "country": "Portugal",
-      "competition": "Primeira Liga",
-      "competition_code": "P1",
-      "date": "2026-10-24",
-      "kickoff_utc": "2026-10-24T19:30:00+00:00",
-      "home_team": "Gil Vicente",
-      "away_team": "Porto",
-      "generated_at_utc": "2026-10-24T16:50:10.917050+00:00",
-      "data_observed_at_utc": "2026-10-24T16:49:36.952034+00:00",
-      "probabilities": {
-        "home": 0.14347144833937292,
-        "draw": 0.2190693443388685,
-        "away": 0.6374592073217585,
-        "home_or_draw": 0.3625407926782414,
-        "home_or_away": 0.7809306556611315,
-        "draw_or_away": 0.856528551660627
-      },
-      "predicted_result": "A",
-      "highest_probability_double_chance": "X2",
-      "limited_history": false,
-      "home_history_matches": 370,
-      "away_history_matches": 536
-    },
-    {
-      "forecast_id": "a3084d678db64b90104f1f9b",
-      "fixture_id": "football-data.org:555056",
-      "country": "Brazil",
-      "competition": "S\u00e9rie A",
-      "competition_code": "Serie A",
-      "date": "2026-10-24",
-      "kickoff_utc": "2026-10-24T21:30:00+00:00",
-      "home_team": "Palmeiras",
-      "away_team": "Bragantino",
-      "generated_at_utc": "2026-10-24T16:50:10.950041+00:00",
-      "data_observed_at_utc": "2026-10-24T16:49:36.952034+00:00",
-      "probabilities": {
-        "home": 0.686609437717688,
-        "draw": 0.19403827799858311,
-        "away": 0.11935228428372886,
-        "home_or_draw": 0.8806477157162711,
-        "home_or_away": 0.8059617220014169,
-        "draw_or_away": 0.313390562282312
-      },
-      "predicted_result": "H",
-      "highest_probability_double_chance": "1X",
-      "limited_history": false,
-      "home_history_matches": 525,
-      "away_history_matches": 259
-    },
-    {
-      "forecast_id": "728d0fd007f8ff5f8e497253",
-      "fixture_id": "football-data.org:555058",
-      "country": "Brazil",
-      "competition": "S\u00e9rie A",
-      "competition_code": "Serie A",
-      "date": "2026-10-24",
-      "kickoff_utc": "2026-10-24T21:30:00+00:00",
-      "home_team": "Vasco",
-      "away_team": "Corinthians",
-      "generated_at_utc": "2026-10-24T16:50:10.983218+00:00",
-      "data_observed_at_utc": "2026-10-24T16:49:36.952034+00:00",
-      "probabilities": {
-        "home": 0.4466266970828571,
-        "draw": 0.27339350188122624,
-        "away": 0.27997980103591663,
-        "home_or_draw": 0.7200201989640833,
-        "home_or_away": 0.7266064981187738,
-        "draw_or_away": 0.5533733029171428
-      },
-      "predicted_result": "H",
-      "highest_probability_double_chance": "12",
-      "limited_history": false,
-      "home_history_matches": 410,
-      "away_history_matches": 563
-    },
-    {
-      "forecast_id": "7296294b42566a5d42fadbbd",
+      "forecast_id": "4a51b4f0dd1169cc5f3d4462",
       "fixture_id": "football-data.org:555050",
       "country": "Brazil",
       "competition": "S\u00e9rie A",
@@ -281,8 +21,8 @@
       "kickoff_utc": "2026-10-24T22:30:00+00:00",
       "home_team": "Chapecoense-SC",
       "away_team": "Fluminense",
-      "generated_at_utc": "2026-10-24T16:50:11.012580+00:00",
-      "data_observed_at_utc": "2026-10-24T16:49:36.952034+00:00",
+      "generated_at_utc": "2026-10-24T22:15:25.108662+00:00",
+      "data_observed_at_utc": "2026-10-24T22:14:43.412225+00:00",
       "probabilities": {
         "home": 0.17415211765792585,
         "draw": 0.22145500536968463,
@@ -298,7 +38,7 @@
       "away_history_matches": 563
     },
     {
-      "forecast_id": "2c6bc8e74c0c0570fe8c20f8",
+      "forecast_id": "1ea41c2a4717a60c9b3a8806",
       "fixture_id": "football-data.org:555057",
       "country": "Brazil",
       "competition": "S\u00e9rie A",
@@ -307,8 +47,8 @@
       "kickoff_utc": "2026-10-25T01:00:00+00:00",
       "home_team": "Santos",
       "away_team": "Bahia",
-      "generated_at_utc": "2026-10-24T16:50:11.041832+00:00",
-      "data_observed_at_utc": "2026-10-24T16:49:36.952034+00:00",
+      "generated_at_utc": "2026-10-24T22:15:25.143743+00:00",
+      "data_observed_at_utc": "2026-10-24T22:14:43.412225+00:00",
       "probabilities": {
         "home": 0.49803261350127304,
         "draw": 0.24921410831866883,
@@ -324,7 +64,7 @@
       "away_history_matches": 449
     },
     {
-      "forecast_id": "90844dee63ccdd0c27c64e17",
+      "forecast_id": "c61ba26276682be4a2a3d93b",
       "fixture_id": "football-data.org:558859",
       "country": "Netherlands",
       "competition": "Eredivisie",
@@ -333,8 +73,8 @@
       "kickoff_utc": "2026-10-25T11:15:00+00:00",
       "home_team": "For Sittard",
       "away_team": "Excelsior",
-      "generated_at_utc": "2026-10-24T16:50:11.071038+00:00",
-      "data_observed_at_utc": "2026-10-24T16:49:36.952034+00:00",
+      "generated_at_utc": "2026-10-24T22:15:25.174237+00:00",
+      "data_observed_at_utc": "2026-10-24T22:14:43.412225+00:00",
       "probabilities": {
         "home": 0.48271269749842827,
         "draw": 0.23191806431636444,
@@ -350,7 +90,7 @@
       "away_history_matches": 349
     },
     {
-      "forecast_id": "1963b2e8761bc7c4a6470e91",
+      "forecast_id": "56760e0c21cff70c23d1ecd1",
       "fixture_id": "football-data.org:558563",
       "country": "Italy",
       "competition": "Serie A",
@@ -359,8 +99,8 @@
       "kickoff_utc": "2026-10-25T11:30:00+00:00",
       "home_team": "Inter",
       "away_team": "Fiorentina",
-      "generated_at_utc": "2026-10-24T16:50:11.099965+00:00",
-      "data_observed_at_utc": "2026-10-24T16:49:36.952034+00:00",
+      "generated_at_utc": "2026-10-24T22:15:25.209737+00:00",
+      "data_observed_at_utc": "2026-10-24T22:14:43.412225+00:00",
       "probabilities": {
         "home": 0.7706686784114598,
         "draw": 0.1401420816090472,
@@ -376,7 +116,7 @@
       "away_history_matches": 615
     },
     {
-      "forecast_id": "028597ff2b866efec3ebcb6a",
+      "forecast_id": "c362635f3bed509756b89554",
       "fixture_id": "football-data.org:564720",
       "country": "Spain",
       "competition": "La Liga",
@@ -385,8 +125,8 @@
       "kickoff_utc": "2026-10-25T13:00:00+00:00",
       "home_team": "Ath Bilbao",
       "away_team": "Getafe",
-      "generated_at_utc": "2026-10-24T16:50:11.129674+00:00",
-      "data_observed_at_utc": "2026-10-24T16:49:36.952034+00:00",
+      "generated_at_utc": "2026-10-24T22:15:25.247298+00:00",
+      "data_observed_at_utc": "2026-10-24T22:14:43.412225+00:00",
       "probabilities": {
         "home": 0.5045519726384659,
         "draw": 0.27231359463927646,
@@ -402,7 +142,7 @@
       "away_history_matches": 621
     },
     {
-      "forecast_id": "9888e535cc3e84a8d1cec312",
+      "forecast_id": "bc31716f178aeb4594b40400",
       "fixture_id": "football-data.org:558857",
       "country": "Netherlands",
       "competition": "Eredivisie",
@@ -411,8 +151,8 @@
       "kickoff_utc": "2026-10-25T13:30:00+00:00",
       "home_team": "Nijmegen",
       "away_team": "Groningen",
-      "generated_at_utc": "2026-10-24T16:50:11.159512+00:00",
-      "data_observed_at_utc": "2026-10-24T16:49:36.952034+00:00",
+      "generated_at_utc": "2026-10-24T22:15:25.285537+00:00",
+      "data_observed_at_utc": "2026-10-24T22:14:43.412225+00:00",
       "probabilities": {
         "home": 0.48541827691575373,
         "draw": 0.22685128087321513,
@@ -428,7 +168,7 @@
       "away_history_matches": 511
     },
     {
-      "forecast_id": "9dbfe5b3c015589ea4ac6f28",
+      "forecast_id": "ea7e33f051af21a16f4a33a5",
       "fixture_id": "football-data.org:558858",
       "country": "Netherlands",
       "competition": "Eredivisie",
@@ -437,8 +177,8 @@
       "kickoff_utc": "2026-10-25T13:30:00+00:00",
       "home_team": "PSV Eindhoven",
       "away_team": "Feyenoord",
-      "generated_at_utc": "2026-10-24T16:50:11.188445+00:00",
-      "data_observed_at_utc": "2026-10-24T16:49:36.952034+00:00",
+      "generated_at_utc": "2026-10-24T22:15:25.328550+00:00",
+      "data_observed_at_utc": "2026-10-24T22:14:43.412225+00:00",
       "probabilities": {
         "home": 0.5433686185616209,
         "draw": 0.2022459705476534,
@@ -454,7 +194,7 @@
       "away_history_matches": 544
     },
     {
-      "forecast_id": "0805b5cbef687acd6f12fc37",
+      "forecast_id": "056ff3d8253f12c00ed63a69",
       "fixture_id": "football-data.org:558562",
       "country": "Italy",
       "competition": "Serie A",
@@ -463,15 +203,15 @@
       "kickoff_utc": "2026-10-25T14:00:00+00:00",
       "home_team": "Atalanta",
       "away_team": "Frosinone",
-      "generated_at_utc": "2026-10-24T16:50:11.217436+00:00",
-      "data_observed_at_utc": "2026-10-24T16:49:36.952034+00:00",
+      "generated_at_utc": "2026-10-24T22:15:25.375004+00:00",
+      "data_observed_at_utc": "2026-10-24T22:14:43.412225+00:00",
       "probabilities": {
         "home": 0.5005222073998534,
-        "draw": 0.24019398242839127,
+        "draw": 0.2401939824283913,
         "away": 0.2592838101717552,
         "home_or_draw": 0.7407161898282447,
         "home_or_away": 0.7598060175716086,
-        "draw_or_away": 0.49947779260014646
+        "draw_or_away": 0.4994777926001465
       },
       "predicted_result": "H",
       "highest_probability_double_chance": "12",
@@ -480,7 +220,7 @@
       "away_history_matches": 517
     },
     {
-      "forecast_id": "72b713ff60c0a18da95d1b2a",
+      "forecast_id": "1531876bf2b8a277e65d54df",
       "fixture_id": "football-data.org:558568",
       "country": "Italy",
       "competition": "Serie A",
@@ -489,8 +229,8 @@
       "kickoff_utc": "2026-10-25T14:00:00+00:00",
       "home_team": "Genoa",
       "away_team": "Venezia",
-      "generated_at_utc": "2026-10-24T16:50:11.246668+00:00",
-      "data_observed_at_utc": "2026-10-24T16:49:36.952034+00:00",
+      "generated_at_utc": "2026-10-24T22:15:25.414356+00:00",
+      "data_observed_at_utc": "2026-10-24T22:14:43.412225+00:00",
       "probabilities": {
         "home": 0.4205259540457337,
         "draw": 0.2694151542544978,
@@ -506,7 +246,7 @@
       "away_history_matches": 351
     },
     {
-      "forecast_id": "bc4e55d5092f70643f58e63b",
+      "forecast_id": "e60cb498b192b0e817235247",
       "fixture_id": "football-data.org:559650",
       "country": "France",
       "competition": "Ligue 1",
@@ -515,8 +255,8 @@
       "kickoff_utc": "2026-10-25T14:00:00+00:00",
       "home_team": "Monaco",
       "away_team": "Lille",
-      "generated_at_utc": "2026-10-24T16:50:11.275142+00:00",
-      "data_observed_at_utc": "2026-10-24T16:49:36.952034+00:00",
+      "generated_at_utc": "2026-10-24T22:15:25.450487+00:00",
+      "data_observed_at_utc": "2026-10-24T22:14:43.412225+00:00",
       "probabilities": {
         "home": 0.4048980785648733,
         "draw": 0.26577501005281057,
@@ -532,7 +272,7 @@
       "away_history_matches": 593
     },
     {
-      "forecast_id": "5d0c94a60190eef8b347827c",
+      "forecast_id": "17d9bbf4a9d854cea1491e4b",
       "fixture_id": "football-data.org:560612",
       "country": "England",
       "competition": "Premier League",
@@ -541,15 +281,15 @@
       "kickoff_utc": "2026-10-25T14:00:00+00:00",
       "home_team": "Liverpool",
       "away_team": "Brighton",
-      "generated_at_utc": "2026-10-24T16:50:11.304030+00:00",
-      "data_observed_at_utc": "2026-10-24T16:49:36.952034+00:00",
+      "generated_at_utc": "2026-10-24T22:15:25.493028+00:00",
+      "data_observed_at_utc": "2026-10-24T22:14:43.412225+00:00",
       "probabilities": {
         "home": 0.398244217298659,
         "draw": 0.26053867974019745,
-        "away": 0.3412171029611435,
+        "away": 0.34121710296114355,
         "home_or_draw": 0.6587828970388565,
-        "home_or_away": 0.7394613202598025,
-        "draw_or_away": 0.6017557827013409
+        "home_or_away": 0.7394613202598026,
+        "draw_or_away": 0.601755782701341
       },
       "predicted_result": "H",
       "highest_probability_double_chance": "12",
@@ -558,7 +298,7 @@
       "away_history_matches": 671
     },
     {
-      "forecast_id": "0e4c550bd23896c4ac257a26",
+      "forecast_id": "7ba615f0188b4cf2c467d5dc",
       "fixture_id": "football-data.org:560613",
       "country": "England",
       "competition": "Premier League",
@@ -567,8 +307,8 @@
       "kickoff_utc": "2026-10-25T14:00:00+00:00",
       "home_team": "Crystal Palace",
       "away_team": "Newcastle",
-      "generated_at_utc": "2026-10-24T16:50:11.333873+00:00",
-      "data_observed_at_utc": "2026-10-24T16:49:36.952034+00:00",
+      "generated_at_utc": "2026-10-24T22:15:25.533124+00:00",
+      "data_observed_at_utc": "2026-10-24T22:14:43.412225+00:00",
       "probabilities": {
         "home": 0.3724731782229003,
         "draw": 0.2614675456758691,
@@ -584,7 +324,7 @@
       "away_history_matches": 623
     },
     {
-      "forecast_id": "c0fe45af146cc6dfd3e7f7ab",
+      "forecast_id": "6150534e96c387fb132cc2bd",
       "fixture_id": "football-data.org:560615",
       "country": "England",
       "competition": "Premier League",
@@ -593,8 +333,8 @@
       "kickoff_utc": "2026-10-25T14:00:00+00:00",
       "home_team": "Man United",
       "away_team": "Bournemouth",
-      "generated_at_utc": "2026-10-24T16:50:11.363257+00:00",
-      "data_observed_at_utc": "2026-10-24T16:49:36.952034+00:00",
+      "generated_at_utc": "2026-10-24T22:15:25.574419+00:00",
+      "data_observed_at_utc": "2026-10-24T22:14:43.412225+00:00",
       "probabilities": {
         "home": 0.5056178843662235,
         "draw": 0.23613716062692125,
@@ -610,7 +350,7 @@
       "away_history_matches": 671
     },
     {
-      "forecast_id": "18e57c2eedd93a72f99fbd2c",
+      "forecast_id": "5b9aabea1e945016397a202b",
       "fixture_id": "football-data.org:560619",
       "country": "England",
       "competition": "Premier League",
@@ -619,8 +359,8 @@
       "kickoff_utc": "2026-10-25T14:00:00+00:00",
       "home_team": "Hull",
       "away_team": "Brentford",
-      "generated_at_utc": "2026-10-24T16:50:11.392170+00:00",
-      "data_observed_at_utc": "2026-10-24T16:49:36.952034+00:00",
+      "generated_at_utc": "2026-10-24T22:15:25.619588+00:00",
+      "data_observed_at_utc": "2026-10-24T22:14:43.412225+00:00",
       "probabilities": {
         "home": 0.26992022672678784,
         "draw": 0.2507352545913071,
@@ -636,7 +376,7 @@
       "away_history_matches": 703
     },
     {
-      "forecast_id": "367e5260b6079514901314a8",
+      "forecast_id": "dbe659819279dc647ad8bda0",
       "fixture_id": "football-data.org:565835",
       "country": "Germany",
       "competition": "Bundesliga",
@@ -645,8 +385,8 @@
       "kickoff_utc": "2026-10-25T14:30:00+00:00",
       "home_team": "Hoffenheim",
       "away_team": "Leverkusen",
-      "generated_at_utc": "2026-10-24T16:50:11.420767+00:00",
-      "data_observed_at_utc": "2026-10-24T16:49:36.952034+00:00",
+      "generated_at_utc": "2026-10-24T22:15:25.664624+00:00",
+      "data_observed_at_utc": "2026-10-24T22:14:43.412225+00:00",
       "probabilities": {
         "home": 0.21033161574665782,
         "draw": 0.1981997706190127,
@@ -662,7 +402,7 @@
       "away_history_matches": 550
     },
     {
-      "forecast_id": "f7ea5eb51c9f848d98191398",
+      "forecast_id": "b04d200a1828a610e0e2c2d2",
       "fixture_id": "football-data.org:564725",
       "country": "Spain",
       "competition": "La Liga",
@@ -671,8 +411,8 @@
       "kickoff_utc": "2026-10-25T15:15:00+00:00",
       "home_team": "Celta",
       "away_team": "Betis",
-      "generated_at_utc": "2026-10-24T16:50:11.449329+00:00",
-      "data_observed_at_utc": "2026-10-24T16:49:36.952034+00:00",
+      "generated_at_utc": "2026-10-24T22:15:25.704035+00:00",
+      "data_observed_at_utc": "2026-10-24T22:14:43.412225+00:00",
       "probabilities": {
         "home": 0.40534216051505995,
         "draw": 0.2535056747607813,
@@ -688,7 +428,7 @@
       "away_history_matches": 625
     },
     {
-      "forecast_id": "5a7b8ab8640a804330524ca6",
+      "forecast_id": "501044222243d29fb65df251",
       "fixture_id": "football-data.org:567336",
       "country": "Portugal",
       "competition": "Primeira Liga",
@@ -697,8 +437,8 @@
       "kickoff_utc": "2026-10-25T15:30:00+00:00",
       "home_team": "Estoril",
       "away_team": "Moreirense",
-      "generated_at_utc": "2026-10-24T16:50:11.478740+00:00",
-      "data_observed_at_utc": "2026-10-24T16:49:36.952034+00:00",
+      "generated_at_utc": "2026-10-24T22:15:25.743222+00:00",
+      "data_observed_at_utc": "2026-10-24T22:14:43.412225+00:00",
       "probabilities": {
         "home": 0.39809540743713867,
         "draw": 0.27580218952280416,
@@ -714,7 +454,7 @@
       "away_history_matches": 412
     },
     {
-      "forecast_id": "b39ac4bfec8a235aa57aac9b",
+      "forecast_id": "19e3bd1efcef094ed597dfa0",
       "fixture_id": "football-data.org:558856",
       "country": "Netherlands",
       "competition": "Eredivisie",
@@ -723,8 +463,8 @@
       "kickoff_utc": "2026-10-25T15:45:00+00:00",
       "home_team": "Sparta Rotterdam",
       "away_team": "Ajax",
-      "generated_at_utc": "2026-10-24T16:50:11.508128+00:00",
-      "data_observed_at_utc": "2026-10-24T16:49:36.952034+00:00",
+      "generated_at_utc": "2026-10-24T22:15:25.787473+00:00",
+      "data_observed_at_utc": "2026-10-24T22:14:43.412225+00:00",
       "probabilities": {
         "home": 0.15260278620996903,
         "draw": 0.17891672748735554,
@@ -740,7 +480,7 @@
       "away_history_matches": 544
     },
     {
-      "forecast_id": "b5f17bb3fd448eeb5ceff10c",
+      "forecast_id": "c85c52e0605d9e57d69af9b9",
       "fixture_id": "football-data.org:559649",
       "country": "France",
       "competition": "Ligue 1",
@@ -749,15 +489,15 @@
       "kickoff_utc": "2026-10-25T16:15:00+00:00",
       "home_team": "Marseille",
       "away_team": "Le Havre",
-      "generated_at_utc": "2026-10-24T16:50:11.537428+00:00",
-      "data_observed_at_utc": "2026-10-24T16:49:36.952034+00:00",
+      "generated_at_utc": "2026-10-24T22:15:25.819898+00:00",
+      "data_observed_at_utc": "2026-10-24T22:14:43.412225+00:00",
       "probabilities": {
         "home": 0.5916692558501149,
         "draw": 0.22624670765456864,
-        "away": 0.1820840364953164,
+        "away": 0.18208403649531643,
         "home_or_draw": 0.8179159635046835,
         "home_or_away": 0.7737532923454313,
-        "draw_or_away": 0.408330744149885
+        "draw_or_away": 0.40833074414988507
       },
       "predicted_result": "H",
       "highest_probability_double_chance": "1X",
@@ -766,7 +506,7 @@
       "away_history_matches": 593
     },
     {
-      "forecast_id": "003deb16f71f922f7058f005",
+      "forecast_id": "a5fd69e691672c62118fbfad",
       "fixture_id": "football-data.org:559651",
       "country": "France",
       "competition": "Ligue 1",
@@ -775,8 +515,8 @@
       "kickoff_utc": "2026-10-25T16:15:00+00:00",
       "home_team": "Rennes",
       "away_team": "Strasbourg",
-      "generated_at_utc": "2026-10-24T16:50:11.567652+00:00",
-      "data_observed_at_utc": "2026-10-24T16:49:36.952034+00:00",
+      "generated_at_utc": "2026-10-24T22:15:25.858799+00:00",
+      "data_observed_at_utc": "2026-10-24T22:14:43.412225+00:00",
       "probabilities": {
         "home": 0.4954204934632714,
         "draw": 0.23029409450502583,
@@ -792,7 +532,7 @@
       "away_history_matches": 364
     },
     {
-      "forecast_id": "7644e4ea0b9cac4040fbfe5b",
+      "forecast_id": "855f4ce334ddb7834179a322",
       "fixture_id": "football-data.org:559653",
       "country": "France",
       "competition": "Ligue 1",
@@ -801,8 +541,8 @@
       "kickoff_utc": "2026-10-25T16:15:00+00:00",
       "home_team": "Angers",
       "away_team": "Lorient",
-      "generated_at_utc": "2026-10-24T16:50:11.597487+00:00",
-      "data_observed_at_utc": "2026-10-24T16:49:36.952034+00:00",
+      "generated_at_utc": "2026-10-24T22:15:25.903980+00:00",
+      "data_observed_at_utc": "2026-10-24T22:14:43.412225+00:00",
       "probabilities": {
         "home": 0.31689384101639556,
         "draw": 0.26991567047449366,
@@ -818,7 +558,7 @@
       "away_history_matches": 593
     },
     {
-      "forecast_id": "1045d629b1da4fe008c3bd81",
+      "forecast_id": "454f070ca66c3c302595dd83",
       "fixture_id": "football-data.org:559655",
       "country": "France",
       "competition": "Ligue 1",
@@ -827,8 +567,8 @@
       "kickoff_utc": "2026-10-25T16:15:00+00:00",
       "home_team": "Toulouse",
       "away_team": "Troyes",
-      "generated_at_utc": "2026-10-24T16:50:11.626713+00:00",
-      "data_observed_at_utc": "2026-10-24T16:49:36.952034+00:00",
+      "generated_at_utc": "2026-10-24T22:15:25.939872+00:00",
+      "data_observed_at_utc": "2026-10-24T22:14:43.412225+00:00",
       "probabilities": {
         "home": 0.5927022017452945,
         "draw": 0.22032100509081395,
@@ -844,7 +584,7 @@
       "away_history_matches": 596
     },
     {
-      "forecast_id": "3e7ba5777649c73bcc45f0dc",
+      "forecast_id": "889eb70e296aee07bfe67a13",
       "fixture_id": "football-data.org:559656",
       "country": "France",
       "competition": "Ligue 1",
@@ -853,8 +593,8 @@
       "kickoff_utc": "2026-10-25T16:15:00+00:00",
       "home_team": "Auxerre",
       "away_team": "Le Mans",
-      "generated_at_utc": "2026-10-24T16:50:11.656728+00:00",
-      "data_observed_at_utc": "2026-10-24T16:49:36.952034+00:00",
+      "generated_at_utc": "2026-10-24T22:15:25.980498+00:00",
+      "data_observed_at_utc": "2026-10-24T22:14:43.412225+00:00",
       "probabilities": {
         "home": 0.5457845432610671,
         "draw": 0.2331009394240177,
@@ -870,7 +610,7 @@
       "away_history_matches": 183
     },
     {
-      "forecast_id": "fbb4a5c73876ef861bff70a0",
+      "forecast_id": "389211f03a0ef8e4aeefb02a",
       "fixture_id": "football-data.org:560621",
       "country": "England",
       "competition": "Premier League",
@@ -879,8 +619,8 @@
       "kickoff_utc": "2026-10-25T16:30:00+00:00",
       "home_team": "Sunderland",
       "away_team": "Leeds",
-      "generated_at_utc": "2026-10-24T16:50:11.685597+00:00",
-      "data_observed_at_utc": "2026-10-24T16:49:36.952034+00:00",
+      "generated_at_utc": "2026-10-24T22:15:26.020312+00:00",
+      "data_observed_at_utc": "2026-10-24T22:14:43.412225+00:00",
       "probabilities": {
         "home": 0.28589622190050773,
         "draw": 0.2526278939653092,
@@ -896,7 +636,7 @@
       "away_history_matches": 711
     },
     {
-      "forecast_id": "7da083502d9e48323e6900ec",
+      "forecast_id": "589762871532e270c5e0a13e",
       "fixture_id": "football-data.org:565836",
       "country": "Germany",
       "competition": "Bundesliga",
@@ -905,8 +645,8 @@
       "kickoff_utc": "2026-10-25T16:30:00+00:00",
       "home_team": "Freiburg",
       "away_team": "Bayern Munich",
-      "generated_at_utc": "2026-10-24T16:50:11.714340+00:00",
-      "data_observed_at_utc": "2026-10-24T16:49:36.952034+00:00",
+      "generated_at_utc": "2026-10-24T22:15:26.066320+00:00",
+      "data_observed_at_utc": "2026-10-24T22:14:43.412225+00:00",
       "probabilities": {
         "home": 0.1455737277139484,
         "draw": 0.168229575135962,
@@ -922,7 +662,7 @@
       "away_history_matches": 550
     },
     {
-      "forecast_id": "61a12b896ad655321bf94acc",
+      "forecast_id": "34ac19323f42ee17367ea14b",
       "fixture_id": "football-data.org:558566",
       "country": "Italy",
       "competition": "Serie A",
@@ -931,8 +671,8 @@
       "kickoff_utc": "2026-10-25T17:00:00+00:00",
       "home_team": "Lecce",
       "away_team": "Juventus",
-      "generated_at_utc": "2026-10-24T16:50:11.743182+00:00",
-      "data_observed_at_utc": "2026-10-24T16:49:36.952034+00:00",
+      "generated_at_utc": "2026-10-24T22:15:26.122198+00:00",
+      "data_observed_at_utc": "2026-10-24T22:14:43.412225+00:00",
       "probabilities": {
         "home": 0.207020432369064,
         "draw": 0.24257052243992222,
@@ -948,7 +688,7 @@
       "away_history_matches": 615
     },
     {
-      "forecast_id": "7ca7e24beb905ba23f26b4b4",
+      "forecast_id": "edf14ec4d00fb1d2ee4e11b4",
       "fixture_id": "football-data.org:564726",
       "country": "Spain",
       "competition": "La Liga",
@@ -957,15 +697,15 @@
       "kickoff_utc": "2026-10-25T17:30:00+00:00",
       "home_team": "Sociedad",
       "away_team": "Levante",
-      "generated_at_utc": "2026-10-24T16:50:11.772303+00:00",
-      "data_observed_at_utc": "2026-10-24T16:49:36.952034+00:00",
+      "generated_at_utc": "2026-10-24T22:15:26.175728+00:00",
+      "data_observed_at_utc": "2026-10-24T22:14:43.412225+00:00",
       "probabilities": {
-        "home": 0.5101813247934176,
-        "draw": 0.23775255829460692,
+        "home": 0.5101813247934177,
+        "draw": 0.23775255829460684,
         "away": 0.25206611691197545,
         "home_or_draw": 0.7479338830880246,
-        "home_or_away": 0.762247441705393,
-        "draw_or_away": 0.4898186752065824
+        "home_or_away": 0.7622474417053932,
+        "draw_or_away": 0.4898186752065823
       },
       "predicted_result": "H",
       "highest_probability_double_chance": "12",
@@ -974,7 +714,7 @@
       "away_history_matches": 633
     },
     {
-      "forecast_id": "d32fd11b9be1685ba69b4c9b",
+      "forecast_id": "6a8e56da05a867607a2605b0",
       "fixture_id": "football-data.org:567330",
       "country": "Portugal",
       "competition": "Primeira Liga",
@@ -983,15 +723,15 @@
       "kickoff_utc": "2026-10-25T18:00:00+00:00",
       "home_team": "Rio Ave",
       "away_team": "Famalicao",
-      "generated_at_utc": "2026-10-24T16:50:11.801764+00:00",
-      "data_observed_at_utc": "2026-10-24T16:49:36.952034+00:00",
+      "generated_at_utc": "2026-10-24T22:15:26.218607+00:00",
+      "data_observed_at_utc": "2026-10-24T22:14:43.412225+00:00",
       "probabilities": {
         "home": 0.2806463471464022,
-        "draw": 0.2710578046647109,
+        "draw": 0.27105780466471097,
         "away": 0.4482958481888869,
-        "home_or_draw": 0.5517041518111131,
+        "home_or_draw": 0.5517041518111132,
         "home_or_away": 0.728942195335289,
-        "draw_or_away": 0.7193536528535978
+        "draw_or_away": 0.7193536528535979
       },
       "predicted_result": "A",
       "highest_probability_double_chance": "12",
@@ -1000,7 +740,7 @@
       "away_history_matches": 246
     },
     {
-      "forecast_id": "4e82b7e226dbe5b4b3b4d73f",
+      "forecast_id": "35d3f705c105c633fafc4288",
       "fixture_id": "football-data.org:567334",
       "country": "Portugal",
       "competition": "Primeira Liga",
@@ -1009,8 +749,8 @@
       "kickoff_utc": "2026-10-25T18:00:00+00:00",
       "home_team": "Nacional",
       "away_team": "Sp Braga",
-      "generated_at_utc": "2026-10-24T16:50:11.831470+00:00",
-      "data_observed_at_utc": "2026-10-24T16:49:36.952034+00:00",
+      "generated_at_utc": "2026-10-24T22:15:26.254164+00:00",
+      "data_observed_at_utc": "2026-10-24T22:14:43.412225+00:00",
       "probabilities": {
         "home": 0.19177000562219895,
         "draw": 0.23103613045856808,
@@ -1026,7 +766,7 @@
       "away_history_matches": 536
     },
     {
-      "forecast_id": "d920f1ec1d69a0d553aebb47",
+      "forecast_id": "43d6ef083977be4456fa6c96",
       "fixture_id": "football-data.org:558855",
       "country": "Netherlands",
       "competition": "Eredivisie",
@@ -1035,8 +775,8 @@
       "kickoff_utc": "2026-10-25T19:00:00+00:00",
       "home_team": "AZ Alkmaar",
       "away_team": "Twente",
-      "generated_at_utc": "2026-10-24T16:50:11.860650+00:00",
-      "data_observed_at_utc": "2026-10-24T16:49:36.952034+00:00",
+      "generated_at_utc": "2026-10-24T22:15:26.288693+00:00",
+      "data_observed_at_utc": "2026-10-24T22:14:43.412225+00:00",
       "probabilities": {
         "home": 0.45223182433337983,
         "draw": 0.23934957163169596,
@@ -1052,7 +792,7 @@
       "away_history_matches": 511
     },
     {
-      "forecast_id": "7d21273e97b6c4f6fa037cb3",
+      "forecast_id": "03ddd9d8da9e1eefad5ff577",
       "fixture_id": "football-data.org:558559",
       "country": "Italy",
       "competition": "Serie A",
@@ -1061,10 +801,10 @@
       "kickoff_utc": "2026-10-25T19:45:00+00:00",
       "home_team": "Udinese",
       "away_team": "Milan",
-      "generated_at_utc": "2026-10-24T16:50:11.889891+00:00",
-      "data_observed_at_utc": "2026-10-24T16:49:36.952034+00:00",
+      "generated_at_utc": "2026-10-24T22:15:26.325582+00:00",
+      "data_observed_at_utc": "2026-10-24T22:14:43.412225+00:00",
       "probabilities": {
-        "home": 0.23452894773025829,
+        "home": 0.2345289477302583,
         "draw": 0.24153467074346008,
         "away": 0.5239363815262816,
         "home_or_draw": 0.47606361847371836,
@@ -1078,7 +818,7 @@
       "away_history_matches": 615
     },
     {
-      "forecast_id": "6c3a062b4ca6c8dcb93f89c1",
+      "forecast_id": "64353d7a743915344c4a0587",
       "fixture_id": "football-data.org:564723",
       "country": "Spain",
       "competition": "La Liga",
@@ -1087,8 +827,8 @@
       "kickoff_utc": "2026-10-25T20:00:00+00:00",
       "home_team": "Barcelona",
       "away_team": "Real Madrid",
-      "generated_at_utc": "2026-10-24T16:50:11.919463+00:00",
-      "data_observed_at_utc": "2026-10-24T16:49:36.952034+00:00",
+      "generated_at_utc": "2026-10-24T22:15:26.361838+00:00",
+      "data_observed_at_utc": "2026-10-24T22:14:43.412225+00:00",
       "probabilities": {
         "home": 0.6102278033009125,
         "draw": 0.1896497056217347,
@@ -1104,7 +844,7 @@
       "away_history_matches": 617
     },
     {
-      "forecast_id": "af92c4d567a9a2c93a74fa34",
+      "forecast_id": "1a08d2562d225584b2ba0016",
       "fixture_id": "football-data.org:567332",
       "country": "Portugal",
       "competition": "Primeira Liga",
@@ -1113,8 +853,8 @@
       "kickoff_utc": "2026-10-25T20:30:00+00:00",
       "home_team": "Sp Lisbon",
       "away_team": "Academico Viseu",
-      "generated_at_utc": "2026-10-24T16:50:11.948662+00:00",
-      "data_observed_at_utc": "2026-10-24T16:49:36.952034+00:00",
+      "generated_at_utc": "2026-10-24T22:15:26.403604+00:00",
+      "data_observed_at_utc": "2026-10-24T22:14:43.412225+00:00",
       "probabilities": {
         "home": 0.8425641168242892,
         "draw": 0.1085297738877188,
@@ -1130,7 +870,7 @@
       "away_history_matches": 8
     },
     {
-      "forecast_id": "43afb642ab17b08078267aa3",
+      "forecast_id": "d5bcd4d01d63f88feb199e01",
       "fixture_id": "football-data.org:567331",
       "country": "Portugal",
       "competition": "Primeira Liga",
@@ -1139,8 +879,8 @@
       "kickoff_utc": "2026-10-26T18:45:00+00:00",
       "home_team": "Santa Clara",
       "away_team": "Benfica",
-      "generated_at_utc": "2026-10-24T16:50:11.978196+00:00",
-      "data_observed_at_utc": "2026-10-24T16:49:36.952034+00:00",
+      "generated_at_utc": "2026-10-24T22:15:26.443964+00:00",
+      "data_observed_at_utc": "2026-10-24T22:14:43.412225+00:00",
       "probabilities": {
         "home": 0.13953006785819932,
         "draw": 0.2045337210731055,
@@ -1156,7 +896,7 @@
       "away_history_matches": 536
     },
     {
-      "forecast_id": "d5933c234464799967063a1c",
+      "forecast_id": "64c018e9d6042ea1525f0669",
       "fixture_id": "football-data.org:559648",
       "country": "France",
       "competition": "Ligue 1",
@@ -1165,8 +905,8 @@
       "kickoff_utc": "2026-10-26T19:30:00+00:00",
       "home_team": "Paris SG",
       "away_team": "Lyon",
-      "generated_at_utc": "2026-10-24T16:50:12.008110+00:00",
-      "data_observed_at_utc": "2026-10-24T16:49:36.952034+00:00",
+      "generated_at_utc": "2026-10-24T22:15:26.485470+00:00",
+      "data_observed_at_utc": "2026-10-24T22:14:43.412225+00:00",
       "probabilities": {
         "home": 0.5908971247148811,
         "draw": 0.20977110701220203,
@@ -1182,7 +922,7 @@
       "away_history_matches": 593
     },
     {
-      "forecast_id": "d7cf4d47239451d08ac707b8",
+      "forecast_id": "8df1cf9003c207b88b6dfc43",
       "fixture_id": "football-data.org:564721",
       "country": "Spain",
       "competition": "La Liga",
@@ -1191,15 +931,15 @@
       "kickoff_utc": "2026-10-26T20:00:00+00:00",
       "home_team": "Sevilla",
       "away_team": "Osasuna",
-      "generated_at_utc": "2026-10-24T16:50:12.038245+00:00",
-      "data_observed_at_utc": "2026-10-24T16:49:36.952034+00:00",
+      "generated_at_utc": "2026-10-24T22:15:26.526432+00:00",
+      "data_observed_at_utc": "2026-10-24T22:14:43.412225+00:00",
       "probabilities": {
-        "home": 0.507830904596247,
-        "draw": 0.25004112127174094,
-        "away": 0.2421279741320121,
-        "home_or_draw": 0.757872025867988,
-        "home_or_away": 0.7499588787282592,
-        "draw_or_away": 0.49216909540375303
+        "home": 0.5078322645601795,
+        "draw": 0.25004054383746394,
+        "away": 0.24212719160235663,
+        "home_or_draw": 0.7578728083976434,
+        "home_or_away": 0.7499594561625361,
+        "draw_or_away": 0.49216773543982056
       },
       "predicted_result": "H",
       "highest_probability_double_chance": "1X",
@@ -1208,7 +948,7 @@
       "away_history_matches": 633
     },
     {
-      "forecast_id": "cec9d0105c7ee5388a5785cf",
+      "forecast_id": "ada6dee30fe5624a0e581cfc",
       "fixture_id": "football-data.org:555051",
       "country": "Brazil",
       "competition": "S\u00e9rie A",
@@ -1217,15 +957,15 @@
       "kickoff_utc": "2026-10-26T22:30:00+00:00",
       "home_team": "Coritiba",
       "away_team": "Gremio",
-      "generated_at_utc": "2026-10-24T16:50:12.068344+00:00",
-      "data_observed_at_utc": "2026-10-24T16:49:36.952034+00:00",
+      "generated_at_utc": "2026-10-24T22:15:26.569652+00:00",
+      "data_observed_at_utc": "2026-10-24T22:14:43.412225+00:00",
       "probabilities": {
-        "home": 0.39941477860461716,
-        "draw": 0.2785450607056822,
-        "away": 0.32204016068970065,
-        "home_or_draw": 0.6779598393102994,
-        "home_or_away": 0.7214549392943178,
-        "draw_or_away": 0.6005852213953828
+        "home": 0.39941466074029075,
+        "draw": 0.2785447849755334,
+        "away": 0.3220405542841759,
+        "home_or_draw": 0.6779594457158242,
+        "home_or_away": 0.7214552150244666,
+        "draw_or_away": 0.6005853392597094
       },
       "predicted_result": "H",
       "highest_probability_double_chance": "12",
@@ -1234,7 +974,7 @@
       "away_history_matches": 525
     },
     {
-      "forecast_id": "db401b9131c6c0bdf5765a60",
+      "forecast_id": "5fe22a4c9b89d57f60adf053",
       "fixture_id": "football-data.org:555053",
       "country": "Brazil",
       "competition": "S\u00e9rie A",
@@ -1243,15 +983,15 @@
       "kickoff_utc": "2026-10-26T23:00:00+00:00",
       "home_team": "Flamengo RJ",
       "away_team": "Atletico-MG",
-      "generated_at_utc": "2026-10-24T16:50:12.099494+00:00",
-      "data_observed_at_utc": "2026-10-24T16:49:36.952034+00:00",
+      "generated_at_utc": "2026-10-24T22:15:26.615020+00:00",
+      "data_observed_at_utc": "2026-10-24T22:14:43.412225+00:00",
       "probabilities": {
-        "home": 0.643224817468513,
-        "draw": 0.21137836957411252,
-        "away": 0.14539681295737453,
-        "home_or_draw": 0.8546031870426255,
-        "home_or_away": 0.7886216304258875,
-        "draw_or_away": 0.35677518253148705
+        "home": 0.6432248800783998,
+        "draw": 0.21137817595026626,
+        "away": 0.1453969439713338,
+        "home_or_draw": 0.8546030560286662,
+        "home_or_away": 0.7886218240497336,
+        "draw_or_away": 0.35677511992160005
       },
       "predicted_result": "H",
       "highest_probability_double_chance": "1X",
@@ -1260,7 +1000,7 @@
       "away_history_matches": 562
     },
     {
-      "forecast_id": "46786dbb50bf2ee3f474eb88",
+      "forecast_id": "2a088593cafdf882d0711d06",
       "fixture_id": "football-data.org:558556",
       "country": "Italy",
       "competition": "Serie A",
@@ -1269,24 +1009,24 @@
       "kickoff_utc": "2026-10-27T17:30:00+00:00",
       "home_team": "Sassuolo",
       "away_team": "Lazio",
-      "generated_at_utc": "2026-10-24T16:50:12.129935+00:00",
-      "data_observed_at_utc": "2026-10-24T16:49:36.952034+00:00",
+      "generated_at_utc": "2026-10-24T22:15:26.653980+00:00",
+      "data_observed_at_utc": "2026-10-24T22:14:43.412225+00:00",
       "probabilities": {
-        "home": 0.2921503236352748,
-        "draw": 0.2491015695306867,
-        "away": 0.45874810683403844,
-        "home_or_draw": 0.5412518931659616,
-        "home_or_away": 0.7508984304693133,
-        "draw_or_away": 0.7078496763647252
+        "home": 0.2881967033147788,
+        "draw": 0.24746306292755513,
+        "away": 0.46434023375766603,
+        "home_or_draw": 0.5356597662423339,
+        "home_or_away": 0.7525369370724448,
+        "draw_or_away": 0.7118032966852211
       },
       "predicted_result": "A",
       "highest_probability_double_chance": "12",
       "limited_history": false,
       "home_history_matches": 627,
-      "away_history_matches": 615
+      "away_history_matches": 616
     },
     {
-      "forecast_id": "fec15d2e1df105fff490cc5d",
+      "forecast_id": "49d6c4db78e588144b2bc997",
       "fixture_id": "football-data.org:558555",
       "country": "Italy",
       "competition": "Serie A",
@@ -1295,24 +1035,24 @@
       "kickoff_utc": "2026-10-27T19:45:00+00:00",
       "home_team": "Roma",
       "away_team": "Cagliari",
-      "generated_at_utc": "2026-10-24T16:50:12.160760+00:00",
-      "data_observed_at_utc": "2026-10-24T16:49:36.952034+00:00",
+      "generated_at_utc": "2026-10-24T22:15:26.689841+00:00",
+      "data_observed_at_utc": "2026-10-24T22:14:43.412225+00:00",
       "probabilities": {
-        "home": 0.7275219093576565,
-        "draw": 0.17233205160075943,
-        "away": 0.1001460390415841,
-        "home_or_draw": 0.899853960958416,
-        "home_or_away": 0.8276679483992406,
-        "draw_or_away": 0.2724780906423435
+        "home": 0.7332966382819701,
+        "draw": 0.16863234154274886,
+        "away": 0.09807102017528102,
+        "home_or_draw": 0.901928979824719,
+        "home_or_away": 0.8313676584572511,
+        "draw_or_away": 0.2667033617180299
       },
       "predicted_result": "H",
       "highest_probability_double_chance": "1X",
       "limited_history": false,
-      "home_history_matches": 615,
+      "home_history_matches": 616,
       "away_history_matches": 620
     },
     {
-      "forecast_id": "4984aa975ecc7f28154e22f6",
+      "forecast_id": "8e9460d1358de24b60e2ebe7",
       "fixture_id": "football-data.org:558557",
       "country": "Italy",
       "competition": "Serie A",
@@ -1321,15 +1061,15 @@
       "kickoff_utc": "2026-10-27T19:45:00+00:00",
       "home_team": "Torino",
       "away_team": "Como",
-      "generated_at_utc": "2026-10-24T16:50:12.190824+00:00",
-      "data_observed_at_utc": "2026-10-24T16:49:36.952034+00:00",
+      "generated_at_utc": "2026-10-24T22:15:26.726263+00:00",
+      "data_observed_at_utc": "2026-10-24T22:14:43.412225+00:00",
       "probabilities": {
-        "home": 0.31600836341902455,
-        "draw": 0.2572306111515466,
-        "away": 0.42676102542942884,
-        "home_or_draw": 0.5732389745705712,
-        "home_or_away": 0.7427693888484534,
-        "draw_or_away": 0.6839916365809755
+        "home": 0.31600973911000346,
+        "draw": 0.2572278573220573,
+        "away": 0.4267624035679392,
+        "home_or_draw": 0.5732375964320607,
+        "home_or_away": 0.7427721426779427,
+        "draw_or_away": 0.6839902608899965
       },
       "predicted_result": "A",
       "highest_probability_double_chance": "12",
@@ -1338,7 +1078,7 @@
       "away_history_matches": 239
     },
     {
-      "forecast_id": "83b5ce436e8e36da7d1095e7",
+      "forecast_id": "8105757eff1f50f8662683f0",
       "fixture_id": "football-data.org:558549",
       "country": "Italy",
       "competition": "Serie A",
@@ -1347,15 +1087,15 @@
       "kickoff_utc": "2026-10-28T17:30:00+00:00",
       "home_team": "Milan",
       "away_team": "Bologna",
-      "generated_at_utc": "2026-10-24T16:50:12.220325+00:00",
-      "data_observed_at_utc": "2026-10-24T16:49:36.952034+00:00",
+      "generated_at_utc": "2026-10-24T22:15:26.775672+00:00",
+      "data_observed_at_utc": "2026-10-24T22:14:43.412225+00:00",
       "probabilities": {
-        "home": 0.526589032768128,
-        "draw": 0.2524487575826099,
-        "away": 0.22096220964926216,
-        "home_or_draw": 0.7790377903507378,
-        "home_or_away": 0.7475512424173901,
-        "draw_or_away": 0.47341096723187204
+        "home": 0.5265927179286533,
+        "draw": 0.25244544881165554,
+        "away": 0.2209618332596913,
+        "home_or_draw": 0.7790381667403088,
+        "home_or_away": 0.7475545511883446,
+        "draw_or_away": 0.47340728207134686
       },
       "predicted_result": "H",
       "highest_probability_double_chance": "1X",
@@ -1364,7 +1104,7 @@
       "away_history_matches": 620
     },
     {
-      "forecast_id": "814bfd9502263d68ac5ea7a2",
+      "forecast_id": "1993feb1c9691c338b35743e",
       "fixture_id": "football-data.org:558550",
       "country": "Italy",
       "competition": "Serie A",
@@ -1373,15 +1113,15 @@
       "kickoff_utc": "2026-10-28T17:30:00+00:00",
       "home_team": "Venezia",
       "away_team": "Inter",
-      "generated_at_utc": "2026-10-24T16:50:12.249594+00:00",
-      "data_observed_at_utc": "2026-10-24T16:49:36.952034+00:00",
+      "generated_at_utc": "2026-10-24T22:15:26.812668+00:00",
+      "data_observed_at_utc": "2026-10-24T22:14:43.412225+00:00",
       "probabilities": {
-        "home": 0.10048859828376112,
-        "draw": 0.15551445231880243,
-        "away": 0.7439969493974364,
-        "home_or_draw": 0.25600305060256356,
-        "home_or_away": 0.8444855476811975,
-        "draw_or_away": 0.8995114017162389
+        "home": 0.10048792546350786,
+        "draw": 0.15551171513535333,
+        "away": 0.7440003594011387,
+        "home_or_draw": 0.2559996405988612,
+        "home_or_away": 0.8444882848646466,
+        "draw_or_away": 0.8995120745364921
       },
       "predicted_result": "A",
       "highest_probability_double_chance": "X2",
@@ -1390,7 +1130,7 @@
       "away_history_matches": 615
     },
     {
-      "forecast_id": "cd76dfb62f2da5a2285a5166",
+      "forecast_id": "f35a43c7f0bb5068aff26e23",
       "fixture_id": "football-data.org:558553",
       "country": "Italy",
       "competition": "Serie A",
@@ -1399,24 +1139,24 @@
       "kickoff_utc": "2026-10-28T17:30:00+00:00",
       "home_team": "Parma",
       "away_team": "Udinese",
-      "generated_at_utc": "2026-10-24T16:50:12.278673+00:00",
-      "data_observed_at_utc": "2026-10-24T16:49:36.952034+00:00",
+      "generated_at_utc": "2026-10-24T22:15:26.851184+00:00",
+      "data_observed_at_utc": "2026-10-24T22:14:43.412225+00:00",
       "probabilities": {
-        "home": 0.3629713969577212,
-        "draw": 0.27148699275768523,
-        "away": 0.36554161028459364,
-        "home_or_draw": 0.6344583897154064,
-        "home_or_away": 0.7285130072423148,
-        "draw_or_away": 0.6370286030422789
+        "home": 0.36435124428580046,
+        "draw": 0.27055531725185333,
+        "away": 0.36509343846234626,
+        "home_or_draw": 0.6349065615376538,
+        "home_or_away": 0.7294446827481467,
+        "draw_or_away": 0.6356487557141997
       },
       "predicted_result": "A",
       "highest_probability_double_chance": "12",
       "limited_history": false,
-      "home_history_matches": 543,
+      "home_history_matches": 544,
       "away_history_matches": 615
     },
     {
-      "forecast_id": "b0286440a2a8ad39e534461b",
+      "forecast_id": "51360f54475a1db841b767f9",
       "fixture_id": "football-data.org:558552",
       "country": "Italy",
       "competition": "Serie A",
@@ -1425,15 +1165,15 @@
       "kickoff_utc": "2026-10-28T19:45:00+00:00",
       "home_team": "Genoa",
       "away_team": "Juventus",
-      "generated_at_utc": "2026-10-24T16:50:12.308670+00:00",
-      "data_observed_at_utc": "2026-10-24T16:49:36.952034+00:00",
+      "generated_at_utc": "2026-10-24T22:15:26.882893+00:00",
+      "data_observed_at_utc": "2026-10-24T22:14:43.412225+00:00",
       "probabilities": {
-        "home": 0.24246514421740306,
-        "draw": 0.26526075979321373,
-        "away": 0.4922740959893832,
-        "home_or_draw": 0.5077259040106168,
-        "home_or_away": 0.7347392402067863,
-        "draw_or_away": 0.7575348557825969
+        "home": 0.2424659076785296,
+        "draw": 0.26525770235307206,
+        "away": 0.49227638996839834,
+        "home_or_draw": 0.5077236100316016,
+        "home_or_away": 0.734742297646928,
+        "draw_or_away": 0.7575340923214704
       },
       "predicted_result": "A",
       "highest_probability_double_chance": "X2",
@@ -1442,7 +1182,7 @@
       "away_history_matches": 615
     },
     {
-      "forecast_id": "849f8eb420131b076d038214",
+      "forecast_id": "1883581c024555cc0c8469f2",
       "fixture_id": "football-data.org:558554",
       "country": "Italy",
       "competition": "Serie A",
@@ -1451,24 +1191,24 @@
       "kickoff_utc": "2026-10-28T19:45:00+00:00",
       "home_team": "Monza",
       "away_team": "Napoli",
-      "generated_at_utc": "2026-10-24T16:50:12.338733+00:00",
-      "data_observed_at_utc": "2026-10-24T16:49:36.952034+00:00",
+      "generated_at_utc": "2026-10-24T22:15:26.916798+00:00",
+      "data_observed_at_utc": "2026-10-24T22:14:43.412225+00:00",
       "probabilities": {
-        "home": 0.20173013461248357,
-        "draw": 0.228867671315456,
-        "away": 0.5694021940720604,
-        "home_or_draw": 0.43059780592793956,
-        "home_or_away": 0.771132328684544,
-        "draw_or_away": 0.7982698653875164
+        "home": 0.20097940572637987,
+        "draw": 0.22757285677917968,
+        "away": 0.5714477374944404,
+        "home_or_draw": 0.42855226250555956,
+        "home_or_away": 0.7724271432208203,
+        "draw_or_away": 0.7990205942736202
       },
       "predicted_result": "A",
       "highest_probability_double_chance": "X2",
       "limited_history": false,
       "home_history_matches": 236,
-      "away_history_matches": 615
+      "away_history_matches": 616
     },
     {
-      "forecast_id": "de196fcb8f37fd2c5c6290c7",
+      "forecast_id": "72ab2b2a92a0acbf96422ac7",
       "fixture_id": "football-data.org:555062",
       "country": "Brazil",
       "competition": "S\u00e9rie A",
@@ -1477,15 +1217,15 @@
       "kickoff_utc": "2026-10-28T22:30:00+00:00",
       "home_team": "Bragantino",
       "away_team": "Chapecoense-SC",
-      "generated_at_utc": "2026-10-24T16:50:12.368586+00:00",
-      "data_observed_at_utc": "2026-10-24T16:49:36.952034+00:00",
+      "generated_at_utc": "2026-10-24T22:15:26.948029+00:00",
+      "data_observed_at_utc": "2026-10-24T22:14:43.412225+00:00",
       "probabilities": {
-        "home": 0.695818243047412,
-        "draw": 0.1856280696776216,
-        "away": 0.11855368727496646,
-        "home_or_draw": 0.8814463127250336,
-        "home_or_away": 0.8143719303223784,
-        "draw_or_away": 0.3041817569525881
+        "home": 0.6958183302638997,
+        "draw": 0.18562789069986207,
+        "away": 0.11855377903623832,
+        "home_or_draw": 0.8814462209637618,
+        "home_or_away": 0.814372109300138,
+        "draw_or_away": 0.3041816697361004
       },
       "predicted_result": "H",
       "highest_probability_double_chance": "1X",
@@ -1494,7 +1234,7 @@
       "away_history_matches": 295
     },
     {
-      "forecast_id": "e3b9df40493e6e19409b5751",
+      "forecast_id": "84e2524ba9ada59ea6ab26f5",
       "fixture_id": "football-data.org:555065",
       "country": "Brazil",
       "competition": "S\u00e9rie A",
@@ -1503,24 +1243,24 @@
       "kickoff_utc": "2026-10-28T22:30:00+00:00",
       "home_team": "Fluminense",
       "away_team": "Internacional",
-      "generated_at_utc": "2026-10-24T16:50:12.398507+00:00",
-      "data_observed_at_utc": "2026-10-24T16:49:36.952034+00:00",
+      "generated_at_utc": "2026-10-24T22:15:26.977508+00:00",
+      "data_observed_at_utc": "2026-10-24T22:14:43.412225+00:00",
       "probabilities": {
-        "home": 0.5761712392559776,
-        "draw": 0.23887528366514832,
-        "away": 0.18495347707887408,
-        "home_or_draw": 0.8150465229211259,
-        "home_or_away": 0.7611247163348517,
-        "draw_or_away": 0.4238287607440224
+        "home": 0.5606453041866228,
+        "draw": 0.24254213355236107,
+        "away": 0.1968125622610161,
+        "home_or_draw": 0.8031874377389839,
+        "home_or_away": 0.7574578664476389,
+        "draw_or_away": 0.43935469581337716
       },
       "predicted_result": "H",
       "highest_probability_double_chance": "1X",
       "limited_history": false,
       "home_history_matches": 563,
-      "away_history_matches": 525
+      "away_history_matches": 526
     },
     {
-      "forecast_id": "6f5c5dd37cda00c7a631d3da",
+      "forecast_id": "949ef80c8c75e0a0d2746688",
       "fixture_id": "football-data.org:555068",
       "country": "Brazil",
       "competition": "S\u00e9rie A",
@@ -1529,15 +1269,15 @@
       "kickoff_utc": "2026-10-28T22:30:00+00:00",
       "home_team": "Santos",
       "away_team": "Palmeiras",
-      "generated_at_utc": "2026-10-24T16:50:12.427934+00:00",
-      "data_observed_at_utc": "2026-10-24T16:49:36.952034+00:00",
+      "generated_at_utc": "2026-10-24T22:15:27.008835+00:00",
+      "data_observed_at_utc": "2026-10-24T22:14:43.412225+00:00",
       "probabilities": {
-        "home": 0.30006425681227417,
-        "draw": 0.26595997233614554,
-        "away": 0.4339757708515802,
-        "home_or_draw": 0.5660242291484197,
-        "home_or_away": 0.7340400276638543,
-        "draw_or_away": 0.6999357431877258
+        "home": 0.30006404957496013,
+        "draw": 0.2659596461411451,
+        "away": 0.4339763042838949,
+        "home_or_draw": 0.5660236957161052,
+        "home_or_away": 0.734040353858855,
+        "draw_or_away": 0.69993595042504
       },
       "predicted_result": "A",
       "highest_probability_double_chance": "12",
@@ -1546,7 +1286,7 @@
       "away_history_matches": 525
     },
     {
-      "forecast_id": "a9108d909bfb70a460d23fd1",
+      "forecast_id": "5eb491cac2d98dc5776f9d72",
       "fixture_id": "football-data.org:555061",
       "country": "Brazil",
       "competition": "S\u00e9rie A",
@@ -1555,15 +1295,15 @@
       "kickoff_utc": "2026-10-29T00:30:00+00:00",
       "home_team": "Bahia",
       "away_team": "Sao Paulo",
-      "generated_at_utc": "2026-10-24T16:50:12.456793+00:00",
-      "data_observed_at_utc": "2026-10-24T16:49:36.952034+00:00",
+      "generated_at_utc": "2026-10-24T22:15:27.045637+00:00",
+      "data_observed_at_utc": "2026-10-24T22:14:43.412225+00:00",
       "probabilities": {
-        "home": 0.4831692194455314,
-        "draw": 0.27123852879401156,
-        "away": 0.24559225176045704,
-        "home_or_draw": 0.7544077482395429,
-        "home_or_away": 0.7287614712059884,
-        "draw_or_away": 0.5168307805544686
+        "home": 0.4831691815271347,
+        "draw": 0.27123828245136605,
+        "away": 0.24559253602149916,
+        "home_or_draw": 0.7544074639785008,
+        "home_or_away": 0.7287617175486338,
+        "draw_or_away": 0.5168308184728652
       },
       "predicted_result": "H",
       "highest_probability_double_chance": "1X",
@@ -1572,7 +1312,7 @@
       "away_history_matches": 563
     },
     {
-      "forecast_id": "a62e1dae188f143e1e003f6e",
+      "forecast_id": "68e7166a5dc3c708bc5a3c1c",
       "fixture_id": "football-data.org:555067",
       "country": "Brazil",
       "competition": "S\u00e9rie A",
@@ -1581,24 +1321,24 @@
       "kickoff_utc": "2026-10-29T00:30:00+00:00",
       "home_team": "Remo",
       "away_team": "Botafogo RJ",
-      "generated_at_utc": "2026-10-24T16:50:12.485871+00:00",
-      "data_observed_at_utc": "2026-10-24T16:49:36.952034+00:00",
+      "generated_at_utc": "2026-10-24T22:15:27.077219+00:00",
+      "data_observed_at_utc": "2026-10-24T22:14:43.412225+00:00",
       "probabilities": {
-        "home": 0.33333515607087916,
-        "draw": 0.2845015691370575,
-        "away": 0.3821632747920634,
-        "home_or_draw": 0.6178367252079366,
-        "home_or_away": 0.7154984308629426,
-        "draw_or_away": 0.666664843929121
+        "home": 0.3524802073163606,
+        "draw": 0.28485821477498147,
+        "away": 0.362661577908658,
+        "home_or_draw": 0.6373384220913421,
+        "home_or_away": 0.7151417852250186,
+        "draw_or_away": 0.6475197926836395
       },
       "predicted_result": "A",
       "highest_probability_double_chance": "12",
       "limited_history": false,
       "home_history_matches": 32,
-      "away_history_matches": 487
+      "away_history_matches": 488
     },
     {
-      "forecast_id": "ff6ac57747111abc7f9ef189",
+      "forecast_id": "69204d3ea4695d2c2488dcb6",
       "fixture_id": "football-data.org:558558",
       "country": "Italy",
       "competition": "Serie A",
@@ -1607,15 +1347,15 @@
       "kickoff_utc": "2026-10-29T17:30:00+00:00",
       "home_team": "Frosinone",
       "away_team": "Lecce",
-      "generated_at_utc": "2026-10-24T16:50:12.515882+00:00",
-      "data_observed_at_utc": "2026-10-24T16:49:36.952034+00:00",
+      "generated_at_utc": "2026-10-24T22:15:27.108226+00:00",
+      "data_observed_at_utc": "2026-10-24T22:14:43.412225+00:00",
       "probabilities": {
-        "home": 0.5458985062290437,
-        "draw": 0.2355788091126532,
-        "away": 0.21852268465830324,
-        "home_or_draw": 0.7814773153416968,
-        "home_or_away": 0.764421190887347,
-        "draw_or_away": 0.45410149377095643
+        "home": 0.5459021907395951,
+        "draw": 0.23557568971403545,
+        "away": 0.21852211954636952,
+        "home_or_draw": 0.7814778804536305,
+        "home_or_away": 0.7644243102859647,
+        "draw_or_away": 0.454097809260405
       },
       "predicted_result": "H",
       "highest_probability_double_chance": "1X",
@@ -1624,7 +1364,7 @@
       "away_history_matches": 385
     },
     {
-      "forecast_id": "1dbd2d1c4dcc1749bba31bbe",
+      "forecast_id": "071819740f4fa5f5030a6e9a",
       "fixture_id": "football-data.org:558551",
       "country": "Italy",
       "competition": "Serie A",
@@ -1633,15 +1373,15 @@
       "kickoff_utc": "2026-10-29T19:45:00+00:00",
       "home_team": "Fiorentina",
       "away_team": "Atalanta",
-      "generated_at_utc": "2026-10-24T16:50:12.545375+00:00",
-      "data_observed_at_utc": "2026-10-24T16:49:36.952034+00:00",
+      "generated_at_utc": "2026-10-24T22:15:27.139816+00:00",
+      "data_observed_at_utc": "2026-10-24T22:14:43.412225+00:00",
       "probabilities": {
-        "home": 0.3052387565189515,
-        "draw": 0.25615351636260364,
-        "away": 0.43860772711844487,
-        "home_or_draw": 0.5613922728815551,
-        "home_or_away": 0.7438464836373964,
-        "draw_or_away": 0.6947612434810485
+        "home": 0.30524001544640317,
+        "draw": 0.2561507621010128,
+        "away": 0.43860922245258416,
+        "home_or_draw": 0.561390777547416,
+        "home_or_away": 0.7438492378989874,
+        "draw_or_away": 0.694759984553597
       },
       "predicted_result": "A",
       "highest_probability_double_chance": "12",
@@ -1650,7 +1390,7 @@
       "away_history_matches": 619
     },
     {
-      "forecast_id": "aa7f1ea0689666296b182c7e",
+      "forecast_id": "f6f371f8adb9b2e344bd9d61",
       "fixture_id": "football-data.org:555060",
       "country": "Brazil",
       "competition": "S\u00e9rie A",
@@ -1659,15 +1399,15 @@
       "kickoff_utc": "2026-10-29T22:30:00+00:00",
       "home_team": "Atletico-MG",
       "away_team": "Cruzeiro",
-      "generated_at_utc": "2026-10-24T16:50:12.575372+00:00",
-      "data_observed_at_utc": "2026-10-24T16:49:36.952034+00:00",
+      "generated_at_utc": "2026-10-24T22:15:27.179970+00:00",
+      "data_observed_at_utc": "2026-10-24T22:14:43.412225+00:00",
       "probabilities": {
-        "home": 0.4441137242291967,
-        "draw": 0.26505520290781714,
-        "away": 0.29083107286298604,
-        "home_or_draw": 0.7091689271370138,
-        "home_or_away": 0.7349447970921827,
-        "draw_or_away": 0.5558862757708032
+        "home": 0.44411362203723764,
+        "draw": 0.26505495812635,
+        "away": 0.2908314198364124,
+        "home_or_draw": 0.7091685801635876,
+        "home_or_away": 0.7349450418736501,
+        "draw_or_away": 0.5558863779627624
       },
       "predicted_result": "H",
       "highest_probability_double_chance": "12",
@@ -1676,7 +1416,7 @@
       "away_history_matches": 450
     },
     {
-      "forecast_id": "4b95cbcb0552898d8b645515",
+      "forecast_id": "a870de5c61e26abebf68afe3",
       "fixture_id": "football-data.org:555069",
       "country": "Brazil",
       "competition": "S\u00e9rie A",
@@ -1685,15 +1425,15 @@
       "kickoff_utc": "2026-10-29T23:00:00+00:00",
       "home_team": "Vasco",
       "away_team": "Flamengo RJ",
-      "generated_at_utc": "2026-10-24T16:50:12.606545+00:00",
-      "data_observed_at_utc": "2026-10-24T16:49:36.952034+00:00",
+      "generated_at_utc": "2026-10-24T22:15:27.217887+00:00",
+      "data_observed_at_utc": "2026-10-24T22:14:43.412225+00:00",
       "probabilities": {
-        "home": 0.19412524838083148,
-        "draw": 0.22985750065549732,
-        "away": 0.5760172509636712,
-        "home_or_draw": 0.4239827490363288,
-        "home_or_away": 0.7701424993445026,
-        "draw_or_away": 0.8058747516191684
+        "home": 0.1941249895984373,
+        "draw": 0.22985710156754582,
+        "away": 0.5760179088340169,
+        "home_or_draw": 0.4239820911659831,
+        "home_or_away": 0.7701428984324542,
+        "draw_or_away": 0.8058750104015627
       },
       "predicted_result": "A",
       "highest_probability_double_chance": "X2",
@@ -1702,7 +1442,7 @@
       "away_history_matches": 563
     },
     {
-      "forecast_id": "503f0dbe23dec4452f9f81fd",
+      "forecast_id": "060fecb9b3d1064745c806cf",
       "fixture_id": "football-data.org:555066",
       "country": "Brazil",
       "competition": "S\u00e9rie A",
@@ -1711,15 +1451,15 @@
       "kickoff_utc": "2026-10-30T00:30:00+00:00",
       "home_team": "Gremio",
       "away_team": "Athletico-PR",
-      "generated_at_utc": "2026-10-24T16:50:12.636540+00:00",
-      "data_observed_at_utc": "2026-10-24T16:49:36.952034+00:00",
+      "generated_at_utc": "2026-10-24T22:15:27.252768+00:00",
+      "data_observed_at_utc": "2026-10-24T22:14:43.412225+00:00",
       "probabilities": {
-        "home": 0.3895709851911975,
-        "draw": 0.2728563199523517,
-        "away": 0.3375726948564508,
-        "home_or_draw": 0.6624273051435492,
-        "home_or_away": 0.7271436800476483,
-        "draw_or_away": 0.6104290148088025
+        "home": 0.3895708459276277,
+        "draw": 0.272856045942932,
+        "away": 0.33757310812944036,
+        "home_or_draw": 0.6624268918705597,
+        "home_or_away": 0.7271439540570681,
+        "draw_or_away": 0.6104291540723723
       },
       "predicted_result": "H",
       "highest_probability_double_chance": "12",
@@ -1728,7 +1468,7 @@
       "away_history_matches": 487
     },
     {
-      "forecast_id": "541e0513308978062a6e66ab",
+      "forecast_id": "9a35a8ba848eaeaf988447e0",
       "fixture_id": "football-data.org:559644",
       "country": "France",
       "competition": "Ligue 1",
@@ -1737,8 +1477,8 @@
       "kickoff_utc": "2026-10-30T18:00:00+00:00",
       "home_team": "Le Havre",
       "away_team": "Paris SG",
-      "generated_at_utc": "2026-10-24T16:50:12.666359+00:00",
-      "data_observed_at_utc": "2026-10-24T16:49:36.952034+00:00",
+      "generated_at_utc": "2026-10-24T22:15:27.287829+00:00",
+      "data_observed_at_utc": "2026-10-24T22:14:43.412225+00:00",
       "probabilities": {
         "home": 0.12701522584856423,
         "draw": 0.19154685575235023,
@@ -1754,7 +1494,7 @@
       "away_history_matches": 592
     },
     {
-      "forecast_id": "41552bbf43ffb898b7db5bc3",
+      "forecast_id": "786585aa1acbf5baf717f835",
       "fixture_id": "football-data.org:565846",
       "country": "Germany",
       "competition": "Bundesliga",
@@ -1763,15 +1503,15 @@
       "kickoff_utc": "2026-10-30T19:30:00+00:00",
       "home_team": "Elversberg",
       "away_team": "Mainz",
-      "generated_at_utc": "2026-10-24T16:50:12.695798+00:00",
-      "data_observed_at_utc": "2026-10-24T16:49:36.952034+00:00",
+      "generated_at_utc": "2026-10-24T22:15:27.322391+00:00",
+      "data_observed_at_utc": "2026-10-24T22:14:43.412225+00:00",
       "probabilities": {
-        "home": 0.35553890036186586,
-        "draw": 0.23598771942427907,
-        "away": 0.40847338021385504,
-        "home_or_draw": 0.591526619786145,
-        "home_or_away": 0.7640122805757209,
-        "draw_or_away": 0.6444610996381341
+        "home": 0.35553936035375694,
+        "draw": 0.23599111729956118,
+        "away": 0.40846952234668193,
+        "home_or_draw": 0.5915304776533181,
+        "home_or_away": 0.7640088827004389,
+        "draw_or_away": 0.6444606396462431
       },
       "predicted_result": "A",
       "highest_probability_double_chance": "12",
@@ -1780,7 +1520,7 @@
       "away_history_matches": 550
     },
     {
-      "forecast_id": "b1234766dbda60ff2c1c3f18",
+      "forecast_id": "9aa4268a115ffbef7b042e58",
       "fixture_id": "football-data.org:561916",
       "country": "England",
       "competition": "Championship",
@@ -1789,24 +1529,24 @@
       "kickoff_utc": "2026-10-30T20:00:00+00:00",
       "home_team": "Sheffield United",
       "away_team": "Wrexham",
-      "generated_at_utc": "2026-10-24T16:50:12.725099+00:00",
-      "data_observed_at_utc": "2026-10-24T16:49:36.952034+00:00",
+      "generated_at_utc": "2026-10-24T22:15:27.362326+00:00",
+      "data_observed_at_utc": "2026-10-24T22:14:43.412225+00:00",
       "probabilities": {
-        "home": 0.43278531606184867,
-        "draw": 0.26283020162813847,
-        "away": 0.30438448231001275,
-        "home_or_draw": 0.6956155176899872,
-        "home_or_away": 0.7371697983718615,
-        "draw_or_away": 0.5672146839381512
+        "home": 0.4353184765082919,
+        "draw": 0.2629701160471322,
+        "away": 0.3017114074445759,
+        "home_or_draw": 0.6982885925554241,
+        "home_or_away": 0.7370298839528678,
+        "draw_or_away": 0.5646815234917082
       },
       "predicted_result": "H",
       "highest_probability_double_chance": "12",
       "limited_history": false,
-      "home_history_matches": 723,
+      "home_history_matches": 724,
       "away_history_matches": 734
     },
     {
-      "forecast_id": "cccbd6ada095340c262f7c49",
+      "forecast_id": "82a0bd701429a7f4c22bb386",
       "fixture_id": "football-data.org:564737",
       "country": "Spain",
       "competition": "La Liga",
@@ -1815,24 +1555,24 @@
       "kickoff_utc": "2026-10-30T20:00:00+00:00",
       "home_team": "Villarreal",
       "away_team": "Espanol",
-      "generated_at_utc": "2026-10-24T16:50:12.754548+00:00",
-      "data_observed_at_utc": "2026-10-24T16:49:36.952034+00:00",
+      "generated_at_utc": "2026-10-24T22:15:27.398691+00:00",
+      "data_observed_at_utc": "2026-10-24T22:14:43.412225+00:00",
       "probabilities": {
-        "home": 0.6192874245244708,
-        "draw": 0.21085428350956942,
-        "away": 0.16985829196595975,
-        "home_or_draw": 0.8301417080340403,
-        "home_or_away": 0.7891457164904305,
-        "draw_or_away": 0.38071257547552917
+        "home": 0.6352994948708733,
+        "draw": 0.20444813386869748,
+        "away": 0.16025237126042907,
+        "home_or_draw": 0.8397476287395709,
+        "home_or_away": 0.7955518661313024,
+        "draw_or_away": 0.36470050512912655
       },
       "predicted_result": "H",
       "highest_probability_double_chance": "1X",
       "limited_history": false,
       "home_history_matches": 621,
-      "away_history_matches": 625
+      "away_history_matches": 626
     },
     {
-      "forecast_id": "e35c00dec26c79326697ff86",
+      "forecast_id": "673fb56017a84aaf5fa0f174",
       "fixture_id": "football-data.org:559639",
       "country": "France",
       "competition": "Ligue 1",
@@ -1841,8 +1581,8 @@
       "kickoff_utc": "2026-10-30T20:05:00+00:00",
       "home_team": "Lille",
       "away_team": "Lens",
-      "generated_at_utc": "2026-10-24T16:50:12.783368+00:00",
-      "data_observed_at_utc": "2026-10-24T16:49:36.952034+00:00",
+      "generated_at_utc": "2026-10-24T22:15:27.439073+00:00",
+      "data_observed_at_utc": "2026-10-24T22:14:43.412225+00:00",
       "probabilities": {
         "home": 0.43441728068417873,
         "draw": 0.26274381893891746,
@@ -1858,7 +1598,7 @@
       "away_history_matches": 593
     },
     {
-      "forecast_id": "5772ea9d12f676979b035466",
+      "forecast_id": "086559aae99f44c03eb6f69c",
       "fixture_id": "football-data.org:567344",
       "country": "Portugal",
       "competition": "Primeira Liga",
@@ -1867,8 +1607,8 @@
       "kickoff_utc": "2026-10-30T20:15:00+00:00",
       "home_team": "Casa Pia",
       "away_team": "Sp Lisbon",
-      "generated_at_utc": "2026-10-24T16:50:12.812230+00:00",
-      "data_observed_at_utc": "2026-10-24T16:49:36.952034+00:00",
+      "generated_at_utc": "2026-10-24T22:15:27.474393+00:00",
+      "data_observed_at_utc": "2026-10-24T22:14:43.412225+00:00",
       "probabilities": {
         "home": 0.04900665064829114,
         "draw": 0.10928372064546678,
@@ -1884,7 +1624,7 @@
       "away_history_matches": 536
     },
     {
-      "forecast_id": "483c1d99cb35394603e1f50c",
+      "forecast_id": "47980feb284562c55d00ecd3",
       "fixture_id": "football-data.org:555063",
       "country": "Brazil",
       "competition": "S\u00e9rie A",
@@ -1893,15 +1633,15 @@
       "kickoff_utc": "2026-10-30T23:00:00+00:00",
       "home_team": "Corinthians",
       "away_team": "Mirassol",
-      "generated_at_utc": "2026-10-24T16:50:12.841365+00:00",
-      "data_observed_at_utc": "2026-10-24T16:49:36.952034+00:00",
+      "generated_at_utc": "2026-10-24T22:15:27.509499+00:00",
+      "data_observed_at_utc": "2026-10-24T22:14:43.412225+00:00",
       "probabilities": {
-        "home": 0.44894464220917435,
-        "draw": 0.27777351676730966,
-        "away": 0.27328184102351605,
-        "home_or_draw": 0.726718158976484,
-        "home_or_away": 0.7222264832326903,
-        "draw_or_away": 0.5510553577908257
+        "home": 0.4489445759507042,
+        "draw": 0.2777732576855099,
+        "away": 0.27328216636378594,
+        "home_or_draw": 0.7267178336362141,
+        "home_or_away": 0.7222267423144901,
+        "draw_or_away": 0.5510554240492959
       },
       "predicted_result": "H",
       "highest_probability_double_chance": "1X",
@@ -1910,7 +1650,7 @@
       "away_history_matches": 69
     },
     {
-      "forecast_id": "a2e4aa4bbff76fad751b9fed",
+      "forecast_id": "e18e8ebc58bb180d02ff1dd4",
       "fixture_id": "football-data.org:560626",
       "country": "England",
       "competition": "Premier League",
@@ -1919,8 +1659,8 @@
       "kickoff_utc": "2026-10-31T12:30:00+00:00",
       "home_team": "Chelsea",
       "away_team": "Man United",
-      "generated_at_utc": "2026-10-24T16:50:12.871137+00:00",
-      "data_observed_at_utc": "2026-10-24T16:49:36.952034+00:00",
+      "generated_at_utc": "2026-10-24T22:15:27.543188+00:00",
+      "data_observed_at_utc": "2026-10-24T22:14:43.412225+00:00",
       "probabilities": {
         "home": 0.40401893371896097,
         "draw": 0.24509471670961103,
@@ -1936,7 +1676,7 @@
       "away_history_matches": 615
     },
     {
-      "forecast_id": "20c886666bfb62cedc0846cf",
+      "forecast_id": "b701321f85ff0a984f68e441",
       "fixture_id": "football-data.org:561908",
       "country": "England",
       "competition": "Championship",
@@ -1945,24 +1685,24 @@
       "kickoff_utc": "2026-10-31T12:30:00+00:00",
       "home_team": "Stoke",
       "away_team": "Preston",
-      "generated_at_utc": "2026-10-24T16:50:12.899562+00:00",
-      "data_observed_at_utc": "2026-10-24T16:49:36.952034+00:00",
+      "generated_at_utc": "2026-10-24T22:15:27.577544+00:00",
+      "data_observed_at_utc": "2026-10-24T22:14:43.412225+00:00",
       "probabilities": {
-        "home": 0.4993329850298768,
-        "draw": 0.25630451386638664,
-        "away": 0.24436250110373653,
-        "home_or_draw": 0.7556374988962634,
-        "home_or_away": 0.7436954861336134,
-        "draw_or_away": 0.5006670149701231
+        "home": 0.5013893016508568,
+        "draw": 0.25759926249201825,
+        "away": 0.24101143585712495,
+        "home_or_draw": 0.7589885641428751,
+        "home_or_away": 0.7424007375079817,
+        "draw_or_away": 0.4986106983491432
       },
       "predicted_result": "H",
       "highest_probability_double_chance": "1X",
       "limited_history": false,
-      "home_history_matches": 683,
+      "home_history_matches": 684,
       "away_history_matches": 747
     },
     {
-      "forecast_id": "13f04f653620794fc6488ead",
+      "forecast_id": "af4e2fff60aa2a8f7f622281",
       "fixture_id": "football-data.org:561910",
       "country": "England",
       "competition": "Championship",
@@ -1971,24 +1711,24 @@
       "kickoff_utc": "2026-10-31T12:30:00+00:00",
       "home_team": "Norwich",
       "away_team": "Watford",
-      "generated_at_utc": "2026-10-24T16:50:12.928301+00:00",
-      "data_observed_at_utc": "2026-10-24T16:49:36.952034+00:00",
+      "generated_at_utc": "2026-10-24T22:15:27.612940+00:00",
+      "data_observed_at_utc": "2026-10-24T22:14:43.412225+00:00",
       "probabilities": {
-        "home": 0.535865192179015,
-        "draw": 0.23177755247139586,
-        "away": 0.23235725534958915,
-        "home_or_draw": 0.7676427446504108,
-        "home_or_away": 0.7682224475286041,
-        "draw_or_away": 0.46413480782098504
+        "home": 0.5578374718389268,
+        "draw": 0.22574053436068287,
+        "away": 0.2164219938003904,
+        "home_or_draw": 0.7835780061996097,
+        "home_or_away": 0.7742594656393172,
+        "draw_or_away": 0.44216252816107326
       },
       "predicted_result": "H",
-      "highest_probability_double_chance": "12",
+      "highest_probability_double_chance": "1X",
       "limited_history": false,
-      "home_history_matches": 699,
+      "home_history_matches": 700,
       "away_history_matches": 700
     },
     {
-      "forecast_id": "1cede89570e89817a80f3903",
+      "forecast_id": "007289da3e1a296e19929a45",
       "fixture_id": "football-data.org:561915",
       "country": "England",
       "competition": "Championship",
@@ -1997,24 +1737,24 @@
       "kickoff_utc": "2026-10-31T12:30:00+00:00",
       "home_team": "Lincoln",
       "away_team": "Birmingham",
-      "generated_at_utc": "2026-10-24T16:50:12.957187+00:00",
-      "data_observed_at_utc": "2026-10-24T16:49:36.952034+00:00",
+      "generated_at_utc": "2026-10-24T22:15:27.648070+00:00",
+      "data_observed_at_utc": "2026-10-24T22:14:43.412225+00:00",
       "probabilities": {
-        "home": 0.35694017175440523,
-        "draw": 0.26632548196821604,
-        "away": 0.37673434627737873,
-        "home_or_draw": 0.6232656537226213,
-        "home_or_away": 0.733674518031784,
-        "draw_or_away": 0.6430598282455948
+        "home": 0.3675372167252731,
+        "draw": 0.26663643915388613,
+        "away": 0.36582634412084075,
+        "home_or_draw": 0.6341736558791593,
+        "home_or_away": 0.7333635608461139,
+        "draw_or_away": 0.6324627832747269
       },
-      "predicted_result": "A",
+      "predicted_result": "H",
       "highest_probability_double_chance": "12",
       "limited_history": false,
       "home_history_matches": 737,
-      "away_history_matches": 739
+      "away_history_matches": 740
     },
     {
-      "forecast_id": "bbe4e5e63fbbcffddfa1b13b",
+      "forecast_id": "0bb184b3f5c1c9201aa74d28",
       "fixture_id": "football-data.org:564730",
       "country": "Spain",
       "competition": "La Liga",
@@ -2023,15 +1763,15 @@
       "kickoff_utc": "2026-10-31T13:00:00+00:00",
       "home_team": "Levante",
       "away_team": "Ath Madrid",
-      "generated_at_utc": "2026-10-24T16:50:12.987039+00:00",
-      "data_observed_at_utc": "2026-10-24T16:49:36.952034+00:00",
+      "generated_at_utc": "2026-10-24T22:15:27.683210+00:00",
+      "data_observed_at_utc": "2026-10-24T22:14:43.412225+00:00",
       "probabilities": {
-        "home": 0.2578285441455703,
-        "draw": 0.2451240363969475,
-        "away": 0.4970474194574822,
-        "home_or_draw": 0.5029525805425178,
-        "home_or_away": 0.7548759636030525,
-        "draw_or_away": 0.7421714558544297
+        "home": 0.25782942274460113,
+        "draw": 0.245123913701859,
+        "away": 0.49704666355353994,
+        "home_or_draw": 0.5029533364464601,
+        "home_or_away": 0.7548760862981411,
+        "draw_or_away": 0.7421705772553989
       },
       "predicted_result": "A",
       "highest_probability_double_chance": "12",
@@ -2040,7 +1780,7 @@
       "away_history_matches": 617
     },
     {
-      "forecast_id": "a3432e3f34e64c8155b9fa6c",
+      "forecast_id": "b94c059bd5f5dfc0ed502f54",
       "fixture_id": "football-data.org:558539",
       "country": "Italy",
       "competition": "Serie A",
@@ -2049,15 +1789,15 @@
       "kickoff_utc": "2026-10-31T14:00:00+00:00",
       "home_team": "Bologna",
       "away_team": "Monza",
-      "generated_at_utc": "2026-10-24T16:50:13.017286+00:00",
-      "data_observed_at_utc": "2026-10-24T16:49:36.952034+00:00",
+      "generated_at_utc": "2026-10-24T22:15:27.725384+00:00",
+      "data_observed_at_utc": "2026-10-24T22:14:43.412225+00:00",
       "probabilities": {
-        "home": 0.5405050091231857,
-        "draw": 0.23977431491564916,
-        "away": 0.21972067596116518,
-        "home_or_draw": 0.7802793240388348,
-        "home_or_away": 0.7602256850843508,
-        "draw_or_away": 0.45949499087681434
+        "home": 0.5405086873031685,
+        "draw": 0.239771152420063,
+        "away": 0.21972016027676855,
+        "home_or_draw": 0.7802798397232314,
+        "home_or_away": 0.760228847579937,
+        "draw_or_away": 0.4594913126968315
       },
       "predicted_result": "H",
       "highest_probability_double_chance": "1X",
@@ -2066,7 +1806,7 @@
       "away_history_matches": 236
     },
     {
-      "forecast_id": "4a0036f2ff36d6a38c7cbbd1",
+      "forecast_id": "125e880a1c1858670e46a5d4",
       "fixture_id": "football-data.org:565839",
       "country": "Germany",
       "competition": "Bundesliga",
@@ -2075,24 +1815,24 @@
       "kickoff_utc": "2026-10-31T14:30:00+00:00",
       "home_team": "M'gladbach",
       "away_team": "Paderborn",
-      "generated_at_utc": "2026-10-24T16:50:13.048608+00:00",
-      "data_observed_at_utc": "2026-10-24T16:49:36.952034+00:00",
+      "generated_at_utc": "2026-10-24T22:15:27.765504+00:00",
+      "data_observed_at_utc": "2026-10-24T22:14:43.412225+00:00",
       "probabilities": {
-        "home": 0.4688914767928811,
-        "draw": 0.23847145368714506,
-        "away": 0.29263706951997387,
-        "home_or_draw": 0.7073629304800262,
-        "home_or_away": 0.7615285463128549,
-        "draw_or_away": 0.5311085232071189
+        "home": 0.45912007305931224,
+        "draw": 0.24250488941527512,
+        "away": 0.29837503752541256,
+        "home_or_draw": 0.7016249624745874,
+        "home_or_away": 0.7574951105847247,
+        "draw_or_away": 0.5408799269406876
       },
       "predicted_result": "H",
       "highest_probability_double_chance": "12",
       "limited_history": false,
       "home_history_matches": 551,
-      "away_history_matches": 482
+      "away_history_matches": 483
     },
     {
-      "forecast_id": "c83b1026cbbc494a0b786991",
+      "forecast_id": "c10078ce210d5722d1e323ff",
       "fixture_id": "football-data.org:565840",
       "country": "Germany",
       "competition": "Bundesliga",
@@ -2101,15 +1841,15 @@
       "kickoff_utc": "2026-10-31T14:30:00+00:00",
       "home_team": "Schalke 04",
       "away_team": "RB Leipzig",
-      "generated_at_utc": "2026-10-24T16:50:13.078341+00:00",
-      "data_observed_at_utc": "2026-10-24T16:49:36.952034+00:00",
+      "generated_at_utc": "2026-10-24T22:15:27.801401+00:00",
+      "data_observed_at_utc": "2026-10-24T22:14:43.412225+00:00",
       "probabilities": {
-        "home": 0.2631059932452136,
-        "draw": 0.23193292477314245,
-        "away": 0.504961081981644,
-        "home_or_draw": 0.4950389180183561,
-        "home_or_away": 0.7680670752268577,
-        "draw_or_away": 0.7368940067547864
+        "home": 0.2631073103170904,
+        "draw": 0.23193684910858073,
+        "away": 0.504955840574329,
+        "home_or_draw": 0.49504415942567115,
+        "home_or_away": 0.7680631508914193,
+        "draw_or_away": 0.7368926896829097
       },
       "predicted_result": "A",
       "highest_probability_double_chance": "12",
@@ -2118,7 +1858,7 @@
       "away_history_matches": 414
     },
     {
-      "forecast_id": "64a6b2c9188d987b1510aa36",
+      "forecast_id": "f82e55e004c696ca9b4a3137",
       "fixture_id": "football-data.org:565842",
       "country": "Germany",
       "competition": "Bundesliga",
@@ -2127,15 +1867,15 @@
       "kickoff_utc": "2026-10-31T14:30:00+00:00",
       "home_team": "Augsburg",
       "away_team": "Freiburg",
-      "generated_at_utc": "2026-10-24T16:50:13.107868+00:00",
-      "data_observed_at_utc": "2026-10-24T16:49:36.952034+00:00",
+      "generated_at_utc": "2026-10-24T22:15:27.841515+00:00",
+      "data_observed_at_utc": "2026-10-24T22:14:43.412225+00:00",
       "probabilities": {
-        "home": 0.4038374938489713,
-        "draw": 0.24035474398313575,
-        "away": 0.355807762167893,
-        "home_or_draw": 0.644192237832107,
-        "home_or_away": 0.7596452560168643,
-        "draw_or_away": 0.5961625061510287
+        "home": 0.40383727169932954,
+        "draw": 0.24035807070003581,
+        "away": 0.35580465760063473,
+        "home_or_draw": 0.6441953423993654,
+        "home_or_away": 0.7596419292999643,
+        "draw_or_away": 0.5961627283006705
       },
       "predicted_result": "H",
       "highest_probability_double_chance": "12",
@@ -2144,7 +1884,7 @@
       "away_history_matches": 550
     },
     {
-      "forecast_id": "068a5bc69d92e3a4959fe08e",
+      "forecast_id": "dddb4cc4053ed8e9511b4078",
       "fixture_id": "football-data.org:565843",
       "country": "Germany",
       "competition": "Bundesliga",
@@ -2153,15 +1893,15 @@
       "kickoff_utc": "2026-10-31T14:30:00+00:00",
       "home_team": "Werder Bremen",
       "away_team": "Hoffenheim",
-      "generated_at_utc": "2026-10-24T16:50:13.137700+00:00",
-      "data_observed_at_utc": "2026-10-24T16:49:36.952034+00:00",
+      "generated_at_utc": "2026-10-24T22:15:27.879069+00:00",
+      "data_observed_at_utc": "2026-10-24T22:14:43.412225+00:00",
       "probabilities": {
-        "home": 0.3788453496550924,
-        "draw": 0.23237508437406623,
-        "away": 0.3887795659708414,
-        "home_or_draw": 0.6112204340291587,
-        "home_or_away": 0.7676249156259338,
-        "draw_or_away": 0.6211546503449077
+        "home": 0.37884562395966165,
+        "draw": 0.23237833862693277,
+        "away": 0.38877603741340566,
+        "home_or_draw": 0.6112239625865944,
+        "home_or_away": 0.7676216613730673,
+        "draw_or_away": 0.6211543760403384
       },
       "predicted_result": "A",
       "highest_probability_double_chance": "12",
@@ -2170,7 +1910,7 @@
       "away_history_matches": 550
     },
     {
-      "forecast_id": "6571a57a6f85a8cceaf8ed0c",
+      "forecast_id": "fa1e6e28f4071332474302d7",
       "fixture_id": "football-data.org:565847",
       "country": "Germany",
       "competition": "Bundesliga",
@@ -2179,15 +1919,15 @@
       "kickoff_utc": "2026-10-31T14:30:00+00:00",
       "home_team": "Leverkusen",
       "away_team": "Stuttgart",
-      "generated_at_utc": "2026-10-24T16:50:13.167437+00:00",
-      "data_observed_at_utc": "2026-10-24T16:49:36.952034+00:00",
+      "generated_at_utc": "2026-10-24T22:15:27.917750+00:00",
+      "data_observed_at_utc": "2026-10-24T22:14:43.412225+00:00",
       "probabilities": {
-        "home": 0.560428118200167,
-        "draw": 0.2039083054895677,
-        "away": 0.23566357631026527,
-        "home_or_draw": 0.7643364236897348,
-        "home_or_away": 0.7960916945104323,
-        "draw_or_away": 0.439571881799833
+        "home": 0.560426385031323,
+        "draw": 0.2039111560310917,
+        "away": 0.23566245893758536,
+        "home_or_draw": 0.7643375410624147,
+        "home_or_away": 0.7960888439689084,
+        "draw_or_away": 0.4395736149686771
       },
       "predicted_result": "H",
       "highest_probability_double_chance": "12",
@@ -2196,7 +1936,7 @@
       "away_history_matches": 551
     },
     {
-      "forecast_id": "b784839b5840dddf8f2f4880",
+      "forecast_id": "4ea9859948f491dc169dc3a3",
       "fixture_id": "football-data.org:560623",
       "country": "England",
       "competition": "Premier League",
@@ -2205,8 +1945,8 @@
       "kickoff_utc": "2026-10-31T15:00:00+00:00",
       "home_team": "Man City",
       "away_team": "Brighton",
-      "generated_at_utc": "2026-10-24T16:50:13.196409+00:00",
-      "data_observed_at_utc": "2026-10-24T16:49:36.952034+00:00",
+      "generated_at_utc": "2026-10-24T22:15:27.954644+00:00",
+      "data_observed_at_utc": "2026-10-24T22:14:43.412225+00:00",
       "probabilities": {
         "home": 0.5756549465681982,
         "draw": 0.21875625497377138,
@@ -2222,7 +1962,7 @@
       "away_history_matches": 671
     },
     {
-      "forecast_id": "ca565e5a95439bb75cf283a5",
+      "forecast_id": "1ed8156e35a946faad903d4f",
       "fixture_id": "football-data.org:560624",
       "country": "England",
       "competition": "Premier League",
@@ -2231,12 +1971,12 @@
       "kickoff_utc": "2026-10-31T15:00:00+00:00",
       "home_team": "Bournemouth",
       "away_team": "Leeds",
-      "generated_at_utc": "2026-10-24T16:50:13.225236+00:00",
-      "data_observed_at_utc": "2026-10-24T16:49:36.952034+00:00",
+      "generated_at_utc": "2026-10-24T22:15:27.990984+00:00",
+      "data_observed_at_utc": "2026-10-24T22:14:43.412225+00:00",
       "probabilities": {
         "home": 0.4119323407897389,
         "draw": 0.2557782198738845,
-        "away": 0.3322894393363766,
+        "away": 0.33228943933637667,
         "home_or_draw": 0.6677105606636233,
         "home_or_away": 0.7442217801261155,
         "draw_or_away": 0.5880676592102612
@@ -2248,7 +1988,7 @@
       "away_history_matches": 711
     },
     {
-      "forecast_id": "ceaae217b0ec5f7efb7c6198",
+      "forecast_id": "d46708b9b93516ecf2db5dd5",
       "fixture_id": "football-data.org:560625",
       "country": "England",
       "competition": "Premier League",
@@ -2257,8 +1997,8 @@
       "kickoff_utc": "2026-10-31T15:00:00+00:00",
       "home_team": "Coventry",
       "away_team": "Sunderland",
-      "generated_at_utc": "2026-10-24T16:50:13.253775+00:00",
-      "data_observed_at_utc": "2026-10-24T16:49:36.952034+00:00",
+      "generated_at_utc": "2026-10-24T22:15:28.025720+00:00",
+      "data_observed_at_utc": "2026-10-24T22:14:43.412225+00:00",
       "probabilities": {
         "home": 0.44515207293043674,
         "draw": 0.2595471991253105,
@@ -2274,7 +2014,7 @@
       "away_history_matches": 669
     },
     {
-      "forecast_id": "9fd12c146df4fc4b6671119b",
+      "forecast_id": "1c278163434cf32992e1c471",
       "fixture_id": "football-data.org:560629",
       "country": "England",
       "competition": "Premier League",
@@ -2283,8 +2023,8 @@
       "kickoff_utc": "2026-10-31T15:00:00+00:00",
       "home_team": "Hull",
       "away_team": "Ipswich",
-      "generated_at_utc": "2026-10-24T16:50:13.283054+00:00",
-      "data_observed_at_utc": "2026-10-24T16:49:36.952034+00:00",
+      "generated_at_utc": "2026-10-24T22:15:28.064900+00:00",
+      "data_observed_at_utc": "2026-10-24T22:14:43.412225+00:00",
       "probabilities": {
         "home": 0.3721434896157434,
         "draw": 0.2617701406571163,
@@ -2300,7 +2040,7 @@
       "away_history_matches": 726
     },
     {
-      "forecast_id": "410ab96d06253fe53d211d50",
+      "forecast_id": "6de23acb30c0ae7c97429fe2",
       "fixture_id": "football-data.org:560630",
       "country": "England",
       "competition": "Premier League",
@@ -2309,8 +2049,8 @@
       "kickoff_utc": "2026-10-31T15:00:00+00:00",
       "home_team": "Brentford",
       "away_team": "Nott'm Forest",
-      "generated_at_utc": "2026-10-24T16:50:13.312315+00:00",
-      "data_observed_at_utc": "2026-10-24T16:49:36.952034+00:00",
+      "generated_at_utc": "2026-10-24T22:15:28.102998+00:00",
+      "data_observed_at_utc": "2026-10-24T22:14:43.412225+00:00",
       "probabilities": {
         "home": 0.48956372015984545,
         "draw": 0.24478215289420133,
@@ -2326,7 +2066,7 @@
       "away_history_matches": 712
     },
     {
-      "forecast_id": "c605dc8c4460fb86e708a338",
+      "forecast_id": "2f28c71c849f543eacef8cde",
       "fixture_id": "football-data.org:561905",
       "country": "England",
       "competition": "Championship",
@@ -2335,24 +2075,24 @@
       "kickoff_utc": "2026-10-31T15:00:00+00:00",
       "home_team": "Wolves",
       "away_team": "Cardiff",
-      "generated_at_utc": "2026-10-24T16:50:13.341445+00:00",
-      "data_observed_at_utc": "2026-10-24T16:49:36.952034+00:00",
+      "generated_at_utc": "2026-10-24T22:15:28.140860+00:00",
+      "data_observed_at_utc": "2026-10-24T22:14:43.412225+00:00",
       "probabilities": {
-        "home": 0.40432388054619817,
-        "draw": 0.25313333671238425,
-        "away": 0.3425427827414177,
-        "home_or_draw": 0.6574572172585824,
-        "home_or_away": 0.7468666632876159,
-        "draw_or_away": 0.5956761194538019
+        "home": 0.39638409481711234,
+        "draw": 0.256169654591922,
+        "away": 0.34744625059096573,
+        "home_or_draw": 0.6525537494090343,
+        "home_or_away": 0.7438303454080781,
+        "draw_or_away": 0.6036159051828878
       },
       "predicted_result": "H",
       "highest_probability_double_chance": "12",
       "limited_history": false,
       "home_history_matches": 668,
-      "away_history_matches": 731
+      "away_history_matches": 732
     },
     {
-      "forecast_id": "6c0158690a76ed6427922535",
+      "forecast_id": "c66b23668365f94da672557e",
       "fixture_id": "football-data.org:561906",
       "country": "England",
       "competition": "Championship",
@@ -2361,15 +2101,15 @@
       "kickoff_utc": "2026-10-31T15:00:00+00:00",
       "home_team": "West Ham",
       "away_team": "West Brom",
-      "generated_at_utc": "2026-10-24T16:50:13.370600+00:00",
-      "data_observed_at_utc": "2026-10-24T16:49:36.952034+00:00",
+      "generated_at_utc": "2026-10-24T22:15:28.176243+00:00",
+      "data_observed_at_utc": "2026-10-24T22:14:43.412225+00:00",
       "probabilities": {
-        "home": 0.6246954443434543,
-        "draw": 0.20799427364474962,
-        "away": 0.1673102820117962,
-        "home_or_draw": 0.8326897179882039,
-        "home_or_away": 0.7920057263552505,
-        "draw_or_away": 0.37530455565654586
+        "home": 0.6246937352095173,
+        "draw": 0.2079957922793555,
+        "away": 0.16731047251112724,
+        "home_or_draw": 0.8326895274888728,
+        "home_or_away": 0.7920042077206446,
+        "draw_or_away": 0.37530626479048274
       },
       "predicted_result": "H",
       "highest_probability_double_chance": "1X",
@@ -2378,7 +2118,7 @@
       "away_history_matches": 675
     },
     {
-      "forecast_id": "0abc90d51ec5ede08a50bfbd",
+      "forecast_id": "c4484ec5edbbdd1cd4bc2d82",
       "fixture_id": "football-data.org:561907",
       "country": "England",
       "competition": "Championship",
@@ -2387,15 +2127,15 @@
       "kickoff_utc": "2026-10-31T15:00:00+00:00",
       "home_team": "Swansea",
       "away_team": "Blackburn",
-      "generated_at_utc": "2026-10-24T16:50:13.399519+00:00",
-      "data_observed_at_utc": "2026-10-24T16:49:36.952034+00:00",
+      "generated_at_utc": "2026-10-24T22:15:28.218706+00:00",
+      "data_observed_at_utc": "2026-10-24T22:14:43.412225+00:00",
       "probabilities": {
-        "home": 0.4558221397997452,
-        "draw": 0.26089282224557864,
-        "away": 0.2832850379546763,
-        "home_or_draw": 0.7167149620453238,
-        "home_or_away": 0.7391071777544215,
-        "draw_or_away": 0.5441778602002549
+        "home": 0.45582106717618287,
+        "draw": 0.2608943453475805,
+        "away": 0.2832845874762365,
+        "home_or_draw": 0.7167154125237634,
+        "home_or_away": 0.7391056546524194,
+        "draw_or_away": 0.544178932823817
       },
       "predicted_result": "H",
       "highest_probability_double_chance": "12",
@@ -2404,7 +2144,7 @@
       "away_history_matches": 732
     },
     {
-      "forecast_id": "b8fd53ee385875ad0629742e",
+      "forecast_id": "ab58728fd2fa89496f8b5f4f",
       "fixture_id": "football-data.org:561909",
       "country": "England",
       "competition": "Championship",
@@ -2413,24 +2153,24 @@
       "kickoff_utc": "2026-10-31T15:00:00+00:00",
       "home_team": "Bolton",
       "away_team": "Bristol City",
-      "generated_at_utc": "2026-10-24T16:50:13.428624+00:00",
-      "data_observed_at_utc": "2026-10-24T16:49:36.952034+00:00",
+      "generated_at_utc": "2026-10-24T22:15:28.260868+00:00",
+      "data_observed_at_utc": "2026-10-24T22:14:43.412225+00:00",
       "probabilities": {
-        "home": 0.4030281689199772,
-        "draw": 0.2548598598331271,
-        "away": 0.34211197124689563,
-        "home_or_draw": 0.6578880287531044,
-        "home_or_away": 0.7451401401668729,
-        "draw_or_away": 0.5969718310800227
+        "home": 0.40266476094751336,
+        "draw": 0.2577752270999402,
+        "away": 0.33956001195254637,
+        "home_or_draw": 0.6604399880474536,
+        "home_or_away": 0.7422247729000597,
+        "draw_or_away": 0.5973352390524866
       },
       "predicted_result": "H",
       "highest_probability_double_chance": "12",
       "limited_history": false,
       "home_history_matches": 720,
-      "away_history_matches": 747
+      "away_history_matches": 748
     },
     {
-      "forecast_id": "5c51ea8386ea1e0108cd6947",
+      "forecast_id": "eec130f3015d55add6679487",
       "fixture_id": "football-data.org:561911",
       "country": "England",
       "competition": "Championship",
@@ -2439,24 +2179,24 @@
       "kickoff_utc": "2026-10-31T15:00:00+00:00",
       "home_team": "Middlesbrough",
       "away_team": "Charlton",
-      "generated_at_utc": "2026-10-24T16:50:13.457643+00:00",
-      "data_observed_at_utc": "2026-10-24T16:49:36.952034+00:00",
+      "generated_at_utc": "2026-10-24T22:15:28.296584+00:00",
+      "data_observed_at_utc": "2026-10-24T22:14:43.412225+00:00",
       "probabilities": {
-        "home": 0.5876466896244769,
-        "draw": 0.23005443169777928,
-        "away": 0.1822988786777438,
-        "home_or_draw": 0.8177011213222561,
-        "home_or_away": 0.7699455683022207,
-        "draw_or_away": 0.4123533103755231
+        "home": 0.6115250872711618,
+        "draw": 0.2213145421616339,
+        "away": 0.16716037056720423,
+        "home_or_draw": 0.8328396294327958,
+        "home_or_away": 0.7786854578383661,
+        "draw_or_away": 0.38847491272883816
       },
       "predicted_result": "H",
       "highest_probability_double_chance": "1X",
       "limited_history": false,
       "home_history_matches": 740,
-      "away_history_matches": 747
+      "away_history_matches": 748
     },
     {
-      "forecast_id": "9cb2977a1b7f0a56c45cffa3",
+      "forecast_id": "d0af648b8746fbc86876c34e",
       "fixture_id": "football-data.org:561912",
       "country": "England",
       "competition": "Championship",
@@ -2465,15 +2205,15 @@
       "kickoff_utc": "2026-10-31T15:00:00+00:00",
       "home_team": "Burnley",
       "away_team": "Portsmouth",
-      "generated_at_utc": "2026-10-24T16:50:13.487230+00:00",
-      "data_observed_at_utc": "2026-10-24T16:49:36.952034+00:00",
+      "generated_at_utc": "2026-10-24T22:15:28.333504+00:00",
+      "data_observed_at_utc": "2026-10-24T22:14:43.412225+00:00",
       "probabilities": {
-        "home": 0.4130590028068409,
-        "draw": 0.26763610515916464,
-        "away": 0.3193048920339946,
-        "home_or_draw": 0.6806951079660055,
-        "home_or_away": 0.7323638948408355,
-        "draw_or_away": 0.5869409971931592
+        "home": 0.4130581376096394,
+        "draw": 0.2676376335907874,
+        "away": 0.31930422879957326,
+        "home_or_draw": 0.6806957712004268,
+        "home_or_away": 0.7323623664092127,
+        "draw_or_away": 0.5869418623903606
       },
       "predicted_result": "H",
       "highest_probability_double_chance": "12",
@@ -2482,7 +2222,7 @@
       "away_history_matches": 737
     },
     {
-      "forecast_id": "c197a97cc5e6bd11a8ae67d2",
+      "forecast_id": "1e022fa30833825875500281",
       "fixture_id": "football-data.org:561913",
       "country": "England",
       "competition": "Championship",
@@ -2491,24 +2231,24 @@
       "kickoff_utc": "2026-10-31T15:00:00+00:00",
       "home_team": "Millwall",
       "away_team": "Derby",
-      "generated_at_utc": "2026-10-24T16:50:13.516397+00:00",
-      "data_observed_at_utc": "2026-10-24T16:49:36.952034+00:00",
+      "generated_at_utc": "2026-10-24T22:15:28.371761+00:00",
+      "data_observed_at_utc": "2026-10-24T22:14:43.412225+00:00",
       "probabilities": {
-        "home": 0.5255380768072317,
-        "draw": 0.24659609922637601,
-        "away": 0.22786582396639224,
-        "home_or_draw": 0.7721341760336078,
-        "home_or_away": 0.753403900773624,
-        "draw_or_away": 0.47446192319276825
+        "home": 0.5193794014268184,
+        "draw": 0.2485017746188747,
+        "away": 0.23211882395430694,
+        "home_or_draw": 0.7678811760456931,
+        "home_or_away": 0.7514982253811253,
+        "draw_or_away": 0.4806205985731816
       },
       "predicted_result": "H",
       "highest_probability_double_chance": "1X",
       "limited_history": false,
       "home_history_matches": 748,
-      "away_history_matches": 747
+      "away_history_matches": 748
     },
     {
-      "forecast_id": "780b3b881d0ccffb175cc601",
+      "forecast_id": "463c164babadc9f0585fea4a",
       "fixture_id": "football-data.org:561914",
       "country": "England",
       "competition": "Championship",
@@ -2517,15 +2257,15 @@
       "kickoff_utc": "2026-10-31T15:00:00+00:00",
       "home_team": "Southampton",
       "away_team": "QPR",
-      "generated_at_utc": "2026-10-24T16:50:13.546250+00:00",
-      "data_observed_at_utc": "2026-10-24T16:49:36.952034+00:00",
+      "generated_at_utc": "2026-10-24T22:15:28.411444+00:00",
+      "data_observed_at_utc": "2026-10-24T22:14:43.412225+00:00",
       "probabilities": {
-        "home": 0.5612603086853227,
-        "draw": 0.2312839877643928,
-        "away": 0.2074557035502844,
-        "home_or_draw": 0.7925442964497156,
-        "home_or_away": 0.7687160122356071,
-        "draw_or_away": 0.43873969131467716
+        "home": 0.5612588036372352,
+        "draw": 0.23128550353002306,
+        "away": 0.2074556928327417,
+        "home_or_draw": 0.7925443071672583,
+        "home_or_away": 0.7687144964699769,
+        "draw_or_away": 0.43874119636276476
       },
       "predicted_result": "H",
       "highest_probability_double_chance": "1X",
@@ -2534,7 +2274,7 @@
       "away_history_matches": 724
     },
     {
-      "forecast_id": "67d2d65966a6655522f01ac5",
+      "forecast_id": "28ef89f0fe45f082761b6fa1",
       "fixture_id": "football-data.org:564735",
       "country": "Spain",
       "competition": "La Liga",
@@ -2543,15 +2283,15 @@
       "kickoff_utc": "2026-10-31T15:15:00+00:00",
       "home_team": "Vallecano",
       "away_team": "Celta",
-      "generated_at_utc": "2026-10-24T16:50:13.575790+00:00",
-      "data_observed_at_utc": "2026-10-24T16:49:36.952034+00:00",
+      "generated_at_utc": "2026-10-24T22:15:28.451863+00:00",
+      "data_observed_at_utc": "2026-10-24T22:14:43.412225+00:00",
       "probabilities": {
-        "home": 0.38931408887686647,
-        "draw": 0.2610851936718124,
-        "away": 0.3496007174513212,
-        "home_or_draw": 0.6503992825486788,
-        "home_or_away": 0.7389148063281876,
-        "draw_or_away": 0.6106859111231335
+        "home": 0.389315275136952,
+        "draw": 0.26108483283610956,
+        "away": 0.3495998920269384,
+        "home_or_draw": 0.6504001079730616,
+        "home_or_away": 0.7389151671638905,
+        "draw_or_away": 0.610684724863048
       },
       "predicted_result": "H",
       "highest_probability_double_chance": "12",
@@ -2560,7 +2300,7 @@
       "away_history_matches": 625
     },
     {
-      "forecast_id": "e0595404650b54eec0df345a",
+      "forecast_id": "248704dc6037cd55e0fe9c70",
       "fixture_id": "football-data.org:558854",
       "country": "Netherlands",
       "competition": "Eredivisie",
@@ -2569,15 +2309,15 @@
       "kickoff_utc": "2026-10-31T15:30:00+00:00",
       "home_team": "Feyenoord",
       "away_team": "For Sittard",
-      "generated_at_utc": "2026-10-24T16:50:13.605216+00:00",
-      "data_observed_at_utc": "2026-10-24T16:49:36.952034+00:00",
+      "generated_at_utc": "2026-10-24T22:15:28.498273+00:00",
+      "data_observed_at_utc": "2026-10-24T22:14:43.412225+00:00",
       "probabilities": {
-        "home": 0.8232707659280197,
-        "draw": 0.11308956241014954,
-        "away": 0.06363967166183077,
-        "home_or_draw": 0.9363603283381693,
-        "home_or_away": 0.8869104375898504,
-        "draw_or_away": 0.17672923407198032
+        "home": 0.8232707659280198,
+        "draw": 0.11308956241014953,
+        "away": 0.06363967166183067,
+        "home_or_draw": 0.9363603283381694,
+        "home_or_away": 0.8869104375898506,
+        "draw_or_away": 0.1767292340719802
       },
       "predicted_result": "H",
       "highest_probability_double_chance": "1X",
@@ -2586,7 +2326,7 @@
       "away_history_matches": 273
     },
     {
-      "forecast_id": "19a953db5c2a3c147a0c65f4",
+      "forecast_id": "41443297507da2a6ffdd8542",
       "fixture_id": "football-data.org:567343",
       "country": "Portugal",
       "competition": "Primeira Liga",
@@ -2595,13 +2335,13 @@
       "kickoff_utc": "2026-10-31T15:30:00+00:00",
       "home_team": "Moreirense",
       "away_team": "Estrela",
-      "generated_at_utc": "2026-10-24T16:50:13.634574+00:00",
-      "data_observed_at_utc": "2026-10-24T16:49:36.952034+00:00",
+      "generated_at_utc": "2026-10-24T22:15:28.536809+00:00",
+      "data_observed_at_utc": "2026-10-24T22:14:43.412225+00:00",
       "probabilities": {
-        "home": 0.41692290604792126,
-        "draw": 0.27108737677745753,
-        "away": 0.31198971717462126,
-        "home_or_draw": 0.6880102828253788,
+        "home": 0.4169229060479213,
+        "draw": 0.2710873767774576,
+        "away": 0.3119897171746212,
+        "home_or_draw": 0.6880102828253789,
         "home_or_away": 0.7289126232225425,
         "draw_or_away": 0.5830770939520789
       },
@@ -2612,7 +2352,7 @@
       "away_history_matches": 110
     },
     {
-      "forecast_id": "59205926dc801970515ce097",
+      "forecast_id": "14362bf307b3742c02038825",
       "fixture_id": "football-data.org:559646",
       "country": "France",
       "competition": "Ligue 1",
@@ -2621,8 +2361,8 @@
       "kickoff_utc": "2026-10-31T16:15:00+00:00",
       "home_team": "Nice",
       "away_team": "Rennes",
-      "generated_at_utc": "2026-10-24T16:50:13.664161+00:00",
-      "data_observed_at_utc": "2026-10-24T16:49:36.952034+00:00",
+      "generated_at_utc": "2026-10-24T22:15:28.575379+00:00",
+      "data_observed_at_utc": "2026-10-24T22:14:43.412225+00:00",
       "probabilities": {
         "home": 0.3424782884102273,
         "draw": 0.2618807585110772,
@@ -2636,12 +2376,523 @@
       "limited_history": false,
       "home_history_matches": 594,
       "away_history_matches": 593
+    },
+    {
+      "forecast_id": "436bf1fb84673cd08068efd6",
+      "fixture_id": "football-data.org:558542",
+      "country": "Italy",
+      "competition": "Serie A",
+      "competition_code": "I1",
+      "date": "2026-10-31",
+      "kickoff_utc": "2026-10-31T17:00:00+00:00",
+      "home_team": "Udinese",
+      "away_team": "Roma",
+      "generated_at_utc": "2026-10-24T22:15:28.614105+00:00",
+      "data_observed_at_utc": "2026-10-24T22:14:43.412225+00:00",
+      "probabilities": {
+        "home": 0.1913081397287141,
+        "draw": 0.22547336024480316,
+        "away": 0.5832185000264827,
+        "home_or_draw": 0.41678149997351727,
+        "home_or_away": 0.7745266397551968,
+        "draw_or_away": 0.8086918602712858
+      },
+      "predicted_result": "A",
+      "highest_probability_double_chance": "X2",
+      "limited_history": false,
+      "home_history_matches": 615,
+      "away_history_matches": 616
+    },
+    {
+      "forecast_id": "79af5a6d6ea72cff0fb325d4",
+      "fixture_id": "football-data.org:560627",
+      "country": "England",
+      "competition": "Premier League",
+      "competition_code": "E0",
+      "date": "2026-10-31",
+      "kickoff_utc": "2026-10-31T17:30:00+00:00",
+      "home_team": "Tottenham",
+      "away_team": "Crystal Palace",
+      "generated_at_utc": "2026-10-24T22:15:28.650148+00:00",
+      "data_observed_at_utc": "2026-10-24T22:14:43.412225+00:00",
+      "probabilities": {
+        "home": 0.41094892204650174,
+        "draw": 0.2586124667465203,
+        "away": 0.33043861120697804,
+        "home_or_draw": 0.6695613887930221,
+        "home_or_away": 0.7413875332534798,
+        "draw_or_away": 0.5890510779534983
+      },
+      "predicted_result": "H",
+      "highest_probability_double_chance": "12",
+      "limited_history": false,
+      "home_history_matches": 615,
+      "away_history_matches": 639
+    },
+    {
+      "forecast_id": "922738cab1adfa8397e1271b",
+      "fixture_id": "football-data.org:564736",
+      "country": "Spain",
+      "competition": "La Liga",
+      "competition_code": "SP1",
+      "date": "2026-10-31",
+      "kickoff_utc": "2026-10-31T17:30:00+00:00",
+      "home_team": "Betis",
+      "away_team": "Malaga",
+      "generated_at_utc": "2026-10-24T22:15:28.683848+00:00",
+      "data_observed_at_utc": "2026-10-24T22:14:43.412225+00:00",
+      "probabilities": {
+        "home": 0.6567459811032593,
+        "draw": 0.20119885908067203,
+        "away": 0.14205515981606873,
+        "home_or_draw": 0.8579448401839314,
+        "home_or_away": 0.7988011409193281,
+        "draw_or_away": 0.3432540188967408
+      },
+      "predicted_result": "H",
+      "highest_probability_double_chance": "1X",
+      "limited_history": false,
+      "home_history_matches": 625,
+      "away_history_matches": 608
+    },
+    {
+      "forecast_id": "80f5cd9e77c2ff8a968d6f67",
+      "fixture_id": "football-data.org:565845",
+      "country": "Germany",
+      "competition": "Bundesliga",
+      "competition_code": "D1",
+      "date": "2026-10-31",
+      "kickoff_utc": "2026-10-31T17:30:00+00:00",
+      "home_team": "Bayern Munich",
+      "away_team": "Dortmund",
+      "generated_at_utc": "2026-10-24T22:15:28.726329+00:00",
+      "data_observed_at_utc": "2026-10-24T22:14:43.412225+00:00",
+      "probabilities": {
+        "home": 0.6948827084485019,
+        "draw": 0.16354723065316576,
+        "away": 0.14157006089833235,
+        "home_or_draw": 0.8584299391016676,
+        "home_or_away": 0.8364527693468342,
+        "draw_or_away": 0.30511729155149814
+      },
+      "predicted_result": "H",
+      "highest_probability_double_chance": "1X",
+      "limited_history": false,
+      "home_history_matches": 550,
+      "away_history_matches": 551
+    },
+    {
+      "forecast_id": "f2e443b1e25b3e046a67d465",
+      "fixture_id": "football-data.org:558852",
+      "country": "Netherlands",
+      "competition": "Eredivisie",
+      "competition_code": "N1",
+      "date": "2026-10-31",
+      "kickoff_utc": "2026-10-31T17:45:00+00:00",
+      "home_team": "Heerenveen",
+      "away_team": "Nijmegen",
+      "generated_at_utc": "2026-10-24T22:15:28.761249+00:00",
+      "data_observed_at_utc": "2026-10-24T22:14:43.412225+00:00",
+      "probabilities": {
+        "home": 0.43397936721297925,
+        "draw": 0.2403270887449993,
+        "away": 0.32569354404202144,
+        "home_or_draw": 0.6743064559579786,
+        "home_or_away": 0.7596729112550007,
+        "draw_or_away": 0.5660206327870207
+      },
+      "predicted_result": "H",
+      "highest_probability_double_chance": "12",
+      "limited_history": false,
+      "home_history_matches": 545,
+      "away_history_matches": 383
+    },
+    {
+      "forecast_id": "13232d2637d4625e7a003431",
+      "fixture_id": "football-data.org:558853",
+      "country": "Netherlands",
+      "competition": "Eredivisie",
+      "competition_code": "N1",
+      "date": "2026-10-31",
+      "kickoff_utc": "2026-10-31T17:45:00+00:00",
+      "home_team": "PSV Eindhoven",
+      "away_team": "Willem II",
+      "generated_at_utc": "2026-10-24T22:15:28.800826+00:00",
+      "data_observed_at_utc": "2026-10-24T22:14:43.412225+00:00",
+      "probabilities": {
+        "home": 0.9444450490694696,
+        "draw": 0.039844553524142456,
+        "away": 0.01571039740638784,
+        "home_or_draw": 0.9842896025936121,
+        "home_or_away": 0.9601554464758574,
+        "draw_or_away": 0.0555549509305303
+      },
+      "predicted_result": "H",
+      "highest_probability_double_chance": "1X",
+      "limited_history": false,
+      "home_history_matches": 545,
+      "away_history_matches": 375
+    },
+    {
+      "forecast_id": "62acef93d72c48b25f97b333",
+      "fixture_id": "football-data.org:555064",
+      "country": "Brazil",
+      "competition": "S\u00e9rie A",
+      "competition_code": "Serie A",
+      "date": "2026-10-31",
+      "kickoff_utc": "2026-10-31T19:00:00+00:00",
+      "home_team": "Coritiba",
+      "away_team": "Vitoria",
+      "generated_at_utc": "2026-10-24T22:15:28.837249+00:00",
+      "data_observed_at_utc": "2026-10-24T22:14:43.412225+00:00",
+      "probabilities": {
+        "home": 0.4073996823276168,
+        "draw": 0.2662817797218957,
+        "away": 0.32631853795048743,
+        "home_or_draw": 0.6736814620495125,
+        "home_or_away": 0.7337182202781043,
+        "draw_or_away": 0.5926003176723831
+      },
+      "predicted_result": "H",
+      "highest_probability_double_chance": "12",
+      "limited_history": false,
+      "home_history_matches": 373,
+      "away_history_matches": 297
+    },
+    {
+      "forecast_id": "4f72dfc230a16ba84a37da7a",
+      "fixture_id": "football-data.org:558548",
+      "country": "Italy",
+      "competition": "Serie A",
+      "competition_code": "I1",
+      "date": "2026-10-31",
+      "kickoff_utc": "2026-10-31T19:45:00+00:00",
+      "home_team": "Milan",
+      "away_team": "Inter",
+      "generated_at_utc": "2026-10-24T22:15:28.873660+00:00",
+      "data_observed_at_utc": "2026-10-24T22:14:43.412225+00:00",
+      "probabilities": {
+        "home": 0.2438178618465689,
+        "draw": 0.23829196868423133,
+        "away": 0.5178901694691997,
+        "home_or_draw": 0.48210983053080025,
+        "home_or_away": 0.7617080313157687,
+        "draw_or_away": 0.756182138153431
+      },
+      "predicted_result": "A",
+      "highest_probability_double_chance": "12",
+      "limited_history": false,
+      "home_history_matches": 615,
+      "away_history_matches": 615
+    },
+    {
+      "forecast_id": "1e23992c9f0788b2bb7de08b",
+      "fixture_id": "football-data.org:559640",
+      "country": "France",
+      "competition": "Ligue 1",
+      "competition_code": "F1",
+      "date": "2026-10-31",
+      "kickoff_utc": "2026-10-31T19:45:00+00:00",
+      "home_team": "Lyon",
+      "away_team": "Angers",
+      "generated_at_utc": "2026-10-24T22:15:28.907375+00:00",
+      "data_observed_at_utc": "2026-10-24T22:14:43.412225+00:00",
+      "probabilities": {
+        "home": 0.6936062869411255,
+        "draw": 0.1826088969432429,
+        "away": 0.12378481611563166,
+        "home_or_draw": 0.8762151838843684,
+        "home_or_away": 0.8173911030567571,
+        "draw_or_away": 0.30639371305887453
+      },
+      "predicted_result": "H",
+      "highest_probability_double_chance": "1X",
+      "limited_history": false,
+      "home_history_matches": 593,
+      "away_history_matches": 597
+    },
+    {
+      "forecast_id": "f8fb786696934efa64017c5d",
+      "fixture_id": "football-data.org:559641",
+      "country": "France",
+      "competition": "Ligue 1",
+      "competition_code": "F1",
+      "date": "2026-10-31",
+      "kickoff_utc": "2026-10-31T19:45:00+00:00",
+      "home_team": "Lorient",
+      "away_team": "Brest",
+      "generated_at_utc": "2026-10-24T22:15:28.943747+00:00",
+      "data_observed_at_utc": "2026-10-24T22:14:43.412225+00:00",
+      "probabilities": {
+        "home": 0.4996111331841717,
+        "draw": 0.2482294515387093,
+        "away": 0.25215941527711905,
+        "home_or_draw": 0.7478405847228811,
+        "home_or_away": 0.7517705484612908,
+        "draw_or_away": 0.5003888668158283
+      },
+      "predicted_result": "H",
+      "highest_probability_double_chance": "12",
+      "limited_history": false,
+      "home_history_matches": 593,
+      "away_history_matches": 594
+    },
+    {
+      "forecast_id": "8872cd9822dc98b6f6e34294",
+      "fixture_id": "football-data.org:559643",
+      "country": "France",
+      "competition": "Ligue 1",
+      "competition_code": "F1",
+      "date": "2026-10-31",
+      "kickoff_utc": "2026-10-31T19:45:00+00:00",
+      "home_team": "Troyes",
+      "away_team": "Le Mans",
+      "generated_at_utc": "2026-10-24T22:15:28.976481+00:00",
+      "data_observed_at_utc": "2026-10-24T22:14:43.412225+00:00",
+      "probabilities": {
+        "home": 0.4577344407267596,
+        "draw": 0.2508827422774732,
+        "away": 0.29138281699576724,
+        "home_or_draw": 0.7086171830042328,
+        "home_or_away": 0.7491172577225269,
+        "draw_or_away": 0.5422655592732404
+      },
+      "predicted_result": "H",
+      "highest_probability_double_chance": "12",
+      "limited_history": false,
+      "home_history_matches": 596,
+      "away_history_matches": 183
+    },
+    {
+      "forecast_id": "8570b3ba18271b55f1f02599",
+      "fixture_id": "football-data.org:558850",
+      "country": "Netherlands",
+      "competition": "Eredivisie",
+      "competition_code": "N1",
+      "date": "2026-10-31",
+      "kickoff_utc": "2026-10-31T20:00:00+00:00",
+      "home_team": "Cambuur",
+      "away_team": "Go Ahead Eagles",
+      "generated_at_utc": "2026-10-24T22:15:29.012093+00:00",
+      "data_observed_at_utc": "2026-10-24T22:14:43.412225+00:00",
+      "probabilities": {
+        "home": 0.25438963235618556,
+        "draw": 0.2215894811622708,
+        "away": 0.5240208864815437,
+        "home_or_draw": 0.47597911351845634,
+        "home_or_away": 0.7784105188377293,
+        "draw_or_away": 0.7456103676438145
+      },
+      "predicted_result": "A",
+      "highest_probability_double_chance": "12",
+      "limited_history": false,
+      "home_history_matches": 179,
+      "away_history_matches": 282
+    },
+    {
+      "forecast_id": "c005b503cb0d8114db49fb34",
+      "fixture_id": "football-data.org:558851",
+      "country": "Netherlands",
+      "competition": "Eredivisie",
+      "competition_code": "N1",
+      "date": "2026-10-31",
+      "kickoff_utc": "2026-10-31T20:00:00+00:00",
+      "home_team": "Ajax",
+      "away_team": "AZ Alkmaar",
+      "generated_at_utc": "2026-10-24T22:15:29.043452+00:00",
+      "data_observed_at_utc": "2026-10-24T22:14:43.412225+00:00",
+      "probabilities": {
+        "home": 0.5605298347208941,
+        "draw": 0.2169546110444548,
+        "away": 0.2225155542346511,
+        "home_or_draw": 0.7774844457653489,
+        "home_or_away": 0.7830453889555452,
+        "draw_or_away": 0.4394701652791059
+      },
+      "predicted_result": "H",
+      "highest_probability_double_chance": "12",
+      "limited_history": false,
+      "home_history_matches": 544,
+      "away_history_matches": 544
+    },
+    {
+      "forecast_id": "4d8f3da74785cfe77cbb14ce",
+      "fixture_id": "football-data.org:560628",
+      "country": "England",
+      "competition": "Premier League",
+      "competition_code": "E0",
+      "date": "2026-10-31",
+      "kickoff_utc": "2026-10-31T20:00:00+00:00",
+      "home_team": "Aston Villa",
+      "away_team": "Fulham",
+      "generated_at_utc": "2026-10-24T22:15:29.076422+00:00",
+      "data_observed_at_utc": "2026-10-24T22:14:43.412225+00:00",
+      "probabilities": {
+        "home": 0.48132439382259706,
+        "draw": 0.24845698630329013,
+        "away": 0.2702186198741128,
+        "home_or_draw": 0.7297813801258872,
+        "home_or_away": 0.7515430136967098,
+        "draw_or_away": 0.5186756061774029
+      },
+      "predicted_result": "H",
+      "highest_probability_double_chance": "12",
+      "limited_history": false,
+      "home_history_matches": 639,
+      "away_history_matches": 663
+    },
+    {
+      "forecast_id": "99c9785e49548496cc37d804",
+      "fixture_id": "football-data.org:564732",
+      "country": "Spain",
+      "competition": "La Liga",
+      "competition_code": "SP1",
+      "date": "2026-10-31",
+      "kickoff_utc": "2026-10-31T20:00:00+00:00",
+      "home_team": "Barcelona",
+      "away_team": "Alaves",
+      "generated_at_utc": "2026-10-24T22:15:29.108410+00:00",
+      "data_observed_at_utc": "2026-10-24T22:14:43.412225+00:00",
+      "probabilities": {
+        "home": 0.8775719374808743,
+        "draw": 0.08228841392346053,
+        "away": 0.04013964859566524,
+        "home_or_draw": 0.9598603514043348,
+        "home_or_away": 0.9177115860765395,
+        "draw_or_away": 0.12242806251912577
+      },
+      "predicted_result": "H",
+      "highest_probability_double_chance": "1X",
+      "limited_history": false,
+      "home_history_matches": 617,
+      "away_history_matches": 520
+    },
+    {
+      "forecast_id": "a6fcb2e03537f536f22273d4",
+      "fixture_id": "football-data.org:567338",
+      "country": "Portugal",
+      "competition": "Primeira Liga",
+      "competition_code": "P1",
+      "date": "2026-10-31",
+      "kickoff_utc": "2026-10-31T20:30:00+00:00",
+      "home_team": "Porto",
+      "away_team": "Estoril",
+      "generated_at_utc": "2026-10-24T22:15:29.149882+00:00",
+      "data_observed_at_utc": "2026-10-24T22:14:43.412225+00:00",
+      "probabilities": {
+        "home": 0.8341823881248873,
+        "draw": 0.11515741344693535,
+        "away": 0.05066019842817735,
+        "home_or_draw": 0.9493398015718226,
+        "home_or_away": 0.8848425865530647,
+        "draw_or_away": 0.1658176118751127
+      },
+      "predicted_result": "H",
+      "highest_probability_double_chance": "1X",
+      "limited_history": false,
+      "home_history_matches": 536,
+      "away_history_matches": 374
     }
   ],
   "performance": {
     "status": "active",
-    "scored_matches": 0,
-    "metrics": null,
+    "scored_matches": 1,
+    "metrics": {
+      "matches": 1,
+      "log_loss": 0.888857469528268,
+      "brier_score": 0.520659448071479,
+      "accuracy": 1.0,
+      "selected_double_chance_success": 1.0,
+      "draw_calibration": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "matches": 0,
+          "mean_predicted_draw": null,
+          "observed_draw_rate": null
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "matches": 0,
+          "mean_predicted_draw": null,
+          "observed_draw_rate": null
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.3,
+          "matches": 1,
+          "mean_predicted_draw": 0.2786391941341003,
+          "observed_draw_rate": 0.0
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.4,
+          "matches": 0,
+          "mean_predicted_draw": null,
+          "observed_draw_rate": null
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "matches": 0,
+          "mean_predicted_draw": null,
+          "observed_draw_rate": null
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "matches": 0,
+          "mean_predicted_draw": null,
+          "observed_draw_rate": null
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "matches": 0,
+          "mean_predicted_draw": null,
+          "observed_draw_rate": null
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "matches": 0,
+          "mean_predicted_draw": null,
+          "observed_draw_rate": null
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "matches": 0,
+          "mean_predicted_draw": null,
+          "observed_draw_rate": null
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "matches": 0,
+          "mean_predicted_draw": null,
+          "observed_draw_rate": null
+        }
+      ],
+      "double_chance_markets": {
+        "1X": {
+          "matches": 1,
+          "outcome_frequency": 1.0,
+          "binary_brier": 0.09624612643424195
+        },
+        "12": {
+          "matches": 1,
+          "outcome_frequency": 1.0,
+          "binary_brier": 0.0776398005077009
+        },
+        "X2": {
+          "matches": 1,
+          "outcome_frequency": 0.0,
+          "binary_brier": 0.34677352112953624
+        }
+      }
+    },
     "cohort_started_at_utc": "2026-10-24T12:25:43.584071+00:00",
     "competition_tracking_started_at_utc": [
       {
@@ -2690,20 +2941,227 @@
         "started_at_utc": "2026-10-24T16:57:02.891358+00:00"
       }
     ],
-    "results_observed_at_utc": "2026-10-24T16:49:36.952034+00:00",
+    "results_observed_at_utc": "2026-10-24T22:14:43.412225+00:00",
     "minimum_public_lead_hours": 2,
     "kickoff_basis": "provider recorded kickoff UTC, not independently measured actual start",
     "coverage": {
       "monitored_matches": 105,
-      "verified_completed_matches": 0,
-      "scored_completed_fraction": null,
+      "verified_completed_matches": 2,
+      "scored_completed_fraction": 0.5,
       "counts": {
-        "awaiting_result": 105
+        "awaiting_result": 103,
+        "unscored_timing": 1,
+        "scored": 1
       },
       "timing_eligible_matches": 100
     },
-    "by_competition": [],
-    "by_model": [],
+    "by_competition": [
+      {
+        "group": [
+          "Brazil",
+          "Serie A"
+        ],
+        "metrics": {
+          "matches": 1,
+          "log_loss": 0.888857469528268,
+          "brier_score": 0.520659448071479,
+          "accuracy": 1.0,
+          "selected_double_chance_success": 1.0,
+          "draw_calibration": [
+            {
+              "lower": 0.0,
+              "upper": 0.1,
+              "matches": 0,
+              "mean_predicted_draw": null,
+              "observed_draw_rate": null
+            },
+            {
+              "lower": 0.1,
+              "upper": 0.2,
+              "matches": 0,
+              "mean_predicted_draw": null,
+              "observed_draw_rate": null
+            },
+            {
+              "lower": 0.2,
+              "upper": 0.3,
+              "matches": 1,
+              "mean_predicted_draw": 0.2786391941341003,
+              "observed_draw_rate": 0.0
+            },
+            {
+              "lower": 0.3,
+              "upper": 0.4,
+              "matches": 0,
+              "mean_predicted_draw": null,
+              "observed_draw_rate": null
+            },
+            {
+              "lower": 0.4,
+              "upper": 0.5,
+              "matches": 0,
+              "mean_predicted_draw": null,
+              "observed_draw_rate": null
+            },
+            {
+              "lower": 0.5,
+              "upper": 0.6,
+              "matches": 0,
+              "mean_predicted_draw": null,
+              "observed_draw_rate": null
+            },
+            {
+              "lower": 0.6,
+              "upper": 0.7,
+              "matches": 0,
+              "mean_predicted_draw": null,
+              "observed_draw_rate": null
+            },
+            {
+              "lower": 0.7,
+              "upper": 0.8,
+              "matches": 0,
+              "mean_predicted_draw": null,
+              "observed_draw_rate": null
+            },
+            {
+              "lower": 0.8,
+              "upper": 0.9,
+              "matches": 0,
+              "mean_predicted_draw": null,
+              "observed_draw_rate": null
+            },
+            {
+              "lower": 0.9,
+              "upper": 1.0,
+              "matches": 0,
+              "mean_predicted_draw": null,
+              "observed_draw_rate": null
+            }
+          ],
+          "double_chance_markets": {
+            "1X": {
+              "matches": 1,
+              "outcome_frequency": 1.0,
+              "binary_brier": 0.09624612643424195
+            },
+            "12": {
+              "matches": 1,
+              "outcome_frequency": 1.0,
+              "binary_brier": 0.0776398005077009
+            },
+            "X2": {
+              "matches": 1,
+              "outcome_frequency": 0.0,
+              "binary_brier": 0.34677352112953624
+            }
+          }
+        }
+      }
+    ],
+    "by_model": [
+      {
+        "group": [
+          "277aaf50c593a945-initial"
+        ],
+        "metrics": {
+          "matches": 1,
+          "log_loss": 0.888857469528268,
+          "brier_score": 0.520659448071479,
+          "accuracy": 1.0,
+          "selected_double_chance_success": 1.0,
+          "draw_calibration": [
+            {
+              "lower": 0.0,
+              "upper": 0.1,
+              "matches": 0,
+              "mean_predicted_draw": null,
+              "observed_draw_rate": null
+            },
+            {
+              "lower": 0.1,
+              "upper": 0.2,
+              "matches": 0,
+              "mean_predicted_draw": null,
+              "observed_draw_rate": null
+            },
+            {
+              "lower": 0.2,
+              "upper": 0.3,
+              "matches": 1,
+              "mean_predicted_draw": 0.2786391941341003,
+              "observed_draw_rate": 0.0
+            },
+            {
+              "lower": 0.3,
+              "upper": 0.4,
+              "matches": 0,
+              "mean_predicted_draw": null,
+              "observed_draw_rate": null
+            },
+            {
+              "lower": 0.4,
+              "upper": 0.5,
+              "matches": 0,
+              "mean_predicted_draw": null,
+              "observed_draw_rate": null
+            },
+            {
+              "lower": 0.5,
+              "upper": 0.6,
+              "matches": 0,
+              "mean_predicted_draw": null,
+              "observed_draw_rate": null
+            },
+            {
+              "lower": 0.6,
+              "upper": 0.7,
+              "matches": 0,
+              "mean_predicted_draw": null,
+              "observed_draw_rate": null
+            },
+            {
+              "lower": 0.7,
+              "upper": 0.8,
+              "matches": 0,
+              "mean_predicted_draw": null,
+              "observed_draw_rate": null
+            },
+            {
+              "lower": 0.8,
+              "upper": 0.9,
+              "matches": 0,
+              "mean_predicted_draw": null,
+              "observed_draw_rate": null
+            },
+            {
+              "lower": 0.9,
+              "upper": 1.0,
+              "matches": 0,
+              "mean_predicted_draw": null,
+              "observed_draw_rate": null
+            }
+          ],
+          "double_chance_markets": {
+            "1X": {
+              "matches": 1,
+              "outcome_frequency": 1.0,
+              "binary_brier": 0.09624612643424195
+            },
+            "12": {
+              "matches": 1,
+              "outcome_frequency": 1.0,
+              "binary_brier": 0.0776398005077009
+            },
+            "X2": {
+              "matches": 1,
+              "outcome_frequency": 0.0,
+              "binary_brier": 0.34677352112953624
+            }
+          }
+        }
+      }
+    ],
     "matches": [
       {
         "fixture_id": "football-data.org:560616",
@@ -2777,11 +3235,15 @@
         "home_team": "Lazio",
         "away_team": "Parma",
         "kickoff_utc": "2026-10-24T18:45:00+00:00",
-        "provider_status": "TIMED",
+        "provider_status": "FINISHED",
         "timing_eligible": false,
         "forecast_id": null,
-        "status": "awaiting_result",
-        "reason": "no_eligible_two_hour_publication"
+        "status": "unscored_timing",
+        "reason": "no_eligible_two_hour_publication",
+        "actual_result": "H",
+        "home_goals": 2,
+        "away_goals": 1,
+        "result_verified_at_utc": "2026-10-24T21:26:12.688537+00:00"
       },
       {
         "fixture_id": "football-data.org:559652",
@@ -2855,10 +3317,10 @@
         "home_team": "Internacional",
         "away_team": "Botafogo RJ",
         "kickoff_utc": "2026-10-24T19:30:00+00:00",
-        "provider_status": "TIMED",
+        "provider_status": "FINISHED",
         "timing_eligible": true,
         "forecast_id": "30cf3c6906cc642e8033d59a",
-        "status": "awaiting_result",
+        "status": "scored",
         "reason": null,
         "generated_at_utc": "2026-10-24T16:50:10.827312+00:00",
         "first_verified_public_at_utc": "2026-10-24T16:57:02.891358+00:00",
@@ -2872,7 +3334,15 @@
           "home_or_draw": 0.6897644017295211,
           "home_or_away": 0.7213608058658996,
           "draw_or_away": 0.5888747924045792
-        }
+        },
+        "actual_result": "H",
+        "home_goals": 3,
+        "away_goals": 0,
+        "result_verified_at_utc": "2026-10-24T22:01:16.969605+00:00",
+        "log_loss": 0.888857469528268,
+        "brier_score": 0.520659448071479,
+        "outcome_correct": 1,
+        "double_chance_correct": 1
       },
       {
         "fixture_id": "football-data.org:555055",
@@ -5373,6 +5843,6 @@
     ],
     "policy_sha256": "c9efd6ee0648ed7b35e5c7180b0e1796e4558fb9af99a4177bc9a53e244fc896"
   },
-  "publication_id": "96a72819950d96330a1f2b9e",
-  "prepared_at_utc": "2026-10-24T17:00:43.349612+00:00"
+  "publication_id": "736c79c4d9a175ecc97af151",
+  "prepared_at_utc": "2026-10-24T22:15:39.301122+00:00"
 }
