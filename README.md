@@ -16,3 +16,12 @@ The publisher exports only approved display fields and updates public JSON throu
 
 Run the browser-independent checks with `node tests/domain.test.mjs`. The site uses no external fonts, analytics, third-party scripts or bookmaker feeds. `method.html` explains the model, two-day result delay and double chances. Source attribution is shown in the footer.
 
+
+
+Nine leagues now have verified provider mappings: Premier League, Championship,
+Bundesliga, Ligue 1, Serie A (Italy), La Liga, Primeira Liga, Eredivisie and
+Série A (Brazil). The filters use the leagues actually present in the saved
+forecast batch. Public scoring starts independently at each league’s first
+verified publication. A pending always-on worker is not advertised as active:
+the feed’s private configuration determines whether the site displays twice-daily
+updates or an activated continuous host. Current production remains scheduled.
