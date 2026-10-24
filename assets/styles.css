@@ -1045,3 +1045,14 @@ select:not(.enhanced-select){appearance:none;min-height:44px;border:1.5px solid 
 [data-theme="dark"] .score-metrics>div:nth-child(1) { background:#35301d; color:#fff0b8; border-color:#655b32; }
 [data-theme="dark"] .score-metrics>div:nth-child(2),
 [data-theme="dark"] .method-card:nth-child(3n+1) { background:#1d3343; color:#cdeaff; border-color:#365d76; }
+
+/* Keep phone controls beside the brand, leaving the title its own full row. */
+@media (max-width:900px) {
+  .main { position:relative; }
+  .main .mobile-brand { min-height:44px; margin-right:110px; }
+  .main .topbar { position:static; animation:none; }
+  .main .header-actions { position:absolute; top:18px; right:clamp(18px,3vw,44px); }
+}
+@media (max-width:560px) {
+  .main .header-actions { right:16px; }
+}
