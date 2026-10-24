@@ -14,7 +14,7 @@ The private engine's **Automatic football collection and website updates** workf
 
 The publisher exports only approved display fields and updates public JSON through a website-only deploy key. It verifies deployed files before saving a conservative first-publication receipt privately. Repeated identical feeds keep their preparation time. A separate manual publication workflow remains available for retrying a saved batch. Collection and prediction do not retrain the fitted model. A separate monthly workflow evaluates a genuine refit and activates it only after quality, serving and recovery checks. The first candidate was rejected, so the originally published model remains active with its original expiry.
 
-Run the browser-independent checks with `node tests/domain.test.mjs`. The site uses no external fonts, analytics, third-party scripts or bookmaker feeds. `method.html` explains the model, two-day result delay and double chances. Source attribution is shown in the footer.
+Run the browser-independent checks with `node tests/domain.test.mjs`. The site uses Google Fonts with system fallbacks; it uses no analytics, third-party scripts or bookmaker feeds. `method.html` explains the model, two-day result delay and double chances. Source attribution is shown in the footer.
 
 
 
@@ -25,3 +25,9 @@ forecast batch. Public scoring starts independently at each league’s first
 verified publication. A pending always-on worker is not advertised as active:
 the feed’s private configuration determines whether the site displays twice-daily
 updates or an activated continuous host. Current production remains scheduled.
+
+The supplied Figma redesign is implemented without its demonstration statistics.
+See [design and behavior notes](DESIGN_NOTES.md). Cards give distinct full-time
+and double-chance model picks. The track record grades both and plots real
+cumulative success as eligible results arrive. Bookmarks and personal full-time
+picks use local browser storage; they never enter the model's public scores.

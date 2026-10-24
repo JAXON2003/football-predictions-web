@@ -1,1 +1,183 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="How Matchday uses historical match results to estimate football outcomes."><title>How it works — Matchday</title><link rel="icon" href="./assets/icon.svg" type="image/svg+xml"><link rel="stylesheet" href="./assets/styles.css"></head><body><a class="skip-link" href="#main">Skip to content</a><header class="site-header"><div class="header-inner"><a class="brand" href="./"><span class="brand-mark">M<span>↗</span></span>matchday<span class="brand-dot">.</span></a><nav aria-label="Main navigation"><a href="./">Forecasts</a><a href="./performance.html">Performance</a><a href="./method.html" aria-current="page">How it works</a></nav><span class="header-note">A football learning project</span></div></header><main class="article-page wrap" id="main"><p class="eyebrow">BEHIND THE FORECAST</p><h1>Past matches.<br><em>Future possibilities.</em></h1><p class="intro">Matchday is a personal football prediction project. A trained Poisson model turns previous match results into estimated probabilities for upcoming games.</p><div class="method-grid"><section class="method-card"><h2>The inputs</h2><p>Team and competition identities, earlier goals and results are used to calculate 56 inputs, including recent form, team strength, venue history and rest days. Shots and bookmaker odds are not used.</p></section><section class="method-card"><h2>The timing</h2><p>Only results already observed and accepted at prediction time can be used. There is also a two-calendar-day match-date delay. Future results cannot enter the features.</p></section><section class="method-card"><h2>The three outcomes</h2><p>H means home win, D means draw and A means away win after 90 minutes plus stoppage time. Extra time and penalties are not part of these predictions. The three probabilities add to 100%.</p></section><section class="method-card"><h2>The double chances</h2><p>1X combines home and draw, X2 combines draw and away, and 12 combines home and away. Each is the sum of its two outcomes. These choices overlap, so their probabilities do not add to 100%.</p></section><section class="method-card"><h2>The data checks</h2><p>Unverified identities, conflicting results, stale feeds and started matches are held back. Limited team history is flagged. The page pauses upcoming forecasts when its feed expires.</p></section><section class="method-card"><h2>The limitations</h2><p>The model estimates patterns in historical results. It does not know everything about injuries, lineups or events between data updates. Higher probability does not guarantee an outcome or profit.</p></section></div><h2>Read the timestamps</h2><p><strong>Generated</strong> is when the forecast was calculated. <strong>Data observed</strong> is when the source feed was last retrieved. <strong>Model fitted</strong> is the model’s training date. Opening or refreshing this website does not retrain the model or fetch live football results.</p><p>Updates are scheduled twice daily, at 06:17 and 18:17 Tanzania time. Other historical league CSVs are checked on Monday and Thursday, subject to source cooldowns. Scheduled runs may be delayed; use the displayed observation time to judge freshness. Nine leagues have approved upcoming-match feeds: Premier League, Championship, Bundesliga, Ligue 1, Serie A (Italy), La Liga, Primeira Liga, Eredivisie and Série A (Brazil). Only validated, confirmed fixtures within the next seven days are displayed. Other historical competitions are not automatically presented as forecast coverage.</p><p>New results can change form and ratings while the fitted model stays unchanged. A replacement model must pass its release checks before being used. The current model’s validity is enforced by the feed.</p><a class="inline-link" href="./performance.html">Read the performance measurement plan ↗</a></main><footer class="site-footer wrap"><a class="brand footer-brand" href="./">matchday<span class="brand-dot">.</span></a><p>A personal football prediction &amp; learning project.<br>Model estimates do not guarantee outcomes.</p><div><p>Football data provided by <a href="https://www.football-data.org/">football-data.org</a></p></div></footer></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; connect-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; object-src 'none'; base-uri 'self'; form-action 'none'">
+<meta name="theme-color" content="#151821">
+<meta name="description" content="Matchday football forecasts: full-time and double-chance model picks, verified results and a transparent track record.">
+<title>How it works — Matchday</title>
+<link rel="icon" href="./assets/icon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="./assets/styles.css">
+<script type="module" src="./assets/shell.mjs">
+</script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<div class="shell">
+<aside class="side">
+<a class="brand" href="./">
+<span class="brand-mark">M</span>
+<strong>matchday<i>.</i>
+</strong>
+</a>
+<nav aria-label="Primary">
+<a href="./" data-nav="matches" class="">
+<svg class="icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+<path d="M3 5h18v14H3zM12 5v14M3 12h6M15 12h6"/>
+</svg>
+<span>Matches</span>
+<b data-count="matches">
+</b>
+</a>
+<a href="./?view=picks" data-nav="picks" class="">
+<svg class="icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+<path d="M4 12l5 5L20 6"/>
+</svg>
+<span>My picks</span>
+<b data-count="picks">
+</b>
+</a>
+<a href="./?view=bookmarks" data-nav="saved" class="">
+<svg class="icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+<path d="M6 3h12v18l-6-4-6 4z"/>
+</svg>
+<span>Saved</span>
+<b data-count="saved">
+</b>
+</a>
+<a href="./performance.html" data-nav="record" class="">
+<svg class="icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+<path d="M3 20V10M9 20V4M15 20v-8M21 20V8"/>
+</svg>
+<span>Track record</span>
+<b data-count="record">
+</b>
+</a>
+<a href="./method.html" data-nav="method" class="active" aria-current="page">
+<svg class="icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+<path d="M12 3a9 9 0 100 18 9 9 0 000-18zM12 11v6M12 7.5v.5"/>
+</svg>
+<span>How it works</span>
+<b data-count="method">
+</b>
+</a>
+</nav>
+<section class="pulse">
+<span class="eyebrow">Model pulse</span>
+<div class="pulse-num">
+<b id="pulse-rate">—</b>
+<small>full-time hit rate</small>
+</div>
+<div class="pulse-meter">
+<i id="pulse-meter" style="width:0%">
+</i>
+</div>
+<small class="pulse-note" id="pulse-note">Loading verified results.</small>
+</section>
+<div class="versus-card">
+<span class="eyebrow">Two calls. One match.</span>
+<p>A full-time result and a double-chance pick. Each measured separately after the final whistle.</p>
+</div>
+<p class="side-foot">Nine approved league feeds.<br>
+<a href="./method.html">Historical results. No bookmaker odds.</a>
+<br>
+<span id="sidebar-updated">Saved pre-match forecasts.</span>
+</p>
+</aside>
+<main class="main article-page" id="main">
+<a class="brand mobile-brand" href="./">
+<span class="brand-mark">M</span>
+<strong>matchday<i>.</i>
+</strong>
+</a>
+<p class="eyebrow">BEHIND THE FORECAST</p>
+<header class="topbar">
+<div class="title-block">
+<h1>Past matches.<br>
+<em>Future possibilities.</em>
+</h1>
+</div>
+</header>
+<p class="intro">Matchday is a personal football prediction project. A trained Poisson model turns previous match results into estimated probabilities for upcoming games.</p>
+<div class="method-grid">
+<section class="method-card">
+<h2>The inputs</h2>
+<p>Team and competition identities, earlier goals and results are used to calculate 56 inputs, including recent form, team strength, venue history and rest days. Shots and bookmaker odds are not used.</p>
+</section>
+<section class="method-card">
+<h2>The timing</h2>
+<p>Only results already observed and accepted at prediction time can be used. There is also a two-calendar-day match-date delay. Future results cannot enter the features.</p>
+</section>
+<section class="method-card">
+<h2>The three outcomes</h2>
+<p>H means home win, D means draw and A means away win after 90 minutes plus stoppage time. Extra time and penalties are not part of these predictions. The three probabilities add to 100%.</p>
+</section>
+<section class="method-card">
+<h2>The double chances</h2>
+<p>1X combines home and draw, X2 combines draw and away, and 12 combines home and away. Each is the sum of its two outcomes. These choices overlap, so their probabilities do not add to 100%.</p>
+</section>
+<section class="method-card">
+<h2>The data checks</h2>
+<p>Unverified identities, conflicting results, stale feeds and started matches are held back. Limited team history is flagged. The page pauses upcoming forecasts when its feed expires.</p>
+</section>
+<section class="method-card">
+<h2>The limitations</h2>
+<p>The model estimates patterns in historical results. It does not know everything about injuries, lineups or events between data updates. Higher probability does not guarantee an outcome or profit.</p>
+</section>
+</div>
+<h2>Read the timestamps</h2>
+<p>
+<strong>Generated</strong> is when the forecast was calculated. <strong>Data observed</strong> is when the source feed was last retrieved. <strong>Model fitted</strong> is the model’s training date. Opening or refreshing this website does not retrain the model or fetch live football results.</p>
+<p>Updates are scheduled twice daily, at 06:17 and 18:17 Tanzania time. Other historical league CSVs are checked on Monday and Thursday, subject to source cooldowns. Scheduled runs may be delayed; use the displayed observation time to judge freshness. Nine leagues have approved upcoming-match feeds: Premier League, Championship, Bundesliga, Ligue 1, Serie A (Italy), La Liga, Primeira Liga, Eredivisie and Série A (Brazil). Only validated, confirmed fixtures within the next seven days are displayed. Other historical competitions are not automatically presented as forecast coverage.</p>
+<p>New results can change form and ratings while the fitted model stays unchanged. A replacement model must pass its release checks before being used. The current model’s validity is enforced by the feed.</p>
+<a class="inline-link" href="./performance.html">Read the performance measurement plan ↗</a>
+<h2>Two decisions, measured separately</h2>
+<p>The full-time pick is the largest of the home, draw and away probabilities. The double-chance pick is the largest of 1X, 12 and X2. Both are saved before kickoff and checked separately against accepted final results. Exact ties use H, D, A and 1X, 12, X2 order respectively. Double chance covers two outcomes, so its hit rate should not be compared directly with the full-time hit rate.</p>
+<p>The 55% filter is a display threshold, not a validated promise of success. Saved matches and personal picks are stored locally in your browser; they do not alter the public model record. The design is adapted from the supplied Figma export; its illustrative performance figures and simulated match statistics are replaced by verified production data.</p>
+<footer class="site-footer">
+<p>A football prediction &amp; learning project.<br>Model estimates do not guarantee outcomes.</p>
+<p>Data provided by <a href="https://www.football-data.org/" rel="noopener">football-data.org</a>
+<br>
+<a href="./performance.html">Explore the public track record ↗</a>
+</p>
+</footer>
+</main>
+</div>
+<nav class="tabbar" aria-label="Mobile navigation">
+<a href="./" data-nav="matches" class="">
+<svg class="icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+<path d="M3 5h18v14H3zM12 5v14M3 12h6M15 12h6"/>
+</svg>
+<span>Matches</span>
+</a>
+<a href="./?view=picks" data-nav="picks" class="">
+<svg class="icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+<path d="M4 12l5 5L20 6"/>
+</svg>
+<span>Picks</span>
+</a>
+<a href="./?view=bookmarks" data-nav="saved" class="">
+<svg class="icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+<path d="M6 3h12v18l-6-4-6 4z"/>
+</svg>
+<span>Saved</span>
+</a>
+<a href="./performance.html" data-nav="record" class="">
+<svg class="icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+<path d="M3 20V10M9 20V4M15 20v-8M21 20V8"/>
+</svg>
+<span>Record</span>
+</a>
+<a href="./method.html" data-nav="method" class="active" aria-current="page">
+<svg class="icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+<path d="M12 3a9 9 0 100 18 9 9 0 000-18zM12 11v6M12 7.5v.5"/>
+</svg>
+<span>Guide</span>
+</a>
+</nav>
+<div class="saved-alert" id="storage-notice" role="status" hidden>
+</div>
+</body>
+</html>

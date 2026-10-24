@@ -17,3 +17,39 @@ const emptyPerformance = () => ({ status: 'active', matches: [], minimum_public_
 test('zero completed matches shows no invented accuracy', () => { assert.equal(validatePerformance(emptyPerformance()).metrics, null); const bad = emptyPerformance(); bad.metrics = { accuracy: 1 }; assert.throws(() => validatePerformance(bad)); });
 test('performance counts must agree with the match record', () => { const bad = emptyPerformance(); bad.scored_matches = 1; assert.throws(() => validatePerformance(bad)); });
 test('a late publication cannot be labelled scored', () => { const bad = emptyPerformance(); bad.matches = [{ fixture_id: 'test', home_team: 'A', away_team: 'B', kickoff_utc: '2026-10-24T14:00:00Z', generated_at_utc: '2026-10-24T11:00:00Z', first_verified_public_at_utc: '2026-10-24T12:01:00Z', status: 'scored', timing_eligible: true, actual_result: 'H', log_loss: 1, brier_score: .5 }]; assert.throws(() => validatePerformance(bad)); });
+
+import { modelDecisions, performanceTrend } from '../assets/domain.mjs';
+test('full-time and double chance produce separate choices from the same probabilities', () => {
+  const d = modelDecisions(example().forecasts[0]);
+  assert.deepEqual(d.result, { code: 'H', label: 'Home win', probability: .4 });
+  assert.deepEqual(d.double, { code: '12', label: 'Home or away', probability: .75 });
+});
+test('exact ties use the same selection order as the engine', () => {
+  const row = example().forecasts[0]; row.probabilities = {home:1/3,draw:1/3,away:1/3,home_or_draw:2/3,home_or_away:2/3,draw_or_away:2/3};
+  assert.equal(modelDecisions(row).result.code,'H'); assert.equal(modelDecisions(row).double.code,'1X');
+});
+const scoredRow = (id, day, goals = [2,1]) => ({ ...example().forecasts[0], fixture_id:id, kickoff_utc:`2026-10-${day}T14:00:00Z`, generated_at_utc:`2026-10-${day}T10:00:00Z`, first_verified_public_at_utc:`2026-10-${day}T11:00:00Z`, status:'scored',timing_eligible:true, home_goals:goals[0],away_goals:goals[1],actual_result:goals[0]>goals[1]?'H':goals[0]<goals[1]?'A':'D',selected_double_chance:'12',outcome_correct:Number(goals[0]>goals[1]),double_chance_correct:Number(goals[0]!==goals[1]),log_loss:1,brier_score:.5 });
+const reportWith = rows => ({ ...emptyPerformance(), matches:rows, scored_matches:rows.length, coverage:{monitored_matches:rows.length},metrics:{matches:rows.length,log_loss:1,brier_score:.5,accuracy:rows.reduce((n,r)=>n+r.outcome_correct,0)/rows.length,selected_double_chance_success:rows.reduce((n,r)=>n+r.double_chance_correct,0)/rows.length} });
+test('grading preserves a double-chance hit when the full-time pick loses', () => {
+  const r = scoredRow('away-win','24',[0,2]);
+  assert.equal(r.outcome_correct,0);assert.equal(r.double_chance_correct,1);
+  assert.equal(validatePerformance(reportWith([r])).scored_matches,1);
+});
+test('misgraded picks and impossible score/result combinations fail closed', () => {
+  const row = scoredRow('test','24');
+  for (const change of [{outcome_correct:0},{double_chance_correct:0},{actual_result:'D'},{home_goals:-1},{selected_double_chance:'X2'}]) assert.throws(()=>validatePerformance(reportWith([{...row,...change}])));
+});
+test('performance graph is empty until eligible scored results exist', () => {
+  assert.deepEqual(performanceTrend([]),[]);
+  assert.deepEqual(performanceTrend([{...scoredRow('test','24'),status:'awaiting_result'},{...scoredRow('late','24'),timing_eligible:false}]),[]);
+});
+test('cumulative graph groups UTC days, sorts matches and filters competitions', () => {
+  const rows = [scoredRow('third','25',[0,2]),scoredRow('first','24'),scoredRow('second','24',[1,1])];
+  assert.deepEqual(performanceTrend(rows),[{date:'2026-10-24',matches:2,full:.5,double:.5},{date:'2026-10-25',matches:3,full:1/3,double:2/3}]);
+  assert.equal(performanceTrend(rows,'England|E0').at(-1).matches,3);
+  assert.deepEqual(performanceTrend(rows,'Italy|I1'),[]);
+  assert.equal(rows[0].fixture_id,'third');
+});
+test('summary success rates must agree with the underlying scored matches', () => {
+  const p = reportWith([scoredRow('test','24')]);p.metrics.accuracy=.3;assert.throws(()=>validatePerformance(p));
+});

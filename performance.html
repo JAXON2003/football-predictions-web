@@ -1,18 +1,218 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Honest, prospective measurement of Matchday football forecasts."><title>Performance — Matchday</title><link rel="icon" href="./assets/icon.svg" type="image/svg+xml"><link rel="stylesheet" href="./assets/styles.css"></head><body><a class="skip-link" href="#main">Skip to content</a><header class="site-header"><div class="header-inner"><a class="brand" href="./"><span class="brand-mark">M<span>↗</span></span>matchday<span class="brand-dot">.</span></a><nav aria-label="Main navigation"><a href="./">Forecasts</a><a href="./performance.html" aria-current="page">Performance</a><a href="./method.html">How it works</a></nav><span class="header-note">A football learning project</span></div></header><main class="article-page wrap" id="main"><p class="eyebrow">KEEPING SCORE, HONESTLY</p><h1>Results need<br><em>a track record.</em></h1><p class="intro">A prediction is useful only if we measure it fairly. This page will report results from forecasts saved and published before the matches start.</p><button class="text-button" id="score-refresh" type="button">Refresh results ↻</button>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; connect-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; object-src 'none'; base-uri 'self'; form-action 'none'">
+<meta name="theme-color" content="#151821">
+<meta name="description" content="Matchday football forecasts: full-time and double-chance model picks, verified results and a transparent track record.">
+<title>Track record — Matchday</title>
+<link rel="icon" href="./assets/icon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="./assets/styles.css">
+<script type="module" src="./assets/shell.mjs">
+</script>
+<script type="module" src="./assets/performance.mjs">
+</script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<div class="shell">
+<aside class="side">
+<a class="brand" href="./">
+<span class="brand-mark">M</span>
+<strong>matchday<i>.</i>
+</strong>
+</a>
+<nav aria-label="Primary">
+<a href="./" data-nav="matches" class="">
+<svg class="icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+<path d="M3 5h18v14H3zM12 5v14M3 12h6M15 12h6"/>
+</svg>
+<span>Matches</span>
+<b data-count="matches">
+</b>
+</a>
+<a href="./?view=picks" data-nav="picks" class="">
+<svg class="icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+<path d="M4 12l5 5L20 6"/>
+</svg>
+<span>My picks</span>
+<b data-count="picks">
+</b>
+</a>
+<a href="./?view=bookmarks" data-nav="saved" class="">
+<svg class="icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+<path d="M6 3h12v18l-6-4-6 4z"/>
+</svg>
+<span>Saved</span>
+<b data-count="saved">
+</b>
+</a>
+<a href="./performance.html" data-nav="record" class="active" aria-current="page">
+<svg class="icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+<path d="M3 20V10M9 20V4M15 20v-8M21 20V8"/>
+</svg>
+<span>Track record</span>
+<b data-count="record">
+</b>
+</a>
+<a href="./method.html" data-nav="method" class="">
+<svg class="icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+<path d="M12 3a9 9 0 100 18 9 9 0 000-18zM12 11v6M12 7.5v.5"/>
+</svg>
+<span>How it works</span>
+<b data-count="method">
+</b>
+</a>
+</nav>
+<section class="pulse">
+<span class="eyebrow">Model pulse</span>
+<div class="pulse-num">
+<b id="pulse-rate">—</b>
+<small>full-time hit rate</small>
+</div>
+<div class="pulse-meter">
+<i id="pulse-meter" style="width:0%">
+</i>
+</div>
+<small class="pulse-note" id="pulse-note">Loading verified results.</small>
+</section>
+<div class="versus-card">
+<span class="eyebrow">Two calls. One match.</span>
+<p>A full-time result and a double-chance pick. Each measured separately after the final whistle.</p>
+</div>
+<p class="side-foot">Nine approved league feeds.<br>
+<a href="./method.html">Historical results. No bookmaker odds.</a>
+<br>
+<span id="sidebar-updated">Saved pre-match forecasts.</span>
+</p>
+</aside>
+<main class="main " id="main">
+<a class="brand mobile-brand" href="./">
+<span class="brand-mark">M</span>
+<strong>matchday<i>.</i>
+</strong>
+</a>
+<p class="eyebrow">KEEPING SCORE, HONESTLY</p>
+<header class="topbar">
+<div class="title-block">
+<h1>Results need<br>
+<em>a track record.</em>
+</h1>
+</div>
+</header>
+<p class="intro">A prediction is useful only if we measure it fairly. This page will report results from forecasts saved and published before the matches start.</p>
+<button class="text-button" id="score-refresh" type="button">Refresh results ↻</button>
 <div class="notice" id="score-notice" role="status">Loading the verified performance report…</div>
 <div id="score-report" hidden>
-<section class="performance-empty"><span class="tiny-label">VERIFIED, SCORED MATCHES</span><strong id="performance-count">—</strong><h2 id="performance-title"></h2><p id="performance-description"></p></section>
-<p id="score-updated"></p><div class="metric-list score-metrics" id="score-metrics"></div>
-<h2>Coverage, including the gaps</h2><div id="score-coverage"></div>
-<h2>Match-by-match record</h2><div id="score-matches"></div>
-<h2>Results by competition</h2><div id="score-leagues"></div>
-<h2>Results by model version</h2><div id="score-models"></div>
-<h2>Do draw probabilities match reality?</h2><p>For example, forecasts near 30% draw probability should produce draws about 30% of the time over a large sample. Small groups fluctuate.</p><div id="score-calibration"></div>
-<h2>Each double-chance market</h2><p>Outcome frequency describes how often each combination occurred across all scored matches; it is not the selected-pick success rate. Binary Brier measures that combination’s probability quality. Double chances cover two outcomes, so their success rate is naturally higher.</p><div id="score-markets"></div>
+<section class="performance-empty">
+<span class="tiny-label">VERIFIED, SCORED MATCHES</span>
+<strong id="performance-count">—</strong>
+<h2 id="performance-title">
+</h2>
+<p id="performance-description">
+</p>
+</section>
+<p id="score-updated">
+</p>
+<div class="metric-list score-metrics" id="score-metrics">
+</div>
+<section class="panel record-section" aria-labelledby="trend-title">
+<h2 id="trend-title">Two picks. A growing track record.</h2>
+<p>Cumulative hit rates from eligible completed matches, grouped by kickoff day in UTC. Each dot includes every scored match up to that day. This is not betting profit.</p>
+<div class="trend-controls">
+<label>Competition <select id="score-competition">
+<option value="all">All competitions</option>
+</select>
+</label>
+<span id="trend-count">
+</span>
+</div>
+<div class="chart-legend">
+<span>
+<i style="background:#c23b19">
+</i>Full-time result</span>
+<span>
+<i style="background:#16749f">
+</i>Double chance</span>
+</div>
+<div id="score-trend">
+</div>
+</section>
+<h2>Coverage, including the gaps</h2>
+<div id="score-coverage">
+</div>
+<h2>Match-by-match record</h2>
+<div id="score-matches">
+</div>
+<h2>Results by competition</h2>
+<div id="score-leagues">
+</div>
+<h2>Results by model version</h2>
+<div id="score-models">
+</div>
+<h2>Do draw probabilities match reality?</h2>
+<p>For example, forecasts near 30% draw probability should produce draws about 30% of the time over a large sample. Small groups fluctuate.</p>
+<div id="score-calibration">
+</div>
+<h2>Each double-chance market</h2>
+<p>Outcome frequency describes how often each combination occurred across all scored matches; it is not the selected-pick success rate. Binary Brier measures that combination’s probability quality. Double chances cover two outcomes, so their success rate is naturally higher.</p>
+<div id="score-markets">
+</div>
 </div>
 <h2>The timing and correction rules</h2>
 <p>For each fixture, we use the latest generated forecast verified publicly available at least two hours before the provider’s final recorded kickoff. Private forecasts do not count. The API records scheduled kickoff; it does not independently confirm the exact moment play began. Observed rescheduling requires a fresh forecast for the revised kickoff.</p>
 <p>Only accepted final regulation scores count, including stoppage time. Each fixture counts once. Each competition’s public tracking begins with its own first verified forecast publication; earlier matches are not backfilled into performance. Disputed results leave the current totals until resolved; verified corrections update the totals, while earlier report snapshots remain in the private audit trail. All forecast versions are retained.</p>
-<p>Training evaluation and this public track record are separate. These figures do not measure betting profit and do not guarantee future results. Result checks follow the twice-daily update schedule, so completed matches can remain pending until the next successful collection.</p><p class="score-fingerprint" id="score-policy"></p>
-<noscript><p>Enable JavaScript to load verified results. No static success rate is claimed.</p></noscript>
-<a class="primary-button" href="./">Back to the forecast board →</a></main><footer class="site-footer wrap"><a class="brand footer-brand" href="./">matchday<span class="brand-dot">.</span></a><p>A personal football prediction &amp; learning project.<br>Model estimates do not guarantee outcomes.</p><div><p>Football data provided by <a href="https://www.football-data.org/">football-data.org</a></p></div></footer><script type="module" src="./assets/performance.mjs"></script></body></html>
+<p>Training evaluation and this public track record are separate. These figures do not measure betting profit and do not guarantee future results. Result checks follow the twice-daily update schedule, so completed matches can remain pending until the next successful collection.</p>
+<p class="score-fingerprint" id="score-policy">
+</p>
+<noscript>
+<p>Enable JavaScript to load verified results. No static success rate is claimed.</p>
+</noscript>
+<a class="primary-button" href="./">Back to the forecast board →</a>
+<footer class="site-footer">
+<p>A football prediction &amp; learning project.<br>Model estimates do not guarantee outcomes.</p>
+<p>Data provided by <a href="https://www.football-data.org/" rel="noopener">football-data.org</a>
+<br>
+<a href="./performance.html">Explore the public track record ↗</a>
+</p>
+</footer>
+</main>
+</div>
+<nav class="tabbar" aria-label="Mobile navigation">
+<a href="./" data-nav="matches" class="">
+<svg class="icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+<path d="M3 5h18v14H3zM12 5v14M3 12h6M15 12h6"/>
+</svg>
+<span>Matches</span>
+</a>
+<a href="./?view=picks" data-nav="picks" class="">
+<svg class="icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+<path d="M4 12l5 5L20 6"/>
+</svg>
+<span>Picks</span>
+</a>
+<a href="./?view=bookmarks" data-nav="saved" class="">
+<svg class="icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+<path d="M6 3h12v18l-6-4-6 4z"/>
+</svg>
+<span>Saved</span>
+</a>
+<a href="./performance.html" data-nav="record" class="active" aria-current="page">
+<svg class="icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+<path d="M3 20V10M9 20V4M15 20v-8M21 20V8"/>
+</svg>
+<span>Record</span>
+</a>
+<a href="./method.html" data-nav="method" class="">
+<svg class="icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+<path d="M12 3a9 9 0 100 18 9 9 0 000-18zM12 11v6M12 7.5v.5"/>
+</svg>
+<span>Guide</span>
+</a>
+</nav>
+<div class="saved-alert" id="storage-notice" role="status" hidden>
+</div>
+</body>
+</html>

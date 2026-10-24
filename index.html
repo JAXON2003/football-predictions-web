@@ -1,27 +1,253 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="Football match probabilities, clearly explained. Explore home, draw, away and double-chance forecasts with honest timestamps.">
-  <meta name="theme-color" content="#123d30"><title>Matchday — Football, in probabilities</title>
-  <link rel="icon" href="./assets/icon.svg" type="image/svg+xml"><link rel="stylesheet" href="./assets/styles.css">
-  <script type="module" src="./assets/app.mjs"></script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; connect-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; object-src 'none'; base-uri 'self'; form-action 'none'">
+<meta name="theme-color" content="#151821">
+<meta name="description" content="Matchday football forecasts: full-time and double-chance model picks, verified results and a transparent track record.">
+<title>Football forecasts — Matchday</title>
+<link rel="icon" href="./assets/icon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="./assets/styles.css">
+<script type="module" src="./assets/shell.mjs">
+</script>
+<script type="module" src="./assets/app.mjs">
+</script>
 </head>
 <body>
-  <a class="skip-link" href="#board">Skip to forecasts</a>
-  <header class="site-header"><div class="header-inner"><a class="brand" href="./" aria-label="Matchday home"><span class="brand-mark">M<span>↗</span></span>matchday<span class="brand-dot">.</span></a><nav aria-label="Main navigation"><a href="./" aria-current="page">Forecasts</a><a href="./performance.html">Performance</a><a href="./method.html">How it works</a></nav><span class="header-note"><span class="status-dot"></span>A football learning project</span></div></header>
-  <main>
-    <section class="hero wrap" aria-labelledby="hero-title"><div><p class="eyebrow"><span></span> THE GAME, THROUGH THE NUMBERS</p><h1 id="hero-title">A clearer view<br>before <em>kick-off.</em></h1><p class="hero-description">Explore match probabilities built from past results.<br class="desktop-break"> Every forecast, every outcome, clearly on the table.</p><div class="hero-tags"><span>H / D / A</span><span>Double chance</span><span>Pre-match forecasts</span></div></div><div class="pitch-panel" aria-hidden="true"><div class="pitch-top"><span>THE NEXT 90 MINUTES</span><span class="pitch-star">✳</span></div><div class="pitch"><div class="pitch-line"></div><div class="pitch-circle"></div><div class="pitch-box left"></div><div class="pitch-box right"></div><i class="player p1"></i><i class="player p2"></i><i class="player p3"></i><i class="player p4"></i><i class="player p5"></i><i class="player p6"></i><span class="ball">↗</span></div><div class="pitch-bottom"><span>HISTORY IN. PROBABILITIES OUT.</span><span>01 — 03</span></div></div></section>
-    <section class="snapshot-bar" aria-label="Snapshot information"><div class="wrap snapshot-inner"><div><span class="tiny-label">IN THIS SNAPSHOT</span><strong id="snapshot-count">Loading forecasts…</strong></div><div><span class="tiny-label">DATA LAST OBSERVED</span><strong id="data-time">—</strong></div><div><span class="tiny-label">MODEL FITTED</span><strong id="model-date">—</strong></div><div><span class="tiny-label">REFRESH MODE</span><strong id="refresh-mode">Loading…</strong></div></div></section>
-    <section class="wrap board-section" id="board" aria-labelledby="board-title"><div class="section-heading"><div><p class="eyebrow">THE FORECAST BOARD</p><h2 id="board-title">What’s coming up</h2></div><button id="refresh" class="text-button" type="button">↻ Refresh feed</button></div>
-      <div id="feed-notice" class="notice" role="status" hidden></div>
-      <div class="board-toolbar"><div class="view-tabs" role="group" aria-label="Forecast view"><button type="button" data-view="upcoming" class="active" aria-pressed="true">Upcoming</button><button type="button" data-view="saved" aria-pressed="false">Saved snapshot</button></div><label class="timezone-label">Times in <select id="timezone" aria-label="Display timezone"><option value="local">Your timezone</option><option value="Africa/Dar_es_Salaam">Tanzania (EAT)</option><option value="UTC">UTC</option></select></label></div>
-      <div class="filters"><label>Competition<select id="competition"><option value="all">All competitions</option></select></label><label>Match date<select id="match-date"><option value="all">All dates</option></select></label><label class="search-label">Find a team<span class="search-box"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="Arsenal, Everton…" autocomplete="off"></span></label><button id="reset" type="button" class="reset-button">Reset</button></div>
-      <div class="board-caption"><p id="result-count" aria-live="polite">Checking the saved feed…</p><span><i class="legend-dot home-dot"></i>Home <i class="legend-dot draw-dot"></i>Draw <i class="legend-dot away-dot"></i>Away</span></div>
-      <div id="forecast-grid" class="forecast-grid"></div><div id="empty-state" class="empty-state" hidden><span aria-hidden="true">◷</span><h3 id="empty-title">No matching fixtures</h3><p id="empty-message">Try another date or team, or reset your filters.</p><button type="button" id="empty-reset" class="primary-button">Reset filters</button></div>
-      <noscript><p class="notice">JavaScript displays the saved forecast feed. You can also <a href="./data/predictions.json">read the prediction data directly</a>.</p></noscript>
-    </section>
-    <section class="understand wrap"><div class="understand-heading"><p class="eyebrow">A LITTLE CONTEXT</p><h2>Probabilities,<br><em>not promises.</em></h2><a href="./method.html" class="inline-link">Understand the model <span>↗</span></a></div><div class="explain-card"><span class="explain-number">01</span><h3>One match. Three outcomes.</h3><p>Home win, draw or away win. Together, their probabilities add up to 100%.</p></div><div class="explain-card"><span class="explain-number">02</span><h3>Double chance covers two.</h3><p>1X means home or draw. X2 means draw or away. 12 means either team wins.</p></div><div class="explain-card"><span class="explain-number">03</span><h3>The timestamps matter.</h3><p>Forecasts use known past results. Check when the data was observed and when each prediction was generated.</p></div></section>
-  </main>
-  <footer class="site-footer wrap"><a class="brand footer-brand" href="./">matchday<span class="brand-dot">.</span></a><p>A personal football prediction &amp; learning project.<br>Model estimates do not guarantee outcomes.</p><div><p>Football data provided by <a href="https://www.football-data.org/" rel="noopener">football-data.org</a></p><a href="./performance.html">See how forecasts will be measured ↗</a></div></footer>
-</body></html>
+<a class="skip-link" href="#main">Skip to content</a>
+<div class="shell">
+<aside class="side">
+<a class="brand" href="./">
+<span class="brand-mark">M</span>
+<strong>matchday<i>.</i>
+</strong>
+</a>
+<nav aria-label="Primary">
+<a href="./" data-nav="matches" class="active" aria-current="page">
+<svg class="icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+<path d="M3 5h18v14H3zM12 5v14M3 12h6M15 12h6"/>
+</svg>
+<span>Matches</span>
+<b data-count="matches">
+</b>
+</a>
+<a href="./?view=picks" data-nav="picks" class="">
+<svg class="icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+<path d="M4 12l5 5L20 6"/>
+</svg>
+<span>My picks</span>
+<b data-count="picks">
+</b>
+</a>
+<a href="./?view=bookmarks" data-nav="saved" class="">
+<svg class="icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+<path d="M6 3h12v18l-6-4-6 4z"/>
+</svg>
+<span>Saved</span>
+<b data-count="saved">
+</b>
+</a>
+<a href="./performance.html" data-nav="record" class="">
+<svg class="icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+<path d="M3 20V10M9 20V4M15 20v-8M21 20V8"/>
+</svg>
+<span>Track record</span>
+<b data-count="record">
+</b>
+</a>
+<a href="./method.html" data-nav="method" class="">
+<svg class="icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+<path d="M12 3a9 9 0 100 18 9 9 0 000-18zM12 11v6M12 7.5v.5"/>
+</svg>
+<span>How it works</span>
+<b data-count="method">
+</b>
+</a>
+</nav>
+<section class="pulse">
+<span class="eyebrow">Model pulse</span>
+<div class="pulse-num">
+<b id="pulse-rate">—</b>
+<small>full-time hit rate</small>
+</div>
+<div class="pulse-meter">
+<i id="pulse-meter" style="width:0%">
+</i>
+</div>
+<small class="pulse-note" id="pulse-note">Loading verified results.</small>
+</section>
+<div class="versus-card">
+<span class="eyebrow">Two calls. One match.</span>
+<p>A full-time result and a double-chance pick. Each measured separately after the final whistle.</p>
+</div>
+<p class="side-foot">Nine approved league feeds.<br>
+<a href="./method.html">Historical results. No bookmaker odds.</a>
+<br>
+<span id="sidebar-updated">Saved pre-match forecasts.</span>
+</p>
+</aside>
+<main class="main " id="main">
+<a class="brand mobile-brand" href="./">
+<span class="brand-mark">M</span>
+<strong>matchday<i>.</i>
+</strong>
+</a>
+<header class="topbar">
+<div class="title-block">
+<p class="eyebrow">THE GAME, THROUGH THE NUMBERS</p>
+<h1 id="board-title">Upcoming matches</h1>
+<p class="sub" id="board-subtitle">Your next match. Two clear model picks. Every probability on the table.</p>
+</div>
+<div class="top-actions">
+<button id="refresh" class="text-button" type="button">↻ Refresh feed</button>
+<a class="text-button" href="./performance.html">View track record ↗</a>
+</div>
+</header>
+<div class="snapshot-inner" aria-label="Snapshot information">
+<div>
+<span class="tiny-label">IN THIS SNAPSHOT</span>
+<strong id="snapshot-count">Loading…</strong>
+</div>
+<div>
+<span class="tiny-label">DATA LAST OBSERVED</span>
+<strong id="data-time">—</strong>
+</div>
+<div>
+<span class="tiny-label">MODEL FITTED</span>
+<strong id="model-date">—</strong>
+</div>
+<div>
+<span class="tiny-label">REFRESH MODE</span>
+<strong id="refresh-mode">Loading…</strong>
+</div>
+</div>
+<div id="feed-notice" class="notice" role="status" hidden>
+</div>
+<section id="spotlight" class="banker" aria-label="Highest full-time probability among upcoming matches" hidden>
+</section>
+<section id="board" aria-label="Forecast board">
+<div class="controls">
+<div class="view-tabs" role="group" aria-label="Forecast view">
+<button type="button" data-view="upcoming" class="active" aria-pressed="true">Upcoming</button>
+<button type="button" data-view="bookmarks" aria-pressed="false">Saved matches</button>
+<button type="button" data-view="picks" aria-pressed="false">My picks</button>
+<button type="button" data-view="saved" aria-pressed="false">Feed snapshot</button>
+</div>
+<p class="local-note" id="local-note" hidden>Saved matches and personal picks live in this browser. They do not change the model or its verified public track record.</p>
+<div class="chips" id="league-chips" role="group" aria-label="Quick competition filters">
+</div>
+<div class="filter-row">
+<label>Competition<select id="competition">
+<option value="all">All competitions</option>
+</select>
+</label>
+<label>Match date<select id="match-date">
+<option value="all">All dates</option>
+</select>
+</label>
+<label>Times in<select id="timezone">
+<option value="local">Your timezone</option>
+<option value="Africa/Dar_es_Salaam">Tanzania (EAT)</option>
+<option value="UTC">UTC</option>
+</select>
+</label>
+<label class="search">
+<span aria-hidden="true">⌕</span>
+<input id="search" type="search" placeholder="Find a team" aria-label="Find a team" autocomplete="off">
+<kbd>/</kbd>
+</label>
+</div>
+<div class="control-row">
+<label class="toggle">
+<input type="checkbox" id="strong-only">
+<span class="switch">
+</span>Top full-time probability <small>55%+</small>
+</label>
+<label class="sort">Sort<select id="sort">
+<option value="time">Kick-off time</option>
+<option value="confidence">Highest probability</option>
+<option value="close">Closest matches</option>
+</select>
+</label>
+<button id="reset" type="button" class="reset-button">Reset</button>
+<span class="count" id="result-count" aria-live="polite">Loading saved forecasts…</span>
+</div>
+</div>
+<div class="legend-row">
+<span>
+<i class="h">
+</i>Home</span>
+<span>
+<i class="d">
+</i>Draw</span>
+<span>
+<i class="a">
+</i>Away</span>
+<span class="hint">Open a match for the full breakdown</span>
+</div>
+<div id="forecast-grid" class="grid forecast-grid">
+</div>
+<div id="empty-state" class="empty" hidden>
+<strong id="empty-title">No matching fixtures</strong>
+<p id="empty-message">Try another date or team.</p>
+<button type="button" id="empty-reset" class="cta">Reset filters</button>
+</div>
+<noscript>
+<p class="notice">Enable JavaScript to explore forecasts, or <a href="./data/predictions.json">read the saved data</a>.</p>
+</noscript>
+</section>
+<dialog id="analysis-dialog" class="drawer-dialog" aria-labelledby="analysis-title">
+<div class="drawer-head">
+<strong id="analysis-title">Match analysis</strong>
+<button class="icon-btn" id="close-analysis" aria-label="Close analysis">✕</button>
+</div>
+<div id="analysis-content" class="drawer-scroll">
+</div>
+</dialog>
+<footer class="site-footer">
+<p>A football prediction &amp; learning project.<br>Model estimates do not guarantee outcomes.</p>
+<p>Data provided by <a href="https://www.football-data.org/" rel="noopener">football-data.org</a>
+<br>
+<a href="./performance.html">Explore the public track record ↗</a>
+</p>
+</footer>
+</main>
+</div>
+<nav class="tabbar" aria-label="Mobile navigation">
+<a href="./" data-nav="matches" class="active" aria-current="page">
+<svg class="icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+<path d="M3 5h18v14H3zM12 5v14M3 12h6M15 12h6"/>
+</svg>
+<span>Matches</span>
+</a>
+<a href="./?view=picks" data-nav="picks" class="">
+<svg class="icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+<path d="M4 12l5 5L20 6"/>
+</svg>
+<span>Picks</span>
+</a>
+<a href="./?view=bookmarks" data-nav="saved" class="">
+<svg class="icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+<path d="M6 3h12v18l-6-4-6 4z"/>
+</svg>
+<span>Saved</span>
+</a>
+<a href="./performance.html" data-nav="record" class="">
+<svg class="icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+<path d="M3 20V10M9 20V4M15 20v-8M21 20V8"/>
+</svg>
+<span>Record</span>
+</a>
+<a href="./method.html" data-nav="method" class="">
+<svg class="icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+<path d="M12 3a9 9 0 100 18 9 9 0 000-18zM12 11v6M12 7.5v.5"/>
+</svg>
+<span>Guide</span>
+</a>
+</nav>
+<div class="saved-alert" id="storage-notice" role="status" hidden>
+</div>
+</body>
+</html>

@@ -1,0 +1,27 @@
+name: Check public website and forecast data
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+      - name: Check probability, grading and display rules
+        run: node --test tests/domain.test.mjs
+      - name: Validate the actual saved public feed
+        run: |
+          node --input-type=module <<'JS'
+          import fs from 'node:fs';
+          import { validateFeed, validatePerformance } from './assets/domain.mjs';
+          const feed = validateFeed(JSON.parse(fs.readFileSync('data/predictions.json', 'utf8')));
+          validatePerformance(feed.performance);
+          console.log(`Verified ${feed.forecasts.length} saved forecasts and ${feed.performance.scored_matches} scored matches.`);
+          JS
