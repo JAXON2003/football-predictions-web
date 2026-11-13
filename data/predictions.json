@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "refresh_mode": "automatic",
-  "data_observed_at_utc": "2026-11-13T00:24:25.160352+00:00",
-  "valid_until_utc": "2026-11-14T12:24:25.160352+00:00",
+  "data_observed_at_utc": "2026-11-13T10:57:25.992312+00:00",
+  "valid_until_utc": "2026-11-14T22:57:25.992312+00:00",
   "model": {
     "version": "poisson-20261101T094559791860Z-b9e4f90e",
     "fitted_as_of": "2026-11-01",
@@ -12,7 +12,7 @@
   },
   "forecasts": [
     {
-      "forecast_id": "13f91817fdaec2f966f415d9",
+      "forecast_id": "d6288e7331557cccaf7791c8",
       "fixture_id": "football-data.org:555085",
       "country": "Brazil",
       "competition": "S\u00e9rie A",
@@ -21,8 +21,8 @@
       "kickoff_utc": "2026-11-14T21:30:00+00:00",
       "home_team": "Mirassol",
       "away_team": "Atletico-MG",
-      "generated_at_utc": "2026-11-13T00:25:05.292443+00:00",
-      "data_observed_at_utc": "2026-11-13T00:24:25.160352+00:00",
+      "generated_at_utc": "2026-11-13T10:58:30.843681+00:00",
+      "data_observed_at_utc": "2026-11-13T10:57:25.992312+00:00",
       "probabilities": {
         "home": 0.4156983566733309,
         "draw": 0.27162812772330436,
@@ -38,7 +38,7 @@
       "away_history_matches": 565
     },
     {
-      "forecast_id": "00d1e0ff405d7deb48e7b4b1",
+      "forecast_id": "fdaf566613a03a7ba3c30b2a",
       "fixture_id": "football-data.org:554942",
       "country": "Brazil",
       "competition": "S\u00e9rie A",
@@ -47,13 +47,13 @@
       "kickoff_utc": "2026-11-14T23:30:00+00:00",
       "home_team": "Chapecoense-SC",
       "away_team": "Vasco",
-      "generated_at_utc": "2026-11-13T00:25:05.315411+00:00",
-      "data_observed_at_utc": "2026-11-13T00:24:25.160352+00:00",
+      "generated_at_utc": "2026-11-13T10:58:30.867850+00:00",
+      "data_observed_at_utc": "2026-11-13T10:57:25.992312+00:00",
       "probabilities": {
-        "home": 0.2537457069123953,
+        "home": 0.25374570691239534,
         "draw": 0.25716615998947967,
         "away": 0.489088133098125,
-        "home_or_draw": 0.510911866901875,
+        "home_or_draw": 0.5109118669018751,
         "home_or_away": 0.7428338400105203,
         "draw_or_away": 0.7462542930876046
       },
@@ -64,7 +64,7 @@
       "away_history_matches": 413
     },
     {
-      "forecast_id": "a2a4f1db1e4c95f46328b812",
+      "forecast_id": "984c7f6bfba8b225b14def6c",
       "fixture_id": "football-data.org:555081",
       "country": "Brazil",
       "competition": "S\u00e9rie A",
@@ -73,8 +73,8 @@
       "kickoff_utc": "2026-11-18T22:30:00+00:00",
       "home_team": "Coritiba",
       "away_team": "Santos",
-      "generated_at_utc": "2026-11-13T00:25:05.337128+00:00",
-      "data_observed_at_utc": "2026-11-13T00:24:25.160352+00:00",
+      "generated_at_utc": "2026-11-13T10:58:30.892675+00:00",
+      "data_observed_at_utc": "2026-11-13T10:57:25.992312+00:00",
       "probabilities": {
         "home": 0.33718526953907624,
         "draw": 0.2769826995972209,
@@ -90,7 +90,7 @@
       "away_history_matches": 528
     },
     {
-      "forecast_id": "f58547f719733b0ebb8c4d4e",
+      "forecast_id": "8bea95240e1e6ec6d423451b",
       "fixture_id": "football-data.org:555086",
       "country": "Brazil",
       "competition": "S\u00e9rie A",
@@ -99,8 +99,8 @@
       "kickoff_utc": "2026-11-18T23:00:00+00:00",
       "home_team": "Remo",
       "away_team": "Chapecoense-SC",
-      "generated_at_utc": "2026-11-13T00:25:05.358774+00:00",
-      "data_observed_at_utc": "2026-11-13T00:24:25.160352+00:00",
+      "generated_at_utc": "2026-11-13T10:58:30.921039+00:00",
+      "data_observed_at_utc": "2026-11-13T10:57:25.992312+00:00",
       "probabilities": {
         "home": 0.5665062149624152,
         "draw": 0.2407932310687551,
@@ -116,7 +116,7 @@
       "away_history_matches": 298
     },
     {
-      "forecast_id": "709c524ae8c2674d727e5778",
+      "forecast_id": "c93f64083297887dfc36437d",
       "fixture_id": "football-data.org:555082",
       "country": "Brazil",
       "competition": "S\u00e9rie A",
@@ -125,8 +125,8 @@
       "kickoff_utc": "2026-11-18T23:30:00+00:00",
       "home_team": "Cruzeiro",
       "away_team": "Palmeiras",
-      "generated_at_utc": "2026-11-13T00:25:05.379111+00:00",
-      "data_observed_at_utc": "2026-11-13T00:24:25.160352+00:00",
+      "generated_at_utc": "2026-11-13T10:58:30.945265+00:00",
+      "data_observed_at_utc": "2026-11-13T10:57:25.992312+00:00",
       "probabilities": {
         "home": 0.31222512385533396,
         "draw": 0.2691777268442225,
@@ -142,7 +142,7 @@
       "away_history_matches": 528
     },
     {
-      "forecast_id": "5372a86e92b0daf43f212c31",
+      "forecast_id": "32456c769a1a461fe445ae3c",
       "fixture_id": "football-data.org:555083",
       "country": "Brazil",
       "competition": "S\u00e9rie A",
@@ -151,8 +151,8 @@
       "kickoff_utc": "2026-11-18T23:30:00+00:00",
       "home_team": "Flamengo RJ",
       "away_team": "Athletico-PR",
-      "generated_at_utc": "2026-11-13T00:25:05.399052+00:00",
-      "data_observed_at_utc": "2026-11-13T00:24:25.160352+00:00",
+      "generated_at_utc": "2026-11-13T10:58:30.969231+00:00",
+      "data_observed_at_utc": "2026-11-13T10:57:25.992312+00:00",
       "probabilities": {
         "home": 0.7126557464245399,
         "draw": 0.17621725052834344,
@@ -168,7 +168,7 @@
       "away_history_matches": 490
     },
     {
-      "forecast_id": "3de8ee9a3eb76725ff505043",
+      "forecast_id": "8c28e0ec0b0b591087cc2908",
       "fixture_id": "football-data.org:555080",
       "country": "Brazil",
       "competition": "S\u00e9rie A",
@@ -177,8 +177,8 @@
       "kickoff_utc": "2026-11-19T00:30:00+00:00",
       "home_team": "Corinthians",
       "away_team": "Botafogo RJ",
-      "generated_at_utc": "2026-11-13T00:25:05.419080+00:00",
-      "data_observed_at_utc": "2026-11-13T00:24:25.160352+00:00",
+      "generated_at_utc": "2026-11-13T10:58:30.993164+00:00",
+      "data_observed_at_utc": "2026-11-13T10:57:25.992312+00:00",
       "probabilities": {
         "home": 0.4162458366363094,
         "draw": 0.28819523534928937,
@@ -194,7 +194,7 @@
       "away_history_matches": 490
     },
     {
-      "forecast_id": "669948a7482ce1482454ea13",
+      "forecast_id": "deb115dba42120fc4e5f09e6",
       "fixture_id": "football-data.org:555084",
       "country": "Brazil",
       "competition": "S\u00e9rie A",
@@ -203,15 +203,15 @@
       "kickoff_utc": "2026-11-19T00:30:00+00:00",
       "home_team": "Gremio",
       "away_team": "Bahia",
-      "generated_at_utc": "2026-11-13T00:25:05.438805+00:00",
-      "data_observed_at_utc": "2026-11-13T00:24:25.160352+00:00",
+      "generated_at_utc": "2026-11-13T10:58:31.017557+00:00",
+      "data_observed_at_utc": "2026-11-13T10:57:25.992312+00:00",
       "probabilities": {
-        "home": 0.41632285864337587,
-        "draw": 0.2705278404214155,
-        "away": 0.3131493009352087,
+        "home": 0.4163228586433759,
+        "draw": 0.2705278404214154,
+        "away": 0.31314930093520865,
         "home_or_draw": 0.6868506990647913,
         "home_or_away": 0.7294721595785846,
-        "draw_or_away": 0.5836771413566242
+        "draw_or_away": 0.5836771413566241
       },
       "predicted_result": "H",
       "highest_probability_double_chance": "12",
@@ -220,7 +220,7 @@
       "away_history_matches": 452
     },
     {
-      "forecast_id": "507b0932ef335cd832ddcc3b",
+      "forecast_id": "95dec0bf6f4a2921fb6c9309",
       "fixture_id": "football-data.org:555088",
       "country": "Brazil",
       "competition": "S\u00e9rie A",
@@ -229,8 +229,8 @@
       "kickoff_utc": "2026-11-19T22:30:00+00:00",
       "home_team": "Vasco",
       "away_team": "Internacional",
-      "generated_at_utc": "2026-11-13T00:25:05.458035+00:00",
-      "data_observed_at_utc": "2026-11-13T00:24:25.160352+00:00",
+      "generated_at_utc": "2026-11-13T10:58:31.042264+00:00",
+      "data_observed_at_utc": "2026-11-13T10:57:25.992312+00:00",
       "probabilities": {
         "home": 0.4201451050426708,
         "draw": 0.27098532621500054,
@@ -246,7 +246,7 @@
       "away_history_matches": 528
     },
     {
-      "forecast_id": "ccc0b0a7a0020e19c2e1c997",
+      "forecast_id": "b9d080b96a23f431ac7cb046",
       "fixture_id": "football-data.org:555089",
       "country": "Brazil",
       "competition": "S\u00e9rie A",
@@ -255,8 +255,8 @@
       "kickoff_utc": "2026-11-19T22:30:00+00:00",
       "home_team": "Vitoria",
       "away_team": "Bragantino",
-      "generated_at_utc": "2026-11-13T00:25:05.477688+00:00",
-      "data_observed_at_utc": "2026-11-13T00:24:25.160352+00:00",
+      "generated_at_utc": "2026-11-13T10:58:31.066787+00:00",
+      "data_observed_at_utc": "2026-11-13T10:57:25.992312+00:00",
       "probabilities": {
         "home": 0.3709139025929716,
         "draw": 0.274985629443207,
@@ -270,6 +270,32 @@
       "limited_history": false,
       "home_history_matches": 300,
       "away_history_matches": 262
+    },
+    {
+      "forecast_id": "e5b7840fa3705f394b9989ab",
+      "fixture_id": "football-data.org:555087",
+      "country": "Brazil",
+      "competition": "S\u00e9rie A",
+      "competition_code": "Serie A",
+      "date": "2026-11-20",
+      "kickoff_utc": "2026-11-20T00:30:00+00:00",
+      "home_team": "Sao Paulo",
+      "away_team": "Fluminense",
+      "generated_at_utc": "2026-11-13T10:58:31.091135+00:00",
+      "data_observed_at_utc": "2026-11-13T10:57:25.992312+00:00",
+      "probabilities": {
+        "home": 0.3725440274421437,
+        "draw": 0.2787888681545201,
+        "away": 0.3486671044033363,
+        "home_or_draw": 0.6513328955966637,
+        "home_or_away": 0.72121113184548,
+        "draw_or_away": 0.6274559725578563
+      },
+      "predicted_result": "H",
+      "highest_probability_double_chance": "12",
+      "limited_history": false,
+      "home_history_matches": 566,
+      "away_history_matches": 566
     }
   ],
   "performance": {
@@ -419,19 +445,19 @@
         "started_at_utc": "2026-10-24T16:57:02.891358+00:00"
       }
     ],
-    "results_observed_at_utc": "2026-11-13T00:24:25.160352+00:00",
+    "results_observed_at_utc": "2026-11-13T10:57:25.992312+00:00",
     "minimum_public_lead_hours": 2,
     "kickoff_basis": "provider recorded kickoff UTC, not independently measured actual start",
     "coverage": {
-      "monitored_matches": 258,
+      "monitored_matches": 260,
       "verified_completed_matches": 249,
       "scored_completed_fraction": 0.9759036144578314,
       "counts": {
         "unscored_timing": 6,
         "scored": 243,
-        "awaiting_result": 9
+        "awaiting_result": 11
       },
-      "timing_eligible_matches": 251
+      "timing_eligible_matches": 253
     },
     "by_competition": [
       {
@@ -10032,11 +10058,11 @@
         "kickoff_utc": "2026-11-14T21:30:00+00:00",
         "provider_status": "TIMED",
         "timing_eligible": true,
-        "forecast_id": "4a844da86d57608334cf3c7b",
+        "forecast_id": "13f91817fdaec2f966f415d9",
         "status": "awaiting_result",
         "reason": null,
-        "generated_at_utc": "2026-11-12T18:58:30.964452+00:00",
-        "first_verified_public_at_utc": "2026-11-12T18:59:26.255145+00:00",
+        "generated_at_utc": "2026-11-13T00:25:05.292443+00:00",
+        "first_verified_public_at_utc": "2026-11-13T00:25:56.558990+00:00",
         "model_version": "poisson-20261101T094559791860Z-b9e4f90e",
         "predicted_result": "H",
         "selected_double_chance": "12",
@@ -10058,11 +10084,11 @@
         "kickoff_utc": "2026-11-14T23:30:00+00:00",
         "provider_status": "TIMED",
         "timing_eligible": true,
-        "forecast_id": "f824d64d0bcb594dc27daff7",
+        "forecast_id": "00d1e0ff405d7deb48e7b4b1",
         "status": "awaiting_result",
         "reason": null,
-        "generated_at_utc": "2026-11-12T18:58:30.984980+00:00",
-        "first_verified_public_at_utc": "2026-11-12T18:59:26.255145+00:00",
+        "generated_at_utc": "2026-11-13T00:25:05.315411+00:00",
+        "first_verified_public_at_utc": "2026-11-13T00:25:56.558990+00:00",
         "model_version": "poisson-20261101T094559791860Z-b9e4f90e",
         "predicted_result": "A",
         "selected_double_chance": "X2",
@@ -10084,11 +10110,11 @@
         "kickoff_utc": "2026-11-18T22:30:00+00:00",
         "provider_status": "TIMED",
         "timing_eligible": true,
-        "forecast_id": "3f4a157bbf213f399328d298",
+        "forecast_id": "a2a4f1db1e4c95f46328b812",
         "status": "awaiting_result",
         "reason": null,
-        "generated_at_utc": "2026-11-12T18:58:31.005046+00:00",
-        "first_verified_public_at_utc": "2026-11-12T18:59:26.255145+00:00",
+        "generated_at_utc": "2026-11-13T00:25:05.337128+00:00",
+        "first_verified_public_at_utc": "2026-11-13T00:25:56.558990+00:00",
         "model_version": "poisson-20261101T094559791860Z-b9e4f90e",
         "predicted_result": "A",
         "selected_double_chance": "12",
@@ -10110,11 +10136,11 @@
         "kickoff_utc": "2026-11-18T23:00:00+00:00",
         "provider_status": "TIMED",
         "timing_eligible": true,
-        "forecast_id": "10021dda1b882af107aff06c",
+        "forecast_id": "f58547f719733b0ebb8c4d4e",
         "status": "awaiting_result",
         "reason": null,
-        "generated_at_utc": "2026-11-12T18:58:31.024881+00:00",
-        "first_verified_public_at_utc": "2026-11-12T18:59:26.255145+00:00",
+        "generated_at_utc": "2026-11-13T00:25:05.358774+00:00",
+        "first_verified_public_at_utc": "2026-11-13T00:25:56.558990+00:00",
         "model_version": "poisson-20261101T094559791860Z-b9e4f90e",
         "predicted_result": "H",
         "selected_double_chance": "1X",
@@ -10136,11 +10162,11 @@
         "kickoff_utc": "2026-11-18T23:30:00+00:00",
         "provider_status": "TIMED",
         "timing_eligible": true,
-        "forecast_id": "8c026cf4b595a4bad59591fc",
+        "forecast_id": "709c524ae8c2674d727e5778",
         "status": "awaiting_result",
         "reason": null,
-        "generated_at_utc": "2026-11-12T18:58:31.044567+00:00",
-        "first_verified_public_at_utc": "2026-11-12T18:59:26.255145+00:00",
+        "generated_at_utc": "2026-11-13T00:25:05.379111+00:00",
+        "first_verified_public_at_utc": "2026-11-13T00:25:56.558990+00:00",
         "model_version": "poisson-20261101T094559791860Z-b9e4f90e",
         "predicted_result": "A",
         "selected_double_chance": "12",
@@ -10162,11 +10188,11 @@
         "kickoff_utc": "2026-11-18T23:30:00+00:00",
         "provider_status": "TIMED",
         "timing_eligible": true,
-        "forecast_id": "a4bd4d6dd4ed52ce7061e440",
+        "forecast_id": "5372a86e92b0daf43f212c31",
         "status": "awaiting_result",
         "reason": null,
-        "generated_at_utc": "2026-11-12T18:58:31.064414+00:00",
-        "first_verified_public_at_utc": "2026-11-12T18:59:26.255145+00:00",
+        "generated_at_utc": "2026-11-13T00:25:05.399052+00:00",
+        "first_verified_public_at_utc": "2026-11-13T00:25:56.558990+00:00",
         "model_version": "poisson-20261101T094559791860Z-b9e4f90e",
         "predicted_result": "H",
         "selected_double_chance": "1X",
@@ -10188,11 +10214,11 @@
         "kickoff_utc": "2026-11-19T00:30:00+00:00",
         "provider_status": "TIMED",
         "timing_eligible": true,
-        "forecast_id": "e38a21108fbe995321d84260",
+        "forecast_id": "3de8ee9a3eb76725ff505043",
         "status": "awaiting_result",
         "reason": null,
-        "generated_at_utc": "2026-11-12T18:58:31.084656+00:00",
-        "first_verified_public_at_utc": "2026-11-12T18:59:26.255145+00:00",
+        "generated_at_utc": "2026-11-13T00:25:05.419080+00:00",
+        "first_verified_public_at_utc": "2026-11-13T00:25:56.558990+00:00",
         "model_version": "poisson-20261101T094559791860Z-b9e4f90e",
         "predicted_result": "H",
         "selected_double_chance": "12",
@@ -10214,11 +10240,11 @@
         "kickoff_utc": "2026-11-19T00:30:00+00:00",
         "provider_status": "TIMED",
         "timing_eligible": true,
-        "forecast_id": "a3c78713d13d7ee87b849c03",
+        "forecast_id": "669948a7482ce1482454ea13",
         "status": "awaiting_result",
         "reason": null,
-        "generated_at_utc": "2026-11-12T18:58:31.104536+00:00",
-        "first_verified_public_at_utc": "2026-11-12T18:59:26.255145+00:00",
+        "generated_at_utc": "2026-11-13T00:25:05.438805+00:00",
+        "first_verified_public_at_utc": "2026-11-13T00:25:56.558990+00:00",
         "model_version": "poisson-20261101T094559791860Z-b9e4f90e",
         "predicted_result": "H",
         "selected_double_chance": "12",
@@ -10229,6 +10255,58 @@
           "home_or_draw": 0.6868506990647913,
           "home_or_away": 0.7294721595785846,
           "draw_or_away": 0.5836771413566242
+        }
+      },
+      {
+        "fixture_id": "football-data.org:555088",
+        "country": "Brazil",
+        "competition_code": "Serie A",
+        "home_team": "Vasco",
+        "away_team": "Internacional",
+        "kickoff_utc": "2026-11-19T22:30:00+00:00",
+        "provider_status": "TIMED",
+        "timing_eligible": true,
+        "forecast_id": "507b0932ef335cd832ddcc3b",
+        "status": "awaiting_result",
+        "reason": null,
+        "generated_at_utc": "2026-11-13T00:25:05.458035+00:00",
+        "first_verified_public_at_utc": "2026-11-13T00:25:56.558990+00:00",
+        "model_version": "poisson-20261101T094559791860Z-b9e4f90e",
+        "predicted_result": "H",
+        "selected_double_chance": "12",
+        "probabilities": {
+          "home": 0.4201451050426708,
+          "draw": 0.27098532621500054,
+          "away": 0.3088695687423287,
+          "home_or_draw": 0.6911304312576714,
+          "home_or_away": 0.7290146737849994,
+          "draw_or_away": 0.5798548949573292
+        }
+      },
+      {
+        "fixture_id": "football-data.org:555089",
+        "country": "Brazil",
+        "competition_code": "Serie A",
+        "home_team": "Vitoria",
+        "away_team": "Bragantino",
+        "kickoff_utc": "2026-11-19T22:30:00+00:00",
+        "provider_status": "TIMED",
+        "timing_eligible": true,
+        "forecast_id": "ccc0b0a7a0020e19c2e1c997",
+        "status": "awaiting_result",
+        "reason": null,
+        "generated_at_utc": "2026-11-13T00:25:05.477688+00:00",
+        "first_verified_public_at_utc": "2026-11-13T00:25:56.558990+00:00",
+        "model_version": "poisson-20261101T094559791860Z-b9e4f90e",
+        "predicted_result": "H",
+        "selected_double_chance": "12",
+        "probabilities": {
+          "home": 0.3709139025929716,
+          "draw": 0.274985629443207,
+          "away": 0.3541004679638214,
+          "home_or_draw": 0.6458995320361786,
+          "home_or_away": 0.725014370556793,
+          "draw_or_away": 0.6290860974070284
         }
       },
       {
@@ -10247,6 +10325,6 @@
     ],
     "policy_sha256": "c9efd6ee0648ed7b35e5c7180b0e1796e4558fb9af99a4177bc9a53e244fc896"
   },
-  "publication_id": "11317848c9566ea3d77094ae",
-  "prepared_at_utc": "2026-11-13T00:25:14.131117+00:00"
+  "publication_id": "548d26cd4a77c568cb4d05e8",
+  "prepared_at_utc": "2026-11-13T10:58:41.561049+00:00"
 }
