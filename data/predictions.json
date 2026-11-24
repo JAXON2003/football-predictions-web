@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "refresh_mode": "automatic",
-  "data_observed_at_utc": "2026-11-23T22:41:10.037981+00:00",
-  "valid_until_utc": "2026-11-25T10:41:10.037981+00:00",
+  "data_observed_at_utc": "2026-11-24T13:40:55.129395+00:00",
+  "valid_until_utc": "2026-11-26T01:40:55.129395+00:00",
   "model": {
     "version": "poisson-20261101T094559791860Z-b9e4f90e",
     "fitted_as_of": "2026-11-01",
@@ -12,59 +12,7 @@
   },
   "forecasts": [
     {
-      "forecast_id": "42fd7f4166d0c0ea81e6c472",
-      "fixture_id": "football-data.org:555093",
-      "country": "Brazil",
-      "competition": "S\u00e9rie A",
-      "competition_code": "Serie A",
-      "date": "2026-11-23",
-      "kickoff_utc": "2026-11-23T23:00:00+00:00",
-      "home_team": "Botafogo RJ",
-      "away_team": "Sao Paulo",
-      "generated_at_utc": "2026-11-23T22:42:41.434475+00:00",
-      "data_observed_at_utc": "2026-11-23T22:41:10.037981+00:00",
-      "probabilities": {
-        "home": 0.4305311929247854,
-        "draw": 0.281941267426862,
-        "away": 0.2875275396483526,
-        "home_or_draw": 0.7124724603516475,
-        "home_or_away": 0.718058732573138,
-        "draw_or_away": 0.5694688070752145
-      },
-      "predicted_result": "H",
-      "highest_probability_double_chance": "12",
-      "limited_history": false,
-      "home_history_matches": 491,
-      "away_history_matches": 567
-    },
-    {
-      "forecast_id": "51567ad0a99d23d66b76c38e",
-      "fixture_id": "football-data.org:555099",
-      "country": "Brazil",
-      "competition": "S\u00e9rie A",
-      "competition_code": "Serie A",
-      "date": "2026-11-24",
-      "kickoff_utc": "2026-11-24T00:00:00+00:00",
-      "home_team": "Santos",
-      "away_team": "Gremio",
-      "generated_at_utc": "2026-11-23T22:42:41.460394+00:00",
-      "data_observed_at_utc": "2026-11-23T22:41:10.037981+00:00",
-      "probabilities": {
-        "home": 0.5344088788846159,
-        "draw": 0.25261602155151436,
-        "away": 0.2129750995638698,
-        "home_or_draw": 0.7870249004361303,
-        "home_or_away": 0.7473839784484857,
-        "draw_or_away": 0.46559112111538414
-      },
-      "predicted_result": "H",
-      "highest_probability_double_chance": "1X",
-      "limited_history": false,
-      "home_history_matches": 529,
-      "away_history_matches": 529
-    },
-    {
-      "forecast_id": "9747a6edc8fafd89306420d2",
+      "forecast_id": "25ddf324ba44a8aa083431b2",
       "fixture_id": "football-data.org:555102",
       "country": "Brazil",
       "competition": "S\u00e9rie A",
@@ -73,8 +21,8 @@
       "kickoff_utc": "2026-11-24T21:00:00+00:00",
       "home_team": "Chapecoense-SC",
       "away_team": "Palmeiras",
-      "generated_at_utc": "2026-11-23T22:42:41.486426+00:00",
-      "data_observed_at_utc": "2026-11-23T22:41:10.037981+00:00",
+      "generated_at_utc": "2026-11-24T13:42:09.185462+00:00",
+      "data_observed_at_utc": "2026-11-24T13:40:55.129395+00:00",
       "probabilities": {
         "home": 0.08659759993807058,
         "draw": 0.16155785168481346,
@@ -90,7 +38,7 @@
       "away_history_matches": 530
     },
     {
-      "forecast_id": "1dde7618f02c7c106e213a63",
+      "forecast_id": "d6c4818e30d922775b7dd548",
       "fixture_id": "football-data.org:555091",
       "country": "Brazil",
       "competition": "S\u00e9rie A",
@@ -99,15 +47,15 @@
       "kickoff_utc": "2026-11-25T23:00:00+00:00",
       "home_team": "Atletico-MG",
       "away_team": "Corinthians",
-      "generated_at_utc": "2026-11-23T22:42:41.512439+00:00",
-      "data_observed_at_utc": "2026-11-23T22:41:10.037981+00:00",
+      "generated_at_utc": "2026-11-24T13:42:09.218266+00:00",
+      "data_observed_at_utc": "2026-11-24T13:40:55.129395+00:00",
       "probabilities": {
-        "home": 0.4925232999579469,
-        "draw": 0.261750592950268,
-        "away": 0.24572610709178497,
-        "home_or_draw": 0.7542738929082149,
-        "home_or_away": 0.7382494070497319,
-        "draw_or_away": 0.5074767000420529
+        "home": 0.49252560599793443,
+        "draw": 0.2617470910238891,
+        "away": 0.24572730297817655,
+        "home_or_draw": 0.7542726970218235,
+        "home_or_away": 0.738252908976111,
+        "draw_or_away": 0.5074743940020656
       },
       "predicted_result": "H",
       "highest_probability_double_chance": "1X",
@@ -116,7 +64,7 @@
       "away_history_matches": 567
     },
     {
-      "forecast_id": "3e821dd0bf2b39f87fae258c",
+      "forecast_id": "297e8d30a0d6ccea924ef668",
       "fixture_id": "football-data.org:555108",
       "country": "Brazil",
       "competition": "S\u00e9rie A",
@@ -125,24 +73,24 @@
       "kickoff_utc": "2026-11-26T23:00:00+00:00",
       "home_team": "Sao Paulo",
       "away_team": "Remo",
-      "generated_at_utc": "2026-11-23T22:42:41.538440+00:00",
-      "data_observed_at_utc": "2026-11-23T22:41:10.037981+00:00",
+      "generated_at_utc": "2026-11-24T13:42:09.248270+00:00",
+      "data_observed_at_utc": "2026-11-24T13:40:55.129395+00:00",
       "probabilities": {
-        "home": 0.5776945139081918,
-        "draw": 0.24500760412270517,
-        "away": 0.17729788196910312,
-        "home_or_draw": 0.822702118030897,
-        "home_or_away": 0.7549923958772949,
-        "draw_or_away": 0.4223054860918083
+        "home": 0.588404547476313,
+        "draw": 0.2404164378007522,
+        "away": 0.1711790147229349,
+        "home_or_draw": 0.8288209852770652,
+        "home_or_away": 0.7595835621992479,
+        "draw_or_away": 0.4115954525236871
       },
       "predicted_result": "H",
       "highest_probability_double_chance": "1X",
       "limited_history": false,
-      "home_history_matches": 567,
+      "home_history_matches": 568,
       "away_history_matches": 36
     },
     {
-      "forecast_id": "ae4b582e47bab9faf398cb06",
+      "forecast_id": "8d6c1576e65c3b950b1d29f5",
       "fixture_id": "football-data.org:558820",
       "country": "Netherlands",
       "competition": "Eredivisie",
@@ -151,8 +99,8 @@
       "kickoff_utc": "2026-11-27T19:00:00+00:00",
       "home_team": "Groningen",
       "away_team": "Willem II",
-      "generated_at_utc": "2026-11-23T22:42:41.564257+00:00",
-      "data_observed_at_utc": "2026-11-23T22:41:10.037981+00:00",
+      "generated_at_utc": "2026-11-24T13:42:09.280814+00:00",
+      "data_observed_at_utc": "2026-11-24T13:40:55.129395+00:00",
       "probabilities": {
         "home": 0.7189465983216125,
         "draw": 0.16533630963623155,
@@ -168,7 +116,7 @@
       "away_history_matches": 379
     },
     {
-      "forecast_id": "90b840b1b763e1d63582f10e",
+      "forecast_id": "897182d02fdff29562227340",
       "fixture_id": "football-data.org:565869",
       "country": "Germany",
       "competition": "Bundesliga",
@@ -177,8 +125,8 @@
       "kickoff_utc": "2026-11-27T19:30:00+00:00",
       "home_team": "Werder Bremen",
       "away_team": "M'gladbach",
-      "generated_at_utc": "2026-11-23T22:42:41.590495+00:00",
-      "data_observed_at_utc": "2026-11-23T22:41:10.037981+00:00",
+      "generated_at_utc": "2026-11-24T13:42:09.310656+00:00",
+      "data_observed_at_utc": "2026-11-24T13:40:55.129395+00:00",
       "probabilities": {
         "home": 0.535462446075803,
         "draw": 0.22132300105062794,
@@ -194,7 +142,7 @@
       "away_history_matches": 554
     },
     {
-      "forecast_id": "c6531d5016469b4702696928",
+      "forecast_id": "0a50ea3ac2ae55789678cddb",
       "fixture_id": "football-data.org:558515",
       "country": "Italy",
       "competition": "Serie A",
@@ -203,8 +151,8 @@
       "kickoff_utc": "2026-11-27T19:45:00+00:00",
       "home_team": "Venezia",
       "away_team": "Bologna",
-      "generated_at_utc": "2026-11-23T22:42:41.616117+00:00",
-      "data_observed_at_utc": "2026-11-23T22:41:10.037981+00:00",
+      "generated_at_utc": "2026-11-24T13:42:09.340786+00:00",
+      "data_observed_at_utc": "2026-11-24T13:40:55.129395+00:00",
       "probabilities": {
         "home": 0.24491578073548023,
         "draw": 0.2476909637742547,
@@ -220,7 +168,7 @@
       "away_history_matches": 624
     },
     {
-      "forecast_id": "66beff6979330611fa8bf945",
+      "forecast_id": "3762519c47e9f0b5e87d91b1",
       "fixture_id": "football-data.org:559616",
       "country": "France",
       "competition": "Ligue 1",
@@ -229,8 +177,8 @@
       "kickoff_utc": "2026-11-27T19:45:00+00:00",
       "home_team": "Brest",
       "away_team": "Paris FC",
-      "generated_at_utc": "2026-11-23T22:42:41.641955+00:00",
-      "data_observed_at_utc": "2026-11-23T22:41:10.037981+00:00",
+      "generated_at_utc": "2026-11-24T13:42:09.370662+00:00",
+      "data_observed_at_utc": "2026-11-24T13:40:55.129395+00:00",
       "probabilities": {
         "home": 0.3958036011058743,
         "draw": 0.2668501062911952,
@@ -246,7 +194,7 @@
       "away_history_matches": 373
     },
     {
-      "forecast_id": "9776e4ced5196ddd0dc2ed6b",
+      "forecast_id": "5d0fe2aba04e1bb3cd5ca2f3",
       "fixture_id": "football-data.org:560658",
       "country": "England",
       "competition": "Premier League",
@@ -255,15 +203,15 @@
       "kickoff_utc": "2026-11-27T20:00:00+00:00",
       "home_team": "Nott'm Forest",
       "away_team": "Chelsea",
-      "generated_at_utc": "2026-11-23T22:42:41.667846+00:00",
-      "data_observed_at_utc": "2026-11-23T22:41:10.037981+00:00",
+      "generated_at_utc": "2026-11-24T13:42:09.402844+00:00",
+      "data_observed_at_utc": "2026-11-24T13:40:55.129395+00:00",
       "probabilities": {
-        "home": 0.3764730148101397,
-        "draw": 0.2567712044738423,
-        "away": 0.366755780716018,
-        "home_or_draw": 0.633244219283982,
-        "home_or_away": 0.7432287955261576,
-        "draw_or_away": 0.6235269851898603
+        "home": 0.3764730148101395,
+        "draw": 0.25677120447384233,
+        "away": 0.3667557807160182,
+        "home_or_draw": 0.6332442192839818,
+        "home_or_away": 0.7432287955261577,
+        "draw_or_away": 0.6235269851898606
       },
       "predicted_result": "H",
       "highest_probability_double_chance": "12",
@@ -272,7 +220,7 @@
       "away_history_matches": 619
     },
     {
-      "forecast_id": "bb52e5929e8896adea555564",
+      "forecast_id": "79ca7cebccede00e61178b36",
       "fixture_id": "football-data.org:564765",
       "country": "Spain",
       "competition": "La Liga",
@@ -281,8 +229,8 @@
       "kickoff_utc": "2026-11-27T20:00:00+00:00",
       "home_team": "Levante",
       "away_team": "Santander",
-      "generated_at_utc": "2026-11-23T22:42:41.694149+00:00",
-      "data_observed_at_utc": "2026-11-23T22:41:10.037981+00:00",
+      "generated_at_utc": "2026-11-24T13:42:09.433412+00:00",
+      "data_observed_at_utc": "2026-11-24T13:40:55.129395+00:00",
       "probabilities": {
         "home": 0.5024252919741008,
         "draw": 0.23308892024235045,
@@ -298,7 +246,7 @@
       "away_history_matches": 383
     },
     {
-      "forecast_id": "4890a78e11f1b7df69056aee",
+      "forecast_id": "a02d3f2df858967d9a5f27ce",
       "fixture_id": "football-data.org:555105",
       "country": "Brazil",
       "competition": "S\u00e9rie A",
@@ -307,15 +255,15 @@
       "kickoff_utc": "2026-11-27T23:00:00+00:00",
       "home_team": "Fluminense",
       "away_team": "Cruzeiro",
-      "generated_at_utc": "2026-11-23T22:42:41.720096+00:00",
-      "data_observed_at_utc": "2026-11-23T22:41:10.037981+00:00",
+      "generated_at_utc": "2026-11-24T13:42:09.464342+00:00",
+      "data_observed_at_utc": "2026-11-24T13:40:55.129395+00:00",
       "probabilities": {
-        "home": 0.45907367890651063,
-        "draw": 0.27034043491379023,
-        "away": 0.27058588617969914,
-        "home_or_draw": 0.7294141138203009,
-        "home_or_away": 0.7296595650862098,
-        "draw_or_away": 0.5409263210934894
+        "home": 0.4590739477124998,
+        "draw": 0.2703377379855062,
+        "away": 0.2705883143019941,
+        "home_or_draw": 0.729411685698006,
+        "home_or_away": 0.7296622620144939,
+        "draw_or_away": 0.5409260522875003
       },
       "predicted_result": "H",
       "highest_probability_double_chance": "12",
@@ -324,7 +272,7 @@
       "away_history_matches": 454
     },
     {
-      "forecast_id": "c105843c03c692968d52ae08",
+      "forecast_id": "706e13ca2af3dacb199cd825",
       "fixture_id": "football-data.org:564760",
       "country": "Spain",
       "competition": "La Liga",
@@ -333,8 +281,8 @@
       "kickoff_utc": "2026-11-28T13:00:00+00:00",
       "home_team": "Betis",
       "away_team": "Vallecano",
-      "generated_at_utc": "2026-11-23T22:42:41.746193+00:00",
-      "data_observed_at_utc": "2026-11-23T22:41:10.037981+00:00",
+      "generated_at_utc": "2026-11-24T13:42:09.494330+00:00",
+      "data_observed_at_utc": "2026-11-24T13:40:55.129395+00:00",
       "probabilities": {
         "home": 0.593941217702508,
         "draw": 0.21597719224469006,
@@ -350,7 +298,7 @@
       "away_history_matches": 640
     },
     {
-      "forecast_id": "5286c668f89cc10108dd558c",
+      "forecast_id": "660f7ee999b017cb5d683c32",
       "fixture_id": "football-data.org:558513",
       "country": "Italy",
       "competition": "Serie A",
@@ -359,8 +307,8 @@
       "kickoff_utc": "2026-11-28T14:00:00+00:00",
       "home_team": "Frosinone",
       "away_team": "Parma",
-      "generated_at_utc": "2026-11-23T22:42:41.771930+00:00",
-      "data_observed_at_utc": "2026-11-23T22:41:10.037981+00:00",
+      "generated_at_utc": "2026-11-24T13:42:09.524631+00:00",
+      "data_observed_at_utc": "2026-11-24T13:40:55.129395+00:00",
       "probabilities": {
         "home": 0.5404605235198803,
         "draw": 0.22902890092560643,
@@ -376,7 +324,7 @@
       "away_history_matches": 548
     },
     {
-      "forecast_id": "5652b348402e6a5694c5a6bb",
+      "forecast_id": "d4188fe51672755c8b0cc0a9",
       "fixture_id": "football-data.org:565866",
       "country": "Germany",
       "competition": "Bundesliga",
@@ -385,15 +333,15 @@
       "kickoff_utc": "2026-11-28T14:30:00+00:00",
       "home_team": "FC Koln",
       "away_team": "Elversberg",
-      "generated_at_utc": "2026-11-23T22:42:41.797616+00:00",
-      "data_observed_at_utc": "2026-11-23T22:41:10.037981+00:00",
+      "generated_at_utc": "2026-11-24T13:42:09.557986+00:00",
+      "data_observed_at_utc": "2026-11-24T13:40:55.129395+00:00",
       "probabilities": {
         "home": 0.44664930767791033,
-        "draw": 0.240964629455539,
+        "draw": 0.24096462945553895,
         "away": 0.31238606286655063,
         "home_or_draw": 0.6876139371334493,
         "home_or_away": 0.759035370544461,
-        "draw_or_away": 0.5533506923220897
+        "draw_or_away": 0.5533506923220896
       },
       "predicted_result": "H",
       "highest_probability_double_chance": "12",
@@ -402,7 +350,7 @@
       "away_history_matches": 112
     },
     {
-      "forecast_id": "52a48d4ba3d06b412b07da85",
+      "forecast_id": "772caf35e9a844a16e05e09b",
       "fixture_id": "football-data.org:565867",
       "country": "Germany",
       "competition": "Bundesliga",
@@ -411,8 +359,8 @@
       "kickoff_utc": "2026-11-28T14:30:00+00:00",
       "home_team": "Mainz",
       "away_team": "Union Berlin",
-      "generated_at_utc": "2026-11-23T22:42:41.823063+00:00",
-      "data_observed_at_utc": "2026-11-23T22:41:10.037981+00:00",
+      "generated_at_utc": "2026-11-24T13:42:09.587737+00:00",
+      "data_observed_at_utc": "2026-11-24T13:40:55.129395+00:00",
       "probabilities": {
         "home": 0.5737172222340188,
         "draw": 0.21855299111169435,
@@ -428,7 +376,7 @@
       "away_history_matches": 554
     },
     {
-      "forecast_id": "977fe1d58982162c1faa672a",
+      "forecast_id": "3d88666f1766421a97e0565d",
       "fixture_id": "football-data.org:565868",
       "country": "Germany",
       "competition": "Bundesliga",
@@ -437,8 +385,8 @@
       "kickoff_utc": "2026-11-28T14:30:00+00:00",
       "home_team": "Paderborn",
       "away_team": "Schalke 04",
-      "generated_at_utc": "2026-11-23T22:42:41.848909+00:00",
-      "data_observed_at_utc": "2026-11-23T22:41:10.037981+00:00",
+      "generated_at_utc": "2026-11-24T13:42:09.625044+00:00",
+      "data_observed_at_utc": "2026-11-24T13:40:55.129395+00:00",
       "probabilities": {
         "home": 0.43088716734486865,
         "draw": 0.25459531961390225,
@@ -454,7 +402,7 @@
       "away_history_matches": 554
     },
     {
-      "forecast_id": "1242a8e3fbe604c0777336ad",
+      "forecast_id": "7df4edc3a0232f83f4fd5c2a",
       "fixture_id": "football-data.org:565874",
       "country": "Germany",
       "competition": "Bundesliga",
@@ -463,8 +411,8 @@
       "kickoff_utc": "2026-11-28T14:30:00+00:00",
       "home_team": "Hamburg",
       "away_team": "Bayern Munich",
-      "generated_at_utc": "2026-11-23T22:42:41.874753+00:00",
-      "data_observed_at_utc": "2026-11-23T22:41:10.037981+00:00",
+      "generated_at_utc": "2026-11-24T13:42:09.661331+00:00",
+      "data_observed_at_utc": "2026-11-24T13:40:55.129395+00:00",
       "probabilities": {
         "home": 0.05997618890787193,
         "draw": 0.10616884033162831,
@@ -480,7 +428,7 @@
       "away_history_matches": 554
     },
     {
-      "forecast_id": "7fa6b1f7430d118b541b28ce",
+      "forecast_id": "a4c90809849baafd6303c9a9",
       "fixture_id": "football-data.org:560652",
       "country": "England",
       "competition": "Premier League",
@@ -489,15 +437,15 @@
       "kickoff_utc": "2026-11-28T15:00:00+00:00",
       "home_team": "Leeds",
       "away_team": "Coventry",
-      "generated_at_utc": "2026-11-23T22:42:41.900237+00:00",
-      "data_observed_at_utc": "2026-11-23T22:41:10.037981+00:00",
+      "generated_at_utc": "2026-11-24T13:42:09.700414+00:00",
+      "data_observed_at_utc": "2026-11-24T13:40:55.129395+00:00",
       "probabilities": {
         "home": 0.5303759158681095,
-        "draw": 0.23989108605008097,
+        "draw": 0.23989108605008094,
         "away": 0.22973299808180958,
-        "home_or_draw": 0.7702670019181905,
+        "home_or_draw": 0.7702670019181904,
         "home_or_away": 0.7601089139499191,
-        "draw_or_away": 0.46962408413189055
+        "draw_or_away": 0.4696240841318905
       },
       "predicted_result": "H",
       "highest_probability_double_chance": "1X",
@@ -506,7 +454,7 @@
       "away_history_matches": 735
     },
     {
-      "forecast_id": "5bf9092c48ad32facc3f85d0",
+      "forecast_id": "f3edabe7193743c611669419",
       "fixture_id": "football-data.org:560655",
       "country": "England",
       "competition": "Premier League",
@@ -515,8 +463,8 @@
       "kickoff_utc": "2026-11-28T15:00:00+00:00",
       "home_team": "Man United",
       "away_team": "Brentford",
-      "generated_at_utc": "2026-11-23T22:42:41.925855+00:00",
-      "data_observed_at_utc": "2026-11-23T22:41:10.037981+00:00",
+      "generated_at_utc": "2026-11-24T13:42:09.733853+00:00",
+      "data_observed_at_utc": "2026-11-24T13:40:55.129395+00:00",
       "probabilities": {
         "home": 0.3746161716227459,
         "draw": 0.2498054964003064,
@@ -532,7 +480,7 @@
       "away_history_matches": 707
     },
     {
-      "forecast_id": "3b52e18c942a54e98d750d4c",
+      "forecast_id": "59028714b157baae97cc8872",
       "fixture_id": "football-data.org:564767",
       "country": "Spain",
       "competition": "La Liga",
@@ -541,8 +489,8 @@
       "kickoff_utc": "2026-11-28T15:15:00+00:00",
       "home_team": "Malaga",
       "away_team": "Ath Bilbao",
-      "generated_at_utc": "2026-11-23T22:42:41.951847+00:00",
-      "data_observed_at_utc": "2026-11-23T22:41:10.037981+00:00",
+      "generated_at_utc": "2026-11-24T13:42:09.767358+00:00",
+      "data_observed_at_utc": "2026-11-24T13:40:55.129395+00:00",
       "probabilities": {
         "home": 0.304635940131274,
         "draw": 0.2703353005218952,
@@ -558,7 +506,7 @@
       "away_history_matches": 620
     },
     {
-      "forecast_id": "bd2fe0d7348b9f668ea5d622",
+      "forecast_id": "bae92816385192ce4220d908",
       "fixture_id": "football-data.org:558825",
       "country": "Netherlands",
       "competition": "Eredivisie",
@@ -567,8 +515,8 @@
       "kickoff_utc": "2026-11-28T15:30:00+00:00",
       "home_team": "Excelsior",
       "away_team": "Telstar",
-      "generated_at_utc": "2026-11-23T22:42:41.976991+00:00",
-      "data_observed_at_utc": "2026-11-23T22:41:10.037981+00:00",
+      "generated_at_utc": "2026-11-24T13:42:09.798279+00:00",
+      "data_observed_at_utc": "2026-11-24T13:40:55.129395+00:00",
       "probabilities": {
         "home": 0.38444275957976326,
         "draw": 0.2428980444574822,
@@ -584,7 +532,7 @@
       "away_history_matches": 47
     },
     {
-      "forecast_id": "c470dc3f541027c343aa1865",
+      "forecast_id": "ed66f26d38132a50028057cb",
       "fixture_id": "football-data.org:559612",
       "country": "France",
       "competition": "Ligue 1",
@@ -593,8 +541,8 @@
       "kickoff_utc": "2026-11-28T16:15:00+00:00",
       "home_team": "Angers",
       "away_team": "Lens",
-      "generated_at_utc": "2026-11-23T22:42:42.005961+00:00",
-      "data_observed_at_utc": "2026-11-23T22:41:10.037981+00:00",
+      "generated_at_utc": "2026-11-24T13:42:09.831923+00:00",
+      "data_observed_at_utc": "2026-11-24T13:40:55.129395+00:00",
       "probabilities": {
         "home": 0.19193310392709645,
         "draw": 0.23091313050276321,
@@ -610,7 +558,7 @@
       "away_history_matches": 597
     },
     {
-      "forecast_id": "60ca12d19f585bf049ca15f6",
+      "forecast_id": "9dfe42db70b5a9b08cc9ac1c",
       "fixture_id": "football-data.org:558514",
       "country": "Italy",
       "competition": "Serie A",
@@ -619,8 +567,8 @@
       "kickoff_utc": "2026-11-28T17:00:00+00:00",
       "home_team": "Torino",
       "away_team": "Lazio",
-      "generated_at_utc": "2026-11-23T22:42:42.032482+00:00",
-      "data_observed_at_utc": "2026-11-23T22:41:10.037981+00:00",
+      "generated_at_utc": "2026-11-24T13:42:09.863776+00:00",
+      "data_observed_at_utc": "2026-11-24T13:40:55.129395+00:00",
       "probabilities": {
         "home": 0.23741582623486632,
         "draw": 0.23636972956637725,
@@ -636,7 +584,7 @@
       "away_history_matches": 620
     },
     {
-      "forecast_id": "6bba00e862919b3d8794ae78",
+      "forecast_id": "b8bfdee2f91a8c63d5b5213f",
       "fixture_id": "football-data.org:560653",
       "country": "England",
       "competition": "Premier League",
@@ -645,8 +593,8 @@
       "kickoff_utc": "2026-11-28T17:30:00+00:00",
       "home_team": "Ipswich",
       "away_team": "Aston Villa",
-      "generated_at_utc": "2026-11-23T22:42:42.058255+00:00",
-      "data_observed_at_utc": "2026-11-23T22:41:10.037981+00:00",
+      "generated_at_utc": "2026-11-24T13:42:09.894182+00:00",
+      "data_observed_at_utc": "2026-11-24T13:40:55.129395+00:00",
       "probabilities": {
         "home": 0.2986026553537057,
         "draw": 0.25101820082094956,
@@ -662,7 +610,7 @@
       "away_history_matches": 643
     },
     {
-      "forecast_id": "445e3f4aca547e7509928419",
+      "forecast_id": "9ffed6f2f426c1c3fdf84328",
       "fixture_id": "football-data.org:564759",
       "country": "Spain",
       "competition": "La Liga",
@@ -671,8 +619,8 @@
       "kickoff_utc": "2026-11-28T17:30:00+00:00",
       "home_team": "Elche",
       "away_team": "Ath Madrid",
-      "generated_at_utc": "2026-11-23T22:42:42.083974+00:00",
-      "data_observed_at_utc": "2026-11-23T22:41:10.037981+00:00",
+      "generated_at_utc": "2026-11-24T13:42:09.924391+00:00",
+      "data_observed_at_utc": "2026-11-24T13:40:55.129395+00:00",
       "probabilities": {
         "home": 0.22628545590083268,
         "draw": 0.25999800554462,
@@ -688,7 +636,7 @@
       "away_history_matches": 621
     },
     {
-      "forecast_id": "329d06f6b4ea65ed1d9b6095",
+      "forecast_id": "f304e064acb6ddc79010b0aa",
       "fixture_id": "football-data.org:565870",
       "country": "Germany",
       "competition": "Bundesliga",
@@ -697,15 +645,15 @@
       "kickoff_utc": "2026-11-28T17:30:00+00:00",
       "home_team": "Stuttgart",
       "away_team": "Ein Frankfurt",
-      "generated_at_utc": "2026-11-23T22:42:42.109132+00:00",
-      "data_observed_at_utc": "2026-11-23T22:41:10.037981+00:00",
+      "generated_at_utc": "2026-11-24T13:42:09.957529+00:00",
+      "data_observed_at_utc": "2026-11-24T13:40:55.129395+00:00",
       "probabilities": {
-        "home": 0.5283618068442018,
-        "draw": 0.22116501478093598,
+        "home": 0.5283618068442019,
+        "draw": 0.221165014780936,
         "away": 0.2504731783748622,
-        "home_or_draw": 0.7495268216251377,
-        "home_or_away": 0.7788349852190639,
-        "draw_or_away": 0.4716381931557982
+        "home_or_draw": 0.7495268216251378,
+        "home_or_away": 0.7788349852190641,
+        "draw_or_away": 0.47163819315579825
       },
       "predicted_result": "H",
       "highest_probability_double_chance": "12",
@@ -714,7 +662,7 @@
       "away_history_matches": 554
     },
     {
-      "forecast_id": "1fd566d4a0afb31343e400c8",
+      "forecast_id": "90790794ede7023162b94da4",
       "fixture_id": "football-data.org:558826",
       "country": "Netherlands",
       "competition": "Eredivisie",
@@ -723,8 +671,8 @@
       "kickoff_utc": "2026-11-28T17:45:00+00:00",
       "home_team": "PSV Eindhoven",
       "away_team": "Go Ahead Eagles",
-      "generated_at_utc": "2026-11-23T22:42:42.134969+00:00",
-      "data_observed_at_utc": "2026-11-23T22:41:10.037981+00:00",
+      "generated_at_utc": "2026-11-24T13:42:09.987434+00:00",
+      "data_observed_at_utc": "2026-11-24T13:40:55.129395+00:00",
       "probabilities": {
         "home": 0.8983854255483777,
         "draw": 0.06792188119879922,
@@ -740,7 +688,7 @@
       "away_history_matches": 285
     },
     {
-      "forecast_id": "69288b0ecd3c9da090b537c1",
+      "forecast_id": "266eef84aa2411cdb0dfe9d3",
       "fixture_id": "football-data.org:558518",
       "country": "Italy",
       "competition": "Serie A",
@@ -749,8 +697,8 @@
       "kickoff_utc": "2026-11-28T19:45:00+00:00",
       "home_team": "Inter",
       "away_team": "Genoa",
-      "generated_at_utc": "2026-11-23T22:42:42.160518+00:00",
-      "data_observed_at_utc": "2026-11-23T22:41:10.037981+00:00",
+      "generated_at_utc": "2026-11-24T13:42:10.017750+00:00",
+      "data_observed_at_utc": "2026-11-24T13:40:55.129395+00:00",
       "probabilities": {
         "home": 0.7502636613926992,
         "draw": 0.15513593041637663,
@@ -766,7 +714,7 @@
       "away_history_matches": 620
     },
     {
-      "forecast_id": "cf5e4e6af7df6dc0153f3aee",
+      "forecast_id": "7445852807d22c78de6c1da7",
       "fixture_id": "football-data.org:559613",
       "country": "France",
       "competition": "Ligue 1",
@@ -775,14 +723,14 @@
       "kickoff_utc": "2026-11-28T19:45:00+00:00",
       "home_team": "Le Havre",
       "away_team": "Strasbourg",
-      "generated_at_utc": "2026-11-23T22:42:42.186447+00:00",
-      "data_observed_at_utc": "2026-11-23T22:41:10.037981+00:00",
+      "generated_at_utc": "2026-11-24T13:42:10.050952+00:00",
+      "data_observed_at_utc": "2026-11-24T13:40:55.129395+00:00",
       "probabilities": {
-        "home": 0.2819283085132049,
+        "home": 0.28192830851320494,
         "draw": 0.24654173460254084,
         "away": 0.4715299568842543,
         "home_or_draw": 0.5284700431157457,
-        "home_or_away": 0.7534582653974592,
+        "home_or_away": 0.7534582653974593,
         "draw_or_away": 0.7180716914867952
       },
       "predicted_result": "A",
@@ -792,7 +740,7 @@
       "away_history_matches": 368
     },
     {
-      "forecast_id": "8637c2933febe92e19f9f0da",
+      "forecast_id": "4c14820fbf738cf30ee8c2e3",
       "fixture_id": "football-data.org:559614",
       "country": "France",
       "competition": "Ligue 1",
@@ -801,8 +749,8 @@
       "kickoff_utc": "2026-11-28T19:45:00+00:00",
       "home_team": "Paris SG",
       "away_team": "Lorient",
-      "generated_at_utc": "2026-11-23T22:42:42.212773+00:00",
-      "data_observed_at_utc": "2026-11-23T22:41:10.037981+00:00",
+      "generated_at_utc": "2026-11-24T13:42:10.087756+00:00",
+      "data_observed_at_utc": "2026-11-24T13:40:55.129395+00:00",
       "probabilities": {
         "home": 0.7610206527830347,
         "draw": 0.14962676535536892,
@@ -818,7 +766,7 @@
       "away_history_matches": 597
     },
     {
-      "forecast_id": "b533f71a7125a15377ff25b4",
+      "forecast_id": "559e3869e83bb905413cc861",
       "fixture_id": "football-data.org:559617",
       "country": "France",
       "competition": "Ligue 1",
@@ -827,8 +775,8 @@
       "kickoff_utc": "2026-11-28T19:45:00+00:00",
       "home_team": "Le Mans",
       "away_team": "Lille",
-      "generated_at_utc": "2026-11-23T22:42:42.238668+00:00",
-      "data_observed_at_utc": "2026-11-23T22:41:10.037981+00:00",
+      "generated_at_utc": "2026-11-24T13:42:10.121803+00:00",
+      "data_observed_at_utc": "2026-11-24T13:40:55.129395+00:00",
       "probabilities": {
         "home": 0.19946972224871057,
         "draw": 0.24548406963718997,
@@ -844,7 +792,7 @@
       "away_history_matches": 597
     },
     {
-      "forecast_id": "81039162334086db16fe4d18",
+      "forecast_id": "a39bd5261d1684ff3c0866a3",
       "fixture_id": "football-data.org:559620",
       "country": "France",
       "competition": "Ligue 1",
@@ -853,8 +801,8 @@
       "kickoff_utc": "2026-11-28T19:45:00+00:00",
       "home_team": "Nice",
       "away_team": "Troyes",
-      "generated_at_utc": "2026-11-23T22:42:42.263917+00:00",
-      "data_observed_at_utc": "2026-11-23T22:41:10.037981+00:00",
+      "generated_at_utc": "2026-11-24T13:42:10.154437+00:00",
+      "data_observed_at_utc": "2026-11-24T13:40:55.129395+00:00",
       "probabilities": {
         "home": 0.5499309322704691,
         "draw": 0.24010121617895788,
@@ -870,7 +818,7 @@
       "away_history_matches": 600
     },
     {
-      "forecast_id": "4249cab501119c3bd309abdf",
+      "forecast_id": "7de6d2f80b6e16842ce9efe4",
       "fixture_id": "football-data.org:558819",
       "country": "Netherlands",
       "competition": "Eredivisie",
@@ -879,13 +827,13 @@
       "kickoff_utc": "2026-11-28T20:00:00+00:00",
       "home_team": "Cambuur",
       "away_team": "Sparta Rotterdam",
-      "generated_at_utc": "2026-11-23T22:42:42.289608+00:00",
-      "data_observed_at_utc": "2026-11-23T22:41:10.037981+00:00",
+      "generated_at_utc": "2026-11-24T13:42:10.187543+00:00",
+      "data_observed_at_utc": "2026-11-24T13:40:55.129395+00:00",
       "probabilities": {
         "home": 0.4125573757369483,
-        "draw": 0.23451741252140426,
+        "draw": 0.23451741252140432,
         "away": 0.3529252117416474,
-        "home_or_draw": 0.6470747882583525,
+        "home_or_draw": 0.6470747882583526,
         "home_or_away": 0.7654825874785958,
         "draw_or_away": 0.5874426242630517
       },
@@ -896,7 +844,7 @@
       "away_history_matches": 311
     },
     {
-      "forecast_id": "8ae9b3900ff701361326b8c7",
+      "forecast_id": "288e64998138f2430b3a9daa",
       "fixture_id": "football-data.org:564762",
       "country": "Spain",
       "competition": "La Liga",
@@ -905,8 +853,8 @@
       "kickoff_utc": "2026-11-28T20:00:00+00:00",
       "home_team": "Real Madrid",
       "away_team": "Alaves",
-      "generated_at_utc": "2026-11-23T22:42:42.315187+00:00",
-      "data_observed_at_utc": "2026-11-23T22:41:10.037981+00:00",
+      "generated_at_utc": "2026-11-24T13:42:10.218007+00:00",
+      "data_observed_at_utc": "2026-11-24T13:40:55.129395+00:00",
       "probabilities": {
         "home": 0.8018752735906796,
         "draw": 0.1282122045856325,
@@ -922,7 +870,7 @@
       "away_history_matches": 523
     },
     {
-      "forecast_id": "cee13a0480c77ac458e6afc5",
+      "forecast_id": "a709b2be748ee7e6d5cd2abb",
       "fixture_id": "football-data.org:555101",
       "country": "Brazil",
       "competition": "S\u00e9rie A",
@@ -931,24 +879,24 @@
       "kickoff_utc": "2026-11-29T00:00:00+00:00",
       "home_team": "Botafogo RJ",
       "away_team": "Bahia",
-      "generated_at_utc": "2026-11-23T22:42:42.341763+00:00",
-      "data_observed_at_utc": "2026-11-23T22:41:10.037981+00:00",
+      "generated_at_utc": "2026-11-24T13:42:10.249309+00:00",
+      "data_observed_at_utc": "2026-11-24T13:40:55.129395+00:00",
       "probabilities": {
-        "home": 0.4089605150012386,
-        "draw": 0.2755894309030887,
-        "away": 0.31545005409567267,
-        "home_or_draw": 0.6845499459043273,
-        "home_or_away": 0.7244105690969113,
-        "draw_or_away": 0.5910394849987614
+        "home": 0.41130427426085525,
+        "draw": 0.2739006334035549,
+        "away": 0.3147950923355898,
+        "home_or_draw": 0.6852049076644102,
+        "home_or_away": 0.726099366596445,
+        "draw_or_away": 0.5886957257391447
       },
       "predicted_result": "H",
       "highest_probability_double_chance": "12",
       "limited_history": false,
-      "home_history_matches": 491,
+      "home_history_matches": 492,
       "away_history_matches": 454
     },
     {
-      "forecast_id": "452a51eb8b157e8e98dde736",
+      "forecast_id": "2b45b20986e68d4feb36e69f",
       "fixture_id": "football-data.org:558827",
       "country": "Netherlands",
       "competition": "Eredivisie",
@@ -957,14 +905,14 @@
       "kickoff_utc": "2026-11-29T11:15:00+00:00",
       "home_team": "Den Haag",
       "away_team": "Utrecht",
-      "generated_at_utc": "2026-11-23T22:42:42.368343+00:00",
-      "data_observed_at_utc": "2026-11-23T22:41:10.037981+00:00",
+      "generated_at_utc": "2026-11-24T13:42:10.280079+00:00",
+      "data_observed_at_utc": "2026-11-24T13:40:55.129395+00:00",
       "probabilities": {
-        "home": 0.2802274893657531,
-        "draw": 0.21997370513644884,
-        "away": 0.49979880549779815,
+        "home": 0.280227489365753,
+        "draw": 0.2199737051364489,
+        "away": 0.4997988054977981,
         "home_or_draw": 0.5002011945022019,
-        "home_or_away": 0.7800262948635512,
+        "home_or_away": 0.780026294863551,
         "draw_or_away": 0.719772510634247
       },
       "predicted_result": "A",
@@ -974,7 +922,7 @@
       "away_history_matches": 548
     },
     {
-      "forecast_id": "954475a7f48188691a545b21",
+      "forecast_id": "77563764ae514a20f0c88d0e",
       "fixture_id": "football-data.org:558517",
       "country": "Italy",
       "competition": "Serie A",
@@ -983,8 +931,8 @@
       "kickoff_utc": "2026-11-29T11:30:00+00:00",
       "home_team": "Udinese",
       "away_team": "Fiorentina",
-      "generated_at_utc": "2026-11-23T22:42:42.395831+00:00",
-      "data_observed_at_utc": "2026-11-23T22:41:10.037981+00:00",
+      "generated_at_utc": "2026-11-24T13:42:10.310847+00:00",
+      "data_observed_at_utc": "2026-11-24T13:40:55.129395+00:00",
       "probabilities": {
         "home": 0.34060677136311907,
         "draw": 0.2601124136461005,
@@ -1000,7 +948,7 @@
       "away_history_matches": 620
     },
     {
-      "forecast_id": "e0908e317fbd7c7b2ea9c224",
+      "forecast_id": "df39e0d703df7dd602e0b99a",
       "fixture_id": "football-data.org:560656",
       "country": "England",
       "competition": "Premier League",
@@ -1009,8 +957,8 @@
       "kickoff_utc": "2026-11-29T12:00:00+00:00",
       "home_team": "Everton",
       "away_team": "Liverpool",
-      "generated_at_utc": "2026-11-23T22:42:42.421970+00:00",
-      "data_observed_at_utc": "2026-11-23T22:41:10.037981+00:00",
+      "generated_at_utc": "2026-11-24T13:42:10.342916+00:00",
+      "data_observed_at_utc": "2026-11-24T13:40:55.129395+00:00",
       "probabilities": {
         "home": 0.27740314843146446,
         "draw": 0.2427120994945394,
@@ -1026,7 +974,7 @@
       "away_history_matches": 619
     },
     {
-      "forecast_id": "0a639afd10b0546282d5ae99",
+      "forecast_id": "9fddd7782f9cb5e459dda19f",
       "fixture_id": "football-data.org:564761",
       "country": "Spain",
       "competition": "La Liga",
@@ -1035,8 +983,8 @@
       "kickoff_utc": "2026-11-29T13:00:00+00:00",
       "home_team": "Valencia",
       "away_team": "Osasuna",
-      "generated_at_utc": "2026-11-23T22:42:42.447731+00:00",
-      "data_observed_at_utc": "2026-11-23T22:41:10.037981+00:00",
+      "generated_at_utc": "2026-11-24T13:42:10.374402+00:00",
+      "data_observed_at_utc": "2026-11-24T13:40:55.129395+00:00",
       "probabilities": {
         "home": 0.4918379446486263,
         "draw": 0.25709696988518366,
@@ -1052,7 +1000,7 @@
       "away_history_matches": 637
     },
     {
-      "forecast_id": "6ea89d0f380d8f1a630dd57d",
+      "forecast_id": "87b4219b559f570654c06ab0",
       "fixture_id": "football-data.org:558821",
       "country": "Netherlands",
       "competition": "Eredivisie",
@@ -1061,8 +1009,8 @@
       "kickoff_utc": "2026-11-29T13:30:00+00:00",
       "home_team": "For Sittard",
       "away_team": "Heerenveen",
-      "generated_at_utc": "2026-11-23T22:42:42.473062+00:00",
-      "data_observed_at_utc": "2026-11-23T22:41:10.037981+00:00",
+      "generated_at_utc": "2026-11-24T13:42:10.403987+00:00",
+      "data_observed_at_utc": "2026-11-24T13:40:55.129395+00:00",
       "probabilities": {
         "home": 0.3107133609054053,
         "draw": 0.23480065780586767,
@@ -1078,7 +1026,7 @@
       "away_history_matches": 549
     },
     {
-      "forecast_id": "d6e324d02c0b833a0fe787ea",
+      "forecast_id": "dac469c57475fc625c4ae61b",
       "fixture_id": "football-data.org:558824",
       "country": "Netherlands",
       "competition": "Eredivisie",
@@ -1087,15 +1035,15 @@
       "kickoff_utc": "2026-11-29T13:30:00+00:00",
       "home_team": "Feyenoord",
       "away_team": "Ajax",
-      "generated_at_utc": "2026-11-23T22:42:42.498474+00:00",
-      "data_observed_at_utc": "2026-11-23T22:41:10.037981+00:00",
+      "generated_at_utc": "2026-11-24T13:42:10.435395+00:00",
+      "data_observed_at_utc": "2026-11-24T13:40:55.129395+00:00",
       "probabilities": {
-        "home": 0.4617034200871369,
-        "draw": 0.23008344843883047,
-        "away": 0.30821313147403273,
-        "home_or_draw": 0.6917868685259674,
-        "home_or_away": 0.7699165515611697,
-        "draw_or_away": 0.5382965799128632
+        "home": 0.4617034200871367,
+        "draw": 0.2300834484388305,
+        "away": 0.3082131314740328,
+        "home_or_draw": 0.6917868685259672,
+        "home_or_away": 0.7699165515611694,
+        "draw_or_away": 0.5382965799128633
       },
       "predicted_result": "H",
       "highest_probability_double_chance": "12",
@@ -1104,7 +1052,7 @@
       "away_history_matches": 548
     },
     {
-      "forecast_id": "30baa764348904c6e790807e",
+      "forecast_id": "d146846b506d312a7f39a5aa",
       "fixture_id": "football-data.org:558509",
       "country": "Italy",
       "competition": "Serie A",
@@ -1113,8 +1061,8 @@
       "kickoff_utc": "2026-11-29T14:00:00+00:00",
       "home_team": "Sassuolo",
       "away_team": "Napoli",
-      "generated_at_utc": "2026-11-23T22:42:42.523702+00:00",
-      "data_observed_at_utc": "2026-11-23T22:41:10.037981+00:00",
+      "generated_at_utc": "2026-11-24T13:42:10.467138+00:00",
+      "data_observed_at_utc": "2026-11-24T13:40:55.129395+00:00",
       "probabilities": {
         "home": 0.1515147132987523,
         "draw": 0.196702945285772,
@@ -1130,7 +1078,7 @@
       "away_history_matches": 620
     },
     {
-      "forecast_id": "f0e127db9b16791c0651c602",
+      "forecast_id": "305e6172d9a0eb532fc231ad",
       "fixture_id": "football-data.org:559619",
       "country": "France",
       "competition": "Ligue 1",
@@ -1139,10 +1087,10 @@
       "kickoff_utc": "2026-11-29T14:00:00+00:00",
       "home_team": "Auxerre",
       "away_team": "Marseille",
-      "generated_at_utc": "2026-11-23T22:42:42.548980+00:00",
-      "data_observed_at_utc": "2026-11-23T22:41:10.037981+00:00",
+      "generated_at_utc": "2026-11-24T13:42:10.498256+00:00",
+      "data_observed_at_utc": "2026-11-24T13:40:55.129395+00:00",
       "probabilities": {
-        "home": 0.26352124633940655,
+        "home": 0.2635212463394065,
         "draw": 0.2433617600693767,
         "away": 0.49311699359121675,
         "home_or_draw": 0.5068830064087833,
@@ -1156,7 +1104,7 @@
       "away_history_matches": 597
     },
     {
-      "forecast_id": "8f976269bd8ec848243de00d",
+      "forecast_id": "7f83ba3abfd6a644658f8bfc",
       "fixture_id": "football-data.org:560657",
       "country": "England",
       "competition": "Premier League",
@@ -1165,8 +1113,8 @@
       "kickoff_utc": "2026-11-29T14:05:00+00:00",
       "home_team": "Fulham",
       "away_team": "Bournemouth",
-      "generated_at_utc": "2026-11-23T22:42:42.574776+00:00",
-      "data_observed_at_utc": "2026-11-23T22:41:10.037981+00:00",
+      "generated_at_utc": "2026-11-24T13:42:10.528245+00:00",
+      "data_observed_at_utc": "2026-11-24T13:40:55.129395+00:00",
       "probabilities": {
         "home": 0.3295977901962437,
         "draw": 0.2513978824653703,
@@ -1182,7 +1130,7 @@
       "away_history_matches": 675
     },
     {
-      "forecast_id": "2b1885a9d22c8ced33e4a3e9",
+      "forecast_id": "a1c700330cd4bbc29fd54c06",
       "fixture_id": "football-data.org:560659",
       "country": "England",
       "competition": "Premier League",
@@ -1191,13 +1139,13 @@
       "kickoff_utc": "2026-11-29T14:05:00+00:00",
       "home_team": "Brighton",
       "away_team": "Newcastle",
-      "generated_at_utc": "2026-11-23T22:42:42.600349+00:00",
-      "data_observed_at_utc": "2026-11-23T22:41:10.037981+00:00",
+      "generated_at_utc": "2026-11-24T13:42:10.560229+00:00",
+      "data_observed_at_utc": "2026-11-24T13:40:55.129395+00:00",
       "probabilities": {
-        "home": 0.5658834794218859,
-        "draw": 0.22847973742021607,
-        "away": 0.20563678315789805,
-        "home_or_draw": 0.794363216842102,
+        "home": 0.565883479421886,
+        "draw": 0.22847973742021613,
+        "away": 0.20563678315789796,
+        "home_or_draw": 0.7943632168421021,
         "home_or_away": 0.7715202625797839,
         "draw_or_away": 0.4341165205781141
       },
@@ -1208,7 +1156,7 @@
       "away_history_matches": 627
     },
     {
-      "forecast_id": "9f0213301e0096b03986cdb6",
+      "forecast_id": "5548a4275c5d0afb1fd81fd8",
       "fixture_id": "football-data.org:560660",
       "country": "England",
       "competition": "Premier League",
@@ -1217,8 +1165,8 @@
       "kickoff_utc": "2026-11-29T14:05:00+00:00",
       "home_team": "Sunderland",
       "away_team": "Tottenham",
-      "generated_at_utc": "2026-11-23T22:42:42.625665+00:00",
-      "data_observed_at_utc": "2026-11-23T22:41:10.037981+00:00",
+      "generated_at_utc": "2026-11-24T13:42:10.592697+00:00",
+      "data_observed_at_utc": "2026-11-24T13:40:55.129395+00:00",
       "probabilities": {
         "home": 0.3346808913098078,
         "draw": 0.2668204798401704,
@@ -1234,7 +1182,7 @@
       "away_history_matches": 619
     },
     {
-      "forecast_id": "14695a99d1d237ba70e05b4b",
+      "forecast_id": "a94bd052368badf4bf0a38a6",
       "fixture_id": "football-data.org:560661",
       "country": "England",
       "competition": "Premier League",
@@ -1243,8 +1191,8 @@
       "kickoff_utc": "2026-11-29T14:05:00+00:00",
       "home_team": "Crystal Palace",
       "away_team": "Hull",
-      "generated_at_utc": "2026-11-23T22:42:42.651355+00:00",
-      "data_observed_at_utc": "2026-11-23T22:41:10.037981+00:00",
+      "generated_at_utc": "2026-11-24T13:42:10.622773+00:00",
+      "data_observed_at_utc": "2026-11-24T13:40:55.129395+00:00",
       "probabilities": {
         "home": 0.3600186000548465,
         "draw": 0.2643015740251792,
@@ -1260,7 +1208,7 @@
       "away_history_matches": 723
     },
     {
-      "forecast_id": "2a92b9ac6dfdeb6209062e08",
+      "forecast_id": "f950f5ea821e2636cf00b05b",
       "fixture_id": "football-data.org:565873",
       "country": "Germany",
       "competition": "Bundesliga",
@@ -1269,15 +1217,15 @@
       "kickoff_utc": "2026-11-29T14:30:00+00:00",
       "home_team": "Freiburg",
       "away_team": "RB Leipzig",
-      "generated_at_utc": "2026-11-23T22:42:42.677029+00:00",
-      "data_observed_at_utc": "2026-11-23T22:41:10.037981+00:00",
+      "generated_at_utc": "2026-11-24T13:42:10.653404+00:00",
+      "data_observed_at_utc": "2026-11-24T13:40:55.129395+00:00",
       "probabilities": {
-        "home": 0.35846435583895264,
+        "home": 0.3584643558389527,
         "draw": 0.23551752495823494,
-        "away": 0.40601811920281233,
+        "away": 0.40601811920281244,
         "home_or_draw": 0.5939818807971876,
-        "home_or_away": 0.7644824750417649,
-        "draw_or_away": 0.6415356441610472
+        "home_or_away": 0.7644824750417651,
+        "draw_or_away": 0.6415356441610474
       },
       "predicted_result": "A",
       "highest_probability_double_chance": "12",
@@ -1286,7 +1234,7 @@
       "away_history_matches": 418
     },
     {
-      "forecast_id": "1b1f7cf4dacc21b0f2a7ee8b",
+      "forecast_id": "fdedecd121e7c2db4d38920e",
       "fixture_id": "football-data.org:564766",
       "country": "Spain",
       "competition": "La Liga",
@@ -1295,8 +1243,8 @@
       "kickoff_utc": "2026-11-29T15:15:00+00:00",
       "home_team": "La Coruna",
       "away_team": "Barcelona",
-      "generated_at_utc": "2026-11-23T22:42:42.702549+00:00",
-      "data_observed_at_utc": "2026-11-23T22:41:10.037981+00:00",
+      "generated_at_utc": "2026-11-24T13:42:10.686321+00:00",
+      "data_observed_at_utc": "2026-11-24T13:40:55.129395+00:00",
       "probabilities": {
         "home": 0.06936207488550196,
         "draw": 0.11743711897964798,
@@ -1312,7 +1260,7 @@
       "away_history_matches": 621
     },
     {
-      "forecast_id": "e90c7c956da38b3422065d55",
+      "forecast_id": "4d444bc048bc87045aa0b7b7",
       "fixture_id": "football-data.org:558823",
       "country": "Netherlands",
       "competition": "Eredivisie",
@@ -1321,8 +1269,8 @@
       "kickoff_utc": "2026-11-29T15:45:00+00:00",
       "home_team": "Zwolle",
       "away_team": "AZ Alkmaar",
-      "generated_at_utc": "2026-11-23T22:42:42.728282+00:00",
-      "data_observed_at_utc": "2026-11-23T22:41:10.037981+00:00",
+      "generated_at_utc": "2026-11-24T13:42:10.719791+00:00",
+      "data_observed_at_utc": "2026-11-24T13:40:55.129395+00:00",
       "probabilities": {
         "home": 0.2324256775871124,
         "draw": 0.21935743691010082,
@@ -1338,7 +1286,7 @@
       "away_history_matches": 548
     },
     {
-      "forecast_id": "c4229cd5179e0ac44a1ff54a",
+      "forecast_id": "2c85aace8db557f27cf91795",
       "fixture_id": "football-data.org:559618",
       "country": "France",
       "competition": "Ligue 1",
@@ -1347,8 +1295,8 @@
       "kickoff_utc": "2026-11-29T16:15:00+00:00",
       "home_team": "Toulouse",
       "away_team": "Rennes",
-      "generated_at_utc": "2026-11-23T22:42:42.754535+00:00",
-      "data_observed_at_utc": "2026-11-23T22:41:10.037981+00:00",
+      "generated_at_utc": "2026-11-24T13:42:10.750032+00:00",
+      "data_observed_at_utc": "2026-11-24T13:40:55.129395+00:00",
       "probabilities": {
         "home": 0.3955869554056028,
         "draw": 0.24508853512888137,
@@ -1364,7 +1312,7 @@
       "away_history_matches": 597
     },
     {
-      "forecast_id": "3969610411aecccb80c80654",
+      "forecast_id": "bbd33ca2b548374dd9577a94",
       "fixture_id": "football-data.org:560654",
       "country": "England",
       "competition": "Premier League",
@@ -1373,8 +1321,8 @@
       "kickoff_utc": "2026-11-29T16:30:00+00:00",
       "home_team": "Arsenal",
       "away_team": "Man City",
-      "generated_at_utc": "2026-11-23T22:42:42.780625+00:00",
-      "data_observed_at_utc": "2026-11-23T22:41:10.037981+00:00",
+      "generated_at_utc": "2026-11-24T13:42:10.781224+00:00",
+      "data_observed_at_utc": "2026-11-24T13:40:55.129395+00:00",
       "probabilities": {
         "home": 0.4673106142811773,
         "draw": 0.2528951228939721,
@@ -1390,7 +1338,7 @@
       "away_history_matches": 619
     },
     {
-      "forecast_id": "e34393890a74c50edb4649e6",
+      "forecast_id": "b45d869a98577e548b0c5b0b",
       "fixture_id": "football-data.org:565871",
       "country": "Germany",
       "competition": "Bundesliga",
@@ -1399,8 +1347,8 @@
       "kickoff_utc": "2026-11-29T16:30:00+00:00",
       "home_team": "Hoffenheim",
       "away_team": "Augsburg",
-      "generated_at_utc": "2026-11-23T22:42:42.806490+00:00",
-      "data_observed_at_utc": "2026-11-23T22:41:10.037981+00:00",
+      "generated_at_utc": "2026-11-24T13:42:10.810698+00:00",
+      "data_observed_at_utc": "2026-11-24T13:40:55.129395+00:00",
       "probabilities": {
         "home": 0.44490332726716525,
         "draw": 0.2290322577127489,
@@ -1416,7 +1364,7 @@
       "away_history_matches": 554
     },
     {
-      "forecast_id": "86e94a5262759529dba99791",
+      "forecast_id": "bdea09327a77f4c3f4623bd2",
       "fixture_id": "football-data.org:558512",
       "country": "Italy",
       "competition": "Serie A",
@@ -1425,8 +1373,8 @@
       "kickoff_utc": "2026-11-29T17:00:00+00:00",
       "home_team": "Roma",
       "away_team": "Monza",
-      "generated_at_utc": "2026-11-23T22:42:42.832207+00:00",
-      "data_observed_at_utc": "2026-11-23T22:41:10.037981+00:00",
+      "generated_at_utc": "2026-11-24T13:42:10.840290+00:00",
+      "data_observed_at_utc": "2026-11-24T13:40:55.129395+00:00",
       "probabilities": {
         "home": 0.8236435532559252,
         "draw": 0.11275865947677194,
@@ -1442,7 +1390,7 @@
       "away_history_matches": 240
     },
     {
-      "forecast_id": "c2c6755c5a2ae32c76c9b4fd",
+      "forecast_id": "d93ee33eecab9fc4b0aa3b23",
       "fixture_id": "football-data.org:564758",
       "country": "Spain",
       "competition": "La Liga",
@@ -1451,8 +1399,8 @@
       "kickoff_utc": "2026-11-29T17:30:00+00:00",
       "home_team": "Celta",
       "away_team": "Villarreal",
-      "generated_at_utc": "2026-11-23T22:42:42.857760+00:00",
-      "data_observed_at_utc": "2026-11-23T22:41:10.037981+00:00",
+      "generated_at_utc": "2026-11-24T13:42:10.869741+00:00",
+      "data_observed_at_utc": "2026-11-24T13:40:55.129395+00:00",
       "probabilities": {
         "home": 0.3444473732961093,
         "draw": 0.27092061435799486,
@@ -1468,7 +1416,7 @@
       "away_history_matches": 625
     },
     {
-      "forecast_id": "46eee14c2fa908e28f2adc77",
+      "forecast_id": "a476c89a6eeb12f41eedd9c3",
       "fixture_id": "football-data.org:565872",
       "country": "Germany",
       "competition": "Bundesliga",
@@ -1477,8 +1425,8 @@
       "kickoff_utc": "2026-11-29T18:30:00+00:00",
       "home_team": "Dortmund",
       "away_team": "Leverkusen",
-      "generated_at_utc": "2026-11-23T22:42:42.883802+00:00",
-      "data_observed_at_utc": "2026-11-23T22:41:10.037981+00:00",
+      "generated_at_utc": "2026-11-24T13:42:10.900137+00:00",
+      "data_observed_at_utc": "2026-11-24T13:40:55.129395+00:00",
       "probabilities": {
         "home": 0.49590029291603,
         "draw": 0.22634075657499003,
@@ -1494,7 +1442,7 @@
       "away_history_matches": 554
     },
     {
-      "forecast_id": "b492ee5c424bb167a9bb37ff",
+      "forecast_id": "95a5b10ab2c70cbb208494dd",
       "fixture_id": "football-data.org:555104",
       "country": "Brazil",
       "competition": "S\u00e9rie A",
@@ -1503,15 +1451,15 @@
       "kickoff_utc": "2026-11-29T19:00:00+00:00",
       "home_team": "Coritiba",
       "away_team": "Flamengo RJ",
-      "generated_at_utc": "2026-11-23T22:42:42.910511+00:00",
-      "data_observed_at_utc": "2026-11-23T22:41:10.037981+00:00",
+      "generated_at_utc": "2026-11-24T13:42:10.933325+00:00",
+      "data_observed_at_utc": "2026-11-24T13:40:55.129395+00:00",
       "probabilities": {
-        "home": 0.15732441754045157,
-        "draw": 0.21600205920693052,
-        "away": 0.6266735232526179,
-        "home_or_draw": 0.37332647674738206,
-        "home_or_away": 0.7839979407930695,
-        "draw_or_away": 0.8426755824595484
+        "home": 0.15732248366006485,
+        "draw": 0.21599803979841756,
+        "away": 0.6266794765415177,
+        "home_or_draw": 0.37332052345848243,
+        "home_or_away": 0.7840019602015825,
+        "draw_or_away": 0.8426775163399353
       },
       "predicted_result": "A",
       "highest_probability_double_chance": "X2",
@@ -1520,7 +1468,7 @@
       "away_history_matches": 568
     },
     {
-      "forecast_id": "e8976d974ea2b2b223b9cb79",
+      "forecast_id": "78689a5bd8095a4aee117d67",
       "fixture_id": "football-data.org:555109",
       "country": "Brazil",
       "competition": "S\u00e9rie A",
@@ -1529,24 +1477,24 @@
       "kickoff_utc": "2026-11-29T19:00:00+00:00",
       "home_team": "Vitoria",
       "away_team": "Santos",
-      "generated_at_utc": "2026-11-23T22:42:42.936649+00:00",
-      "data_observed_at_utc": "2026-11-23T22:41:10.037981+00:00",
+      "generated_at_utc": "2026-11-24T13:42:10.970419+00:00",
+      "data_observed_at_utc": "2026-11-24T13:40:55.129395+00:00",
       "probabilities": {
-        "home": 0.3596680398775111,
-        "draw": 0.2784812087840209,
-        "away": 0.36185075133846806,
-        "home_or_draw": 0.638149248661532,
-        "home_or_away": 0.7215187912159792,
-        "draw_or_away": 0.6403319601224889
+        "home": 0.39515931467637566,
+        "draw": 0.27464170387808384,
+        "away": 0.3301989814455405,
+        "home_or_draw": 0.6698010185544595,
+        "home_or_away": 0.7253582961219162,
+        "draw_or_away": 0.6048406853236243
       },
-      "predicted_result": "A",
+      "predicted_result": "H",
       "highest_probability_double_chance": "12",
       "limited_history": false,
-      "home_history_matches": 301,
-      "away_history_matches": 529
+      "home_history_matches": 302,
+      "away_history_matches": 530
     },
     {
-      "forecast_id": "c52ca63dd3baef7f2cb84fec",
+      "forecast_id": "9b56ae0a9b4ebe21f14284e8",
       "fixture_id": "football-data.org:558822",
       "country": "Netherlands",
       "competition": "Eredivisie",
@@ -1555,8 +1503,8 @@
       "kickoff_utc": "2026-11-29T19:00:00+00:00",
       "home_team": "Nijmegen",
       "away_team": "Twente",
-      "generated_at_utc": "2026-11-23T22:42:42.963001+00:00",
-      "data_observed_at_utc": "2026-11-23T22:41:10.037981+00:00",
+      "generated_at_utc": "2026-11-24T13:42:11.004747+00:00",
+      "data_observed_at_utc": "2026-11-24T13:40:55.129395+00:00",
       "probabilities": {
         "home": 0.26287269280907066,
         "draw": 0.22428112329718236,
@@ -1572,7 +1520,7 @@
       "away_history_matches": 515
     },
     {
-      "forecast_id": "23a9fb5537d83a1c2f4cc00b",
+      "forecast_id": "4e4ca22c04607e5f07a69dad",
       "fixture_id": "football-data.org:558511",
       "country": "Italy",
       "competition": "Serie A",
@@ -1581,8 +1529,8 @@
       "kickoff_utc": "2026-11-29T19:45:00+00:00",
       "home_team": "Como",
       "away_team": "Juventus",
-      "generated_at_utc": "2026-11-23T22:42:42.989707+00:00",
-      "data_observed_at_utc": "2026-11-23T22:41:10.037981+00:00",
+      "generated_at_utc": "2026-11-24T13:42:11.035898+00:00",
+      "data_observed_at_utc": "2026-11-24T13:40:55.129395+00:00",
       "probabilities": {
         "home": 0.3753750375000191,
         "draw": 0.2770764806544,
@@ -1598,7 +1546,7 @@
       "away_history_matches": 620
     },
     {
-      "forecast_id": "d222a99946350e026fafbe5b",
+      "forecast_id": "0afc3799aef51f90c852d2b2",
       "fixture_id": "football-data.org:559615",
       "country": "France",
       "competition": "Ligue 1",
@@ -1607,8 +1555,8 @@
       "kickoff_utc": "2026-11-29T19:45:00+00:00",
       "home_team": "Lyon",
       "away_team": "Monaco",
-      "generated_at_utc": "2026-11-23T22:42:43.016826+00:00",
-      "data_observed_at_utc": "2026-11-23T22:41:10.037981+00:00",
+      "generated_at_utc": "2026-11-24T13:42:11.066710+00:00",
+      "data_observed_at_utc": "2026-11-24T13:40:55.129395+00:00",
       "probabilities": {
         "home": 0.4762028265330186,
         "draw": 0.24081103283393188,
@@ -1624,7 +1572,7 @@
       "away_history_matches": 597
     },
     {
-      "forecast_id": "728d3f08ceeb0136455bd2cb",
+      "forecast_id": "2add32eeec2f2b7c88f8d9b1",
       "fixture_id": "football-data.org:564764",
       "country": "Spain",
       "competition": "La Liga",
@@ -1633,8 +1581,8 @@
       "kickoff_utc": "2026-11-29T20:00:00+00:00",
       "home_team": "Sociedad",
       "away_team": "Sevilla",
-      "generated_at_utc": "2026-11-23T22:42:43.045897+00:00",
-      "data_observed_at_utc": "2026-11-23T22:41:10.037981+00:00",
+      "generated_at_utc": "2026-11-24T13:42:11.096442+00:00",
+      "data_observed_at_utc": "2026-11-24T13:40:55.129395+00:00",
       "probabilities": {
         "home": 0.5052309784859342,
         "draw": 0.2406330813999031,
@@ -1650,7 +1598,7 @@
       "away_history_matches": 621
     },
     {
-      "forecast_id": "a369c5e872582ced0fc963a1",
+      "forecast_id": "89160f495c8caa9a7a8e4b5d",
       "fixture_id": "football-data.org:555103",
       "country": "Brazil",
       "competition": "S\u00e9rie A",
@@ -1659,24 +1607,24 @@
       "kickoff_utc": "2026-11-29T21:30:00+00:00",
       "home_team": "Corinthians",
       "away_team": "Gremio",
-      "generated_at_utc": "2026-11-23T22:42:43.072277+00:00",
-      "data_observed_at_utc": "2026-11-23T22:41:10.037981+00:00",
+      "generated_at_utc": "2026-11-24T13:42:11.125708+00:00",
+      "data_observed_at_utc": "2026-11-24T13:40:55.129395+00:00",
       "probabilities": {
-        "home": 0.4850345637243671,
-        "draw": 0.2714313809847643,
-        "away": 0.2435340552908686,
-        "home_or_draw": 0.7564659447091314,
-        "home_or_away": 0.7285686190152357,
-        "draw_or_away": 0.514965436275633
+        "home": 0.46461432292885574,
+        "draw": 0.2760748481729132,
+        "away": 0.25931082889823104,
+        "home_or_draw": 0.7406891711017689,
+        "home_or_away": 0.7239251518270868,
+        "draw_or_away": 0.5353856770711443
       },
       "predicted_result": "H",
       "highest_probability_double_chance": "1X",
       "limited_history": false,
       "home_history_matches": 567,
-      "away_history_matches": 529
+      "away_history_matches": 530
     },
     {
-      "forecast_id": "5e1da782ca5fae78b80927a4",
+      "forecast_id": "38d32bf0db31dfb562bf0eee",
       "fixture_id": "football-data.org:555106",
       "country": "Brazil",
       "competition": "S\u00e9rie A",
@@ -1685,24 +1633,24 @@
       "kickoff_utc": "2026-11-29T21:30:00+00:00",
       "home_team": "Internacional",
       "away_team": "Bragantino",
-      "generated_at_utc": "2026-11-23T22:42:43.098126+00:00",
-      "data_observed_at_utc": "2026-11-23T22:41:10.037981+00:00",
+      "generated_at_utc": "2026-11-24T13:42:11.155178+00:00",
+      "data_observed_at_utc": "2026-11-24T13:40:55.129395+00:00",
       "probabilities": {
-        "home": 0.454016617233413,
-        "draw": 0.26943857006865546,
-        "away": 0.2765448126979316,
-        "home_or_draw": 0.7234551873020685,
-        "home_or_away": 0.7305614299313445,
-        "draw_or_away": 0.545983382766587
+        "home": 0.43421946990328386,
+        "draw": 0.2714276917721707,
+        "away": 0.29435283832454545,
+        "home_or_draw": 0.7056471616754545,
+        "home_or_away": 0.7285723082278293,
+        "draw_or_away": 0.5657805300967161
       },
       "predicted_result": "H",
       "highest_probability_double_chance": "12",
       "limited_history": false,
-      "home_history_matches": 529,
+      "home_history_matches": 530,
       "away_history_matches": 264
     },
     {
-      "forecast_id": "99ed1e4a1596f121915c810c",
+      "forecast_id": "baa8373c0fc4ada4bff294c8",
       "fixture_id": "football-data.org:555107",
       "country": "Brazil",
       "competition": "S\u00e9rie A",
@@ -1711,15 +1659,15 @@
       "kickoff_utc": "2026-11-29T21:30:00+00:00",
       "home_team": "Mirassol",
       "away_team": "Athletico-PR",
-      "generated_at_utc": "2026-11-23T22:42:43.124244+00:00",
-      "data_observed_at_utc": "2026-11-23T22:41:10.037981+00:00",
+      "generated_at_utc": "2026-11-24T13:42:11.186189+00:00",
+      "data_observed_at_utc": "2026-11-24T13:40:55.129395+00:00",
       "probabilities": {
-        "home": 0.45102737994113273,
-        "draw": 0.263752523673531,
-        "away": 0.2852200963853362,
-        "home_or_draw": 0.7147799036146638,
-        "home_or_away": 0.7362474763264689,
-        "draw_or_away": 0.5489726200588672
+        "home": 0.4510274097060258,
+        "draw": 0.26374991410829,
+        "away": 0.2852226761856842,
+        "home_or_draw": 0.7147773238143158,
+        "home_or_away": 0.73625008589171,
+        "draw_or_away": 0.5489725902939742
       },
       "predicted_result": "H",
       "highest_probability_double_chance": "12",
@@ -1728,7 +1676,7 @@
       "away_history_matches": 492
     },
     {
-      "forecast_id": "8badad439969a28b8c78e8d6",
+      "forecast_id": "dea3a8110d2c9413275bc24d",
       "fixture_id": "football-data.org:555100",
       "country": "Brazil",
       "competition": "S\u00e9rie A",
@@ -1737,15 +1685,15 @@
       "kickoff_utc": "2026-11-29T22:30:00+00:00",
       "home_team": "Atletico-MG",
       "away_team": "Vasco",
-      "generated_at_utc": "2026-11-23T22:42:43.150012+00:00",
-      "data_observed_at_utc": "2026-11-23T22:41:10.037981+00:00",
+      "generated_at_utc": "2026-11-24T13:42:11.215800+00:00",
+      "data_observed_at_utc": "2026-11-24T13:40:55.129395+00:00",
       "probabilities": {
-        "home": 0.5154609963155782,
-        "draw": 0.2517047740343995,
-        "away": 0.2328342296500223,
-        "home_or_draw": 0.7671657703499777,
-        "home_or_away": 0.7482952259656005,
-        "draw_or_away": 0.4845390036844218
+        "home": 0.5154615976800457,
+        "draw": 0.25170229324789267,
+        "away": 0.23283610907206168,
+        "home_or_draw": 0.7671638909279384,
+        "home_or_away": 0.7482977067521074,
+        "draw_or_away": 0.4845384023199544
       },
       "predicted_result": "H",
       "highest_probability_double_chance": "1X",
@@ -1754,7 +1702,7 @@
       "away_history_matches": 416
     },
     {
-      "forecast_id": "eb592e09f180e2c958b9c90f",
+      "forecast_id": "4d8fed682e13c1cb206de5ae",
       "fixture_id": "football-data.org:558516",
       "country": "Italy",
       "competition": "Serie A",
@@ -1763,13 +1711,13 @@
       "kickoff_utc": "2026-11-30T17:30:00+00:00",
       "home_team": "Lecce",
       "away_team": "Atalanta",
-      "generated_at_utc": "2026-11-23T22:42:43.175908+00:00",
-      "data_observed_at_utc": "2026-11-23T22:41:10.037981+00:00",
+      "generated_at_utc": "2026-11-24T13:42:11.245071+00:00",
+      "data_observed_at_utc": "2026-11-24T13:40:55.129395+00:00",
       "probabilities": {
-        "home": 0.19712700485655937,
-        "draw": 0.21988561867243472,
-        "away": 0.582987376471006,
-        "home_or_draw": 0.4170126235289941,
+        "home": 0.19712700485655943,
+        "draw": 0.2198856186724348,
+        "away": 0.5829873764710058,
+        "home_or_draw": 0.41701262352899426,
         "home_or_away": 0.7801143813275653,
         "draw_or_away": 0.8028729951434407
       },
@@ -1780,7 +1728,7 @@
       "away_history_matches": 624
     },
     {
-      "forecast_id": "d19518ef9f54ae9e30d14300",
+      "forecast_id": "898e6553277caf8527cf9cb5",
       "fixture_id": "football-data.org:558510",
       "country": "Italy",
       "competition": "Serie A",
@@ -1789,8 +1737,8 @@
       "kickoff_utc": "2026-11-30T19:45:00+00:00",
       "home_team": "Cagliari",
       "away_team": "Milan",
-      "generated_at_utc": "2026-11-23T22:42:43.201897+00:00",
-      "data_observed_at_utc": "2026-11-23T22:41:10.037981+00:00",
+      "generated_at_utc": "2026-11-24T13:42:11.274916+00:00",
+      "data_observed_at_utc": "2026-11-24T13:40:55.129395+00:00",
       "probabilities": {
         "home": 0.19490503886367724,
         "draw": 0.2185989683666246,
@@ -1806,7 +1754,7 @@
       "away_history_matches": 620
     },
     {
-      "forecast_id": "4e1dcd233f67ff1e30ddc115",
+      "forecast_id": "d8b7e99c04a1bbcc82693474",
       "fixture_id": "football-data.org:564763",
       "country": "Spain",
       "competition": "La Liga",
@@ -1815,13 +1763,13 @@
       "kickoff_utc": "2026-11-30T20:00:00+00:00",
       "home_team": "Espanol",
       "away_team": "Getafe",
-      "generated_at_utc": "2026-11-23T22:42:43.227522+00:00",
-      "data_observed_at_utc": "2026-11-23T22:41:10.037981+00:00",
+      "generated_at_utc": "2026-11-24T13:42:11.305906+00:00",
+      "data_observed_at_utc": "2026-11-24T13:40:55.129395+00:00",
       "probabilities": {
         "home": 0.4850110269178187,
-        "draw": 0.2772901654922972,
+        "draw": 0.2772901654922971,
         "away": 0.2376988075898841,
-        "home_or_draw": 0.762301192410116,
+        "home_or_draw": 0.7623011924101158,
         "home_or_away": 0.7227098345077028,
         "draw_or_away": 0.5149889730821813
       },
@@ -1834,13 +1782,13 @@
   ],
   "performance": {
     "status": "active",
-    "scored_matches": 317,
+    "scored_matches": 320,
     "metrics": {
-      "matches": 317,
-      "log_loss": 0.9524766744814014,
-      "brier_score": 0.5603588441478333,
-      "accuracy": 0.580441640378549,
-      "selected_double_chance_success": 0.8012618296529969,
+      "matches": 320,
+      "log_loss": 0.9571111961828673,
+      "brier_score": 0.563590647984027,
+      "accuracy": 0.575,
+      "selected_double_chance_success": 0.79375,
       "draw_calibration": [
         {
           "lower": 0.0,
@@ -1859,9 +1807,9 @@
         {
           "lower": 0.2,
           "upper": 0.3,
-          "matches": 271,
-          "mean_predicted_draw": 0.24632538848696967,
-          "observed_draw_rate": 0.2066420664206642
+          "matches": 274,
+          "mean_predicted_draw": 0.24647192542923158,
+          "observed_draw_rate": 0.20802919708029197
         },
         {
           "lower": 0.3,
@@ -1915,19 +1863,19 @@
       ],
       "double_chance_markets": {
         "1X": {
-          "matches": 317,
-          "outcome_frequency": 0.6719242902208202,
-          "binary_brier": 0.18559983200292018
+          "matches": 320,
+          "outcome_frequency": 0.66875,
+          "binary_brier": 0.1879697190123737
         },
         "12": {
-          "matches": 317,
-          "outcome_frequency": 0.8107255520504731,
-          "binary_brier": 0.15362346021913226
+          "matches": 320,
+          "outcome_frequency": 0.809375,
+          "binary_brier": 0.15418085803587395
         },
         "X2": {
-          "matches": 317,
-          "outcome_frequency": 0.5173501577287066,
-          "binary_brier": 0.2211355519257809
+          "matches": 320,
+          "outcome_frequency": 0.521875,
+          "binary_brier": 0.2214400709357794
         }
       }
     },
@@ -1979,19 +1927,19 @@
         "started_at_utc": "2026-10-24T16:57:02.891358+00:00"
       }
     ],
-    "results_observed_at_utc": "2026-11-23T22:41:10.037981+00:00",
+    "results_observed_at_utc": "2026-11-24T13:40:55.129395+00:00",
     "minimum_public_lead_hours": 2,
     "kickoff_basis": "provider recorded kickoff UTC, not independently measured actual start",
     "coverage": {
-      "monitored_matches": 410,
-      "verified_completed_matches": 335,
-      "scored_completed_fraction": 0.9462686567164179,
+      "monitored_matches": 413,
+      "verified_completed_matches": 338,
+      "scored_completed_fraction": 0.9467455621301775,
       "counts": {
         "unscored_timing": 18,
-        "scored": 317,
+        "scored": 320,
         "awaiting_result": 75
       },
-      "timing_eligible_matches": 391
+      "timing_eligible_matches": 394
     },
     "by_competition": [
       {
@@ -2000,11 +1948,11 @@
           "Serie A"
         ],
         "metrics": {
-          "matches": 46,
-          "log_loss": 0.9016030141083939,
-          "brier_score": 0.5240046032225592,
-          "accuracy": 0.6521739130434783,
-          "selected_double_chance_success": 0.8043478260869565,
+          "matches": 49,
+          "log_loss": 0.9349839921816225,
+          "brier_score": 0.5473360307808814,
+          "accuracy": 0.6122448979591837,
+          "selected_double_chance_success": 0.7551020408163265,
           "draw_calibration": [
             {
               "lower": 0.0,
@@ -2023,9 +1971,9 @@
             {
               "lower": 0.2,
               "upper": 0.3,
-              "matches": 42,
-              "mean_predicted_draw": 0.2570976822775401,
-              "observed_draw_rate": 0.19047619047619047
+              "matches": 45,
+              "mean_predicted_draw": 0.2572717765177193,
+              "observed_draw_rate": 0.2
             },
             {
               "lower": 0.3,
@@ -2079,19 +2027,19 @@
           ],
           "double_chance_markets": {
             "1X": {
-              "matches": 46,
-              "outcome_frequency": 0.7608695652173914,
-              "binary_brier": 0.15569708619165004
+              "matches": 49,
+              "outcome_frequency": 0.7346938775510204,
+              "binary_brier": 0.1730046796704039
             },
             "12": {
-              "matches": 46,
-              "outcome_frequency": 0.8260869565217391,
-              "binary_brier": 0.1453955956260391
+              "matches": 49,
+              "outcome_frequency": 0.8163265306122449,
+              "binary_brier": 0.1495394914451538
             },
             "X2": {
-              "matches": 46,
-              "outcome_frequency": 0.41304347826086957,
-              "binary_brier": 0.22291192140487
+              "matches": 49,
+              "outcome_frequency": 0.4489795918367347,
+              "binary_brier": 0.22479185966532375
             }
           }
         }
@@ -3121,11 +3069,11 @@
           "poisson-20261101T094559791860Z-b9e4f90e"
         ],
         "metrics": {
-          "matches": 201,
-          "log_loss": 0.9521224268781686,
-          "brier_score": 0.5605111199343555,
-          "accuracy": 0.5870646766169154,
-          "selected_double_chance_success": 0.8109452736318408,
+          "matches": 204,
+          "log_loss": 0.9593974743648298,
+          "brier_score": 0.5655783767981909,
+          "accuracy": 0.5784313725490197,
+          "selected_double_chance_success": 0.7990196078431373,
           "draw_calibration": [
             {
               "lower": 0.0,
@@ -3144,9 +3092,9 @@
             {
               "lower": 0.2,
               "upper": 0.3,
-              "matches": 172,
-              "mean_predicted_draw": 0.24736610598688813,
-              "observed_draw_rate": 0.20930232558139536
+              "matches": 175,
+              "mean_predicted_draw": 0.24757770009934538,
+              "observed_draw_rate": 0.21142857142857144
             },
             {
               "lower": 0.3,
@@ -3200,19 +3148,19 @@
           ],
           "double_chance_markets": {
             "1X": {
-              "matches": 201,
-              "outcome_frequency": 0.6567164179104478,
-              "binary_brier": 0.19150798014180193
+              "matches": 204,
+              "outcome_frequency": 0.6519607843137255,
+              "binary_brier": 0.1951385654290984
             },
             "12": {
-              "matches": 201,
-              "outcome_frequency": 0.8109452736318408,
-              "binary_brier": 0.15375325119736197
+              "matches": 204,
+              "outcome_frequency": 0.8088235294117647,
+              "binary_brier": 0.1546256920229632
             },
             "X2": {
-              "matches": 201,
-              "outcome_frequency": 0.5323383084577115,
-              "binary_brier": 0.2152498885951917
+              "matches": 204,
+              "outcome_frequency": 0.5392156862745098,
+              "binary_brier": 0.2158141193461293
             }
           }
         }
@@ -14310,10 +14258,10 @@
         "home_team": "Internacional",
         "away_team": "Vitoria",
         "kickoff_utc": "2026-11-23T22:30:00+00:00",
-        "provider_status": "IN_PLAY",
+        "provider_status": "FINISHED",
         "timing_eligible": true,
         "forecast_id": "2bb1d11919fe06d4c9c5fa96",
-        "status": "awaiting_result",
+        "status": "scored",
         "reason": null,
         "generated_at_utc": "2026-11-23T12:47:44.176363+00:00",
         "first_verified_public_at_utc": "2026-11-23T12:48:59.702943+00:00",
@@ -14327,7 +14275,15 @@
           "home_or_draw": 0.7829962062942283,
           "home_or_away": 0.7554300013376918,
           "draw_or_away": 0.46157379236807994
-        }
+        },
+        "actual_result": "A",
+        "home_goals": 2,
+        "away_goals": 5,
+        "result_verified_at_utc": "2026-11-24T13:39:31.314470+00:00",
+        "log_loss": 1.5278404430794177,
+        "brier_score": 0.9628003243817266,
+        "outcome_correct": 0,
+        "double_chance_correct": 0
       },
       {
         "fixture_id": "football-data.org:555093",
@@ -14336,10 +14292,10 @@
         "home_team": "Botafogo RJ",
         "away_team": "Sao Paulo",
         "kickoff_utc": "2026-11-23T23:00:00+00:00",
-        "provider_status": "TIMED",
+        "provider_status": "FINISHED",
         "timing_eligible": true,
         "forecast_id": "8c035e109cf209ec20d68732",
-        "status": "awaiting_result",
+        "status": "scored",
         "reason": null,
         "generated_at_utc": "2026-11-23T12:47:44.201576+00:00",
         "first_verified_public_at_utc": "2026-11-23T12:48:59.702943+00:00",
@@ -14353,7 +14309,15 @@
           "home_or_draw": 0.7124724603516475,
           "home_or_away": 0.718058732573138,
           "draw_or_away": 0.5694688070752145
-        }
+        },
+        "actual_result": "D",
+        "home_goals": 1,
+        "away_goals": 1,
+        "result_verified_at_utc": "2026-11-24T13:39:31.314470+00:00",
+        "log_loss": 1.2660565012715022,
+        "brier_score": 0.783637537562015,
+        "outcome_correct": 0,
+        "double_chance_correct": 0
       },
       {
         "fixture_id": "football-data.org:555099",
@@ -14362,10 +14326,10 @@
         "home_team": "Santos",
         "away_team": "Gremio",
         "kickoff_utc": "2026-11-24T00:00:00+00:00",
-        "provider_status": "TIMED",
+        "provider_status": "FINISHED",
         "timing_eligible": true,
         "forecast_id": "25f19cd55d8258e356c2eb36",
-        "status": "awaiting_result",
+        "status": "scored",
         "reason": null,
         "generated_at_utc": "2026-11-23T12:47:44.226569+00:00",
         "first_verified_public_at_utc": "2026-11-23T12:48:59.702943+00:00",
@@ -14379,7 +14343,15 @@
           "home_or_draw": 0.7870249004361303,
           "home_or_away": 0.7473839784484857,
           "draw_or_away": 0.46559112111538414
-        }
+        },
+        "actual_result": "A",
+        "home_goals": 0,
+        "away_goals": 2,
+        "result_verified_at_utc": "2026-11-24T13:39:31.314470+00:00",
+        "log_loss": 1.5465800235624638,
+        "brier_score": 0.9688158980817279,
+        "outcome_correct": 0,
+        "double_chance_correct": 0
       },
       {
         "fixture_id": "football-data.org:555102",
@@ -14390,11 +14362,11 @@
         "kickoff_utc": "2026-11-24T21:00:00+00:00",
         "provider_status": "TIMED",
         "timing_eligible": true,
-        "forecast_id": "2245fb638c9d7f8f32bdd6d6",
+        "forecast_id": "9747a6edc8fafd89306420d2",
         "status": "awaiting_result",
         "reason": null,
-        "generated_at_utc": "2026-11-23T12:47:44.255209+00:00",
-        "first_verified_public_at_utc": "2026-11-23T12:48:59.702943+00:00",
+        "generated_at_utc": "2026-11-23T22:42:41.486426+00:00",
+        "first_verified_public_at_utc": "2026-11-23T22:44:09.969716+00:00",
         "model_version": "poisson-20261101T094559791860Z-b9e4f90e",
         "predicted_result": "A",
         "selected_double_chance": "X2",
@@ -14416,11 +14388,11 @@
         "kickoff_utc": "2026-11-25T23:00:00+00:00",
         "provider_status": "TIMED",
         "timing_eligible": true,
-        "forecast_id": "615a2178858783394c8363c1",
+        "forecast_id": "1dde7618f02c7c106e213a63",
         "status": "awaiting_result",
         "reason": null,
-        "generated_at_utc": "2026-11-23T12:47:44.281879+00:00",
-        "first_verified_public_at_utc": "2026-11-23T12:48:59.702943+00:00",
+        "generated_at_utc": "2026-11-23T22:42:41.512439+00:00",
+        "first_verified_public_at_utc": "2026-11-23T22:44:09.969716+00:00",
         "model_version": "poisson-20261101T094559791860Z-b9e4f90e",
         "predicted_result": "H",
         "selected_double_chance": "1X",
@@ -14442,11 +14414,11 @@
         "kickoff_utc": "2026-11-26T23:00:00+00:00",
         "provider_status": "TIMED",
         "timing_eligible": true,
-        "forecast_id": "a27d8677bff29469cc94444d",
+        "forecast_id": "3e821dd0bf2b39f87fae258c",
         "status": "awaiting_result",
         "reason": null,
-        "generated_at_utc": "2026-11-23T12:47:44.307220+00:00",
-        "first_verified_public_at_utc": "2026-11-23T12:48:59.702943+00:00",
+        "generated_at_utc": "2026-11-23T22:42:41.538440+00:00",
+        "first_verified_public_at_utc": "2026-11-23T22:44:09.969716+00:00",
         "model_version": "poisson-20261101T094559791860Z-b9e4f90e",
         "predicted_result": "H",
         "selected_double_chance": "1X",
@@ -14468,11 +14440,11 @@
         "kickoff_utc": "2026-11-27T19:00:00+00:00",
         "provider_status": "TIMED",
         "timing_eligible": true,
-        "forecast_id": "4ac337de5bdf0a7a81f4f499",
+        "forecast_id": "ae4b582e47bab9faf398cb06",
         "status": "awaiting_result",
         "reason": null,
-        "generated_at_utc": "2026-11-23T12:47:44.336112+00:00",
-        "first_verified_public_at_utc": "2026-11-23T12:48:59.702943+00:00",
+        "generated_at_utc": "2026-11-23T22:42:41.564257+00:00",
+        "first_verified_public_at_utc": "2026-11-23T22:44:09.969716+00:00",
         "model_version": "poisson-20261101T094559791860Z-b9e4f90e",
         "predicted_result": "H",
         "selected_double_chance": "1X",
@@ -14494,11 +14466,11 @@
         "kickoff_utc": "2026-11-27T19:30:00+00:00",
         "provider_status": "TIMED",
         "timing_eligible": true,
-        "forecast_id": "bb4aead68393ac525a0c9309",
+        "forecast_id": "90b840b1b763e1d63582f10e",
         "status": "awaiting_result",
         "reason": null,
-        "generated_at_utc": "2026-11-23T12:47:44.361176+00:00",
-        "first_verified_public_at_utc": "2026-11-23T12:48:59.702943+00:00",
+        "generated_at_utc": "2026-11-23T22:42:41.590495+00:00",
+        "first_verified_public_at_utc": "2026-11-23T22:44:09.969716+00:00",
         "model_version": "poisson-20261101T094559791860Z-b9e4f90e",
         "predicted_result": "H",
         "selected_double_chance": "12",
@@ -14520,21 +14492,21 @@
         "kickoff_utc": "2026-11-27T19:45:00+00:00",
         "provider_status": "TIMED",
         "timing_eligible": true,
-        "forecast_id": "27b68ccc19ba487b75bd651c",
+        "forecast_id": "c6531d5016469b4702696928",
         "status": "awaiting_result",
         "reason": null,
-        "generated_at_utc": "2026-11-23T12:47:44.386205+00:00",
-        "first_verified_public_at_utc": "2026-11-23T12:48:59.702943+00:00",
+        "generated_at_utc": "2026-11-23T22:42:41.616117+00:00",
+        "first_verified_public_at_utc": "2026-11-23T22:44:09.969716+00:00",
         "model_version": "poisson-20261101T094559791860Z-b9e4f90e",
         "predicted_result": "A",
         "selected_double_chance": "X2",
         "probabilities": {
-          "home": 0.24491588315617185,
-          "draw": 0.24769105288267776,
-          "away": 0.5073930639611504,
-          "home_or_draw": 0.49260693603884964,
-          "home_or_away": 0.7523089471173222,
-          "draw_or_away": 0.7550841168438281
+          "home": 0.24491578073548023,
+          "draw": 0.2476909637742547,
+          "away": 0.507393255490265,
+          "home_or_draw": 0.49260674450973496,
+          "home_or_away": 0.7523090362257453,
+          "draw_or_away": 0.7550842192645197
         }
       },
       {
@@ -14546,11 +14518,11 @@
         "kickoff_utc": "2026-11-27T19:45:00+00:00",
         "provider_status": "TIMED",
         "timing_eligible": true,
-        "forecast_id": "1cb93f44dccd1b01b12d4e78",
+        "forecast_id": "66beff6979330611fa8bf945",
         "status": "awaiting_result",
         "reason": null,
-        "generated_at_utc": "2026-11-23T12:47:44.410899+00:00",
-        "first_verified_public_at_utc": "2026-11-23T12:48:59.702943+00:00",
+        "generated_at_utc": "2026-11-23T22:42:41.641955+00:00",
+        "first_verified_public_at_utc": "2026-11-23T22:44:09.969716+00:00",
         "model_version": "poisson-20261101T094559791860Z-b9e4f90e",
         "predicted_result": "H",
         "selected_double_chance": "12",
@@ -14572,21 +14544,21 @@
         "kickoff_utc": "2026-11-27T20:00:00+00:00",
         "provider_status": "TIMED",
         "timing_eligible": true,
-        "forecast_id": "73a12264608ea73dba735019",
+        "forecast_id": "9776e4ced5196ddd0dc2ed6b",
         "status": "awaiting_result",
         "reason": null,
-        "generated_at_utc": "2026-11-23T12:47:44.435717+00:00",
-        "first_verified_public_at_utc": "2026-11-23T12:48:59.702943+00:00",
+        "generated_at_utc": "2026-11-23T22:42:41.667846+00:00",
+        "first_verified_public_at_utc": "2026-11-23T22:44:09.969716+00:00",
         "model_version": "poisson-20261101T094559791860Z-b9e4f90e",
         "predicted_result": "H",
         "selected_double_chance": "12",
         "probabilities": {
-          "home": 0.3764731686954163,
-          "draw": 0.2567718559688591,
-          "away": 0.3667549753357246,
-          "home_or_draw": 0.6332450246642753,
-          "home_or_away": 0.7432281440311409,
-          "draw_or_away": 0.6235268313045836
+          "home": 0.3764730148101397,
+          "draw": 0.2567712044738423,
+          "away": 0.366755780716018,
+          "home_or_draw": 0.633244219283982,
+          "home_or_away": 0.7432287955261576,
+          "draw_or_away": 0.6235269851898603
         }
       },
       {
@@ -14598,21 +14570,21 @@
         "kickoff_utc": "2026-11-27T20:00:00+00:00",
         "provider_status": "TIMED",
         "timing_eligible": true,
-        "forecast_id": "dbd6432d24b9ec06ee2975c8",
+        "forecast_id": "bb52e5929e8896adea555564",
         "status": "awaiting_result",
         "reason": null,
-        "generated_at_utc": "2026-11-23T12:47:44.460889+00:00",
-        "first_verified_public_at_utc": "2026-11-23T12:48:59.702943+00:00",
+        "generated_at_utc": "2026-11-23T22:42:41.694149+00:00",
+        "first_verified_public_at_utc": "2026-11-23T22:44:09.969716+00:00",
         "model_version": "poisson-20261101T094559791860Z-b9e4f90e",
         "predicted_result": "H",
         "selected_double_chance": "12",
         "probabilities": {
-          "home": 0.5033336139212247,
-          "draw": 0.23244562060308174,
-          "away": 0.2642207654756935,
-          "home_or_draw": 0.7357792345243064,
-          "home_or_away": 0.7675543793969182,
-          "draw_or_away": 0.4966663860787752
+          "home": 0.5024252919741008,
+          "draw": 0.23308892024235045,
+          "away": 0.2644857877835488,
+          "home_or_draw": 0.7355142122164513,
+          "home_or_away": 0.7669110797576496,
+          "draw_or_away": 0.49757470802589926
         }
       },
       {
@@ -14650,11 +14622,11 @@
         "kickoff_utc": "2026-11-27T23:00:00+00:00",
         "provider_status": "TIMED",
         "timing_eligible": true,
-        "forecast_id": "cb39d190be7de59f85826280",
+        "forecast_id": "4890a78e11f1b7df69056aee",
         "status": "awaiting_result",
         "reason": null,
-        "generated_at_utc": "2026-11-23T12:47:44.485578+00:00",
-        "first_verified_public_at_utc": "2026-11-23T12:48:59.702943+00:00",
+        "generated_at_utc": "2026-11-23T22:42:41.720096+00:00",
+        "first_verified_public_at_utc": "2026-11-23T22:44:09.969716+00:00",
         "model_version": "poisson-20261101T094559791860Z-b9e4f90e",
         "predicted_result": "H",
         "selected_double_chance": "12",
@@ -14676,21 +14648,21 @@
         "kickoff_utc": "2026-11-28T13:00:00+00:00",
         "provider_status": "TIMED",
         "timing_eligible": true,
-        "forecast_id": "0d10fb51ce3f9be87df73dda",
+        "forecast_id": "c105843c03c692968d52ae08",
         "status": "awaiting_result",
         "reason": null,
-        "generated_at_utc": "2026-11-23T12:47:44.510384+00:00",
-        "first_verified_public_at_utc": "2026-11-23T12:48:59.702943+00:00",
+        "generated_at_utc": "2026-11-23T22:42:41.746193+00:00",
+        "first_verified_public_at_utc": "2026-11-23T22:44:09.969716+00:00",
         "model_version": "poisson-20261101T094559791860Z-b9e4f90e",
         "predicted_result": "H",
         "selected_double_chance": "1X",
         "probabilities": {
-          "home": 0.5939403516801681,
-          "draw": 0.21597742413453835,
-          "away": 0.19008222418529355,
-          "home_or_draw": 0.8099177758147065,
-          "home_or_away": 0.7840225758654616,
-          "draw_or_away": 0.4060596483198319
+          "home": 0.593941217702508,
+          "draw": 0.21597719224469006,
+          "away": 0.19008159005280204,
+          "home_or_draw": 0.809918409947198,
+          "home_or_away": 0.78402280775531,
+          "draw_or_away": 0.4060587822974921
         }
       },
       {
@@ -14702,21 +14674,21 @@
         "kickoff_utc": "2026-11-28T14:00:00+00:00",
         "provider_status": "TIMED",
         "timing_eligible": true,
-        "forecast_id": "71e52d9efd0d2c3a18bd82e6",
+        "forecast_id": "5286c668f89cc10108dd558c",
         "status": "awaiting_result",
         "reason": null,
-        "generated_at_utc": "2026-11-23T12:47:44.535111+00:00",
-        "first_verified_public_at_utc": "2026-11-23T12:48:59.702943+00:00",
+        "generated_at_utc": "2026-11-23T22:42:41.771930+00:00",
+        "first_verified_public_at_utc": "2026-11-23T22:44:09.969716+00:00",
         "model_version": "poisson-20261101T094559791860Z-b9e4f90e",
         "predicted_result": "H",
         "selected_double_chance": "12",
         "probabilities": {
-          "home": 0.5404606060153484,
-          "draw": 0.2290289235026024,
-          "away": 0.2305104704820492,
-          "home_or_draw": 0.7694895295179508,
-          "home_or_away": 0.7709710764973976,
-          "draw_or_away": 0.4595393939846516
+          "home": 0.5404605235198803,
+          "draw": 0.22902890092560643,
+          "away": 0.23051057555451337,
+          "home_or_draw": 0.7694894244454867,
+          "home_or_away": 0.7709710990743937,
+          "draw_or_away": 0.45953947648011984
         }
       },
       {
@@ -14728,11 +14700,11 @@
         "kickoff_utc": "2026-11-28T14:30:00+00:00",
         "provider_status": "TIMED",
         "timing_eligible": true,
-        "forecast_id": "6000046638b77efba33098bf",
+        "forecast_id": "5652b348402e6a5694c5a6bb",
         "status": "awaiting_result",
         "reason": null,
-        "generated_at_utc": "2026-11-23T12:47:44.560103+00:00",
-        "first_verified_public_at_utc": "2026-11-23T12:48:59.702943+00:00",
+        "generated_at_utc": "2026-11-23T22:42:41.797616+00:00",
+        "first_verified_public_at_utc": "2026-11-23T22:44:09.969716+00:00",
         "model_version": "poisson-20261101T094559791860Z-b9e4f90e",
         "predicted_result": "H",
         "selected_double_chance": "12",
@@ -14754,11 +14726,11 @@
         "kickoff_utc": "2026-11-28T14:30:00+00:00",
         "provider_status": "TIMED",
         "timing_eligible": true,
-        "forecast_id": "81b43daee0835f44c18d6972",
+        "forecast_id": "52a48d4ba3d06b412b07da85",
         "status": "awaiting_result",
         "reason": null,
-        "generated_at_utc": "2026-11-23T12:47:44.585482+00:00",
-        "first_verified_public_at_utc": "2026-11-23T12:48:59.702943+00:00",
+        "generated_at_utc": "2026-11-23T22:42:41.823063+00:00",
+        "first_verified_public_at_utc": "2026-11-23T22:44:09.969716+00:00",
         "model_version": "poisson-20261101T094559791860Z-b9e4f90e",
         "predicted_result": "H",
         "selected_double_chance": "1X",
@@ -14780,11 +14752,11 @@
         "kickoff_utc": "2026-11-28T14:30:00+00:00",
         "provider_status": "TIMED",
         "timing_eligible": true,
-        "forecast_id": "218ad0fcb1049b4cfc85d7b5",
+        "forecast_id": "977fe1d58982162c1faa672a",
         "status": "awaiting_result",
         "reason": null,
-        "generated_at_utc": "2026-11-23T12:47:44.610697+00:00",
-        "first_verified_public_at_utc": "2026-11-23T12:48:59.702943+00:00",
+        "generated_at_utc": "2026-11-23T22:42:41.848909+00:00",
+        "first_verified_public_at_utc": "2026-11-23T22:44:09.969716+00:00",
         "model_version": "poisson-20261101T094559791860Z-b9e4f90e",
         "predicted_result": "H",
         "selected_double_chance": "12",
@@ -14806,11 +14778,11 @@
         "kickoff_utc": "2026-11-28T14:30:00+00:00",
         "provider_status": "TIMED",
         "timing_eligible": true,
-        "forecast_id": "4e4e478599527c69b8dddffc",
+        "forecast_id": "1242a8e3fbe604c0777336ad",
         "status": "awaiting_result",
         "reason": null,
-        "generated_at_utc": "2026-11-23T12:47:44.635558+00:00",
-        "first_verified_public_at_utc": "2026-11-23T12:48:59.702943+00:00",
+        "generated_at_utc": "2026-11-23T22:42:41.874753+00:00",
+        "first_verified_public_at_utc": "2026-11-23T22:44:09.969716+00:00",
         "model_version": "poisson-20261101T094559791860Z-b9e4f90e",
         "predicted_result": "A",
         "selected_double_chance": "X2",
@@ -14832,21 +14804,21 @@
         "kickoff_utc": "2026-11-28T15:00:00+00:00",
         "provider_status": "TIMED",
         "timing_eligible": true,
-        "forecast_id": "c3fede354bcd3b41ea1fbadc",
+        "forecast_id": "7fa6b1f7430d118b541b28ce",
         "status": "awaiting_result",
         "reason": null,
-        "generated_at_utc": "2026-11-23T12:47:44.660923+00:00",
-        "first_verified_public_at_utc": "2026-11-23T12:48:59.702943+00:00",
+        "generated_at_utc": "2026-11-23T22:42:41.900237+00:00",
+        "first_verified_public_at_utc": "2026-11-23T22:44:09.969716+00:00",
         "model_version": "poisson-20261101T094559791860Z-b9e4f90e",
         "predicted_result": "H",
         "selected_double_chance": "1X",
         "probabilities": {
-          "home": 0.5303757279240432,
-          "draw": 0.23989166273857265,
-          "away": 0.22973260933738418,
-          "home_or_draw": 0.7702673906626158,
-          "home_or_away": 0.7601083372614273,
-          "draw_or_away": 0.4696242720759568
+          "home": 0.5303759158681095,
+          "draw": 0.23989108605008097,
+          "away": 0.22973299808180958,
+          "home_or_draw": 0.7702670019181905,
+          "home_or_away": 0.7601089139499191,
+          "draw_or_away": 0.46962408413189055
         }
       },
       {
@@ -14858,21 +14830,21 @@
         "kickoff_utc": "2026-11-28T15:00:00+00:00",
         "provider_status": "TIMED",
         "timing_eligible": true,
-        "forecast_id": "8654780f0e57ab638fc8a8f9",
+        "forecast_id": "5bf9092c48ad32facc3f85d0",
         "status": "awaiting_result",
         "reason": null,
-        "generated_at_utc": "2026-11-23T12:47:44.690662+00:00",
-        "first_verified_public_at_utc": "2026-11-23T12:48:59.702943+00:00",
+        "generated_at_utc": "2026-11-23T22:42:41.925855+00:00",
+        "first_verified_public_at_utc": "2026-11-23T22:44:09.969716+00:00",
         "model_version": "poisson-20261101T094559791860Z-b9e4f90e",
-        "predicted_result": "H",
+        "predicted_result": "A",
         "selected_double_chance": "12",
         "probabilities": {
-          "home": 0.39427375178857244,
-          "draw": 0.2510736322703649,
-          "away": 0.3546526159410628,
-          "home_or_draw": 0.6453473840589373,
-          "home_or_away": 0.7489263677296352,
-          "draw_or_away": 0.6057262482114276
+          "home": 0.3746161716227459,
+          "draw": 0.2498054964003064,
+          "away": 0.3755783319769477,
+          "home_or_draw": 0.6244216680230523,
+          "home_or_away": 0.7501945035996935,
+          "draw_or_away": 0.625383828377254
         }
       },
       {
@@ -14884,21 +14856,21 @@
         "kickoff_utc": "2026-11-28T15:15:00+00:00",
         "provider_status": "TIMED",
         "timing_eligible": true,
-        "forecast_id": "7de31c14ed7325717f4c7edc",
+        "forecast_id": "3b52e18c942a54e98d750d4c",
         "status": "awaiting_result",
         "reason": null,
-        "generated_at_utc": "2026-11-23T12:47:44.715799+00:00",
-        "first_verified_public_at_utc": "2026-11-23T12:48:59.702943+00:00",
+        "generated_at_utc": "2026-11-23T22:42:41.951847+00:00",
+        "first_verified_public_at_utc": "2026-11-23T22:44:09.969716+00:00",
         "model_version": "poisson-20261101T094559791860Z-b9e4f90e",
         "predicted_result": "A",
         "selected_double_chance": "12",
         "probabilities": {
-          "home": 0.30463519084400204,
-          "draw": 0.2703351504671833,
-          "away": 0.42502965868881454,
-          "home_or_draw": 0.5749703413111853,
-          "home_or_away": 0.7296648495328166,
-          "draw_or_away": 0.6953648091559979
+          "home": 0.304635940131274,
+          "draw": 0.2703353005218952,
+          "away": 0.4250287593468308,
+          "home_or_draw": 0.5749712406531692,
+          "home_or_away": 0.7296646994781049,
+          "draw_or_away": 0.6953640598687261
         }
       },
       {
@@ -14910,11 +14882,11 @@
         "kickoff_utc": "2026-11-28T15:30:00+00:00",
         "provider_status": "TIMED",
         "timing_eligible": true,
-        "forecast_id": "2b1a1ab5ae5fee816a681c77",
+        "forecast_id": "bd2fe0d7348b9f668ea5d622",
         "status": "awaiting_result",
         "reason": null,
-        "generated_at_utc": "2026-11-23T12:47:44.740640+00:00",
-        "first_verified_public_at_utc": "2026-11-23T12:48:59.702943+00:00",
+        "generated_at_utc": "2026-11-23T22:42:41.976991+00:00",
+        "first_verified_public_at_utc": "2026-11-23T22:44:09.969716+00:00",
         "model_version": "poisson-20261101T094559791860Z-b9e4f90e",
         "predicted_result": "H",
         "selected_double_chance": "12",
@@ -14988,11 +14960,11 @@
         "kickoff_utc": "2026-11-28T16:15:00+00:00",
         "provider_status": "TIMED",
         "timing_eligible": true,
-        "forecast_id": "3fc801cf22f2f0bbc1c6d836",
+        "forecast_id": "c470dc3f541027c343aa1865",
         "status": "awaiting_result",
         "reason": null,
-        "generated_at_utc": "2026-11-23T12:47:44.765584+00:00",
-        "first_verified_public_at_utc": "2026-11-23T12:48:59.702943+00:00",
+        "generated_at_utc": "2026-11-23T22:42:42.005961+00:00",
+        "first_verified_public_at_utc": "2026-11-23T22:44:09.969716+00:00",
         "model_version": "poisson-20261101T094559791860Z-b9e4f90e",
         "predicted_result": "A",
         "selected_double_chance": "X2",
@@ -15014,21 +14986,21 @@
         "kickoff_utc": "2026-11-28T17:00:00+00:00",
         "provider_status": "TIMED",
         "timing_eligible": true,
-        "forecast_id": "cc8b64add56855226ebaf865",
+        "forecast_id": "60ca12d19f585bf049ca15f6",
         "status": "awaiting_result",
         "reason": null,
-        "generated_at_utc": "2026-11-23T12:47:44.790963+00:00",
-        "first_verified_public_at_utc": "2026-11-23T12:48:59.702943+00:00",
+        "generated_at_utc": "2026-11-23T22:42:42.032482+00:00",
+        "first_verified_public_at_utc": "2026-11-23T22:44:09.969716+00:00",
         "model_version": "poisson-20261101T094559791860Z-b9e4f90e",
         "predicted_result": "A",
         "selected_double_chance": "12",
         "probabilities": {
-          "home": 0.23741593318555992,
-          "draw": 0.23636981905797882,
-          "away": 0.5262142477564612,
-          "home_or_draw": 0.47378575224353875,
-          "home_or_away": 0.7636301809420212,
-          "draw_or_away": 0.76258406681444
+          "home": 0.23741582623486632,
+          "draw": 0.23636972956637725,
+          "away": 0.5262144441987565,
+          "home_or_draw": 0.4737855558012436,
+          "home_or_away": 0.7636302704336229,
+          "draw_or_away": 0.7625841737651338
         }
       },
       {
@@ -15040,21 +15012,21 @@
         "kickoff_utc": "2026-11-28T17:30:00+00:00",
         "provider_status": "TIMED",
         "timing_eligible": true,
-        "forecast_id": "cc6ad7c88e7aae809660ad81",
+        "forecast_id": "6bba00e862919b3d8794ae78",
         "status": "awaiting_result",
         "reason": null,
-        "generated_at_utc": "2026-11-23T12:47:44.815695+00:00",
-        "first_verified_public_at_utc": "2026-11-23T12:48:59.702943+00:00",
+        "generated_at_utc": "2026-11-23T22:42:42.058255+00:00",
+        "first_verified_public_at_utc": "2026-11-23T22:44:09.969716+00:00",
         "model_version": "poisson-20261101T094559791860Z-b9e4f90e",
         "predicted_result": "A",
         "selected_double_chance": "12",
         "probabilities": {
-          "home": 0.29860296055064367,
-          "draw": 0.2510189296907265,
-          "away": 0.45037810975862985,
-          "home_or_draw": 0.5496218902413701,
-          "home_or_away": 0.7489810703092735,
-          "draw_or_away": 0.7013970394493563
+          "home": 0.2986026553537057,
+          "draw": 0.25101820082094956,
+          "away": 0.45037914382534466,
+          "home_or_draw": 0.5496208561746553,
+          "home_or_away": 0.7489817991790504,
+          "draw_or_away": 0.7013973446462942
         }
       },
       {
@@ -15066,21 +15038,21 @@
         "kickoff_utc": "2026-11-28T17:30:00+00:00",
         "provider_status": "TIMED",
         "timing_eligible": true,
-        "forecast_id": "7615b8cd4689d50a9cc9672f",
+        "forecast_id": "445e3f4aca547e7509928419",
         "status": "awaiting_result",
         "reason": null,
-        "generated_at_utc": "2026-11-23T12:47:44.840738+00:00",
-        "first_verified_public_at_utc": "2026-11-23T12:48:59.702943+00:00",
+        "generated_at_utc": "2026-11-23T22:42:42.083974+00:00",
+        "first_verified_public_at_utc": "2026-11-23T22:44:09.969716+00:00",
         "model_version": "poisson-20261101T094559791860Z-b9e4f90e",
         "predicted_result": "A",
         "selected_double_chance": "X2",
         "probabilities": {
-          "home": 0.21778813139219413,
-          "draw": 0.2580804691669319,
-          "away": 0.524131399440874,
-          "home_or_draw": 0.47586860055912605,
-          "home_or_away": 0.741919530833068,
-          "draw_or_away": 0.7822118686078059
+          "home": 0.22628545590083268,
+          "draw": 0.25999800554462,
+          "away": 0.5137165385545474,
+          "home_or_draw": 0.48628346144545265,
+          "home_or_away": 0.7400019944553801,
+          "draw_or_away": 0.7737145440991673
         }
       },
       {
@@ -15092,11 +15064,11 @@
         "kickoff_utc": "2026-11-28T17:30:00+00:00",
         "provider_status": "TIMED",
         "timing_eligible": true,
-        "forecast_id": "83cf077580b5a6895009729f",
+        "forecast_id": "329d06f6b4ea65ed1d9b6095",
         "status": "awaiting_result",
         "reason": null,
-        "generated_at_utc": "2026-11-23T12:47:44.866122+00:00",
-        "first_verified_public_at_utc": "2026-11-23T12:48:59.702943+00:00",
+        "generated_at_utc": "2026-11-23T22:42:42.109132+00:00",
+        "first_verified_public_at_utc": "2026-11-23T22:44:09.969716+00:00",
         "model_version": "poisson-20261101T094559791860Z-b9e4f90e",
         "predicted_result": "H",
         "selected_double_chance": "12",
@@ -15118,11 +15090,11 @@
         "kickoff_utc": "2026-11-28T17:45:00+00:00",
         "provider_status": "TIMED",
         "timing_eligible": true,
-        "forecast_id": "57c3920b37ea8a8b08a8361d",
+        "forecast_id": "1fd566d4a0afb31343e400c8",
         "status": "awaiting_result",
         "reason": null,
-        "generated_at_utc": "2026-11-23T12:47:44.891892+00:00",
-        "first_verified_public_at_utc": "2026-11-23T12:48:59.702943+00:00",
+        "generated_at_utc": "2026-11-23T22:42:42.134969+00:00",
+        "first_verified_public_at_utc": "2026-11-23T22:44:09.969716+00:00",
         "model_version": "poisson-20261101T094559791860Z-b9e4f90e",
         "predicted_result": "H",
         "selected_double_chance": "1X",
@@ -15170,21 +15142,21 @@
         "kickoff_utc": "2026-11-28T19:45:00+00:00",
         "provider_status": "TIMED",
         "timing_eligible": true,
-        "forecast_id": "06f752a151a09fc42414e49d",
+        "forecast_id": "69288b0ecd3c9da090b537c1",
         "status": "awaiting_result",
         "reason": null,
-        "generated_at_utc": "2026-11-23T12:47:44.917061+00:00",
-        "first_verified_public_at_utc": "2026-11-23T12:48:59.702943+00:00",
+        "generated_at_utc": "2026-11-23T22:42:42.160518+00:00",
+        "first_verified_public_at_utc": "2026-11-23T22:44:09.969716+00:00",
         "model_version": "poisson-20261101T094559791860Z-b9e4f90e",
         "predicted_result": "H",
         "selected_double_chance": "1X",
         "probabilities": {
-          "home": 0.7502636966616163,
-          "draw": 0.15513593657621075,
-          "away": 0.09460036676217302,
-          "home_or_draw": 0.905399633237827,
-          "home_or_away": 0.8448640634237893,
-          "draw_or_away": 0.24973630333838376
+          "home": 0.7502636613926992,
+          "draw": 0.15513593041637663,
+          "away": 0.09460040819092422,
+          "home_or_draw": 0.9053995918090758,
+          "home_or_away": 0.8448640695836234,
+          "draw_or_away": 0.24973633860730085
         }
       },
       {
@@ -15196,11 +15168,11 @@
         "kickoff_utc": "2026-11-28T19:45:00+00:00",
         "provider_status": "TIMED",
         "timing_eligible": true,
-        "forecast_id": "e88054a03d5b141c59c42a95",
+        "forecast_id": "cf5e4e6af7df6dc0153f3aee",
         "status": "awaiting_result",
         "reason": null,
-        "generated_at_utc": "2026-11-23T12:47:44.942409+00:00",
-        "first_verified_public_at_utc": "2026-11-23T12:48:59.702943+00:00",
+        "generated_at_utc": "2026-11-23T22:42:42.186447+00:00",
+        "first_verified_public_at_utc": "2026-11-23T22:44:09.969716+00:00",
         "model_version": "poisson-20261101T094559791860Z-b9e4f90e",
         "predicted_result": "A",
         "selected_double_chance": "12",
@@ -15222,11 +15194,11 @@
         "kickoff_utc": "2026-11-28T19:45:00+00:00",
         "provider_status": "TIMED",
         "timing_eligible": true,
-        "forecast_id": "163c3868d0b1bfb59ccc59a9",
+        "forecast_id": "8637c2933febe92e19f9f0da",
         "status": "awaiting_result",
         "reason": null,
-        "generated_at_utc": "2026-11-23T12:47:44.967412+00:00",
-        "first_verified_public_at_utc": "2026-11-23T12:48:59.702943+00:00",
+        "generated_at_utc": "2026-11-23T22:42:42.212773+00:00",
+        "first_verified_public_at_utc": "2026-11-23T22:44:09.969716+00:00",
         "model_version": "poisson-20261101T094559791860Z-b9e4f90e",
         "predicted_result": "H",
         "selected_double_chance": "1X",
@@ -15248,11 +15220,11 @@
         "kickoff_utc": "2026-11-28T19:45:00+00:00",
         "provider_status": "TIMED",
         "timing_eligible": true,
-        "forecast_id": "f5a4c35ee799257e89bea681",
+        "forecast_id": "b533f71a7125a15377ff25b4",
         "status": "awaiting_result",
         "reason": null,
-        "generated_at_utc": "2026-11-23T12:47:44.992679+00:00",
-        "first_verified_public_at_utc": "2026-11-23T12:48:59.702943+00:00",
+        "generated_at_utc": "2026-11-23T22:42:42.238668+00:00",
+        "first_verified_public_at_utc": "2026-11-23T22:44:09.969716+00:00",
         "model_version": "poisson-20261101T094559791860Z-b9e4f90e",
         "predicted_result": "A",
         "selected_double_chance": "X2",
@@ -15274,11 +15246,11 @@
         "kickoff_utc": "2026-11-28T19:45:00+00:00",
         "provider_status": "TIMED",
         "timing_eligible": true,
-        "forecast_id": "a7c0d2c6f9fed19db16069e8",
+        "forecast_id": "81039162334086db16fe4d18",
         "status": "awaiting_result",
         "reason": null,
-        "generated_at_utc": "2026-11-23T12:47:45.017977+00:00",
-        "first_verified_public_at_utc": "2026-11-23T12:48:59.702943+00:00",
+        "generated_at_utc": "2026-11-23T22:42:42.263917+00:00",
+        "first_verified_public_at_utc": "2026-11-23T22:44:09.969716+00:00",
         "model_version": "poisson-20261101T094559791860Z-b9e4f90e",
         "predicted_result": "H",
         "selected_double_chance": "1X",
@@ -15300,11 +15272,11 @@
         "kickoff_utc": "2026-11-28T20:00:00+00:00",
         "provider_status": "TIMED",
         "timing_eligible": true,
-        "forecast_id": "bee3c16f9073a2faf3583b46",
+        "forecast_id": "4249cab501119c3bd309abdf",
         "status": "awaiting_result",
         "reason": null,
-        "generated_at_utc": "2026-11-23T12:47:45.043878+00:00",
-        "first_verified_public_at_utc": "2026-11-23T12:48:59.702943+00:00",
+        "generated_at_utc": "2026-11-23T22:42:42.289608+00:00",
+        "first_verified_public_at_utc": "2026-11-23T22:44:09.969716+00:00",
         "model_version": "poisson-20261101T094559791860Z-b9e4f90e",
         "predicted_result": "H",
         "selected_double_chance": "12",
@@ -15326,21 +15298,21 @@
         "kickoff_utc": "2026-11-28T20:00:00+00:00",
         "provider_status": "TIMED",
         "timing_eligible": true,
-        "forecast_id": "f881b389313467b8a73c4396",
+        "forecast_id": "8ae9b3900ff701361326b8c7",
         "status": "awaiting_result",
         "reason": null,
-        "generated_at_utc": "2026-11-23T12:47:45.072037+00:00",
-        "first_verified_public_at_utc": "2026-11-23T12:48:59.702943+00:00",
+        "generated_at_utc": "2026-11-23T22:42:42.315187+00:00",
+        "first_verified_public_at_utc": "2026-11-23T22:44:09.969716+00:00",
         "model_version": "poisson-20261101T094559791860Z-b9e4f90e",
         "predicted_result": "H",
         "selected_double_chance": "1X",
         "probabilities": {
-          "home": 0.8018746457144513,
-          "draw": 0.1282125199213008,
-          "away": 0.06991283436424794,
-          "home_or_draw": 0.9300871656357521,
-          "home_or_away": 0.8717874800786993,
-          "draw_or_away": 0.19812535428554875
+          "home": 0.8018752735906796,
+          "draw": 0.1282122045856325,
+          "away": 0.0699125218236879,
+          "home_or_draw": 0.9300874781763121,
+          "home_or_away": 0.8717877954143675,
+          "draw_or_away": 0.1981247264093204
         }
       },
       {
@@ -15378,11 +15350,11 @@
         "kickoff_utc": "2026-11-29T00:00:00+00:00",
         "provider_status": "TIMED",
         "timing_eligible": true,
-        "forecast_id": "9fcd4e1cf5fdc1ee80a5f36a",
+        "forecast_id": "cee13a0480c77ac458e6afc5",
         "status": "awaiting_result",
         "reason": null,
-        "generated_at_utc": "2026-11-23T12:47:45.097895+00:00",
-        "first_verified_public_at_utc": "2026-11-23T12:48:59.702943+00:00",
+        "generated_at_utc": "2026-11-23T22:42:42.341763+00:00",
+        "first_verified_public_at_utc": "2026-11-23T22:44:09.969716+00:00",
         "model_version": "poisson-20261101T094559791860Z-b9e4f90e",
         "predicted_result": "H",
         "selected_double_chance": "12",
@@ -15404,11 +15376,11 @@
         "kickoff_utc": "2026-11-29T11:15:00+00:00",
         "provider_status": "TIMED",
         "timing_eligible": true,
-        "forecast_id": "6c68b50a79727b1bd855c541",
+        "forecast_id": "452a51eb8b157e8e98dde736",
         "status": "awaiting_result",
         "reason": null,
-        "generated_at_utc": "2026-11-23T12:47:45.125805+00:00",
-        "first_verified_public_at_utc": "2026-11-23T12:48:59.702943+00:00",
+        "generated_at_utc": "2026-11-23T22:42:42.368343+00:00",
+        "first_verified_public_at_utc": "2026-11-23T22:44:09.969716+00:00",
         "model_version": "poisson-20261101T094559791860Z-b9e4f90e",
         "predicted_result": "A",
         "selected_double_chance": "12",
@@ -15430,21 +15402,21 @@
         "kickoff_utc": "2026-11-29T11:30:00+00:00",
         "provider_status": "TIMED",
         "timing_eligible": true,
-        "forecast_id": "7e90e31ed3350bbb1bc0ae4e",
+        "forecast_id": "954475a7f48188691a545b21",
         "status": "awaiting_result",
         "reason": null,
-        "generated_at_utc": "2026-11-23T12:47:45.151319+00:00",
-        "first_verified_public_at_utc": "2026-11-23T12:48:59.702943+00:00",
+        "generated_at_utc": "2026-11-23T22:42:42.395831+00:00",
+        "first_verified_public_at_utc": "2026-11-23T22:44:09.969716+00:00",
         "model_version": "poisson-20261101T094559791860Z-b9e4f90e",
         "predicted_result": "A",
         "selected_double_chance": "12",
         "probabilities": {
-          "home": 0.3250518392096919,
-          "draw": 0.2581241972652299,
-          "away": 0.4168239635250782,
-          "home_or_draw": 0.5831760364749218,
-          "home_or_away": 0.74187580273477,
-          "draw_or_away": 0.6749481607903081
+          "home": 0.34060677136311907,
+          "draw": 0.2601124136461005,
+          "away": 0.39928081499078055,
+          "home_or_draw": 0.6007191850092195,
+          "home_or_away": 0.7398875863538996,
+          "draw_or_away": 0.6593932286368811
         }
       },
       {
@@ -15456,21 +15428,21 @@
         "kickoff_utc": "2026-11-29T12:00:00+00:00",
         "provider_status": "TIMED",
         "timing_eligible": true,
-        "forecast_id": "4df92b6c40053e1ea0924b7d",
+        "forecast_id": "e0908e317fbd7c7b2ea9c224",
         "status": "awaiting_result",
         "reason": null,
-        "generated_at_utc": "2026-11-23T12:47:45.176858+00:00",
-        "first_verified_public_at_utc": "2026-11-23T12:48:59.702943+00:00",
+        "generated_at_utc": "2026-11-23T22:42:42.421970+00:00",
+        "first_verified_public_at_utc": "2026-11-23T22:44:09.969716+00:00",
         "model_version": "poisson-20261101T094559791860Z-b9e4f90e",
         "predicted_result": "A",
         "selected_double_chance": "12",
         "probabilities": {
-          "home": 0.30661619173022986,
-          "draw": 0.24664597415485862,
-          "away": 0.4467378341149116,
-          "home_or_draw": 0.5532621658850885,
-          "home_or_away": 0.7533540258451414,
-          "draw_or_away": 0.6933838082697702
+          "home": 0.27740314843146446,
+          "draw": 0.2427120994945394,
+          "away": 0.47988475207399617,
+          "home_or_draw": 0.5201152479260038,
+          "home_or_away": 0.7572879005054607,
+          "draw_or_away": 0.7225968515685356
         }
       },
       {
@@ -15482,21 +15454,21 @@
         "kickoff_utc": "2026-11-29T13:00:00+00:00",
         "provider_status": "TIMED",
         "timing_eligible": true,
-        "forecast_id": "6bcf60ed0fa6d9cfd9b436c6",
+        "forecast_id": "0a639afd10b0546282d5ae99",
         "status": "awaiting_result",
         "reason": null,
-        "generated_at_utc": "2026-11-23T12:47:45.203175+00:00",
-        "first_verified_public_at_utc": "2026-11-23T12:48:59.702943+00:00",
+        "generated_at_utc": "2026-11-23T22:42:42.447731+00:00",
+        "first_verified_public_at_utc": "2026-11-23T22:44:09.969716+00:00",
         "model_version": "poisson-20261101T094559791860Z-b9e4f90e",
         "predicted_result": "H",
         "selected_double_chance": "1X",
         "probabilities": {
-          "home": 0.4918371065024578,
-          "draw": 0.25709709872159187,
-          "away": 0.2510657947759503,
-          "home_or_draw": 0.7489342052240497,
-          "home_or_away": 0.7429029012784081,
-          "draw_or_away": 0.5081628934975422
+          "home": 0.4918379446486263,
+          "draw": 0.25709696988518366,
+          "away": 0.25106508546619,
+          "home_or_draw": 0.74893491453381,
+          "home_or_away": 0.7429030301148163,
+          "draw_or_away": 0.5081620553513737
         }
       },
       {
@@ -15508,11 +15480,11 @@
         "kickoff_utc": "2026-11-29T13:30:00+00:00",
         "provider_status": "TIMED",
         "timing_eligible": true,
-        "forecast_id": "c3b3149607f9e1fac29692c2",
+        "forecast_id": "6ea89d0f380d8f1a630dd57d",
         "status": "awaiting_result",
         "reason": null,
-        "generated_at_utc": "2026-11-23T12:47:45.228834+00:00",
-        "first_verified_public_at_utc": "2026-11-23T12:48:59.702943+00:00",
+        "generated_at_utc": "2026-11-23T22:42:42.473062+00:00",
+        "first_verified_public_at_utc": "2026-11-23T22:44:09.969716+00:00",
         "model_version": "poisson-20261101T094559791860Z-b9e4f90e",
         "predicted_result": "A",
         "selected_double_chance": "12",
@@ -15534,11 +15506,11 @@
         "kickoff_utc": "2026-11-29T13:30:00+00:00",
         "provider_status": "TIMED",
         "timing_eligible": true,
-        "forecast_id": "540bb897a262370b3dad9624",
+        "forecast_id": "d6e324d02c0b833a0fe787ea",
         "status": "awaiting_result",
         "reason": null,
-        "generated_at_utc": "2026-11-23T12:47:45.254461+00:00",
-        "first_verified_public_at_utc": "2026-11-23T12:48:59.702943+00:00",
+        "generated_at_utc": "2026-11-23T22:42:42.498474+00:00",
+        "first_verified_public_at_utc": "2026-11-23T22:44:09.969716+00:00",
         "model_version": "poisson-20261101T094559791860Z-b9e4f90e",
         "predicted_result": "H",
         "selected_double_chance": "12",
@@ -15560,21 +15532,21 @@
         "kickoff_utc": "2026-11-29T14:00:00+00:00",
         "provider_status": "TIMED",
         "timing_eligible": true,
-        "forecast_id": "14e3e30db9f917c1738911a1",
+        "forecast_id": "30baa764348904c6e790807e",
         "status": "awaiting_result",
         "reason": null,
-        "generated_at_utc": "2026-11-23T12:47:45.285803+00:00",
-        "first_verified_public_at_utc": "2026-11-23T12:48:59.702943+00:00",
+        "generated_at_utc": "2026-11-23T22:42:42.523702+00:00",
+        "first_verified_public_at_utc": "2026-11-23T22:44:09.969716+00:00",
         "model_version": "poisson-20261101T094559791860Z-b9e4f90e",
         "predicted_result": "A",
         "selected_double_chance": "X2",
         "probabilities": {
-          "home": 0.15151481026663696,
-          "draw": 0.19670305539312444,
-          "away": 0.6517821343402387,
-          "home_or_draw": 0.3482178656597614,
-          "home_or_away": 0.8032969446068756,
-          "draw_or_away": 0.8484851897333632
+          "home": 0.1515147132987523,
+          "draw": 0.196702945285772,
+          "away": 0.6517823414154758,
+          "home_or_draw": 0.3482176585845243,
+          "home_or_away": 0.8032970547142281,
+          "draw_or_away": 0.8484852867012478
         }
       },
       {
@@ -15586,11 +15558,11 @@
         "kickoff_utc": "2026-11-29T14:00:00+00:00",
         "provider_status": "TIMED",
         "timing_eligible": true,
-        "forecast_id": "9b45751a4df26255f20c89a6",
+        "forecast_id": "f0e127db9b16791c0651c602",
         "status": "awaiting_result",
         "reason": null,
-        "generated_at_utc": "2026-11-23T12:47:45.312352+00:00",
-        "first_verified_public_at_utc": "2026-11-23T12:48:59.702943+00:00",
+        "generated_at_utc": "2026-11-23T22:42:42.548980+00:00",
+        "first_verified_public_at_utc": "2026-11-23T22:44:09.969716+00:00",
         "model_version": "poisson-20261101T094559791860Z-b9e4f90e",
         "predicted_result": "A",
         "selected_double_chance": "12",
@@ -15612,21 +15584,21 @@
         "kickoff_utc": "2026-11-29T14:05:00+00:00",
         "provider_status": "TIMED",
         "timing_eligible": true,
-        "forecast_id": "1be61194fdd45dd2000a814f",
+        "forecast_id": "8f976269bd8ec848243de00d",
         "status": "awaiting_result",
         "reason": null,
-        "generated_at_utc": "2026-11-23T12:47:45.337754+00:00",
-        "first_verified_public_at_utc": "2026-11-23T12:48:59.702943+00:00",
+        "generated_at_utc": "2026-11-23T22:42:42.574776+00:00",
+        "first_verified_public_at_utc": "2026-11-23T22:44:09.969716+00:00",
         "model_version": "poisson-20261101T094559791860Z-b9e4f90e",
         "predicted_result": "A",
         "selected_double_chance": "12",
         "probabilities": {
-          "home": 0.32959805226340355,
-          "draw": 0.2513985685166736,
-          "away": 0.419003379219923,
-          "home_or_draw": 0.5809966207800772,
-          "home_or_away": 0.7486014314833265,
-          "draw_or_away": 0.6704019477365966
+          "home": 0.3295977901962437,
+          "draw": 0.2513978824653703,
+          "away": 0.41900432733838594,
+          "home_or_draw": 0.580995672661614,
+          "home_or_away": 0.7486021175346296,
+          "draw_or_away": 0.6704022098037563
         }
       },
       {
@@ -15638,21 +15610,21 @@
         "kickoff_utc": "2026-11-29T14:05:00+00:00",
         "provider_status": "TIMED",
         "timing_eligible": true,
-        "forecast_id": "f37a7d66b573e954f170fe4b",
+        "forecast_id": "2b1885a9d22c8ced33e4a3e9",
         "status": "awaiting_result",
         "reason": null,
-        "generated_at_utc": "2026-11-23T12:47:45.363334+00:00",
-        "first_verified_public_at_utc": "2026-11-23T12:48:59.702943+00:00",
+        "generated_at_utc": "2026-11-23T22:42:42.600349+00:00",
+        "first_verified_public_at_utc": "2026-11-23T22:44:09.969716+00:00",
         "model_version": "poisson-20261101T094559791860Z-b9e4f90e",
         "predicted_result": "H",
         "selected_double_chance": "1X",
         "probabilities": {
-          "home": 0.5658832315986397,
-          "draw": 0.2284802967472753,
-          "away": 0.2056364716540849,
-          "home_or_draw": 0.7943635283459151,
-          "home_or_away": 0.7715197032527247,
-          "draw_or_away": 0.4341167684013602
+          "home": 0.5658834794218859,
+          "draw": 0.22847973742021607,
+          "away": 0.20563678315789805,
+          "home_or_draw": 0.794363216842102,
+          "home_or_away": 0.7715202625797839,
+          "draw_or_away": 0.4341165205781141
         }
       },
       {
@@ -15664,21 +15636,21 @@
         "kickoff_utc": "2026-11-29T14:05:00+00:00",
         "provider_status": "TIMED",
         "timing_eligible": true,
-        "forecast_id": "993c879d342649265f7338d0",
+        "forecast_id": "9f0213301e0096b03986cdb6",
         "status": "awaiting_result",
         "reason": null,
-        "generated_at_utc": "2026-11-23T12:47:45.388735+00:00",
-        "first_verified_public_at_utc": "2026-11-23T12:48:59.702943+00:00",
+        "generated_at_utc": "2026-11-23T22:42:42.625665+00:00",
+        "first_verified_public_at_utc": "2026-11-23T22:44:09.969716+00:00",
         "model_version": "poisson-20261101T094559791860Z-b9e4f90e",
         "predicted_result": "A",
         "selected_double_chance": "12",
         "probabilities": {
-          "home": 0.3346810805417462,
-          "draw": 0.2668212017611609,
-          "away": 0.3984977176970929,
-          "home_or_draw": 0.6015022823029071,
-          "home_or_away": 0.7331787982388391,
-          "draw_or_away": 0.6653189194582538
+          "home": 0.3346808913098078,
+          "draw": 0.2668204798401704,
+          "away": 0.3984986288500217,
+          "home_or_draw": 0.6015013711499781,
+          "home_or_away": 0.7331795201598295,
+          "draw_or_away": 0.6653191086901921
         }
       },
       {
@@ -15690,21 +15662,21 @@
         "kickoff_utc": "2026-11-29T14:05:00+00:00",
         "provider_status": "TIMED",
         "timing_eligible": true,
-        "forecast_id": "0b8213cccb79078f57f58482",
+        "forecast_id": "14695a99d1d237ba70e05b4b",
         "status": "awaiting_result",
         "reason": null,
-        "generated_at_utc": "2026-11-23T12:47:45.414448+00:00",
-        "first_verified_public_at_utc": "2026-11-23T12:48:59.702943+00:00",
+        "generated_at_utc": "2026-11-23T22:42:42.651355+00:00",
+        "first_verified_public_at_utc": "2026-11-23T22:44:09.969716+00:00",
         "model_version": "poisson-20261101T094559791860Z-b9e4f90e",
         "predicted_result": "A",
         "selected_double_chance": "12",
         "probabilities": {
-          "home": 0.36001875364377595,
-          "draw": 0.26430226169589865,
-          "away": 0.3756789846603253,
-          "home_or_draw": 0.6243210153396745,
-          "home_or_away": 0.7356977383041012,
-          "draw_or_away": 0.639981246356224
+          "home": 0.3600186000548465,
+          "draw": 0.2643015740251792,
+          "away": 0.37567982591997434,
+          "home_or_draw": 0.6243201740800257,
+          "home_or_away": 0.7356984259748208,
+          "draw_or_away": 0.6399813999451536
         }
       },
       {
@@ -15716,11 +15688,11 @@
         "kickoff_utc": "2026-11-29T14:30:00+00:00",
         "provider_status": "TIMED",
         "timing_eligible": true,
-        "forecast_id": "fe2ca20acab8e3cca158bbd2",
+        "forecast_id": "2a92b9ac6dfdeb6209062e08",
         "status": "awaiting_result",
         "reason": null,
-        "generated_at_utc": "2026-11-23T12:47:45.441119+00:00",
-        "first_verified_public_at_utc": "2026-11-23T12:48:59.702943+00:00",
+        "generated_at_utc": "2026-11-23T22:42:42.677029+00:00",
+        "first_verified_public_at_utc": "2026-11-23T22:44:09.969716+00:00",
         "model_version": "poisson-20261101T094559791860Z-b9e4f90e",
         "predicted_result": "A",
         "selected_double_chance": "12",
@@ -15742,21 +15714,21 @@
         "kickoff_utc": "2026-11-29T15:15:00+00:00",
         "provider_status": "TIMED",
         "timing_eligible": true,
-        "forecast_id": "423d7be1532c9d07251f233c",
+        "forecast_id": "1b1f7cf4dacc21b0f2a7ee8b",
         "status": "awaiting_result",
         "reason": null,
-        "generated_at_utc": "2026-11-23T12:47:45.467680+00:00",
-        "first_verified_public_at_utc": "2026-11-23T12:48:59.702943+00:00",
+        "generated_at_utc": "2026-11-23T22:42:42.702549+00:00",
+        "first_verified_public_at_utc": "2026-11-23T22:44:09.969716+00:00",
         "model_version": "poisson-20261101T094559791860Z-b9e4f90e",
         "predicted_result": "A",
         "selected_double_chance": "X2",
         "probabilities": {
-          "home": 0.069361710705665,
-          "draw": 0.11743670573114172,
-          "away": 0.8132015835631933,
-          "home_or_draw": 0.18679841643680672,
-          "home_or_away": 0.8825632942688583,
-          "draw_or_away": 0.930638289294335
+          "home": 0.06936207488550196,
+          "draw": 0.11743711897964798,
+          "away": 0.8132008061348501,
+          "home_or_draw": 0.18679919386514993,
+          "home_or_away": 0.8825628810203521,
+          "draw_or_away": 0.930637925114498
         }
       },
       {
@@ -15768,11 +15740,11 @@
         "kickoff_utc": "2026-11-29T15:45:00+00:00",
         "provider_status": "TIMED",
         "timing_eligible": true,
-        "forecast_id": "a7e8fe5856091bc054dc63e7",
+        "forecast_id": "e90c7c956da38b3422065d55",
         "status": "awaiting_result",
         "reason": null,
-        "generated_at_utc": "2026-11-23T12:47:45.496740+00:00",
-        "first_verified_public_at_utc": "2026-11-23T12:48:59.702943+00:00",
+        "generated_at_utc": "2026-11-23T22:42:42.728282+00:00",
+        "first_verified_public_at_utc": "2026-11-23T22:44:09.969716+00:00",
         "model_version": "poisson-20261101T094559791860Z-b9e4f90e",
         "predicted_result": "A",
         "selected_double_chance": "12",
@@ -15794,11 +15766,11 @@
         "kickoff_utc": "2026-11-29T16:15:00+00:00",
         "provider_status": "TIMED",
         "timing_eligible": true,
-        "forecast_id": "84b5b5be479613befbefcfeb",
+        "forecast_id": "c4229cd5179e0ac44a1ff54a",
         "status": "awaiting_result",
         "reason": null,
-        "generated_at_utc": "2026-11-23T12:47:45.522500+00:00",
-        "first_verified_public_at_utc": "2026-11-23T12:48:59.702943+00:00",
+        "generated_at_utc": "2026-11-23T22:42:42.754535+00:00",
+        "first_verified_public_at_utc": "2026-11-23T22:44:09.969716+00:00",
         "model_version": "poisson-20261101T094559791860Z-b9e4f90e",
         "predicted_result": "H",
         "selected_double_chance": "12",
@@ -15820,21 +15792,21 @@
         "kickoff_utc": "2026-11-29T16:30:00+00:00",
         "provider_status": "TIMED",
         "timing_eligible": true,
-        "forecast_id": "3ff6e2eda6d527ce1da303ee",
+        "forecast_id": "3969610411aecccb80c80654",
         "status": "awaiting_result",
         "reason": null,
-        "generated_at_utc": "2026-11-23T12:47:45.548322+00:00",
-        "first_verified_public_at_utc": "2026-11-23T12:48:59.702943+00:00",
+        "generated_at_utc": "2026-11-23T22:42:42.780625+00:00",
+        "first_verified_public_at_utc": "2026-11-23T22:44:09.969716+00:00",
         "model_version": "poisson-20261101T094559791860Z-b9e4f90e",
         "predicted_result": "H",
         "selected_double_chance": "12",
         "probabilities": {
-          "home": 0.4673105576811024,
-          "draw": 0.25289572529782633,
-          "away": 0.27979371702107125,
-          "home_or_draw": 0.7202062829789287,
-          "home_or_away": 0.7471042747021737,
-          "draw_or_away": 0.5326894423188976
+          "home": 0.4673106142811773,
+          "draw": 0.2528951228939721,
+          "away": 0.27979426282485065,
+          "home_or_draw": 0.7202057371751494,
+          "home_or_away": 0.747104877106028,
+          "draw_or_away": 0.5326893857188227
         }
       },
       {
@@ -15846,11 +15818,11 @@
         "kickoff_utc": "2026-11-29T16:30:00+00:00",
         "provider_status": "TIMED",
         "timing_eligible": true,
-        "forecast_id": "a3b31f440e829581824726e7",
+        "forecast_id": "e34393890a74c50edb4649e6",
         "status": "awaiting_result",
         "reason": null,
-        "generated_at_utc": "2026-11-23T12:47:45.574751+00:00",
-        "first_verified_public_at_utc": "2026-11-23T12:48:59.702943+00:00",
+        "generated_at_utc": "2026-11-23T22:42:42.806490+00:00",
+        "first_verified_public_at_utc": "2026-11-23T22:44:09.969716+00:00",
         "model_version": "poisson-20261101T094559791860Z-b9e4f90e",
         "predicted_result": "H",
         "selected_double_chance": "12",
@@ -15872,21 +15844,21 @@
         "kickoff_utc": "2026-11-29T17:00:00+00:00",
         "provider_status": "TIMED",
         "timing_eligible": true,
-        "forecast_id": "aefb208d09a85165465a32b9",
+        "forecast_id": "86e94a5262759529dba99791",
         "status": "awaiting_result",
         "reason": null,
-        "generated_at_utc": "2026-11-23T12:47:45.602193+00:00",
-        "first_verified_public_at_utc": "2026-11-23T12:48:59.702943+00:00",
+        "generated_at_utc": "2026-11-23T22:42:42.832207+00:00",
+        "first_verified_public_at_utc": "2026-11-23T22:44:09.969716+00:00",
         "model_version": "poisson-20261101T094559791860Z-b9e4f90e",
         "predicted_result": "H",
         "selected_double_chance": "1X",
         "probabilities": {
-          "home": 0.8325893493587502,
-          "draw": 0.10775377071781903,
-          "away": 0.05965687992343086,
-          "home_or_draw": 0.9403431200765692,
-          "home_or_away": 0.892246229282181,
-          "draw_or_away": 0.16741065064124988
+          "home": 0.8236435532559252,
+          "draw": 0.11275865947677194,
+          "away": 0.06359778726730289,
+          "home_or_draw": 0.9364022127326972,
+          "home_or_away": 0.8872413405232281,
+          "draw_or_away": 0.17635644674407483
         }
       },
       {
@@ -15898,21 +15870,21 @@
         "kickoff_utc": "2026-11-29T17:30:00+00:00",
         "provider_status": "TIMED",
         "timing_eligible": true,
-        "forecast_id": "2ee7cc3793437c95a33bfc7d",
+        "forecast_id": "c2c6755c5a2ae32c76c9b4fd",
         "status": "awaiting_result",
         "reason": null,
-        "generated_at_utc": "2026-11-23T12:47:45.628336+00:00",
-        "first_verified_public_at_utc": "2026-11-23T12:48:59.702943+00:00",
+        "generated_at_utc": "2026-11-23T22:42:42.857760+00:00",
+        "first_verified_public_at_utc": "2026-11-23T22:44:09.969716+00:00",
         "model_version": "poisson-20261101T094559791860Z-b9e4f90e",
         "predicted_result": "A",
         "selected_double_chance": "12",
         "probabilities": {
-          "home": 0.3444465850173094,
-          "draw": 0.2709205284265545,
-          "away": 0.384632886556136,
-          "home_or_draw": 0.6153671134438639,
-          "home_or_away": 0.7290794715734454,
-          "draw_or_away": 0.6555534149826905
+          "home": 0.3444473732961093,
+          "draw": 0.27092061435799486,
+          "away": 0.3846320123458958,
+          "home_or_draw": 0.6153679876541042,
+          "home_or_away": 0.729079385642005,
+          "draw_or_away": 0.6555526267038907
         }
       },
       {
@@ -15950,11 +15922,11 @@
         "kickoff_utc": "2026-11-29T18:30:00+00:00",
         "provider_status": "TIMED",
         "timing_eligible": true,
-        "forecast_id": "f6bf86b6f3d27c07effa8aca",
+        "forecast_id": "46eee14c2fa908e28f2adc77",
         "status": "awaiting_result",
         "reason": null,
-        "generated_at_utc": "2026-11-23T12:47:45.653833+00:00",
-        "first_verified_public_at_utc": "2026-11-23T12:48:59.702943+00:00",
+        "generated_at_utc": "2026-11-23T22:42:42.883802+00:00",
+        "first_verified_public_at_utc": "2026-11-23T22:44:09.969716+00:00",
         "model_version": "poisson-20261101T094559791860Z-b9e4f90e",
         "predicted_result": "H",
         "selected_double_chance": "12",
@@ -15976,11 +15948,11 @@
         "kickoff_utc": "2026-11-29T19:00:00+00:00",
         "provider_status": "TIMED",
         "timing_eligible": true,
-        "forecast_id": "e248ded0a5963d0573ae75a3",
+        "forecast_id": "b492ee5c424bb167a9bb37ff",
         "status": "awaiting_result",
         "reason": null,
-        "generated_at_utc": "2026-11-23T12:47:45.680388+00:00",
-        "first_verified_public_at_utc": "2026-11-23T12:48:59.702943+00:00",
+        "generated_at_utc": "2026-11-23T22:42:42.910511+00:00",
+        "first_verified_public_at_utc": "2026-11-23T22:44:09.969716+00:00",
         "model_version": "poisson-20261101T094559791860Z-b9e4f90e",
         "predicted_result": "A",
         "selected_double_chance": "X2",
@@ -16002,11 +15974,11 @@
         "kickoff_utc": "2026-11-29T19:00:00+00:00",
         "provider_status": "TIMED",
         "timing_eligible": true,
-        "forecast_id": "5463659a923e3ae9c4eb2d9e",
+        "forecast_id": "e8976d974ea2b2b223b9cb79",
         "status": "awaiting_result",
         "reason": null,
-        "generated_at_utc": "2026-11-23T12:47:45.706429+00:00",
-        "first_verified_public_at_utc": "2026-11-23T12:48:59.702943+00:00",
+        "generated_at_utc": "2026-11-23T22:42:42.936649+00:00",
+        "first_verified_public_at_utc": "2026-11-23T22:44:09.969716+00:00",
         "model_version": "poisson-20261101T094559791860Z-b9e4f90e",
         "predicted_result": "A",
         "selected_double_chance": "12",
@@ -16028,11 +16000,11 @@
         "kickoff_utc": "2026-11-29T19:00:00+00:00",
         "provider_status": "TIMED",
         "timing_eligible": true,
-        "forecast_id": "f5821c7c5e564c70ea6b056f",
+        "forecast_id": "c52ca63dd3baef7f2cb84fec",
         "status": "awaiting_result",
         "reason": null,
-        "generated_at_utc": "2026-11-23T12:47:45.732583+00:00",
-        "first_verified_public_at_utc": "2026-11-23T12:48:59.702943+00:00",
+        "generated_at_utc": "2026-11-23T22:42:42.963001+00:00",
+        "first_verified_public_at_utc": "2026-11-23T22:44:09.969716+00:00",
         "model_version": "poisson-20261101T094559791860Z-b9e4f90e",
         "predicted_result": "A",
         "selected_double_chance": "12",
@@ -16054,21 +16026,21 @@
         "kickoff_utc": "2026-11-29T19:45:00+00:00",
         "provider_status": "TIMED",
         "timing_eligible": true,
-        "forecast_id": "d83e7f38ed92d0a78b424928",
+        "forecast_id": "23a9fb5537d83a1c2f4cc00b",
         "status": "awaiting_result",
         "reason": null,
-        "generated_at_utc": "2026-11-23T12:47:45.762713+00:00",
-        "first_verified_public_at_utc": "2026-11-23T12:48:59.702943+00:00",
+        "generated_at_utc": "2026-11-23T22:42:42.989707+00:00",
+        "first_verified_public_at_utc": "2026-11-23T22:44:09.969716+00:00",
         "model_version": "poisson-20261101T094559791860Z-b9e4f90e",
         "predicted_result": "H",
         "selected_double_chance": "12",
         "probabilities": {
-          "home": 0.37537512618288893,
-          "draw": 0.27707653843252,
-          "away": 0.3475483353845912,
-          "home_or_draw": 0.6524516646154089,
-          "home_or_away": 0.7229234615674801,
-          "draw_or_away": 0.6246248738171112
+          "home": 0.3753750375000191,
+          "draw": 0.2770764806544,
+          "away": 0.3475484818455809,
+          "home_or_draw": 0.652451518154419,
+          "home_or_away": 0.7229235193456001,
+          "draw_or_away": 0.6246249624999809
         }
       },
       {
@@ -16080,11 +16052,11 @@
         "kickoff_utc": "2026-11-29T19:45:00+00:00",
         "provider_status": "TIMED",
         "timing_eligible": true,
-        "forecast_id": "da89e4d251a1533d2c0be154",
+        "forecast_id": "d222a99946350e026fafbe5b",
         "status": "awaiting_result",
         "reason": null,
-        "generated_at_utc": "2026-11-23T12:47:45.789082+00:00",
-        "first_verified_public_at_utc": "2026-11-23T12:48:59.702943+00:00",
+        "generated_at_utc": "2026-11-23T22:42:43.016826+00:00",
+        "first_verified_public_at_utc": "2026-11-23T22:44:09.969716+00:00",
         "model_version": "poisson-20261101T094559791860Z-b9e4f90e",
         "predicted_result": "H",
         "selected_double_chance": "12",
@@ -16106,21 +16078,21 @@
         "kickoff_utc": "2026-11-29T20:00:00+00:00",
         "provider_status": "TIMED",
         "timing_eligible": true,
-        "forecast_id": "ff08bcd4f0e88f240af5ec58",
+        "forecast_id": "728d3f08ceeb0136455bd2cb",
         "status": "awaiting_result",
         "reason": null,
-        "generated_at_utc": "2026-11-23T12:47:45.814996+00:00",
-        "first_verified_public_at_utc": "2026-11-23T12:48:59.702943+00:00",
+        "generated_at_utc": "2026-11-23T22:42:43.045897+00:00",
+        "first_verified_public_at_utc": "2026-11-23T22:44:09.969716+00:00",
         "model_version": "poisson-20261101T094559791860Z-b9e4f90e",
         "predicted_result": "H",
         "selected_double_chance": "12",
         "probabilities": {
-          "home": 0.5052300912693574,
-          "draw": 0.24063321874001434,
-          "away": 0.2541366899906284,
-          "home_or_draw": 0.7458633100093717,
-          "home_or_away": 0.7593667812599858,
-          "draw_or_away": 0.49476990873064275
+          "home": 0.5052309784859342,
+          "draw": 0.2406330813999031,
+          "away": 0.25413594011416274,
+          "home_or_draw": 0.7458640598858374,
+          "home_or_away": 0.759366918600097,
+          "draw_or_away": 0.4947690215140659
         }
       },
       {
@@ -16132,11 +16104,11 @@
         "kickoff_utc": "2026-11-29T21:30:00+00:00",
         "provider_status": "TIMED",
         "timing_eligible": true,
-        "forecast_id": "b8df32088536be435cb99a65",
+        "forecast_id": "a369c5e872582ced0fc963a1",
         "status": "awaiting_result",
         "reason": null,
-        "generated_at_utc": "2026-11-23T12:47:45.841380+00:00",
-        "first_verified_public_at_utc": "2026-11-23T12:48:59.702943+00:00",
+        "generated_at_utc": "2026-11-23T22:42:43.072277+00:00",
+        "first_verified_public_at_utc": "2026-11-23T22:44:09.969716+00:00",
         "model_version": "poisson-20261101T094559791860Z-b9e4f90e",
         "predicted_result": "H",
         "selected_double_chance": "1X",
@@ -16158,11 +16130,11 @@
         "kickoff_utc": "2026-11-29T21:30:00+00:00",
         "provider_status": "TIMED",
         "timing_eligible": true,
-        "forecast_id": "1fc155b92940429f334ef59f",
+        "forecast_id": "5e1da782ca5fae78b80927a4",
         "status": "awaiting_result",
         "reason": null,
-        "generated_at_utc": "2026-11-23T12:47:45.866993+00:00",
-        "first_verified_public_at_utc": "2026-11-23T12:48:59.702943+00:00",
+        "generated_at_utc": "2026-11-23T22:42:43.098126+00:00",
+        "first_verified_public_at_utc": "2026-11-23T22:44:09.969716+00:00",
         "model_version": "poisson-20261101T094559791860Z-b9e4f90e",
         "predicted_result": "H",
         "selected_double_chance": "12",
@@ -16184,11 +16156,11 @@
         "kickoff_utc": "2026-11-29T21:30:00+00:00",
         "provider_status": "TIMED",
         "timing_eligible": true,
-        "forecast_id": "3e3bf1c1d81c49437113c073",
+        "forecast_id": "99ed1e4a1596f121915c810c",
         "status": "awaiting_result",
         "reason": null,
-        "generated_at_utc": "2026-11-23T12:47:45.892210+00:00",
-        "first_verified_public_at_utc": "2026-11-23T12:48:59.702943+00:00",
+        "generated_at_utc": "2026-11-23T22:42:43.124244+00:00",
+        "first_verified_public_at_utc": "2026-11-23T22:44:09.969716+00:00",
         "model_version": "poisson-20261101T094559791860Z-b9e4f90e",
         "predicted_result": "H",
         "selected_double_chance": "12",
@@ -16210,11 +16182,11 @@
         "kickoff_utc": "2026-11-29T22:30:00+00:00",
         "provider_status": "TIMED",
         "timing_eligible": true,
-        "forecast_id": "a51c8a1cc9820d39b8b53e01",
+        "forecast_id": "8badad439969a28b8c78e8d6",
         "status": "awaiting_result",
         "reason": null,
-        "generated_at_utc": "2026-11-23T12:47:45.917280+00:00",
-        "first_verified_public_at_utc": "2026-11-23T12:48:59.702943+00:00",
+        "generated_at_utc": "2026-11-23T22:42:43.150012+00:00",
+        "first_verified_public_at_utc": "2026-11-23T22:44:09.969716+00:00",
         "model_version": "poisson-20261101T094559791860Z-b9e4f90e",
         "predicted_result": "H",
         "selected_double_chance": "1X",
@@ -16225,6 +16197,84 @@
           "home_or_draw": 0.7671657703499777,
           "home_or_away": 0.7482952259656005,
           "draw_or_away": 0.4845390036844218
+        }
+      },
+      {
+        "fixture_id": "football-data.org:558516",
+        "country": "Italy",
+        "competition_code": "I1",
+        "home_team": "Lecce",
+        "away_team": "Atalanta",
+        "kickoff_utc": "2026-11-30T17:30:00+00:00",
+        "provider_status": "TIMED",
+        "timing_eligible": true,
+        "forecast_id": "eb592e09f180e2c958b9c90f",
+        "status": "awaiting_result",
+        "reason": null,
+        "generated_at_utc": "2026-11-23T22:42:43.175908+00:00",
+        "first_verified_public_at_utc": "2026-11-23T22:44:09.969716+00:00",
+        "model_version": "poisson-20261101T094559791860Z-b9e4f90e",
+        "predicted_result": "A",
+        "selected_double_chance": "X2",
+        "probabilities": {
+          "home": 0.19712700485655937,
+          "draw": 0.21988561867243472,
+          "away": 0.582987376471006,
+          "home_or_draw": 0.4170126235289941,
+          "home_or_away": 0.7801143813275653,
+          "draw_or_away": 0.8028729951434407
+        }
+      },
+      {
+        "fixture_id": "football-data.org:558510",
+        "country": "Italy",
+        "competition_code": "I1",
+        "home_team": "Cagliari",
+        "away_team": "Milan",
+        "kickoff_utc": "2026-11-30T19:45:00+00:00",
+        "provider_status": "TIMED",
+        "timing_eligible": true,
+        "forecast_id": "d19518ef9f54ae9e30d14300",
+        "status": "awaiting_result",
+        "reason": null,
+        "generated_at_utc": "2026-11-23T22:42:43.201897+00:00",
+        "first_verified_public_at_utc": "2026-11-23T22:44:09.969716+00:00",
+        "model_version": "poisson-20261101T094559791860Z-b9e4f90e",
+        "predicted_result": "A",
+        "selected_double_chance": "X2",
+        "probabilities": {
+          "home": 0.19490503886367724,
+          "draw": 0.2185989683666246,
+          "away": 0.5864959927696982,
+          "home_or_draw": 0.41350400723030184,
+          "home_or_away": 0.7814010316333755,
+          "draw_or_away": 0.8050949611363228
+        }
+      },
+      {
+        "fixture_id": "football-data.org:564763",
+        "country": "Spain",
+        "competition_code": "SP1",
+        "home_team": "Espanol",
+        "away_team": "Getafe",
+        "kickoff_utc": "2026-11-30T20:00:00+00:00",
+        "provider_status": "TIMED",
+        "timing_eligible": true,
+        "forecast_id": "4e1dcd233f67ff1e30ddc115",
+        "status": "awaiting_result",
+        "reason": null,
+        "generated_at_utc": "2026-11-23T22:42:43.227522+00:00",
+        "first_verified_public_at_utc": "2026-11-23T22:44:09.969716+00:00",
+        "model_version": "poisson-20261101T094559791860Z-b9e4f90e",
+        "predicted_result": "H",
+        "selected_double_chance": "1X",
+        "probabilities": {
+          "home": 0.4850110269178187,
+          "draw": 0.2772901654922972,
+          "away": 0.2376988075898841,
+          "home_or_draw": 0.762301192410116,
+          "home_or_away": 0.7227098345077028,
+          "draw_or_away": 0.5149889730821813
         }
       },
       {
@@ -16243,6 +16293,6 @@
     ],
     "policy_sha256": "c9efd6ee0648ed7b35e5c7180b0e1796e4558fb9af99a4177bc9a53e244fc896"
   },
-  "publication_id": "42445a94db6496d4375cc493",
-  "prepared_at_utc": "2026-11-23T22:42:56.825240+00:00"
+  "publication_id": "ff3e750eb9568e5474536ad2",
+  "prepared_at_utc": "2026-11-24T13:42:24.769562+00:00"
 }
